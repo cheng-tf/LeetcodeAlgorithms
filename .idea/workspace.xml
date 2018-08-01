@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8667834-e393-4670-ba6c-135b805a3a36" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SearchAlgorithm/LeetCode_3535_SearchInsertPosition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SearchAlgorithm/SearchInsert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SearchAlgorithm/LeetCode_33_SearchInRotatedSortedArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetcodeAlgorithms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LeetcodeAlgorithms.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SearchAlgorithm/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SearchAlgorithm/BinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SearchAlgorithm/BinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SearchAlgorithm/BinarySearch.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,8 +36,8 @@
       <file leaf-file-name="QuickSort.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/SortAlgorithms/QuickSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
+            <state relative-caret-position="618">
+              <caret line="49" column="7" lean-forward="true" selection-start-line="49" selection-start-column="7" selection-end-line="49" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -53,9 +45,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SearchInsert.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SearchAlgorithm/SearchInsert.java">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="LeetCode_35_SearchInsertPosition.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SearchAlgorithm/LeetCode_35_SearchInsertPosition.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LeetCode_33_SearchInRotatedSortedArray.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SearchAlgorithm/LeetCode_33_SearchInRotatedSortedArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="333">
+              <caret line="52" column="9" lean-forward="true" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="ScannerDemo.java" pinned="false" current-in-tab="false">
@@ -70,17 +75,8 @@
       <file leaf-file-name="BinarySearch.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/SearchAlgorithm/BinarySearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LeetCode_3535_SearchInsertPosition.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SearchAlgorithm/LeetCode_3535_SearchInsertPosition.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+            <state relative-caret-position="76">
+              <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -130,9 +126,10 @@
         <option value="$PROJECT_DIR$/src/main/java/Others/ScannerDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/SearchAlgorithm/LeetCode_34_SearchRange.java" />
         <option value="$PROJECT_DIR$/src/main/java/SortAlgorithms/QuickSort.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SearchAlgorithm/BinarySearch.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/SearchAlgorithm/LeetCode_3535_SearchInsertPosition.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SearchAlgorithm/BinarySearch.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SearchAlgorithm/LeetCode_33_SearchInRotatedSortedArray.java" />
       </list>
     </option>
   </component>
@@ -249,7 +246,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BinarySearch.test">
+  <component name="RunManager" selected="JUnit.LeetCode_33_SearchInRotatedSortedArray">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -276,7 +273,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="LeetCode_34_SearchRange" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LeetCode_33_SearchInRotatedSortedArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeAlgorithms" />
       <extension name="coverage">
         <pattern>
@@ -287,9 +284,32 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="SearchAlgorithm" />
-      <option name="MAIN_CLASS_NAME" value="SearchAlgorithm.LeetCode_34_SearchRange" />
+      <option name="MAIN_CLASS_NAME" value="SearchAlgorithm.LeetCode_33_SearchInRotatedSortedArray" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="LeetCode_33_SearchInRotatedSortedArray.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetcodeAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SearchAlgorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="SearchAlgorithm" />
+      <option name="MAIN_CLASS_NAME" value="SearchAlgorithm.LeetCode_33_SearchInRotatedSortedArray" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -345,29 +365,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="QuickSort.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetcodeAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SortAlgorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="SortAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="SortAlgorithms.QuickSort" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -407,19 +404,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.QuickSort.test" />
-      <item itemvalue="JUnit.LeetCode_34_SearchRange" />
       <item itemvalue="JUnit.LeetCode_3535_SearchInsertPosition" />
       <item itemvalue="JUnit.LeetCode_35_SearchInsertPosition.test" />
       <item itemvalue="JUnit.BinarySearch.test" />
+      <item itemvalue="JUnit.LeetCode_33_SearchInRotatedSortedArray" />
+      <item itemvalue="JUnit.LeetCode_33_SearchInRotatedSortedArray.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LeetCode_33_SearchInRotatedSortedArray" />
+        <item itemvalue="JUnit.LeetCode_33_SearchInRotatedSortedArray.test" />
         <item itemvalue="JUnit.BinarySearch.test" />
         <item itemvalue="JUnit.LeetCode_35_SearchInsertPosition.test" />
         <item itemvalue="JUnit.LeetCode_3535_SearchInsertPosition" />
-        <item itemvalue="JUnit.LeetCode_34_SearchRange" />
-        <item itemvalue="JUnit.QuickSort.test" />
       </list>
     </recent_temporary>
   </component>
@@ -434,32 +431,52 @@
       <option name="presentableId" value="Default" />
       <updated>1533084555586</updated>
       <workItem from="1533084557001" duration="1499000" />
-      <workItem from="1533129167506" duration="1351000" />
+      <workItem from="1533129167506" duration="4282000" />
     </task>
+    <task id="LOCAL-00001" summary="2222">
+      <created>1533133335915</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1533133335915</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StringInternTest - 2018.08.01 at 08h 58m 18s.xml">
-      <configuration name="StringInternTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QuickSort_test - 2018.08.01 at 08h 59m 52s.xml">
-      <configuration name="QuickSort.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LeetCode_34_SearchRange - 2018.08.01 at 09h 09m 07s.xml">
-      <configuration name="LeetCode_34_SearchRange" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LeetCode_3535_SearchInsertPosition - 2018.08.01 at 22h 17m 38s.xml">
-      <configuration name="LeetCode_3535_SearchInsertPosition" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LeetCode_3535_SearchInsertPosition - 2018.08.01 at 22h 18m 49s.xml">
-      <configuration name="LeetCode_3535_SearchInsertPosition" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LeetCode_3535_SearchInsertPosition - 2018.08.01 at 22h 19m 09s.xml">
       <configuration name="LeetCode_3535_SearchInsertPosition" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LeetCode_35_SearchInsertPosition_test - 2018.08.01 at 22h 20m 47s.xml">
+      <configuration name="LeetCode_35_SearchInsertPosition.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinarySearch_test - 2018.08.01 at 22h 21m 04s.xml">
+      <configuration name="BinarySearch.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinarySearch_test - 2018.08.01 at 22h 21m 26s.xml">
+      <configuration name="BinarySearch.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LeetCode_33_SearchInRotatedSortedArray - 2018.08.01 at 23h 32m 48s.xml">
+      <configuration name="LeetCode_33_SearchInRotatedSortedArray" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LeetCode_33_SearchInRotatedSortedArray_test - 2018.08.01 at 23h 33m 26s.xml">
+      <configuration name="LeetCode_33_SearchInRotatedSortedArray.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LeetCode_33_SearchInRotatedSortedArray_test - 2018.08.01 at 23h 36m 06s.xml">
+      <configuration name="LeetCode_33_SearchInRotatedSortedArray.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LeetCode_33_SearchInRotatedSortedArray - 2018.08.01 at 23h 37m 01s.xml">
+      <configuration name="LeetCode_33_SearchInRotatedSortedArray" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LeetCode_33_SearchInRotatedSortedArray - 2018.08.01 at 23h 41m 45s.xml">
+      <configuration name="LeetCode_33_SearchInRotatedSortedArray" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LeetCode_33_SearchInRotatedSortedArray - 2018.08.01 at 23h 42m 44s.xml">
+      <configuration name="LeetCode_33_SearchInRotatedSortedArray" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2850000" />
+    <option name="totallyTimeSpent" value="5781000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -467,7 +484,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32898173" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -475,11 +492,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.24804178" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24804178" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.213125" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.213125" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -500,6 +517,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2222" />
+    <option name="LAST_COMMIT_MESSAGE" value="2222" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/leetcodeAlgorithm/Leetcode10RegularExpressionMatching_Hard.java">
@@ -578,26 +599,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SortAlgorithms/QuickSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SearchAlgorithm/SearchInsert.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SearchAlgorithm/BinarySearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
@@ -609,6 +610,44 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SearchAlgorithm/SearchInsert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SearchAlgorithm/BinarySearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SortAlgorithms/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="618">
+          <caret line="49" column="7" lean-forward="true" selection-start-line="49" selection-start-column="7" selection-end-line="49" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SearchAlgorithm/LeetCode_35_SearchInsertPosition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SearchAlgorithm/LeetCode_33_SearchInRotatedSortedArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="52" column="9" lean-forward="true" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
         </state>
       </provider>
     </entry>
