@@ -59,7 +59,5 @@ public class QuickSort {
         array[j] = tmp;
     }
 
-
-
 }
 
