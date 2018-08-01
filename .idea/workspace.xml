@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c8667834-e393-4670-ba6c-135b805a3a36" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/SearchAlgorithm/LeetCode_33_SearchInRotatedSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c8667834-e393-4670-ba6c-135b805a3a36" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -57,8 +54,8 @@
       <file leaf-file-name="LeetCode_33_SearchInRotatedSortedArray.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/SearchAlgorithm/LeetCode_33_SearchInRotatedSortedArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="52" column="9" lean-forward="true" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+            <state relative-caret-position="209">
+              <caret line="11" column="95" lean-forward="true" selection-start-line="11" selection-start-column="95" selection-end-line="11" selection-end-column="95" />
             </state>
           </provider>
         </entry>
@@ -431,7 +428,7 @@
       <option name="presentableId" value="Default" />
       <updated>1533084555586</updated>
       <workItem from="1533084557001" duration="1499000" />
-      <workItem from="1533129167506" duration="4282000" />
+      <workItem from="1533129167506" duration="5090000" />
     </task>
     <task id="LOCAL-00001" summary="2222">
       <created>1533133335915</created>
@@ -444,12 +441,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LeetCode_3535_SearchInsertPosition - 2018.08.01 at 22h 19m 09s.xml">
-      <configuration name="LeetCode_3535_SearchInsertPosition" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LeetCode_35_SearchInsertPosition_test - 2018.08.01 at 22h 20m 47s.xml">
-      <configuration name="LeetCode_35_SearchInsertPosition.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BinarySearch_test - 2018.08.01 at 22h 21m 04s.xml">
       <configuration name="BinarySearch.test" configurationId="JUnit" />
     </history-entry>
@@ -474,13 +465,18 @@
     <history-entry file="LeetCode_33_SearchInRotatedSortedArray - 2018.08.01 at 23h 42m 44s.xml">
       <configuration name="LeetCode_33_SearchInRotatedSortedArray" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LeetCode_33_SearchInRotatedSortedArray - 2018.08.01 at 23h 46m 43s.xml">
+      <configuration name="LeetCode_33_SearchInRotatedSortedArray" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LeetCode_33_SearchInRotatedSortedArray - 2018.08.01 at 23h 47m 17s.xml">
+      <configuration name="LeetCode_33_SearchInRotatedSortedArray" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5781000" />
+    <option name="totallyTimeSpent" value="6589000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -492,11 +488,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24804178" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24804178" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.213125" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.213125" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -646,8 +642,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SearchAlgorithm/LeetCode_33_SearchInRotatedSortedArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="52" column="9" lean-forward="true" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+        <state relative-caret-position="209">
+          <caret line="11" column="95" lean-forward="true" selection-start-line="11" selection-start-column="95" selection-end-line="11" selection-end-column="95" />
         </state>
       </provider>
     </entry>
