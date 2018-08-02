@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c8667834-e393-4670-ba6c-135b805a3a36" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SortAlgorithms/InsertSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SortAlgorithms/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Test/SearchInRotatedSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SearchAlgorithm/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SearchAlgorithm/BinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SearchAlgorithm/LeetCode_34_SearchRange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SearchAlgorithm/LeetCode_34_SearchRange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SortAlgorithms/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SortAlgorithms/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/July5/MyClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/July5/MyClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/July5/MyServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/July5/MyServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/July5/MyServerNewThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/July5/MyServerNewThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/July5/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/July5/Task.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/July5/ThreadPoolServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/July5/ThreadPoolServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SearchAlgorithm/BinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SearchAlgorithm/BinarySearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SortAlgorithms/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SortAlgorithms/QuickSort.class" afterDir="false" />
-    </list>
+    <list default="true" id="c8667834-e393-4670-ba6c-135b805a3a36" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -79,7 +63,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -406,10 +390,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23896000" />
+    <option name="totallyTimeSpent" value="25815000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -421,7 +405,7 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.50584483" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.50584483" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
