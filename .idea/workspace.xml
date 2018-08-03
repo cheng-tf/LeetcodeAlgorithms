@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8667834-e393-4670-ba6c-135b805a3a36" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Others/IntegerSourceCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ThreadPoolDemo/ScheduledThreadPoolDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ThreadValves/CountDownLatchDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ThreadValves/ThreadValvesDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Others/AtomicIntegerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Others/BitSetDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ThreadValves/CountDownLatchDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ThreadValves/CyclicBarrierDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Others/ScannerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/ScannerDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Others/ScannerDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Others/ScannerDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ThreadValves/CountDownLatchDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ThreadValves/CountDownLatchDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ThreadValves/ThreadValvesDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ThreadValves/ThreadValvesDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,6 +19,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/LeetcodeAlgorithms$CyclicBarrierDemo_CyclicBarrierIsBrokenTest.ic" NAME="CyclicBarrierDemo.CyclicBarrierIsBrokenTest Coverage Results" MODIFIED="1533302418301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ThreadValves.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/LeetcodeAlgorithms$CountDownLatchDemo.ic" NAME="CountDownLatchDemo Coverage Results" MODIFIED="1533300128538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>ThreadValves.*</FILTER>
     </SUITE>
@@ -29,62 +31,8 @@
       <file leaf-file-name="InsertSort.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/SortAlgorithms/InsertSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IntegerSourceCode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Others/IntegerSourceCode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="67" column="53" lean-forward="true" selection-start-line="67" selection-start-column="53" selection-end-line="67" selection-end-column="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CountDownLatchDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ThreadValves/CountDownLatchDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ScannerDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Others/ScannerDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="36" lean-forward="true" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ThreadValvesDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ThreadValves/ThreadValvesDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="38">
+              <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -93,7 +41,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/SortAlgorithms/MergeSort.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="76">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -101,8 +49,72 @@
       <file leaf-file-name="SearchInRotatedSortedArray.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Test/SearchInRotatedSortedArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="76">
+              <caret line="4" column="72" lean-forward="true" selection-start-line="4" selection-start-column="72" selection-end-line="4" selection-end-column="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BitSetDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Others/BitSetDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" column="42" lean-forward="true" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#251#267#0" expanded="true" />
+                <element signature="e#344#359#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CyclicBarrierDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ThreadValves/CyclicBarrierDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="711">
+              <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#434#788#0" expanded="true" />
+                <element signature="e#787#788#0" expanded="true" />
+                <element signature="e#1377#1668#0" expanded="true" />
+                <element signature="e#1667#1668#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CountDownLatchDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ThreadValves/CountDownLatchDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-361">
+              <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AtomicIntegerDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Others/AtomicIntegerDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#356#365#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThreadValvesDemo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ThreadValves/ThreadValvesDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -150,11 +162,16 @@
         <option value="$PROJECT_DIR$/src/main/java/singleton/NestedSingleton.java" />
         <option value="$PROJECT_DIR$/src/main/java/singleton/SingletonTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Others/IntegerSourceCode.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ThreadValves/CountDownLatchDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ThreadValves/ThreadValvesDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/Others/ScannerDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/ThreadPoolDemo/ScheduledThreadPoolDemo.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/Others/BitSetDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ThreadValves/CyclicBarrierDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ThreadValves/CountDownLatch2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ThreadValves/CountDownLatchDemo2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ThreadValves/CountDownLatchDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Others/AtomicIntegerDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ThreadValves/ThreadValvesDemo.java" />
       </list>
     </option>
   </component>
@@ -220,7 +237,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ThreadPoolDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="Others" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LeetcodeAlgorithms" type="b2602c69:ProjectViewProjectNode" />
@@ -248,6 +265,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\GitHubRepository\LeetcodeAlgorithms\src\main\java\ThreadValves" />
+      <recent name="E:\GitHubRepository\LeetcodeAlgorithms\src\main\java\JavaMailSender" />
       <recent name="E:\GitHubRepository\LeetcodeAlgorithms\src\main\java\SearchAlgorithm" />
     </key>
   </component>
@@ -263,9 +282,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ScheduledThreadPoolDemo">
-    <configuration name="ScannerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Others.ScannerDemo" />
+  <component name="RunManager" selected="Application.AtomicIntegerDemo">
+    <configuration name="AtomicIntegerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Others.AtomicIntegerDemo" />
       <module name="LeetcodeAlgorithms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -275,13 +294,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="ScheduledThreadPoolDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThreadPoolDemo.ScheduledThreadPoolDemo" />
+    <configuration name="BitSetDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Others.BitSetDemo" />
       <module name="LeetcodeAlgorithms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ThreadPoolDemo.*" />
+          <option name="PATTERN" value="Others.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -289,7 +308,7 @@
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="CountDownLatchDemo.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CyclicBarrierDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeAlgorithms" />
       <extension name="coverage">
         <pattern>
@@ -300,9 +319,9 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="ThreadValves" />
-      <option name="MAIN_CLASS_NAME" value="ThreadValves.CountDownLatchDemo" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="ThreadValves.CyclicBarrierDemo" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -312,19 +331,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="ScannerDemo.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CyclicBarrierDemo.CyclicBarrierIsBrokenTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="LeetcodeAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Others.*" />
+          <option name="PATTERN" value="ThreadValves.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Others" />
-      <option name="MAIN_CLASS_NAME" value="Others.ScannerDemo" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="ThreadValves" />
+      <option name="MAIN_CLASS_NAME" value="ThreadValves.CyclicBarrierDemo" />
+      <option name="METHOD_NAME" value="CyclicBarrierIsBrokenTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -335,7 +354,30 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="ThreadValvesDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CyclicBarrierDemo.CyclicBarrierTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetcodeAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ThreadValves.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ThreadValves" />
+      <option name="MAIN_CLASS_NAME" value="ThreadValves.CyclicBarrierDemo" />
+      <option name="METHOD_NAME" value="CyclicBarrierTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ThreadValvesDemo.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeAlgorithms" />
       <extension name="coverage">
         <pattern>
@@ -347,8 +389,8 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="ThreadValves" />
       <option name="MAIN_CLASS_NAME" value="ThreadValves.ThreadValvesDemo" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -397,19 +439,20 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.CountDownLatchDemo.test" />
-      <item itemvalue="JUnit.ThreadValvesDemo" />
-      <item itemvalue="JUnit.ScannerDemo.test" />
-      <item itemvalue="Application.ScannerDemo" />
-      <item itemvalue="Application.ScheduledThreadPoolDemo" />
+      <item itemvalue="JUnit.CyclicBarrierDemo.CyclicBarrierIsBrokenTest" />
+      <item itemvalue="Application.BitSetDemo" />
+      <item itemvalue="JUnit.CyclicBarrierDemo" />
+      <item itemvalue="JUnit.CyclicBarrierDemo.CyclicBarrierTest" />
+      <item itemvalue="Application.AtomicIntegerDemo" />
+      <item itemvalue="JUnit.ThreadValvesDemo.test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ScheduledThreadPoolDemo" />
-        <item itemvalue="Application.ScannerDemo" />
-        <item itemvalue="JUnit.ScannerDemo.test" />
-        <item itemvalue="JUnit.ThreadValvesDemo" />
-        <item itemvalue="JUnit.CountDownLatchDemo.test" />
+        <item itemvalue="Application.AtomicIntegerDemo" />
+        <item itemvalue="JUnit.ThreadValvesDemo.test" />
+        <item itemvalue="JUnit.CyclicBarrierDemo.CyclicBarrierTest" />
+        <item itemvalue="JUnit.CyclicBarrierDemo" />
+        <item itemvalue="Application.BitSetDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -425,7 +468,7 @@
       <updated>1533084555586</updated>
       <workItem from="1533084557001" duration="1499000" />
       <workItem from="1533129167506" duration="5090000" />
-      <workItem from="1533257105621" duration="16576000" />
+      <workItem from="1533257105621" duration="18402000" />
     </task>
     <task id="LOCAL-00001" summary="2222">
       <created>1533133335915</created>
@@ -438,21 +481,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CountDownLatchDemo - 2018.08.03 at 20h 42m 10s.xml">
-      <configuration name="CountDownLatchDemo" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CountDownLatchDemo - 2018.08.03 at 20h 42m 47s.xml">
-      <configuration name="CountDownLatchDemo" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CountDownLatchDemo - 2018.08.03 at 20h 43m 42s.xml">
-      <configuration name="CountDownLatchDemo" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CountDownLatchDemo_test - 2018.08.03 at 20h 44m 05s.xml">
-      <configuration name="CountDownLatchDemo.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CountDownLatchDemo_test - 2018.08.03 at 20h 44m 44s.xml">
-      <configuration name="CountDownLatchDemo.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ThreadValvesDemo - 2018.08.03 at 20h 45m 42s.xml">
       <configuration name="ThreadValvesDemo" configurationId="JUnit" />
     </history-entry>
@@ -468,9 +496,24 @@
     <history-entry file="ScannerDemo_test - 2018.08.03 at 20h 50m 58s.xml">
       <configuration name="ScannerDemo.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CyclicBarrierDemo - 2018.08.03 at 21h 11m 46s.xml">
+      <configuration name="CyclicBarrierDemo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CyclicBarrierDemo_CyclicBarrierIsBrokenTest - 2018.08.03 at 21h 16m 40s.xml">
+      <configuration name="CyclicBarrierDemo.CyclicBarrierIsBrokenTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CyclicBarrierDemo_CyclicBarrierTest - 2018.08.03 at 21h 18m 27s.xml">
+      <configuration name="CyclicBarrierDemo.CyclicBarrierTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CyclicBarrierDemo_CyclicBarrierIsBrokenTest - 2018.08.03 at 21h 19m 21s.xml">
+      <configuration name="CyclicBarrierDemo.CyclicBarrierIsBrokenTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CyclicBarrierDemo_CyclicBarrierIsBrokenTest - 2018.08.03 at 21h 20m 30s.xml">
+      <configuration name="CyclicBarrierDemo.CyclicBarrierIsBrokenTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42391000" />
+    <option name="totallyTimeSpent" value="44217000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -486,7 +529,7 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31987247" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31987247" />
       <window_info anchor="right" id="Coverage" side_tool="true" weight="0.3296875" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
@@ -677,57 +720,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SortAlgorithms/InsertSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Test/SearchInRotatedSortedArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SortAlgorithms/MergeSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Others/IntegerSourceCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="67" column="53" lean-forward="true" selection-start-line="67" selection-start-column="53" selection-end-line="67" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ThreadValves/ThreadValvesDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ThreadValves/CountDownLatchDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ThreadPoolDemo/ScheduledThreadPoolDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -740,17 +732,139 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Others/ScannerDemo.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="36" lean-forward="true" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+        <state relative-caret-position="418">
+          <caret line="28" column="16" lean-forward="true" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Others/ScannerDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Others/IntegerSourceCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="67" column="53" selection-start-line="67" selection-start-column="53" selection-end-line="67" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SortAlgorithms/InsertSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SortAlgorithms/MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaMailSender/QQSendMailDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-360">
+          <caret line="27" column="49" lean-forward="true" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaMailSender/SendMailDemo.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Test/SearchInRotatedSortedArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="72" lean-forward="true" selection-start-line="4" selection-start-column="72" selection-end-line="4" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Others/BitSetDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
-          <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+          <caret line="19" column="42" lean-forward="true" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#251#267#0" expanded="true" />
+            <element signature="e#344#359#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JDK8/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="747" selection-start-line="747" selection-end-line="747" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JDK8/src.zip!/java/util/concurrent/CyclicBarrier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="361" selection-start-line="361" selection-end-line="361" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ThreadValves/CountDownLatch2.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ThreadValves/CountDownLatchDemo2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ThreadValves/CyclicBarrierDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="711">
+          <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#434#788#0" expanded="true" />
+            <element signature="e#787#788#0" expanded="true" />
+            <element signature="e#1377#1668#0" expanded="true" />
+            <element signature="e#1667#1668#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ThreadValves/CountDownLatchDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-361">
+          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Others/AtomicIntegerDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#356#365#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ThreadValves/ThreadValvesDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
