@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8667834-e393-4670-ba6c-135b805a3a36" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/SearchAlgorithm/LeetCode_315_CountOfSmallerNumbersAfterSelf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SearchAlgorithm/BinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SearchAlgorithm/BinaryTreeTraversals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SearchAlgorithm/LeetCode_449_SerializeAndDeserializeBST.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SearchAlgorithm/LeetCode_315_CountOfSmallerNumbersAfterSelf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SearchAlgorithm/LeetCode_315_CountOfSmallerNumbersAfterSelf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/July5/MyClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/July5/MyClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/July5/MyServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/July5/MyServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/July5/MyServerNewThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/July5/MyServerNewThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/July5/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/July5/Task.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/July5/ThreadPoolServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/July5/ThreadPoolServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ThreadValves/Target1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ThreadValves/Target1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ThreadValves/Target2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ThreadValves/Target2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ThreadValves/Target3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ThreadValves/Target3.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,60 +25,27 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/LeetcodeAlgorithms$CyclicBarrierDemo_CyclicBarrierIsBrokenTest.ic" NAME="CyclicBarrierDemo.CyclicBarrierIsBrokenTest Coverage Results" MODIFIED="1533302418301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/LeetcodeAlgorithms$CountDownLatchDemo.ic" NAME="CountDownLatchDemo Coverage Results" MODIFIED="1533300128538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>ThreadValves.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/LeetcodeAlgorithms$CountDownLatchDemo.ic" NAME="CountDownLatchDemo Coverage Results" MODIFIED="1533300128538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/LeetcodeAlgorithms$CyclicBarrierDemo_CyclicBarrierIsBrokenTest.ic" NAME="CyclicBarrierDemo.CyclicBarrierIsBrokenTest Coverage Results" MODIFIED="1533302418301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>ThreadValves.*</FILTER>
     </SUITE>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="SearchInRotatedSortedArray.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Test/SearchInRotatedSortedArray.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="72" selection-start-line="4" selection-start-column="72" selection-end-line="4" selection-end-column="72" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BitSetDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Others/BitSetDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="56" lean-forward="true" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#251#267#0" expanded="true" />
-                <element signature="e#344#359#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="LeetCode_315_CountOfSmallerNumbersAfterSelf.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/SearchAlgorithm/LeetCode_315_CountOfSmallerNumbersAfterSelf.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="25" column="40" lean-forward="true" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+            <state relative-caret-position="437">
+              <caret line="84" lean-forward="true" selection-start-line="9" selection-end-line="84" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#263#264#0" expanded="true" />
-                <element signature="e#305#306#0" expanded="true" />
-                <element signature="e#1039#1048#0" expanded="true" />
-                <element signature="e#1100#1109#0" expanded="true" />
-                <element signature="e#1158#1167#0" expanded="true" />
+                <element signature="e#617#618#0" expanded="true" />
+                <element signature="e#659#660#0" expanded="true" />
+                <element signature="e#872#881#0" expanded="true" />
+                <element signature="e#974#983#0" expanded="true" />
+                <element signature="e#1236#1254#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -85,10 +63,23 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Integer</find>
+      <find>BSTNode</find>
+      <find>results</find>
+      <find>counts</find>
+      <find>count_smaller</find>
+      <find>left</find>
+      <find>leftSmallerNums</find>
     </findStrings>
+    <replaceStrings>
+      <replace>TreeNodeWithCount</replace>
+      <replace>reverseResults</replace>
+      <replace>perResultSmaller</replace>
+      <replace>right</replace>
+      <replace>rightSmallerNums</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="PATH_TO_GIT" value="D:\Git\GitBase\Git\bin\git.exe" />
+    <option name="PATH_TO_GIT" value="D:\Tools\Git\bin\git.exe" />
     <option name="UPDATE_TYPE" value="MERGE" />
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -131,6 +122,10 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/redisClientJedis/JedisTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/SearchAlgorithm/LeetCode_315_CountOfSmallerNumbersAfterSelf.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SearchAlgorithm/BinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SearchAlgorithm/BinaryTreeTraversals.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SearchAlgorithm/BinarySearchTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SearchAlgorithm/LeetCode_449_SerializeAndDeserializeBST.java" />
       </list>
     </option>
   </component>
@@ -164,6 +159,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -198,21 +195,27 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="SearchAlgorithm" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="LeetcodeAlgorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetcodeAlgorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="SortAlgorithms" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/Git/GitBase/Git/bin/git.exe" />
+    <property name="last_opened_file_path" value="D:/Tools/Git/bin/git.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -235,46 +238,93 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JedisTest">
-    <configuration name="AtomicIntegerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Others.AtomicIntegerDemo" />
-      <module name="LeetcodeAlgorithms" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ReentrantLockDemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="JedisTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="redisClientJedis.JedisTest" />
-      <module name="LeetcodeAlgorithms" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="redisClientJedis.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="JUnit.LeetCode_449_SerializeAndDeserializeBST.test">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="CyclicBarrierDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BinarySearchTree.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ThreadValves.*" />
+          <option name="PATTERN" value="SearchAlgorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ThreadValves" />
-      <option name="MAIN_CLASS_NAME" value="ThreadValves.CyclicBarrierDemo" />
+      <option name="PACKAGE_NAME" value="SearchAlgorithm" />
+      <option name="MAIN_CLASS_NAME" value="SearchAlgorithm.BinarySearchTree" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="BinaryTree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetcodeAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SearchAlgorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="SearchAlgorithm" />
+      <option name="MAIN_CLASS_NAME" value="SearchAlgorithm.BinaryTree" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="BinaryTreeTraversals.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetcodeAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SearchAlgorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="SearchAlgorithm" />
+      <option name="MAIN_CLASS_NAME" value="SearchAlgorithm.BinaryTreeTraversals" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="BinaryTree.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetcodeAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SearchAlgorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="SearchAlgorithm" />
+      <option name="MAIN_CLASS_NAME" value="SearchAlgorithm.BinaryTree" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -307,41 +357,18 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="CyclicBarrierDemo.CyclicBarrierTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LeetCode_449_SerializeAndDeserializeBST.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ThreadValves.*" />
+          <option name="PATTERN" value="SearchAlgorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ThreadValves" />
-      <option name="MAIN_CLASS_NAME" value="ThreadValves.CyclicBarrierDemo" />
-      <option name="METHOD_NAME" value="CyclicBarrierTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="ThreadValvesDemo.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetcodeAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ThreadValves.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ThreadValves" />
-      <option name="MAIN_CLASS_NAME" value="ThreadValves.ThreadValvesDemo" />
+      <option name="PACKAGE_NAME" value="SearchAlgorithm" />
+      <option name="MAIN_CLASS_NAME" value="SearchAlgorithm.LeetCode_449_SerializeAndDeserializeBST" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -393,19 +420,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.CyclicBarrierDemo.CyclicBarrierIsBrokenTest" />
-      <item itemvalue="JUnit.CyclicBarrierDemo" />
-      <item itemvalue="JUnit.CyclicBarrierDemo.CyclicBarrierTest" />
-      <item itemvalue="Application.AtomicIntegerDemo" />
-      <item itemvalue="JUnit.ThreadValvesDemo.test" />
-      <item itemvalue="Application.JedisTest" />
+      <item itemvalue="JUnit.BinaryTree.test" />
+      <item itemvalue="JUnit.BinaryTree" />
+      <item itemvalue="JUnit.BinaryTreeTraversals.test" />
+      <item itemvalue="JUnit.BinarySearchTree.test" />
+      <item itemvalue="JUnit.LeetCode_449_SerializeAndDeserializeBST.test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JedisTest" />
-        <item itemvalue="Application.AtomicIntegerDemo" />
-        <item itemvalue="JUnit.ThreadValvesDemo.test" />
-        <item itemvalue="JUnit.CyclicBarrierDemo.CyclicBarrierTest" />
-        <item itemvalue="JUnit.CyclicBarrierDemo" />
+        <item itemvalue="JUnit.LeetCode_449_SerializeAndDeserializeBST.test" />
+        <item itemvalue="JUnit.BinarySearchTree.test" />
+        <item itemvalue="JUnit.BinaryTreeTraversals.test" />
+        <item itemvalue="JUnit.BinaryTree.test" />
+        <item itemvalue="JUnit.BinaryTree" />
       </list>
     </recent_temporary>
   </component>
@@ -422,6 +449,7 @@
       <workItem from="1533084557001" duration="1499000" />
       <workItem from="1533129167506" duration="5090000" />
       <workItem from="1533257105621" duration="21227000" />
+      <workItem from="1533368951688" duration="17802000" />
     </task>
     <task id="LOCAL-00001" summary="2222">
       <created>1533133335915</created>
@@ -434,47 +462,46 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ThreadValvesDemo - 2018.08.03 at 20h 45m 52s.xml">
-      <configuration name="ThreadValvesDemo" configurationId="JUnit" />
+    <history-entry file="BinaryTree_test - 2018.08.04 at 20h 28m 17s.xml">
+      <configuration name="BinaryTree.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ScannerDemo_test - 2018.08.03 at 20h 49m 20s.xml">
-      <configuration name="ScannerDemo.test" configurationId="JUnit" />
+    <history-entry file="BinaryTree_test - 2018.08.04 at 20h 28m 42s.xml">
+      <configuration name="BinaryTree.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ScannerDemo_test - 2018.08.03 at 20h 49m 59s.xml">
-      <configuration name="ScannerDemo.test" configurationId="JUnit" />
+    <history-entry file="BinaryTree_test - 2018.08.04 at 20h 29m 37s.xml">
+      <configuration name="BinaryTree.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ScannerDemo_test - 2018.08.03 at 20h 50m 58s.xml">
-      <configuration name="ScannerDemo.test" configurationId="JUnit" />
+    <history-entry file="BinaryTree_test - 2018.08.04 at 20h 46m 16s.xml">
+      <configuration name="BinaryTree.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CyclicBarrierDemo - 2018.08.03 at 21h 11m 46s.xml">
-      <configuration name="CyclicBarrierDemo" configurationId="JUnit" />
+    <history-entry file="BinaryTreeTraversals_test - 2018.08.04 at 20h 48m 13s.xml">
+      <configuration name="BinaryTreeTraversals.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CyclicBarrierDemo_CyclicBarrierIsBrokenTest - 2018.08.03 at 21h 16m 40s.xml">
-      <configuration name="CyclicBarrierDemo.CyclicBarrierIsBrokenTest" configurationId="JUnit" />
+    <history-entry file="BinarySearchTree_test - 2018.08.04 at 20h 55m 11s.xml">
+      <configuration name="BinarySearchTree.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CyclicBarrierDemo_CyclicBarrierTest - 2018.08.03 at 21h 18m 27s.xml">
-      <configuration name="CyclicBarrierDemo.CyclicBarrierTest" configurationId="JUnit" />
+    <history-entry file="BinarySearchTree_test - 2018.08.04 at 21h 20m 57s.xml">
+      <configuration name="BinarySearchTree.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CyclicBarrierDemo_CyclicBarrierIsBrokenTest - 2018.08.03 at 21h 19m 21s.xml">
-      <configuration name="CyclicBarrierDemo.CyclicBarrierIsBrokenTest" configurationId="JUnit" />
+    <history-entry file="BinarySearchTree_test - 2018.08.04 at 21h 21m 35s.xml">
+      <configuration name="BinarySearchTree.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CyclicBarrierDemo_CyclicBarrierIsBrokenTest - 2018.08.03 at 21h 20m 30s.xml">
-      <configuration name="CyclicBarrierDemo.CyclicBarrierIsBrokenTest" configurationId="JUnit" />
+    <history-entry file="LeetCode_449_SerializeAndDeserializeBST_test - 2018.08.04 at 22h 11m 11s.xml">
+      <configuration name="LeetCode_449_SerializeAndDeserializeBST.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ThreadValvesDemo_test - 2018.08.03 at 21h 27m 05s.xml">
-      <configuration name="ThreadValvesDemo.test" configurationId="JUnit" />
+    <history-entry file="LeetCode_449_SerializeAndDeserializeBST_test - 2018.08.04 at 22h 28m 31s.xml">
+      <configuration name="LeetCode_449_SerializeAndDeserializeBST.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47042000" />
+    <option name="totallyTimeSpent" value="64844000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32837406" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3280757" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -482,14 +509,13 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31987247" />
-      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.3296875" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23974763" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21302083" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3103953" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32943678" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3280757" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -497,6 +523,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3995749" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.3296875" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -514,37 +541,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="2222" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Others/StringInternTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="44" lean-forward="true" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SortAlgorithms/QuickSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Others/ScannerDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SearchAlgorithm/BinarySearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="38" lean-forward="true" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leetcodeAlgorithm/Leetcode10RegularExpressionMatching_Hard.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -582,10 +578,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/singleton/SingletonTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/singleton/NestedSingleton.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/singleton/EnumSingleton.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/singleton/DualIfSingleton.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/singleton/Singleton.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ThreadPoolDemo/ScheduledThreadPoolDemo.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Others/ScannerDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Others/IntegerSourceCode.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/SortAlgorithms/InsertSort.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/SortAlgorithms/MergeSort.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaMailSender/QQSendMailDemo.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaMailSender/SendMailDemo.java" />
+    <entry file="jar://D:/JDK8/src.zip!/java/lang/Thread.java" />
+    <entry file="jar://D:/JDK8/src.zip!/java/util/concurrent/CyclicBarrier.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ThreadValves/CountDownLatch2.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ThreadValves/CountDownLatchDemo2.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ThreadValves/ThreadValvesDemo.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Others/AtomicIntegerDemo.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ThreadValves/CountDownLatchDemo.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ThreadValves/ReentrantLockDemo.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ReentrantLockDemo/SpinLock.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ReentrantLockDemo/UnReentrantLock.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ReentrantLockDemo/NotReentrantLock.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ReentrantLockDemo/MyReentrantLock.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Others/AtomicReferenceDemo.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ReentrantLockDemo/NotReentrantLock.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/RedisClientJedis.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ThreadValves/CyclicBarrierDemo.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/redisClientJedis/JedisTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Others/BitSetDemo.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Test/SearchInRotatedSortedArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SearchAlgorithm/LeetCode_34_SearchRange.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="111">
-          <caret line="64" column="31" lean-forward="true" selection-start-line="64" selection-start-column="31" selection-end-line="64" selection-end-column="31" />
+          <caret line="64" column="31" selection-start-line="64" selection-start-column="31" selection-end-line="64" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -594,306 +640,112 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SearchAlgorithm/LeetCode_35_SearchInsertPosition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="13" />
+        <state relative-caret-position="113">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SearchAlgorithm/LeetCode_33_SearchInRotatedSortedArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        <state relative-caret-position="171">
+          <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SearchAlgorithm/BinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="25" lean-forward="true" selection-end-line="154" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#1128#1137#0" expanded="true" />
+            <element signature="e#1308#1317#0" expanded="true" />
+            <element signature="e#1485#1494#0" expanded="true" />
+            <element signature="e#1572#1581#0" expanded="true" />
+            <element signature="e#1748#1757#0" expanded="true" />
+            <element signature="e#1923#1932#0" expanded="true" />
+            <element signature="e#2674#2683#0" expanded="true" />
+            <element signature="e#2300#2316#0" expanded="true" />
+            <element signature="e#3243#3252#0" expanded="true" />
+            <element signature="e#3308#3324#0" expanded="true" />
+            <element signature="e#3755#3764#0" expanded="true" />
+            <element signature="e#3868#3884#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SearchAlgorithm/LeetCode_449_SerializeAndDeserializeBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="59" column="48" lean-forward="true" selection-start-line="59" selection-start-column="48" selection-end-line="59" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#802#812#0" expanded="true" />
+            <element signature="e#1241#1251#0" expanded="true" />
+            <element signature="e#2158#2168#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SearchAlgorithm/BinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="133" column="5" lean-forward="true" selection-start-line="114" selection-start-column="4" selection-end-line="133" selection-end-column="5" />
+          <folding>
+            <element signature="e#1317#1326#0" expanded="true" />
+            <element signature="e#1375#1384#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SearchAlgorithm/BinaryTreeTraversals.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="39" column="33" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
+            <element signature="e#374#375#0" expanded="true" />
+            <element signature="e#1112#1121#0" expanded="true" />
+            <element signature="e#1288#1297#0" expanded="true" />
+            <element signature="e#1463#1472#0" expanded="true" />
+            <element signature="e#1648#1657#0" expanded="true" />
+            <element signature="e#1839#1848#0" expanded="true" />
+            <element signature="e#2029#2038#0" expanded="true" />
+            <element signature="e#3240#3249#0" expanded="true" />
+            <element signature="e#3305#3321#0" expanded="true" />
+            <element signature="e#3801#3810#0" expanded="true" />
+            <element signature="e#3866#3882#0" expanded="true" />
+            <element signature="e#4395#4404#0" expanded="true" />
+            <element signature="e#4471#4487#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SearchAlgorithm/BinarySearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        <state relative-caret-position="209">
+          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/singleton/SingletonTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="65" lean-forward="true" selection-start-line="13" selection-start-column="65" selection-end-line="13" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/singleton/NestedSingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-          <folding>
-            <element signature="e#130#131#0" expanded="true" />
-            <element signature="e#167#168#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/singleton/EnumSingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-          <folding>
-            <element signature="e#107#108#0" expanded="true" />
-            <element signature="e#163#164#0" expanded="true" />
-            <element signature="e#233#234#0" expanded="true" />
-            <element signature="e#265#266#0" expanded="true" />
-            <element signature="e#294#295#0" expanded="true" />
-            <element signature="e#326#327#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/singleton/DualIfSingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="51" column="28" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/singleton/Singleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ThreadPoolDemo/ScheduledThreadPoolDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#400#528#0" expanded="true" />
-            <element signature="e#527#528#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Others/ScannerDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Others/IntegerSourceCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="67" column="53" selection-start-line="67" selection-start-column="53" selection-end-line="67" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SortAlgorithms/InsertSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SortAlgorithms/MergeSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JavaMailSender/QQSendMailDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-360">
-          <caret line="27" column="49" lean-forward="true" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JavaMailSender/SendMailDemo.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Test/SearchInRotatedSortedArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="72" selection-start-line="4" selection-start-column="72" selection-end-line="4" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/JDK8/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="747" selection-start-line="747" selection-end-line="747" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/JDK8/src.zip!/java/util/concurrent/CyclicBarrier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="361" selection-start-line="361" selection-end-line="361" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ThreadValves/CountDownLatch2.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ThreadValves/CountDownLatchDemo2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ThreadValves/ThreadValvesDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Others/AtomicIntegerDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#356#365#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ThreadValves/CountDownLatchDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="49" column="42" lean-forward="true" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ThreadValves/ReentrantLockDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ReentrantLockDemo/SpinLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-56">
-          <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ReentrantLockDemo/UnReentrantLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ReentrantLockDemo/NotReentrantLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ReentrantLockDemo/MyReentrantLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="38" lean-forward="true" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Others/AtomicReferenceDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ReentrantLockDemo/NotReentrantLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-          <folding>
-            <element signature="e#187#195#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/RedisClientJedis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="29" selection-start-column="29" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ThreadValves/CyclicBarrierDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#434#788#0" expanded="true" />
-            <element signature="e#787#788#0" expanded="true" />
-            <element signature="e#1377#1668#0" expanded="true" />
-            <element signature="e#1667#1668#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/redisClientJedis/JedisTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Others/BitSetDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="56" lean-forward="true" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#251#267#0" expanded="true" />
-            <element signature="e#344#359#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SearchAlgorithm/LeetCode_315_CountOfSmallerNumbersAfterSelf.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="25" column="40" lean-forward="true" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+        <state relative-caret-position="437">
+          <caret line="84" lean-forward="true" selection-start-line="9" selection-end-line="84" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#263#264#0" expanded="true" />
-            <element signature="e#305#306#0" expanded="true" />
-            <element signature="e#1039#1048#0" expanded="true" />
-            <element signature="e#1100#1109#0" expanded="true" />
-            <element signature="e#1158#1167#0" expanded="true" />
+            <element signature="e#617#618#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+            <element signature="e#872#881#0" expanded="true" />
+            <element signature="e#974#983#0" expanded="true" />
+            <element signature="e#1236#1254#0" expanded="true" />
           </folding>
         </state>
       </provider>
