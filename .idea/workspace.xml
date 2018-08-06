@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8667834-e393-4670-ba6c-135b805a3a36" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/SearchAlgorithm/BinarySearchTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SearchAlgorithm/BinaryTreeTraversals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SearchAlgorithm/LeetCode_449_SerializeAndDeserializeBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BiShiAlgorithms/PinDuoDuo0805.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SearchAlgorithm/LeetCode_315_CountOfSmallerNumbersAfterSelf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SearchAlgorithm/LeetCode_315_CountOfSmallerNumbersAfterSelf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/July5/MyClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/July5/MyClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/July5/MyServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/July5/MyServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/July5/MyServerNewThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/July5/MyServerNewThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/July5/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/July5/Task.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/July5/ThreadPoolServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/July5/ThreadPoolServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ThreadValves/Target1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ThreadValves/Target1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ThreadValves/Target2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ThreadValves/Target2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ThreadValves/Target3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ThreadValves/Target3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SearchAlgorithm/LeetCode_449_SerializeAndDeserializeBST.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SearchAlgorithm/LeetCode_449_SerializeAndDeserializeBST.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,17 +24,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LeetCode_315_CountOfSmallerNumbersAfterSelf.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LeetCode_315_CountOfSmallerNumbersAfterSelf.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/SearchAlgorithm/LeetCode_315_CountOfSmallerNumbersAfterSelf.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="84" lean-forward="true" selection-start-line="9" selection-end-line="84" />
+            <state relative-caret-position="259">
+              <caret line="73" column="23" selection-start-line="73" selection-start-column="23" selection-end-line="73" selection-end-column="23" />
               <folding>
-                <element signature="e#617#618#0" expanded="true" />
-                <element signature="e#659#660#0" expanded="true" />
-                <element signature="e#872#881#0" expanded="true" />
-                <element signature="e#974#983#0" expanded="true" />
+                <element signature="e#1081#1090#0" expanded="true" />
+                <element signature="e#1158#1167#0" expanded="true" />
                 <element signature="e#1236#1254#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PinDuoDuo0805.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/BiShiAlgorithms/PinDuoDuo0805.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="410">
+              <caret line="107" column="5" lean-forward="true" selection-start-line="107" selection-start-column="5" selection-end-line="107" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -77,6 +77,9 @@
       <replace>right</replace>
       <replace>rightSmallerNums</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>E:\GitHubRepository\LeetcodeAlgorithms\src\main\java\BiShiAlgorithms</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="PATH_TO_GIT" value="D:\Tools\Git\bin\git.exe" />
@@ -126,6 +129,7 @@
         <option value="$PROJECT_DIR$/src/main/java/SearchAlgorithm/BinaryTreeTraversals.java" />
         <option value="$PROJECT_DIR$/src/main/java/SearchAlgorithm/BinarySearchTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/SearchAlgorithm/LeetCode_449_SerializeAndDeserializeBST.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BiShiAlgorithms/PinDuoDuo0805.java" />
       </list>
     </option>
   </component>
@@ -159,9 +163,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -193,20 +196,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="SearchAlgorithm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetcodeAlgorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetcodeAlgorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="SortAlgorithms" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -238,7 +234,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LeetCode_449_SerializeAndDeserializeBST.test">
+  <component name="RunManager" selected="Application.PinDuoDuo0805">
+    <configuration name="PinDuoDuo0805" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BiShiAlgorithms.PinDuoDuo0805" />
+      <module name="LeetcodeAlgorithms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BiShiAlgorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -256,29 +263,6 @@
       <option name="MAIN_CLASS_NAME" value="SearchAlgorithm.BinarySearchTree" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="BinaryTree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetcodeAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SearchAlgorithm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="SearchAlgorithm" />
-      <option name="MAIN_CLASS_NAME" value="SearchAlgorithm.BinaryTree" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -421,18 +405,18 @@
     <list>
       <item itemvalue="JUnit.CyclicBarrierDemo.CyclicBarrierIsBrokenTest" />
       <item itemvalue="JUnit.BinaryTree.test" />
-      <item itemvalue="JUnit.BinaryTree" />
       <item itemvalue="JUnit.BinaryTreeTraversals.test" />
       <item itemvalue="JUnit.BinarySearchTree.test" />
       <item itemvalue="JUnit.LeetCode_449_SerializeAndDeserializeBST.test" />
+      <item itemvalue="Application.PinDuoDuo0805" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PinDuoDuo0805" />
         <item itemvalue="JUnit.LeetCode_449_SerializeAndDeserializeBST.test" />
         <item itemvalue="JUnit.BinarySearchTree.test" />
         <item itemvalue="JUnit.BinaryTreeTraversals.test" />
         <item itemvalue="JUnit.BinaryTree.test" />
-        <item itemvalue="JUnit.BinaryTree" />
       </list>
     </recent_temporary>
   </component>
@@ -450,6 +434,7 @@
       <workItem from="1533129167506" duration="5090000" />
       <workItem from="1533257105621" duration="21227000" />
       <workItem from="1533368951688" duration="17802000" />
+      <workItem from="1533467476541" duration="12095000" />
     </task>
     <task id="LOCAL-00001" summary="2222">
       <created>1533133335915</created>
@@ -494,10 +479,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64844000" />
+    <option name="totallyTimeSpent" value="76939000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -509,11 +495,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.23974763" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27129337" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3103953" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30966324" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3280757" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -522,8 +508,8 @@
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3995749" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.3296875" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -541,13 +527,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="2222" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/leetcodeAlgorithm/Leetcode10RegularExpressionMatching_Hard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Others/StringInternTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -572,9 +551,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" column="77" selection-start-line="10" selection-start-column="77" selection-end-line="10" selection-end-column="77" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -632,9 +608,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="111">
           <caret line="64" column="31" selection-start-line="64" selection-start-column="31" selection-end-line="64" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -652,30 +625,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SearchAlgorithm/BinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="25" lean-forward="true" selection-end-line="154" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#214#215#0" expanded="true" />
-            <element signature="e#256#257#0" expanded="true" />
-            <element signature="e#1128#1137#0" expanded="true" />
-            <element signature="e#1308#1317#0" expanded="true" />
-            <element signature="e#1485#1494#0" expanded="true" />
-            <element signature="e#1572#1581#0" expanded="true" />
-            <element signature="e#1748#1757#0" expanded="true" />
-            <element signature="e#1923#1932#0" expanded="true" />
-            <element signature="e#2674#2683#0" expanded="true" />
-            <element signature="e#2300#2316#0" expanded="true" />
-            <element signature="e#3243#3252#0" expanded="true" />
-            <element signature="e#3308#3324#0" expanded="true" />
-            <element signature="e#3755#3764#0" expanded="true" />
-            <element signature="e#3868#3884#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SearchAlgorithm/BinaryTree.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/SearchAlgorithm/LeetCode_449_SerializeAndDeserializeBST.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
@@ -730,22 +680,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SearchAlgorithm/LeetCode_315_CountOfSmallerNumbersAfterSelf.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="84" lean-forward="true" selection-start-line="9" selection-end-line="84" />
+        <state relative-caret-position="259">
+          <caret line="73" column="23" selection-start-line="73" selection-start-column="23" selection-end-line="73" selection-end-column="23" />
           <folding>
-            <element signature="e#617#618#0" expanded="true" />
-            <element signature="e#659#660#0" expanded="true" />
-            <element signature="e#872#881#0" expanded="true" />
-            <element signature="e#974#983#0" expanded="true" />
+            <element signature="e#1081#1090#0" expanded="true" />
+            <element signature="e#1158#1167#0" expanded="true" />
             <element signature="e#1236#1254#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BiShiAlgorithms/PinDuoDuo0805.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="107" column="5" lean-forward="true" selection-start-line="107" selection-start-column="5" selection-end-line="107" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
