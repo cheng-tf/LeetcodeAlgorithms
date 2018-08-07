@@ -1,4 +1,4 @@
-package SearchAlgorithm;
+package BinaryTreeBasicAlgorithms;
 
 import org.junit.Test;
 import java.util.*;
@@ -8,7 +8,7 @@ public class BinaryTreeTraversals {
     /**
      * 二叉树的数据结构
      */
-    class BinaryTreeNode{
+    public class BinaryTreeNode{
         BinaryTreeNode left;
         BinaryTreeNode right;
         int value;
