@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/NextNodeOfBinaryTreeInOrderTraversal.java" line="15" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="c8667834-e393-4670-ba6c-135b805a3a36" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/IsBalancedBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BiShiAlgorithms/TengXun_PhoneInterview_20180810_OddEvenSeparation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/FindPathsEqualsTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/GetMirrorBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/IsSymmetricalBinaryTreeByTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/NextNodeOfBinaryTreeInOrderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/SerializeAndDeserializeBinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BinaryTreeBasicAlgorithms/IsBalancedBinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BinaryTreeBasicAlgorithms/IsBalancedBinaryTree.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,69 +23,105 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/LeetcodeAlgorithms$CountDownLatchDemo.ic" NAME="CountDownLatchDemo Coverage Results" MODIFIED="1533300128538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/LeetcodeAlgorithms$CyclicBarrierDemo_CyclicBarrierIsBrokenTest.ic" NAME="CyclicBarrierDemo.CyclicBarrierIsBrokenTest Coverage Results" MODIFIED="1533302418301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>ThreadValves.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/LeetcodeAlgorithms$CyclicBarrierDemo_CyclicBarrierIsBrokenTest.ic" NAME="CyclicBarrierDemo.CyclicBarrierIsBrokenTest Coverage Results" MODIFIED="1533302418301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/LeetcodeAlgorithms$CountDownLatchDemo.ic" NAME="CountDownLatchDemo Coverage Results" MODIFIED="1533300128538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>ThreadValves.*</FILTER>
     </SUITE>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="JianzhiOffer_ReConstructBinaryTree.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_ReConstructBinaryTree.java">
+      <file leaf-file-name="IsBalancedBinaryTree.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/IsBalancedBinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="25" column="11" lean-forward="true" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+            <state relative-caret-position="323">
+              <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JianzhiOffer_StrToInt_IntegerValueOf.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_StrToInt_IntegerValueOf.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="701">
-              <caret line="45" column="18" lean-forward="true" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyBinaryTree.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/MyBinaryTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="10" selection-start-line="10" selection-end-line="20" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LeetCode_107_BinaryTreeLevelOrderTraversal_II.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/LeetCode_107_BinaryTreeLevelOrderTraversal_II.java">
+      <file leaf-file-name="NextNodeOfBinaryTreeInOrderTraversal.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/NextNodeOfBinaryTreeInOrderTraversal.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="304">
-              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+              <caret line="18" column="41" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IsSymmetricalBinaryTreeByTraversal.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/IsSymmetricalBinaryTreeByTraversal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="131">
+              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="25" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#592#607#0" expanded="true" />
+                <element signature="e#249#250#0" expanded="true" />
+                <element signature="e#286#287#0" expanded="true" />
+                <element signature="e#404#405#0" expanded="true" />
+                <element signature="e#458#459#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IsBalancedBinaryTree.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/IsBalancedBinaryTree.java">
+      <file leaf-file-name="GetMirrorBinaryTree.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/GetMirrorBinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="71" column="9" lean-forward="true" selection-start-line="71" selection-start-column="9" selection-end-line="71" selection-end-column="9" />
+            <state relative-caret-position="380">
+              <caret line="20" selection-start-line="20" selection-end-line="30" selection-end-column="5" />
+              <folding>
+                <element signature="e#343#344#0" expanded="true" />
+                <element signature="e#381#382#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QuickSort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SortAlgorithms/QuickSort.java">
+      <file leaf-file-name="FindPathsEqualsTarget.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/FindPathsEqualsTarget.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="798">
-              <caret line="44" column="20" lean-forward="true" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
+            <state relative-caret-position="327">
+              <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+              <folding>
+                <element signature="e#296#316#0" expanded="true" />
+                <element signature="e#358#367#0" expanded="true" />
+                <element signature="e#384#385#0" expanded="true" />
+                <element signature="e#422#423#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TengXun_PhoneInterview_20180810_OddEvenSeparation.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/BiShiAlgorithms/TengXun_PhoneInterview_20180810_OddEvenSeparation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SerializeAndDeserializeBinaryTree.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/SerializeAndDeserializeBinaryTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BinaryTreeTraversals.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/BinaryTreeTraversals.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1862">
+              <caret line="101" column="47" selection-start-line="101" selection-start-column="47" selection-end-line="101" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -123,10 +168,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/Others/StringInternTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SearchAlgorithm/LeetCode_3535_SearchInsertPosition.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SearchAlgorithm/LeetCode_33_SearchInRotatedSortedArray.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Test/canDelete/QuickSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/Test/MyQuickSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/SortAlgorithms/QuickSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/Test/SearchInRotatedSortedArray.java" />
@@ -171,6 +212,13 @@
         <option value="$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/LeetCode_107_BinaryTreeLevelOrderTraversal_II.java" />
         <option value="$PROJECT_DIR$/src/main/java/Test/QuickSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/IsBalancedBinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/NextNodeOfBinaryTreeInOrderTraversal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/SerializeAndDeserializeBinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/IsSymmetricalBinaryTreeByTraversal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/GetMirrorBinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BiShiAlgorithms/TengXun_PhoneInterview_20180810_OddEvenSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/FindPathsEqualsTarget.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BiShiAlgorithms/TengXun_PhoneInterview_20180810_OddEvenSeparation.java" />
       </list>
     </option>
   </component>
@@ -190,7 +238,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="width" value="1378" />
     <option name="height" value="780" />
@@ -204,6 +252,8 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -235,22 +285,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="BinaryTreeBasicAlgorithms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetcodeAlgorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetcodeAlgorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Test" type="462c0819:PsiDirectoryNode" />
+              <item name="BiShiAlgorithms" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -282,7 +322,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.IsBalancedBinaryTree">
+  <component name="RunManager" selected="JUnit.TengXun_PhoneInterview_20180810_OddEvenSeparation.test">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -355,7 +395,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="LeetCode_107_BinaryTreeLevelOrderTraversal_II" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SerializeAndDeserializeBinaryTree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeAlgorithms" />
       <extension name="coverage">
         <pattern>
@@ -366,7 +406,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="BinaryTreeBasicAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="BinaryTreeBasicAlgorithms.LeetCode_107_BinaryTreeLevelOrderTraversal_II" />
+      <option name="MAIN_CLASS_NAME" value="BinaryTreeBasicAlgorithms.SerializeAndDeserializeBinaryTree" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -378,20 +418,20 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="QuickSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SerializeAndDeserializeBinaryTree.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Test.*" />
+          <option name="PATTERN" value="BinaryTreeBasicAlgorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Test" />
-      <option name="MAIN_CLASS_NAME" value="Test.QuickSort" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="BinaryTreeBasicAlgorithms" />
+      <option name="MAIN_CLASS_NAME" value="BinaryTreeBasicAlgorithms.SerializeAndDeserializeBinaryTree" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -401,18 +441,18 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="QuickSort.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TengXun_PhoneInterview_20180810_OddEvenSeparation.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Test.*" />
+          <option name="PATTERN" value="BiShiAlgorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Test" />
-      <option name="MAIN_CLASS_NAME" value="Test.QuickSort" />
+      <option name="PACKAGE_NAME" value="BiShiAlgorithms" />
+      <option name="MAIN_CLASS_NAME" value="BiShiAlgorithms.TengXun_PhoneInterview_20180810_OddEvenSeparation" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -464,19 +504,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.CyclicBarrierDemo.CyclicBarrierIsBrokenTest" />
-      <item itemvalue="JUnit.LeetCode_107_BinaryTreeLevelOrderTraversal_II" />
-      <item itemvalue="JUnit.QuickSort" />
-      <item itemvalue="JUnit.QuickSort.test" />
       <item itemvalue="JUnit.IsBalancedBinaryTree.test" />
       <item itemvalue="JUnit.IsBalancedBinaryTree" />
+      <item itemvalue="JUnit.SerializeAndDeserializeBinaryTree.test" />
+      <item itemvalue="JUnit.SerializeAndDeserializeBinaryTree" />
+      <item itemvalue="JUnit.TengXun_PhoneInterview_20180810_OddEvenSeparation.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TengXun_PhoneInterview_20180810_OddEvenSeparation.test" />
+        <item itemvalue="JUnit.SerializeAndDeserializeBinaryTree.test" />
+        <item itemvalue="JUnit.SerializeAndDeserializeBinaryTree" />
         <item itemvalue="JUnit.IsBalancedBinaryTree" />
         <item itemvalue="JUnit.IsBalancedBinaryTree.test" />
-        <item itemvalue="JUnit.QuickSort.test" />
-        <item itemvalue="JUnit.QuickSort" />
-        <item itemvalue="JUnit.LeetCode_107_BinaryTreeLevelOrderTraversal_II" />
       </list>
     </recent_temporary>
   </component>
@@ -498,6 +538,8 @@
       <workItem from="1533556274551" duration="7501000" />
       <workItem from="1533609766892" duration="3560000" />
       <workItem from="1533732900333" duration="6448000" />
+      <workItem from="1533777445738" duration="14165000" />
+      <workItem from="1533817250791" duration="12969000" />
     </task>
     <task id="LOCAL-00001" summary="2222">
       <created>1533133335915</created>
@@ -510,46 +552,47 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="JianzhiOffer_LeftRotateString - 2018.08.06 at 21h 54m 01s.xml">
-      <configuration name="JianzhiOffer_LeftRotateString" configurationId="JUnit" />
+    <history-entry file="SerializeAndDeserializeBinaryTree_test - 2018.08.09 at 15h 35m 58s.xml">
+      <configuration name="SerializeAndDeserializeBinaryTree.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JianzhiOffer_LeftRotateString_test - 2018.08.06 at 21h 56m 03s.xml">
-      <configuration name="JianzhiOffer_LeftRotateString.test" configurationId="JUnit" />
+    <history-entry file="SerializeAndDeserializeBinaryTree_test - 2018.08.09 at 16h 48m 25s.xml">
+      <configuration name="SerializeAndDeserializeBinaryTree.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JianzhiOffer_LeftRotateString_test - 2018.08.06 at 21h 57m 07s.xml">
-      <configuration name="JianzhiOffer_LeftRotateString.test" configurationId="JUnit" />
+    <history-entry file="SerializeAndDeserializeBinaryTree_test - 2018.08.09 at 16h 49m 57s.xml">
+      <configuration name="SerializeAndDeserializeBinaryTree.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JianzhiOffer_LeftRotateString - 2018.08.06 at 22h 03m 04s.xml">
-      <configuration name="JianzhiOffer_LeftRotateString" configurationId="JUnit" />
+    <history-entry file="SerializeAndDeserializeBinaryTree_test - 2018.08.09 at 16h 51m 38s.xml">
+      <configuration name="SerializeAndDeserializeBinaryTree.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JianzhiOffer_GetMaxTreeDepth - 2018.08.07 at 11h 15m 24s.xml">
-      <configuration name="JianzhiOffer_GetMaxTreeDepth" configurationId="JUnit" />
+    <history-entry file="SerializeAndDeserializeBinaryTree_test - 2018.08.09 at 16h 52m 33s.xml">
+      <configuration name="SerializeAndDeserializeBinaryTree.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LeetCode_107_BinaryTreeLevelOrderTraversal_II - 2018.08.07 at 11h 32m 37s.xml">
-      <configuration name="LeetCode_107_BinaryTreeLevelOrderTraversal_II" configurationId="JUnit" />
+    <history-entry file="SerializeAndDeserializeBinaryTree_test - 2018.08.09 at 16h 54m 16s.xml">
+      <configuration name="SerializeAndDeserializeBinaryTree.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LeetCode_107_BinaryTreeLevelOrderTraversal_II - 2018.08.07 at 11h 34m 09s.xml">
-      <configuration name="LeetCode_107_BinaryTreeLevelOrderTraversal_II" configurationId="JUnit" />
+    <history-entry file="TengXun_PhoneInterview_20180810_OddEvenSeparation_test - 2018.08.10 at 17h 55m 08s.xml">
+      <configuration name="TengXun_PhoneInterview_20180810_OddEvenSeparation.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QuickSort - 2018.08.08 at 21h 04m 02s.xml">
-      <configuration name="QuickSort" configurationId="JUnit" />
+    <history-entry file="TengXun_PhoneInterview_20180810_OddEvenSeparation_test - 2018.08.10 at 17h 55m 50s.xml">
+      <configuration name="TengXun_PhoneInterview_20180810_OddEvenSeparation.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QuickSort_test - 2018.08.08 at 21h 11m 18s.xml">
-      <configuration name="QuickSort.test" configurationId="JUnit" />
+    <history-entry file="TengXun_PhoneInterview_20180810_OddEvenSeparation_test - 2018.08.10 at 17h 56m 22s.xml">
+      <configuration name="TengXun_PhoneInterview_20180810_OddEvenSeparation.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IsBalancedBinaryTree - 2018.08.08 at 21h 42m 57s.xml">
-      <configuration name="IsBalancedBinaryTree" configurationId="JUnit" />
+    <history-entry file="TengXun_PhoneInterview_20180810_OddEvenSeparation_test - 2018.08.10 at 18h 10m 14s.xml">
+      <configuration name="TengXun_PhoneInterview_20180810_OddEvenSeparation.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94448000" />
+    <option name="totallyTimeSpent" value="121582000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1378" height="780" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32686567" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32624868" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -557,11 +600,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35671642" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2763018" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30837005" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21875" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -589,20 +632,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="2222" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/singleton/EnumSingleton.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/singleton/DualIfSingleton.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/singleton/Singleton.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ThreadPoolDemo/ScheduledThreadPoolDemo.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Others/ScannerDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Others/IntegerSourceCode.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/SortAlgorithms/InsertSort.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/SortAlgorithms/MergeSort.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/JavaMailSender/QQSendMailDemo.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/JavaMailSender/SendMailDemo.java" />
     <entry file="jar://D:/JDK8/src.zip!/java/lang/Thread.java" />
@@ -659,28 +688,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SearchAlgorithm/BinaryTree.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/SearchAlgorithm/LeetCode_449_SerializeAndDeserializeBST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="59" column="48" lean-forward="true" selection-start-line="59" selection-start-column="48" selection-end-line="59" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
-            <element signature="e#285#286#0" expanded="true" />
-            <element signature="e#802#812#0" expanded="true" />
-            <element signature="e#1241#1251#0" expanded="true" />
-            <element signature="e#2158#2168#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SearchAlgorithm/BinarySearchTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="133" column="5" lean-forward="true" selection-start-line="114" selection-start-column="4" selection-end-line="133" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SearchAlgorithm/LeetCode_449_SerializeAndDeserializeBST.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/SearchAlgorithm/BinarySearchTree.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/SearchAlgorithm/BinarySearch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -688,13 +697,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BiShiAlgorithms/PinDuoDuo0805.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="96" column="33" selection-start-line="96" selection-start-column="33" selection-end-line="96" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BiShiAlgorithms/PinDuoDuo0805.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/SearchAlgorithm/LeetCode_315_CountOfSmallerNumbersAfterSelf.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
@@ -703,93 +706,110 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/BinaryTreeTraversals.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/JDK/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="417" selection-start-line="417" selection-end-line="417" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://D:/Java/JDK/src.zip!/java/util/ArrayList.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/SortAlgorithms/QuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="44" column="20" lean-forward="true" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
+        <state relative-caret-position="330">
+          <caret line="31" column="17" lean-forward="true" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Test/QuickSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-152">
-          <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/LeetCode_107_BinaryTreeLevelOrderTraversal_II.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#592#607#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/JianzhiOffer_GetMaxTreeDepth.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_LeftRotateString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="26" column="34" lean-forward="true" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_StrToInt_IntegerValueOf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="701">
-          <caret line="45" column="18" lean-forward="true" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_ReConstructBinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="25" column="11" lean-forward="true" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/MyBinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="10" selection-start-line="10" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Test/QuickSort.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/LeetCode_107_BinaryTreeLevelOrderTraversal_II.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/JianzhiOffer_GetMaxTreeDepth.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_LeftRotateString.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_StrToInt_IntegerValueOf.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_ReConstructBinaryTree.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/MyBinaryTree.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/IsBalancedBinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="71" column="9" lean-forward="true" selection-start-line="71" selection-start-column="9" selection-end-line="71" selection-end-column="9" />
+        <state relative-caret-position="323">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/BinaryTreeTraversals.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1862">
+          <caret line="101" column="47" selection-start-line="101" selection-start-column="47" selection-end-line="101" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JDK8/src.zip!/java/lang/NumberFormatException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/SerializeAndDeserializeBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/NextNodeOfBinaryTreeInOrderTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="18" column="41" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/IsSymmetricalBinaryTreeByTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/GetMirrorBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" selection-start-line="20" selection-end-line="30" selection-end-column="5" />
+          <folding>
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BiShiAlgorithms/TengXun_PhoneInterview_20180810_OddEvenSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/FindPathsEqualsTarget.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+          <folding>
+            <element signature="e#296#316#0" expanded="true" />
+            <element signature="e#358#367#0" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BiShiAlgorithms/TengXun_PhoneInterview_20180810_OddEvenSeparation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
