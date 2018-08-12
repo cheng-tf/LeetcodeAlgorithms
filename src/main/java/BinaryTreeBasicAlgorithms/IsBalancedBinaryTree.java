@@ -66,13 +66,13 @@ public class IsBalancedBinaryTree {
         if(helper(root.left,leftDepth)&&helper(root.right,rightDepth)){
             if(leftDepth[0]-rightDepth[0]<=1&&leftDepth[0]-rightDepth[0]>=-1){
                 //返回true之前，保存当前节点为根节点的二叉树的深度，递归的上一层函数需要
-                depth[0] = Math.max(leftDepth[0],rightDepth[0])+1;
+//                depth[0] = Math.max(leftDepth[0],rightDepth[0])+1;
+                depth[0] = leftDepth[0]>rightDepth[0]?leftDepth[0]+1:rightDepth[0]+1;//避免使用Math
                 return true;
             }
         }
         return false;
     }
-
 
 
 }
