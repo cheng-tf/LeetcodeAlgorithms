@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8667834-e393-4670-ba6c-135b805a3a36" name="Default" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/src/main/java/BiShiAlgorithms/Alibaba_20180813_TestAlgorithm.java" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_NumberOfBit1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> ad1c09301bd3d82e72ecb301dc04fe94d8434ae3
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,59 +21,93 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/LeetcodeAlgorithms$CountDownLatchDemo.ic" NAME="CountDownLatchDemo Coverage Results" MODIFIED="1533300128538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/LeetcodeAlgorithms$CyclicBarrierDemo_CyclicBarrierIsBrokenTest.ic" NAME="CyclicBarrierDemo.CyclicBarrierIsBrokenTest Coverage Results" MODIFIED="1533302418301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>ThreadValves.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/LeetcodeAlgorithms$CyclicBarrierDemo_CyclicBarrierIsBrokenTest.ic" NAME="CyclicBarrierDemo.CyclicBarrierIsBrokenTest Coverage Results" MODIFIED="1533302418301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/LeetcodeAlgorithms$CountDownLatchDemo.ic" NAME="CountDownLatchDemo Coverage Results" MODIFIED="1533300128538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>ThreadValves.*</FILTER>
     </SUITE>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Wangyi_BiShiAlgorithms_20180811.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/BiShiAlgorithms/Wangyi_BiShiAlgorithms_20180811.java">
+      <file leaf-file-name="JianzhiOffer_TwoStackToQueue.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_TwoStackToQueue.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="380">
               <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+=======
+            <state relative-caret-position="304">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="e#172#181#0" expanded="true" />
+                <element signature="e#222#231#0" expanded="true" />
+                <element signature="e#267#268#0" expanded="true" />
+                <element signature="e#300#301#0" expanded="true" />
+              </folding>
+>>>>>>> ad1c09301bd3d82e72ecb301dc04fe94d8434ae3
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JianzhiOffer_LeftRotateString.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_LeftRotateString.java">
+      <file leaf-file-name="JianzhiOffer_Fibonacci.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_Fibonacci.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="931">
               <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+=======
+            <state relative-caret-position="76">
+              <caret line="4" column="35" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="35" />
+>>>>>>> ad1c09301bd3d82e72ecb301dc04fe94d8434ae3
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KthBSTNode_BinarySearchTree.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/KthBSTNode_BinarySearchTree.java">
+      <file leaf-file-name="JianzhiOffer_JumpFloor_Based_on_Fibonacci.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_JumpFloor_Based_on_Fibonacci.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="1330">
               <caret line="78" selection-start-line="57" selection-start-column="4" selection-end-line="78" />
               <folding>
                 <element signature="imports" expanded="true" />
+=======
+            <state relative-caret-position="340">
+              <caret line="100" column="5" lean-forward="true" selection-start-line="100" selection-start-column="5" selection-end-line="100" selection-end-column="5" />
+              <folding>
+                <element signature="e#1417#1418#0" expanded="true" />
+                <element signature="e#1460#1461#0" expanded="true" />
+>>>>>>> ad1c09301bd3d82e72ecb301dc04fe94d8434ae3
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IsBalancedBinaryTree.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/IsBalancedBinaryTree.java">
+      <file leaf-file-name="JianzhiOffer_NumberOfBit1.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_NumberOfBit1.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="1387">
               <caret line="75" selection-start-line="75" selection-end-line="75" />
+=======
+            <state relative-caret-position="302">
+              <caret line="141" column="27" lean-forward="true" selection-start-line="141" selection-start-column="27" selection-end-line="141" selection-end-column="27" />
+>>>>>>> ad1c09301bd3d82e72ecb301dc04fe94d8434ae3
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TengXun_PhoneInterview_20180810_OddEvenSeparation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/BiShiAlgorithms/TengXun_PhoneInterview_20180810_OddEvenSeparation.java">
+      <file leaf-file-name="QuickSort.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Test/QuickSort.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="1387">
               <caret line="75" column="1" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
+=======
+            <state relative-caret-position="361">
+              <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+>>>>>>> ad1c09301bd3d82e72ecb301dc04fe94d8434ae3
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -76,9 +115,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FindNumberOfAppearOnlyOnce.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/FindNumberOfAppearOnlyOnce.java">
+      <file leaf-file-name="FullSort.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/FullSort.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="950">
               <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
             </state>
@@ -92,6 +132,14 @@
               <caret line="77" column="9" lean-forward="true" selection-start-line="77" selection-start-column="9" selection-end-line="77" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
+=======
+            <state relative-caret-position="152">
+              <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#316#336#0" expanded="true" />
+                <element signature="e#752#761#0" expanded="true" />
+>>>>>>> ad1c09301bd3d82e72ecb301dc04fe94d8434ae3
               </folding>
             </state>
           </provider>
@@ -161,11 +209,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/main/java/singleton/Singleton.java" />
         <option value="$PROJECT_DIR$/src/main/java/singleton/DualIfSingleton.java" />
         <option value="$PROJECT_DIR$/src/main/java/singleton/EnumSingleton.java" />
         <option value="$PROJECT_DIR$/src/main/java/singleton/NestedSingleton.java" />
         <option value="$PROJECT_DIR$/src/main/java/singleton/SingletonTest.java" />
+=======
+>>>>>>> ad1c09301bd3d82e72ecb301dc04fe94d8434ae3
         <option value="$PROJECT_DIR$/src/main/java/Others/IntegerSourceCode.java" />
         <option value="$PROJECT_DIR$/src/main/java/Others/ScannerDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/ThreadPoolDemo/ScheduledThreadPoolDemo.java" />
@@ -196,7 +247,6 @@
         <option value="$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/JianzhiOffer_GetMaxTreeDepth.java" />
         <option value="$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/MyBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/LeetCode_107_BinaryTreeLevelOrderTraversal_II.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Test/QuickSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/NextNodeOfBinaryTreeInOrderTraversal.java" />
         <option value="$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/SerializeAndDeserializeBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/IsSymmetricalBinaryTreeByTraversal.java" />
@@ -204,14 +254,24 @@
         <option value="$PROJECT_DIR$/src/main/java/BiShiAlgorithms/TengXun_PhoneInterview_20180810_OddEvenSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_GetNumberOfK.java" />
         <option value="$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/FindPathsEqualsTarget.java" />
-        <option value="$PROJECT_DIR$/src/main/java/BiShiAlgorithms/Wangyi_BiShiAlgorithms_20180811.java" />
         <option value="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_LeftRotateString.java" />
         <option value="$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/KthBSTNode_BinarySearchTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/IsBalancedBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/BiShiAlgorithms/TengXun_PhoneInterview_20180810_OddEvenSeparation.java" />
         <option value="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/FindNumberOfAppearOnlyOnce.java" />
         <option value="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_FindNumbersWithSumOfS.java" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/main/java/BiShiAlgorithms/Alibaba_20180813_TestAlgorithm.java" />
+=======
+        <option value="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_Fibonacci.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_MaxValueInSlidingWindows.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BiShiAlgorithms/Wangyi_BiShiAlgorithms_20180811.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_TwoStackToQueue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_JumpFloor_Based_on_Fibonacci.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Test/QuickSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/FullSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_NumberOfBit1.java" />
+>>>>>>> ad1c09301bd3d82e72ecb301dc04fe94d8434ae3
       </list>
     </option>
   </component>
@@ -244,9 +304,14 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="AndroidView" />
       <pane id="Scope" />
+=======
+>>>>>>> ad1c09301bd3d82e72ecb301dc04fe94d8434ae3
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -279,6 +344,25 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="BiShiAlgorithms" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+=======
+            </path>
+            <path>
+              <item name="LeetcodeAlgorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetcodeAlgorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="JianzhiOfferAlgorithms" type="462c0819:PsiDirectoryNode" />
+>>>>>>> ad1c09301bd3d82e72ecb301dc04fe94d8434ae3
+            </path>
+            <path>
+              <item name="LeetcodeAlgorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetcodeAlgorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -315,9 +399,17 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Application.Alibaba_20180813_TestAlgorithm">
     <configuration name="Alibaba_20180813_TestAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BiShiAlgorithms.Alibaba_20180813_TestAlgorithm" />
+=======
+  <component name="RunManager" selected="JUnit.JianzhiOffer_NumberOfBit1.test3">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="CyclicBarrierDemo.CyclicBarrierIsBrokenTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+>>>>>>> ad1c09301bd3d82e72ecb301dc04fe94d8434ae3
       <module name="LeetcodeAlgorithms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -327,8 +419,12 @@
         </pattern>
       </extension>
     </configuration>
+<<<<<<< HEAD
     <configuration name="PinDuoDuo0805" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BiShiAlgorithms.PinDuoDuo0805" />
+=======
+    <configuration name="FullSort.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+>>>>>>> ad1c09301bd3d82e72ecb301dc04fe94d8434ae3
       <module name="LeetcodeAlgorithms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -337,45 +433,17 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+<<<<<<< HEAD
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration name="Alibaba_20180813_TestAlgorithm.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetcodeAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BiShiAlgorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+=======
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="BiShiAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="BiShiAlgorithms.Alibaba_20180813_TestAlgorithm" />
-      <option name="METHOD_NAME" value="main" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="Alibaba_20180813_TestAlgorithm.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetcodeAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BiShiAlgorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="BiShiAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="BiShiAlgorithms.Alibaba_20180813_TestAlgorithm" />
+      <option name="PACKAGE_NAME" value="JianzhiOfferAlgorithms" />
+      <option name="MAIN_CLASS_NAME" value="JianzhiOfferAlgorithms.FullSort" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -387,19 +455,26 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="CyclicBarrierDemo.CyclicBarrierIsBrokenTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+    <configuration name="JianzhiOffer_NumberOfBit1.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+>>>>>>> ad1c09301bd3d82e72ecb301dc04fe94d8434ae3
       <module name="LeetcodeAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ThreadValves.*" />
+          <option name="PATTERN" value="BiShiAlgorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ThreadValves" />
-      <option name="MAIN_CLASS_NAME" value="ThreadValves.CyclicBarrierDemo" />
-      <option name="METHOD_NAME" value="CyclicBarrierIsBrokenTest" />
+<<<<<<< HEAD
+      <option name="PACKAGE_NAME" value="BiShiAlgorithms" />
+      <option name="MAIN_CLASS_NAME" value="BiShiAlgorithms.Alibaba_20180813_TestAlgorithm" />
+      <option name="METHOD_NAME" value="main" />
+=======
+      <option name="PACKAGE_NAME" value="JianzhiOfferAlgorithms" />
+      <option name="MAIN_CLASS_NAME" value="JianzhiOfferAlgorithms.JianzhiOffer_NumberOfBit1" />
+      <option name="METHOD_NAME" value="test" />
+>>>>>>> ad1c09301bd3d82e72ecb301dc04fe94d8434ae3
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -410,18 +485,97 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="JianzhiOffer_FindNumbersWithSumOfS.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+<<<<<<< HEAD
+    <configuration name="Alibaba_20180813_TestAlgorithm.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+=======
+    <configuration name="JianzhiOffer_NumberOfBit1.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+>>>>>>> ad1c09301bd3d82e72ecb301dc04fe94d8434ae3
       <module name="LeetcodeAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JianzhiOfferAlgorithms.*" />
+          <option name="PATTERN" value="BiShiAlgorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
+<<<<<<< HEAD
+      <option name="PACKAGE_NAME" value="BiShiAlgorithms" />
+      <option name="MAIN_CLASS_NAME" value="BiShiAlgorithms.Alibaba_20180813_TestAlgorithm" />
+      <option name="METHOD_NAME" value="test" />
+=======
+      <option name="PACKAGE_NAME" value="JianzhiOfferAlgorithms" />
+      <option name="MAIN_CLASS_NAME" value="JianzhiOfferAlgorithms.JianzhiOffer_NumberOfBit1" />
+      <option name="METHOD_NAME" value="test2" />
+>>>>>>> ad1c09301bd3d82e72ecb301dc04fe94d8434ae3
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+<<<<<<< HEAD
+    <configuration name="CyclicBarrierDemo.CyclicBarrierIsBrokenTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+=======
+    <configuration name="JianzhiOffer_NumberOfBit1.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+>>>>>>> ad1c09301bd3d82e72ecb301dc04fe94d8434ae3
+      <module name="LeetcodeAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ThreadValves.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+<<<<<<< HEAD
+      <option name="PACKAGE_NAME" value="ThreadValves" />
+      <option name="MAIN_CLASS_NAME" value="ThreadValves.CyclicBarrierDemo" />
+      <option name="METHOD_NAME" value="CyclicBarrierIsBrokenTest" />
+=======
+      <option name="PACKAGE_NAME" value="JianzhiOfferAlgorithms" />
+      <option name="MAIN_CLASS_NAME" value="JianzhiOfferAlgorithms.JianzhiOffer_NumberOfBit1" />
+      <option name="METHOD_NAME" value="test3" />
+>>>>>>> ad1c09301bd3d82e72ecb301dc04fe94d8434ae3
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+<<<<<<< HEAD
+    <configuration name="JianzhiOffer_FindNumbersWithSumOfS.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetcodeAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JianzhiOfferAlgorithms.*" />
+=======
+    <configuration name="QuickSort.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetcodeAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+>>>>>>> ad1c09301bd3d82e72ecb301dc04fe94d8434ae3
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+<<<<<<< HEAD
       <option name="PACKAGE_NAME" value="JianzhiOfferAlgorithms" />
       <option name="MAIN_CLASS_NAME" value="JianzhiOfferAlgorithms.JianzhiOffer_FindNumbersWithSumOfS" />
+=======
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.QuickSort" />
+>>>>>>> ad1c09301bd3d82e72ecb301dc04fe94d8434ae3
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -473,6 +627,7 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.CyclicBarrierDemo.CyclicBarrierIsBrokenTest" />
+<<<<<<< HEAD
       <item itemvalue="JUnit.JianzhiOffer_FindNumbersWithSumOfS.test" />
       <item itemvalue="JUnit.Alibaba_20180813_TestAlgorithm.main" />
       <item itemvalue="JUnit.Alibaba_20180813_TestAlgorithm.test" />
@@ -486,6 +641,21 @@
         <item itemvalue="JUnit.Alibaba_20180813_TestAlgorithm.test" />
         <item itemvalue="JUnit.Alibaba_20180813_TestAlgorithm.main" />
         <item itemvalue="JUnit.JianzhiOffer_FindNumbersWithSumOfS.test" />
+=======
+      <item itemvalue="JUnit.QuickSort.test" />
+      <item itemvalue="JUnit.FullSort.test" />
+      <item itemvalue="JUnit.JianzhiOffer_NumberOfBit1.test" />
+      <item itemvalue="JUnit.JianzhiOffer_NumberOfBit1.test2" />
+      <item itemvalue="JUnit.JianzhiOffer_NumberOfBit1.test3" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.JianzhiOffer_NumberOfBit1.test3" />
+        <item itemvalue="JUnit.JianzhiOffer_NumberOfBit1.test2" />
+        <item itemvalue="JUnit.JianzhiOffer_NumberOfBit1.test" />
+        <item itemvalue="JUnit.FullSort.test" />
+        <item itemvalue="JUnit.QuickSort.test" />
+>>>>>>> ad1c09301bd3d82e72ecb301dc04fe94d8434ae3
       </list>
     </recent_temporary>
   </component>
@@ -511,7 +681,11 @@
       <workItem from="1533817250791" duration="16051000" />
       <workItem from="1533959280039" duration="10160000" />
       <workItem from="1534041394709" duration="21403000" />
+<<<<<<< HEAD
       <workItem from="1534147328903" duration="2006000" />
+=======
+      <workItem from="1534123988707" duration="32583000" />
+>>>>>>> ad1c09301bd3d82e72ecb301dc04fe94d8434ae3
     </task>
     <task id="LOCAL-00001" summary="2222">
       <created>1533133335915</created>
@@ -524,6 +698,7 @@
     <servers />
   </component>
   <component name="TestHistory">
+<<<<<<< HEAD
     <history-entry file="JianzhiOffer_FindNumbersWithSumOfS_test - 2018.08.12 at 22h 53m 34s.xml">
       <configuration name="JianzhiOffer_FindNumbersWithSumOfS.test" configurationId="JUnit" />
     </history-entry>
@@ -560,6 +735,44 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+=======
+    <history-entry file="JianzhiOffer_NumberOfBit1_test - 2018.08.14 at 15h 28m 06s.xml">
+      <configuration name="JianzhiOffer_NumberOfBit1.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JianzhiOffer_NumberOfBit1_test - 2018.08.14 at 15h 28m 46s.xml">
+      <configuration name="JianzhiOffer_NumberOfBit1.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JianzhiOffer_NumberOfBit1_test - 2018.08.14 at 15h 30m 49s.xml">
+      <configuration name="JianzhiOffer_NumberOfBit1.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JianzhiOffer_NumberOfBit1_test - 2018.08.14 at 15h 32m 38s.xml">
+      <configuration name="JianzhiOffer_NumberOfBit1.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JianzhiOffer_NumberOfBit1_test - 2018.08.14 at 16h 12m 11s.xml">
+      <configuration name="JianzhiOffer_NumberOfBit1.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JianzhiOffer_NumberOfBit1_test - 2018.08.14 at 16h 12m 45s.xml">
+      <configuration name="JianzhiOffer_NumberOfBit1.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JianzhiOffer_NumberOfBit1_test - 2018.08.14 at 16h 14m 29s.xml">
+      <configuration name="JianzhiOffer_NumberOfBit1.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JianzhiOffer_NumberOfBit1_test - 2018.08.14 at 16h 20m 03s.xml">
+      <configuration name="JianzhiOffer_NumberOfBit1.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JianzhiOffer_NumberOfBit1_test2 - 2018.08.14 at 16h 42m 39s.xml">
+      <configuration name="JianzhiOffer_NumberOfBit1.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JianzhiOffer_NumberOfBit1_test3 - 2018.08.14 at 16h 52m 06s.xml">
+      <configuration name="JianzhiOffer_NumberOfBit1.test3" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="188810000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+>>>>>>> ad1c09301bd3d82e72ecb301dc04fe94d8434ae3
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -572,11 +785,15 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+<<<<<<< HEAD
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4242902" />
+=======
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.424017" />
+>>>>>>> ad1c09301bd3d82e72ecb301dc04fe94d8434ae3
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2818448" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28177083" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -604,11 +821,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="2222" />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/Others/AtomicIntegerDemo.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ThreadValves/CountDownLatchDemo.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ThreadValves/ReentrantLockDemo.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ReentrantLockDemo/SpinLock.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ReentrantLockDemo/UnReentrantLock.java" />
+=======
+>>>>>>> ad1c09301bd3d82e72ecb301dc04fe94d8434ae3
     <entry file="file://$PROJECT_DIR$/src/main/java/ReentrantLockDemo/NotReentrantLock.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ReentrantLockDemo/MyReentrantLock.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Others/AtomicReferenceDemo.java" />
@@ -678,7 +898,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Test/QuickSort.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/LeetCode_107_BinaryTreeLevelOrderTraversal_II.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/JianzhiOffer_GetMaxTreeDepth.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_StrToInt_IntegerValueOf.java" />
@@ -707,13 +926,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Java/JDK/src.zip!/java/util/Collections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="554" column="19" selection-start-line="554" selection-start-column="12" selection-end-line="554" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://D:/Java/JDK/src.zip!/java/util/Collections.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/NextNodeOfBinaryTreeInOrderTraversal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -742,30 +955,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BiShiAlgorithms/Wangyi_BiShiAlgorithms_20180811.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_LeftRotateString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="931">
-          <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/KthBSTNode_BinarySearchTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1330">
-          <caret line="78" selection-start-line="57" selection-start-column="4" selection-end-line="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/KthBSTNode_BinarySearchTree.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/IsBalancedBinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1387">
@@ -775,23 +965,124 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/BiShiAlgorithms/TengXun_PhoneInterview_20180810_OddEvenSeparation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1387">
-          <caret line="75" column="1" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
+        <state relative-caret-position="969">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/FindNumberOfAppearOnlyOnce.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/FindNumberOfAppearOnlyOnce.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_FindNumbersWithSumOfS.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/BiShiAlgorithms/Wangyi_BiShiAlgorithms_20180811.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
+<<<<<<< HEAD
+        <state relative-caret-position="380">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+=======
+        <state relative-caret-position="817">
+          <caret line="44" column="48" lean-forward="true" selection-start-line="44" selection-start-column="48" selection-end-line="44" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_FindNumbersWithSumOfS.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_MaxValueInSlidingWindows.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="64" column="31" selection-start-line="64" selection-start-column="31" selection-end-line="64" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2990#2991#0" expanded="true" />
+            <element signature="e#3029#3030#0" expanded="true" />
+            <element signature="e#3052#3053#0" expanded="true" />
+            <element signature="e#3094#3095#0" expanded="true" />
+          </folding>
+>>>>>>> ad1c09301bd3d82e72ecb301dc04fe94d8434ae3
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_LeftRotateString.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="931">
+          <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+=======
+        <state relative-caret-position="778">
+          <caret line="119" selection-start-line="119" selection-end-line="119" />
+>>>>>>> ad1c09301bd3d82e72ecb301dc04fe94d8434ae3
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_TwoStackToQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="1330">
+          <caret line="78" selection-start-line="57" selection-start-column="4" selection-end-line="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+=======
+        <state relative-caret-position="304">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#172#181#0" expanded="true" />
+            <element signature="e#222#231#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
+>>>>>>> ad1c09301bd3d82e72ecb301dc04fe94d8434ae3
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_Fibonacci.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="1387">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
+=======
+        <state relative-caret-position="76">
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="35" />
+>>>>>>> ad1c09301bd3d82e72ecb301dc04fe94d8434ae3
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Test/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="1387">
+          <caret line="75" column="1" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
+=======
+        <state relative-caret-position="361">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+>>>>>>> ad1c09301bd3d82e72ecb301dc04fe94d8434ae3
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/FullSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="950">
+          <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
+=======
+        <state relative-caret-position="152">
+          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#316#336#0" expanded="true" />
+            <element signature="e#752#761#0" expanded="true" />
+          </folding>
+>>>>>>> ad1c09301bd3d82e72ecb301dc04fe94d8434ae3
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_JumpFloor_Based_on_Fibonacci.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="297">
           <caret line="77" column="9" lean-forward="true" selection-start-line="77" selection-start-column="9" selection-end-line="77" selection-end-column="9" />
           <folding>
@@ -813,7 +1104,21 @@
           <caret line="37" column="21" lean-forward="true" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
+=======
+        <state relative-caret-position="340">
+          <caret line="100" column="5" lean-forward="true" selection-start-line="100" selection-start-column="5" selection-end-line="100" selection-end-column="5" />
+          <folding>
+            <element signature="e#1417#1418#0" expanded="true" />
+            <element signature="e#1460#1461#0" expanded="true" />
+>>>>>>> ad1c09301bd3d82e72ecb301dc04fe94d8434ae3
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_NumberOfBit1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="141" column="27" lean-forward="true" selection-start-line="141" selection-start-column="27" selection-end-line="141" selection-end-column="27" />
         </state>
       </provider>
     </entry>
