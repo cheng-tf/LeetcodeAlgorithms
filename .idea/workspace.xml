@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8667834-e393-4670-ba6c-135b805a3a36" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/FullSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_Fibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_JumpFloor_Based_on_Fibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_MaxValueInSlidingWindows.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_TwoStackToQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Test/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_NumberOfBit1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BiShiAlgorithms/Wangyi_BiShiAlgorithms_20180811.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BiShiAlgorithms/Wangyi_BiShiAlgorithms_20180811.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/BiShiAlgorithms/Wangyi_BiShiAlgorithms_20180811.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BiShiAlgorithms/Wangyi_BiShiAlgorithms_20180811.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JianzhiOfferAlgorithms/JianzhiOffer_FindNumbersWithSumOfS.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JianzhiOfferAlgorithms/JianzhiOffer_FindNumbersWithSumOfS.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,7 +50,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JianzhiOffer_JumpFloor_Based_on_Fibonacci.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="JianzhiOffer_JumpFloor_Based_on_Fibonacci.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_JumpFloor_Based_on_Fibonacci.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
@@ -67,6 +59,15 @@
                 <element signature="e#1417#1418#0" expanded="true" />
                 <element signature="e#1460#1461#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JianzhiOffer_NumberOfBit1.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_NumberOfBit1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="302">
+              <caret line="141" column="27" lean-forward="true" selection-start-line="141" selection-start-column="27" selection-end-line="141" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -140,7 +141,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/singleton/SingletonTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Others/IntegerSourceCode.java" />
         <option value="$PROJECT_DIR$/src/main/java/Others/ScannerDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/ThreadPoolDemo/ScheduledThreadPoolDemo.java" />
@@ -191,6 +191,7 @@
         <option value="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_JumpFloor_Based_on_Fibonacci.java" />
         <option value="$PROJECT_DIR$/src/main/java/Test/QuickSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/FullSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_NumberOfBit1.java" />
       </list>
     </option>
   </component>
@@ -310,7 +311,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FullSort.test">
+  <component name="RunManager" selected="JUnit.JianzhiOffer_NumberOfBit1.test3">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -360,7 +361,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="JianzhiOffer_JumpFloor_Based_on_Fibonacci" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JianzhiOffer_NumberOfBit1.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeAlgorithms" />
       <extension name="coverage">
         <pattern>
@@ -371,30 +372,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="JianzhiOfferAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="JianzhiOfferAlgorithms.JianzhiOffer_JumpFloor_Based_on_Fibonacci" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="JianzhiOffer_JumpFloor_Based_on_Fibonacci.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetcodeAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JianzhiOfferAlgorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="JianzhiOfferAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="JianzhiOfferAlgorithms.JianzhiOffer_JumpFloor_Based_on_Fibonacci" />
+      <option name="MAIN_CLASS_NAME" value="JianzhiOfferAlgorithms.JianzhiOffer_NumberOfBit1" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -406,20 +384,43 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="QuickSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JianzhiOffer_NumberOfBit1.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Test.*" />
+          <option name="PATTERN" value="JianzhiOfferAlgorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Test" />
-      <option name="MAIN_CLASS_NAME" value="Test.QuickSort" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="JianzhiOfferAlgorithms" />
+      <option name="MAIN_CLASS_NAME" value="JianzhiOfferAlgorithms.JianzhiOffer_NumberOfBit1" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="JianzhiOffer_NumberOfBit1.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetcodeAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JianzhiOfferAlgorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="JianzhiOfferAlgorithms" />
+      <option name="MAIN_CLASS_NAME" value="JianzhiOfferAlgorithms.JianzhiOffer_NumberOfBit1" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -492,19 +493,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.CyclicBarrierDemo.CyclicBarrierIsBrokenTest" />
-      <item itemvalue="JUnit.JianzhiOffer_JumpFloor_Based_on_Fibonacci.test" />
-      <item itemvalue="JUnit.JianzhiOffer_JumpFloor_Based_on_Fibonacci" />
       <item itemvalue="JUnit.QuickSort.test" />
-      <item itemvalue="JUnit.QuickSort" />
       <item itemvalue="JUnit.FullSort.test" />
+      <item itemvalue="JUnit.JianzhiOffer_NumberOfBit1.test" />
+      <item itemvalue="JUnit.JianzhiOffer_NumberOfBit1.test2" />
+      <item itemvalue="JUnit.JianzhiOffer_NumberOfBit1.test3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JianzhiOffer_NumberOfBit1.test3" />
+        <item itemvalue="JUnit.JianzhiOffer_NumberOfBit1.test2" />
+        <item itemvalue="JUnit.JianzhiOffer_NumberOfBit1.test" />
         <item itemvalue="JUnit.FullSort.test" />
         <item itemvalue="JUnit.QuickSort.test" />
-        <item itemvalue="JUnit.QuickSort" />
-        <item itemvalue="JUnit.JianzhiOffer_JumpFloor_Based_on_Fibonacci.test" />
-        <item itemvalue="JUnit.JianzhiOffer_JumpFloor_Based_on_Fibonacci" />
       </list>
     </recent_temporary>
   </component>
@@ -530,7 +531,7 @@
       <workItem from="1533817250791" duration="16051000" />
       <workItem from="1533959280039" duration="10160000" />
       <workItem from="1534041394709" duration="21403000" />
-      <workItem from="1534123988707" duration="25503000" />
+      <workItem from="1534123988707" duration="32583000" />
     </task>
     <task id="LOCAL-00001" summary="2222">
       <created>1533133335915</created>
@@ -543,42 +544,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="QuickSort_test - 2018.08.14 at 10h 08m 58s.xml">
-      <configuration name="QuickSort.test" configurationId="JUnit" />
+    <history-entry file="JianzhiOffer_NumberOfBit1_test - 2018.08.14 at 15h 28m 06s.xml">
+      <configuration name="JianzhiOffer_NumberOfBit1.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QuickSort_test - 2018.08.14 at 10h 09m 25s.xml">
-      <configuration name="QuickSort.test" configurationId="JUnit" />
+    <history-entry file="JianzhiOffer_NumberOfBit1_test - 2018.08.14 at 15h 28m 46s.xml">
+      <configuration name="JianzhiOffer_NumberOfBit1.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FullSort_test - 2018.08.14 at 10h 50m 20s.xml">
-      <configuration name="FullSort.test" configurationId="JUnit" />
+    <history-entry file="JianzhiOffer_NumberOfBit1_test - 2018.08.14 at 15h 30m 49s.xml">
+      <configuration name="JianzhiOffer_NumberOfBit1.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FullSort_test - 2018.08.14 at 11h 11m 19s.xml">
-      <configuration name="FullSort.test" configurationId="JUnit" />
+    <history-entry file="JianzhiOffer_NumberOfBit1_test - 2018.08.14 at 15h 32m 38s.xml">
+      <configuration name="JianzhiOffer_NumberOfBit1.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FullSort_test - 2018.08.14 at 11h 11m 47s.xml">
-      <configuration name="FullSort.test" configurationId="JUnit" />
+    <history-entry file="JianzhiOffer_NumberOfBit1_test - 2018.08.14 at 16h 12m 11s.xml">
+      <configuration name="JianzhiOffer_NumberOfBit1.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FullSort_test - 2018.08.14 at 12h 38m 00s.xml">
-      <configuration name="FullSort.test" configurationId="JUnit" />
+    <history-entry file="JianzhiOffer_NumberOfBit1_test - 2018.08.14 at 16h 12m 45s.xml">
+      <configuration name="JianzhiOffer_NumberOfBit1.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FullSort_test - 2018.08.14 at 12h 39m 52s.xml">
-      <configuration name="FullSort.test" configurationId="JUnit" />
+    <history-entry file="JianzhiOffer_NumberOfBit1_test - 2018.08.14 at 16h 14m 29s.xml">
+      <configuration name="JianzhiOffer_NumberOfBit1.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FullSort_test - 2018.08.14 at 12h 40m 27s.xml">
-      <configuration name="FullSort.test" configurationId="JUnit" />
+    <history-entry file="JianzhiOffer_NumberOfBit1_test - 2018.08.14 at 16h 20m 03s.xml">
+      <configuration name="JianzhiOffer_NumberOfBit1.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FullSort_test - 2018.08.14 at 12h 42m 28s.xml">
-      <configuration name="FullSort.test" configurationId="JUnit" />
+    <history-entry file="JianzhiOffer_NumberOfBit1_test2 - 2018.08.14 at 16h 42m 39s.xml">
+      <configuration name="JianzhiOffer_NumberOfBit1.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FullSort_test - 2018.08.14 at 12h 42m 39s.xml">
-      <configuration name="FullSort.test" configurationId="JUnit" />
+    <history-entry file="JianzhiOffer_NumberOfBit1_test3 - 2018.08.14 at 16h 52m 06s.xml">
+      <configuration name="JianzhiOffer_NumberOfBit1.test3" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="181730000" />
+    <option name="totallyTimeSpent" value="188810000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -591,11 +592,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.424017" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.424017" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28177083" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28177083" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -623,7 +624,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="2222" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ReentrantLockDemo/UnReentrantLock.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ReentrantLockDemo/NotReentrantLock.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ReentrantLockDemo/MyReentrantLock.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Others/AtomicReferenceDemo.java" />
@@ -855,6 +855,13 @@
             <element signature="e#1417#1418#0" expanded="true" />
             <element signature="e#1460#1461#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_NumberOfBit1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="141" column="27" lean-forward="true" selection-start-line="141" selection-start-column="27" selection-end-line="141" selection-end-column="27" />
         </state>
       </provider>
     </entry>
