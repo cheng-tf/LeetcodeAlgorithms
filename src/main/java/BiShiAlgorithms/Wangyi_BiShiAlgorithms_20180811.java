@@ -1,4 +1,6 @@
 package BiShiAlgorithms;
+import org.junit.Test;
+
 import java.util.Scanner;
 
 public class Wangyi_BiShiAlgorithms_20180811 {
@@ -48,5 +50,46 @@ public class Wangyi_BiShiAlgorithms_20180811 {
             }
             return nums;
         }
+
+
+        /*********************利用滑动窗口解决瞌睡问题*******************************/
+
+
+
+    /**
+     * 思路分析：利用滑动窗口解决
+     * @param n 一堂课的分钟数
+     * @param k 叫醒一次清醒分钟数
+     * @param perValue 每分钟的分数
+     * @param isSleep 每分钟是否睡着
+     * @return  返回最大的总分数
+     */
+    public int maxSumValue(int n,int k,int[] perValues,int[] isSleep){
+        int maxSumValue = 0;
+        //计算所有清醒的总分数
+        for(int i = 0;i < n ;i++)
+            maxSumValue += perValues[i]*isSleep[i];
+        //初始化第一个窗口
+        for(int i = 0;i < k; i++)
+            maxSumValue += perValues[i]*(1-isSleep[i]);
+        for(int i = k;i < n;i++){
+            int add = perValues[i]*(1-isSleep[i]) - perValues[i-k]*(1-isSleep[i-k]);
+            if(add > 0)  maxSumValue += add;
+        }
+        return maxSumValue;
+    }
+
+
+    @Test
+    public void test(){
+        int n = 6,k =3;
+        int[] perValues = {1,3,5,2,5,4};
+        int[] isSleep =   {1,1,0,1,0,0};
+        int maxSumValue = maxSumValue(n,k,perValues,isSleep);
+        System.out.println("maxSumValue = " + maxSumValue);
+    }
+
+
+
 
 }
