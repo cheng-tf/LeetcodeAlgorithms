@@ -40,7 +40,7 @@ public class JianzhiOffer_NumberOfBit1 {
 
 
 
-        System.out.println("(Integer.MIN_VALUE<<1) = " + (Integer.MIN_VALUE<<1));//0
+        System.out.println("(Integer.MIN_VALUE<<1) = " + (Integer.MIN_VALUE<<1));//0 keyi
         System.out.println("(-1<<1) = " + (-1<<1));//-2
         System.out.println("1<<31)) = " + (1<<31) );//1左移31位就是Integer.MIN_VALUE
     }
