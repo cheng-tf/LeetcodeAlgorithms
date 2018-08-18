@@ -4,10 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/NextNodeOfBinaryTreeInOrderTraversal.java" line="15" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8667834-e393-4670-ba6c-135b805a3a36" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_NumberOfBit1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_NumberOfBit1.java" afterDir="false" />
-    </list>
+    <list default="true" id="c8667834-e393-4670-ba6c-135b805a3a36" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,10 +14,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/LeetcodeAlgorithms$CyclicBarrierDemo_CyclicBarrierIsBrokenTest.ic" NAME="CyclicBarrierDemo.CyclicBarrierIsBrokenTest Coverage Results" MODIFIED="1533302418301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/LeetcodeAlgorithms$CountDownLatchDemo.ic" NAME="CountDownLatchDemo Coverage Results" MODIFIED="1533300128538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>ThreadValves.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/LeetcodeAlgorithms$CountDownLatchDemo.ic" NAME="CountDownLatchDemo Coverage Results" MODIFIED="1533300128538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/LeetcodeAlgorithms$CyclicBarrierDemo_CyclicBarrierIsBrokenTest.ic" NAME="CyclicBarrierDemo.CyclicBarrierIsBrokenTest Coverage Results" MODIFIED="1533302418301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>ThreadValves.*</FILTER>
     </SUITE>
   </component>
@@ -30,7 +27,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_NumberOfBit1.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="513">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
@@ -161,7 +158,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -216,6 +212,7 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -470,6 +467,7 @@
       <workItem from="1534041394709" duration="21403000" />
       <workItem from="1534123988707" duration="33930000" />
       <workItem from="1534469466595" duration="1802000" />
+      <workItem from="1534555041231" duration="579000" />
     </task>
     <task id="LOCAL-00001" summary="2222">
       <created>1533133335915</created>
@@ -514,11 +512,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="191959000" />
+    <option name="totallyTimeSpent" value="192538000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -533,7 +530,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28177083" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28111273" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -541,14 +538,14 @@
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39905363" />
-      <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.3296875" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.3296875" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32624868" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3280757" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32624868" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -765,7 +762,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_NumberOfBit1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
