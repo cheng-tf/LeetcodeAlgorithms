@@ -4,30 +4,74 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/NextNodeOfBinaryTreeInOrderTraversal.java" line="15" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8667834-e393-4670-ba6c-135b805a3a36" name="Default" comment="" />
+    <list default="true" id="c8667834-e393-4670-ba6c-135b805a3a36" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_53_SearchNumberInSortedArray_1_GetNumberOfK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_53_SearchNumberInSortedArray_2_GetMissingNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_53_SearchNumberInSortedArray_3_GetNumberSameAsIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_56_FindNumberOfAppearOnlyOnce.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/KthBSTNode_BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/KthBSTNode_BinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/FindNumberOfAppearOnlyOnce.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_GetNumberOfK.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BiShiAlgorithms/Alibaba_20180813_TestAlgorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BiShiAlgorithms/Alibaba_20180813_TestAlgorithm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BinaryTreeBasicAlgorithms/KthBSTNode_BinarySearchTree$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BinaryTreeBasicAlgorithms/KthBSTNode_BinarySearchTree$TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BinaryTreeBasicAlgorithms/KthBSTNode_BinarySearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BinaryTreeBasicAlgorithms/KthBSTNode_BinarySearchTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JianzhiOfferAlgorithms/FindNumberOfAppearOnlyOnce.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JianzhiOfferAlgorithms/JianzhiOffer_GetNumberOfK.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JianzhiOfferAlgorithms/JianzhiOffer_NumberOfBit1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JianzhiOfferAlgorithms/JianzhiOffer_NumberOfBit1.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/LeetcodeAlgorithms$CountDownLatchDemo.ic" NAME="CountDownLatchDemo Coverage Results" MODIFIED="1533300128538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>ThreadValves.*</FILTER>
-    </SUITE>
     <SUITE FILE_PATH="coverage/LeetcodeAlgorithms$CyclicBarrierDemo_CyclicBarrierIsBrokenTest.ic" NAME="CyclicBarrierDemo.CyclicBarrierIsBrokenTest Coverage Results" MODIFIED="1533302418301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>ThreadValves.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/LeetcodeAlgorithms$CountDownLatchDemo.ic" NAME="CountDownLatchDemo Coverage Results" MODIFIED="1533300128538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ThreadValves.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1967828417">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.59" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="6180" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="6180" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="8" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="JianzhiOffer_NumberOfBit1.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_NumberOfBit1.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_56_FindNumberOfAppearOnlyOnce.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="405">
+              <caret line="101" column="5" lean-forward="true" selection-start-line="67" selection-start-column="3" selection-end-line="101" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -75,10 +119,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/Others/IntegerSourceCode.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Others/ScannerDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ThreadPoolDemo/ScheduledThreadPoolDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Others/BitSetDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/ThreadValves/CyclicBarrierDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/ThreadValves/CountDownLatch2.java" />
         <option value="$PROJECT_DIR$/src/main/java/ThreadValves/CountDownLatchDemo2.java" />
@@ -110,13 +150,10 @@
         <option value="$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/IsSymmetricalBinaryTreeByTraversal.java" />
         <option value="$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/GetMirrorBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/BiShiAlgorithms/TengXun_PhoneInterview_20180810_OddEvenSort.java" />
-        <option value="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_GetNumberOfK.java" />
         <option value="$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/FindPathsEqualsTarget.java" />
         <option value="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_LeftRotateString.java" />
-        <option value="$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/KthBSTNode_BinarySearchTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/IsBalancedBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/BiShiAlgorithms/TengXun_PhoneInterview_20180810_OddEvenSeparation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/FindNumberOfAppearOnlyOnce.java" />
         <option value="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_FindNumbersWithSumOfS.java" />
         <option value="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_Fibonacci.java" />
         <option value="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_MaxValueInSlidingWindows.java" />
@@ -126,6 +163,13 @@
         <option value="$PROJECT_DIR$/src/main/java/Test/QuickSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/FullSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_NumberOfBit1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_GetNumberOfK.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_53_SearchNumberInSortedArray_1_GetNumberOfK.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_53_SearchNumberInSortedArray_2_GetMissingNumber.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_53_SearchNumberInSortedArray_3_GetNumberSameAsIndex.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/KthBSTNode_BinarySearchTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/FindNumberOfAppearOnlyOnce.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_56_FindNumberOfAppearOnlyOnce.java" />
       </list>
     </option>
   </component>
@@ -142,9 +186,6 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="width" value="1378" />
@@ -158,6 +199,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -189,7 +232,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="BiShiAlgorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="BinaryTreeBasicAlgorithms" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LeetcodeAlgorithms" type="b2602c69:ProjectViewProjectNode" />
@@ -212,13 +255,12 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534578335324" />
     <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -245,9 +287,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.JianzhiOffer_NumberOfBit1.test3">
+  <component name="RunManager" selected="JUnit.JianzhiOffer_56_FindNumberOfAppearOnlyOnce">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="CyclicBarrierDemo.CyclicBarrierIsBrokenTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="LeetcodeAlgorithms" />
@@ -257,22 +302,16 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="ThreadValves" />
       <option name="MAIN_CLASS_NAME" value="ThreadValves.CyclicBarrierDemo" />
       <option name="METHOD_NAME" value="CyclicBarrierIsBrokenTest" />
       <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="FullSort.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FindNumberOfAppearOnlyOnce.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeAlgorithms" />
       <extension name="coverage">
         <pattern>
@@ -280,22 +319,16 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="JianzhiOfferAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="JianzhiOfferAlgorithms.FullSort" />
+      <option name="MAIN_CLASS_NAME" value="JianzhiOfferAlgorithms.FindNumberOfAppearOnlyOnce" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="JianzhiOffer_NumberOfBit1.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FindNumberOfAppearOnlyOnce.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeAlgorithms" />
       <extension name="coverage">
         <pattern>
@@ -303,143 +336,93 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="JianzhiOfferAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="JianzhiOfferAlgorithms.JianzhiOffer_NumberOfBit1" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="JianzhiOffer_NumberOfBit1.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetcodeAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JianzhiOfferAlgorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="JianzhiOfferAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="JianzhiOfferAlgorithms.JianzhiOffer_NumberOfBit1" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="JianzhiOffer_NumberOfBit1.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetcodeAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JianzhiOfferAlgorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="JianzhiOfferAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="JianzhiOfferAlgorithms.JianzhiOffer_NumberOfBit1" />
+      <option name="MAIN_CLASS_NAME" value="JianzhiOfferAlgorithms.FindNumberOfAppearOnlyOnce" />
       <option name="METHOD_NAME" value="test3" />
       <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="QuickSort.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JianzhiOffer_56_FindNumberOfAppearOnlyOnce" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Test.*" />
+          <option name="PATTERN" value="JianzhiOfferAlgorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Test" />
-      <option name="MAIN_CLASS_NAME" value="Test.QuickSort" />
+      <option name="PACKAGE_NAME" value="JianzhiOfferAlgorithms" />
+      <option name="MAIN_CLASS_NAME" value="JianzhiOfferAlgorithms.JianzhiOffer_56_FindNumberOfAppearOnlyOnce" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JianzhiOffer_56_FindNumberOfAppearOnlyOnce.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetcodeAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JianzhiOfferAlgorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="JianzhiOfferAlgorithms" />
+      <option name="MAIN_CLASS_NAME" value="JianzhiOfferAlgorithms.JianzhiOffer_56_FindNumberOfAppearOnlyOnce" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KthBSTNode_BinarySearchTree.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetcodeAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BinaryTreeBasicAlgorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="BinaryTreeBasicAlgorithms" />
+      <option name="MAIN_CLASS_NAME" value="BinaryTreeBasicAlgorithms.KthBSTNode_BinarySearchTree" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <list>
       <item itemvalue="JUnit.CyclicBarrierDemo.CyclicBarrierIsBrokenTest" />
-      <item itemvalue="JUnit.QuickSort.test" />
-      <item itemvalue="JUnit.FullSort.test" />
-      <item itemvalue="JUnit.JianzhiOffer_NumberOfBit1.test" />
-      <item itemvalue="JUnit.JianzhiOffer_NumberOfBit1.test2" />
-      <item itemvalue="JUnit.JianzhiOffer_NumberOfBit1.test3" />
+      <item itemvalue="JUnit.KthBSTNode_BinarySearchTree.test" />
+      <item itemvalue="JUnit.FindNumberOfAppearOnlyOnce.test" />
+      <item itemvalue="JUnit.FindNumberOfAppearOnlyOnce.test3" />
+      <item itemvalue="JUnit.JianzhiOffer_56_FindNumberOfAppearOnlyOnce.test" />
+      <item itemvalue="JUnit.JianzhiOffer_56_FindNumberOfAppearOnlyOnce" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.JianzhiOffer_NumberOfBit1.test3" />
-        <item itemvalue="JUnit.JianzhiOffer_NumberOfBit1.test2" />
-        <item itemvalue="JUnit.JianzhiOffer_NumberOfBit1.test" />
-        <item itemvalue="JUnit.FullSort.test" />
-        <item itemvalue="JUnit.QuickSort.test" />
+        <item itemvalue="JUnit.JianzhiOffer_56_FindNumberOfAppearOnlyOnce" />
+        <item itemvalue="JUnit.JianzhiOffer_56_FindNumberOfAppearOnlyOnce.test" />
+        <item itemvalue="JUnit.FindNumberOfAppearOnlyOnce.test3" />
+        <item itemvalue="JUnit.FindNumberOfAppearOnlyOnce.test" />
+        <item itemvalue="JUnit.KthBSTNode_BinarySearchTree.test" />
       </list>
     </recent_temporary>
   </component>
@@ -468,6 +451,7 @@
       <workItem from="1534123988707" duration="33930000" />
       <workItem from="1534469466595" duration="1802000" />
       <workItem from="1534555041231" duration="579000" />
+      <workItem from="1534557958501" duration="14391000" />
     </task>
     <task id="LOCAL-00001" summary="2222">
       <created>1533133335915</created>
@@ -480,73 +464,105 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="JianzhiOffer_NumberOfBit1_test - 2018.08.14 at 15h 28m 46s.xml">
-      <configuration name="JianzhiOffer_NumberOfBit1.test" configurationId="JUnit" />
+    <history-entry file="FindNumberOfAppearOnlyOnce_test - 2018.08.18 at 15h 04m 32s.xml">
+      <configuration name="FindNumberOfAppearOnlyOnce.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JianzhiOffer_NumberOfBit1_test - 2018.08.14 at 15h 30m 49s.xml">
-      <configuration name="JianzhiOffer_NumberOfBit1.test" configurationId="JUnit" />
+    <history-entry file="FindNumberOfAppearOnlyOnce_test - 2018.08.18 at 15h 05m 28s.xml">
+      <configuration name="FindNumberOfAppearOnlyOnce.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JianzhiOffer_NumberOfBit1_test - 2018.08.14 at 15h 32m 38s.xml">
-      <configuration name="JianzhiOffer_NumberOfBit1.test" configurationId="JUnit" />
+    <history-entry file="FindNumberOfAppearOnlyOnce_test - 2018.08.18 at 15h 06m 51s.xml">
+      <configuration name="FindNumberOfAppearOnlyOnce.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JianzhiOffer_NumberOfBit1_test - 2018.08.14 at 16h 12m 11s.xml">
-      <configuration name="JianzhiOffer_NumberOfBit1.test" configurationId="JUnit" />
+    <history-entry file="FindNumberOfAppearOnlyOnce_test - 2018.08.18 at 15h 08m 12s.xml">
+      <configuration name="FindNumberOfAppearOnlyOnce.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JianzhiOffer_NumberOfBit1_test - 2018.08.14 at 16h 12m 45s.xml">
-      <configuration name="JianzhiOffer_NumberOfBit1.test" configurationId="JUnit" />
+    <history-entry file="FindNumberOfAppearOnlyOnce_test - 2018.08.18 at 15h 08m 31s.xml">
+      <configuration name="FindNumberOfAppearOnlyOnce.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JianzhiOffer_NumberOfBit1_test - 2018.08.14 at 16h 14m 29s.xml">
-      <configuration name="JianzhiOffer_NumberOfBit1.test" configurationId="JUnit" />
+    <history-entry file="FindNumberOfAppearOnlyOnce_test - 2018.08.18 at 15h 08m 50s.xml">
+      <configuration name="FindNumberOfAppearOnlyOnce.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JianzhiOffer_NumberOfBit1_test - 2018.08.14 at 16h 20m 03s.xml">
-      <configuration name="JianzhiOffer_NumberOfBit1.test" configurationId="JUnit" />
+    <history-entry file="FindNumberOfAppearOnlyOnce_test - 2018.08.18 at 15h 17m 02s.xml">
+      <configuration name="FindNumberOfAppearOnlyOnce.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JianzhiOffer_NumberOfBit1_test2 - 2018.08.14 at 16h 42m 39s.xml">
-      <configuration name="JianzhiOffer_NumberOfBit1.test2" configurationId="JUnit" />
+    <history-entry file="FindNumberOfAppearOnlyOnce_test3 - 2018.08.18 at 15h 33m 50s.xml">
+      <configuration name="FindNumberOfAppearOnlyOnce.test3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JianzhiOffer_NumberOfBit1_test3 - 2018.08.14 at 16h 52m 06s.xml">
-      <configuration name="JianzhiOffer_NumberOfBit1.test3" configurationId="JUnit" />
+    <history-entry file="JianzhiOffer_56_FindNumberOfAppearOnlyOnce_test - 2018.08.18 at 15h 37m 05s.xml">
+      <configuration name="JianzhiOffer_56_FindNumberOfAppearOnlyOnce.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JianzhiOffer_NumberOfBit1_test3 - 2018.08.14 at 17h 01m 49s.xml">
-      <configuration name="JianzhiOffer_NumberOfBit1.test3" configurationId="JUnit" />
+    <history-entry file="JianzhiOffer_56_FindNumberOfAppearOnlyOnce - 2018.08.18 at 15h 37m 17s.xml">
+      <configuration name="JianzhiOffer_56_FindNumberOfAppearOnlyOnce" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="192538000" />
+    <option name="totallyTimeSpent" value="206929000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5005208" side_tool="true" weight="0.424017" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947917" weight="0.424017" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28111273" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.36384267" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39905363" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.3296875" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32624868" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3280757" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947917" weight="0.38032788" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39905363" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5005208" side_tool="true" weight="0.424017" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32624868" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3296875" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36384267" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3280757" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947917" visible="true" weight="0.38032788" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39905363" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5005208" side_tool="true" weight="0.424017" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32624868" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3296875" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -559,11 +575,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="2222" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ReentrantLockDemo/NotReentrantLock.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ReentrantLockDemo/MyReentrantLock.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Others/AtomicReferenceDemo.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ReentrantLockDemo/NotReentrantLock.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/RedisClientJedis.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ThreadValves/CyclicBarrierDemo.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/redisClientJedis/JedisTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Others/BitSetDemo.java" />
@@ -650,13 +661,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/BiShiAlgorithms/TengXun_PhoneInterview_20180810_OddEvenSort.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_GetNumberOfK.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="86" column="29" selection-start-line="86" selection-start-column="29" selection-end-line="86" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Java/JDK/src.zip!/java/util/Collections.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/NextNodeOfBinaryTreeInOrderTraversal.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -686,7 +690,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/KthBSTNode_BinarySearchTree.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/IsBalancedBinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1387">
@@ -701,7 +704,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/FindNumberOfAppearOnlyOnce.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_FindNumbersWithSumOfS.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/BiShiAlgorithms/Wangyi_BiShiAlgorithms_20180811.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -761,8 +763,67 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_NumberOfBit1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="209">
+          <caret line="11" column="75" lean-forward="true" selection-start-line="11" selection-start-column="75" selection-end-line="11" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_GetNumberOfK.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" lean-forward="true" selection-end-line="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_53_SearchNumberInSortedArray_2_GetNumberSameAsIndex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="77" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_53_SearchNumberInSortedArray_1_GetNumberOfK.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="108" column="1" lean-forward="true" selection-start-line="108" selection-start-column="1" selection-end-line="108" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_53_SearchNumberInSortedArray_2_GetMissingNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1007">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/KthBSTNode_BinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="92" column="32" selection-start-line="92" selection-start-column="32" selection-end-line="92" selection-end-column="32" />
+          <folding>
+            <element signature="e#857#858#0" expanded="true" />
+            <element signature="e#910#911#0" expanded="true" />
+            <element signature="e#1716#1717#0" expanded="true" />
+            <element signature="e#1774#1775#0" expanded="true" />
+            <element signature="e#1848#1858#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_53_SearchNumberInSortedArray_3_GetNumberSameAsIndex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="32" column="36" lean-forward="true" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/FindNumberOfAppearOnlyOnce.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_56_FindNumberOfAppearOnlyOnce.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="101" column="5" lean-forward="true" selection-start-line="67" selection-start-column="3" selection-end-line="101" selection-end-column="5" />
         </state>
       </provider>
     </entry>
