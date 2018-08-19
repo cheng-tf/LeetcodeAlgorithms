@@ -1,4 +1,4 @@
-package JianzhiOfferAlgorithms;
+package SearchAlgorithm;
 
 import org.junit.Test;
 

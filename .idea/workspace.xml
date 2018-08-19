@@ -5,20 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8667834-e393-4670-ba6c-135b805a3a36" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_53_SearchNumberInSortedArray_1_GetNumberOfK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_53_SearchNumberInSortedArray_2_GetMissingNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_53_SearchNumberInSortedArray_3_GetNumberSameAsIndex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_56_FindNumberOfAppearOnlyOnce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_16_PowerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_50_FirstNotRepeatingChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/JianzhiOffer_18_deleteDuplicationLinkedListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/JianzhiOffer_22_FindKthToTailLinkedListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/JianzhiOffer_23_DoesLinkedListHasLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/JianzhiOffer_24_ReverseLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/JianzhiOffer_25_MergeTwoSortedLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/KthBSTNode_BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/KthBSTNode_BinarySearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/FindNumberOfAppearOnlyOnce.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_GetNumberOfK.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/BiShiAlgorithms/Alibaba_20180813_TestAlgorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BiShiAlgorithms/Alibaba_20180813_TestAlgorithm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/BinaryTreeBasicAlgorithms/KthBSTNode_BinarySearchTree$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BinaryTreeBasicAlgorithms/KthBSTNode_BinarySearchTree$TreeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/BinaryTreeBasicAlgorithms/KthBSTNode_BinarySearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BinaryTreeBasicAlgorithms/KthBSTNode_BinarySearchTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JianzhiOfferAlgorithms/FindNumberOfAppearOnlyOnce.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JianzhiOfferAlgorithms/JianzhiOffer_GetNumberOfK.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JianzhiOfferAlgorithms/JianzhiOffer_NumberOfBit1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JianzhiOfferAlgorithms/JianzhiOffer_NumberOfBit1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_53_SearchNumberInSortedArray_1_GetNumberOfK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SearchAlgorithm/JianzhiOffer_53_SearchNumberInSortedArray_1_GetNumberOfK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_53_SearchNumberInSortedArray_2_GetMissingNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SearchAlgorithm/JianzhiOffer_53_SearchNumberInSortedArray_2_GetMissingNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_53_SearchNumberInSortedArray_3_GetNumberSameAsIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SearchAlgorithm/JianzhiOffer_53_SearchNumberInSortedArray_3_GetNumberSameAsIndex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SearchAlgorithm/LeetCode_33_SearchInRotatedSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SearchAlgorithm/LeetCode_33_SearchInRotatedSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcodeAlgorithm/Leetcode141LinkedListCycle_Easy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JianzhiOfferAlgorithms/JianzhiOffer_53_SearchNumberInSortedArray_1_GetNumberOfK.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JianzhiOfferAlgorithms/JianzhiOffer_53_SearchNumberInSortedArray_2_GetMissingNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JianzhiOfferAlgorithms/JianzhiOffer_53_SearchNumberInSortedArray_3_GetNumberSameAsIndex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SearchAlgorithm/LeetCode_33_SearchInRotatedSortedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SearchAlgorithm/LeetCode_33_SearchInRotatedSortedArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcodeAlgorithm/Leetcode141LinkedListCycle_Easy$ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcodeAlgorithm/Leetcode141LinkedListCycle_Easy$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcodeAlgorithm/Leetcode141LinkedListCycle_Easy.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,43 +41,85 @@
       <FILTER>ThreadValves.*</FILTER>
     </SUITE>
   </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="hideWarnings" value="true" />
+    <option name="HIDE_WARNINGS" value="true" />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1967828417">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.59" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.69" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="6180" />
+          <entry key="java" value="17102" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6180" />
+          <entry key="JAVA" value="17102" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="8" />
+          <entry key="java" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="8" />
+          <entry key="JAVA" value="27" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_56_FindNumberOfAppearOnlyOnce.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/JianzhiOffer_23_DoesLinkedListHasLoop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="101" column="5" lean-forward="true" selection-start-line="67" selection-start-column="3" selection-end-line="101" selection-end-column="5" />
+            <state relative-caret-position="253">
+              <caret line="34" column="5" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="34" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#235#236#0" expanded="true" />
+                <element signature="e#273#274#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/JianzhiOffer_25_MergeTwoSortedLinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="53" column="5" lean-forward="true" selection-start-line="41" selection-start-column="4" selection-end-line="53" selection-end-column="5" />
+              <folding>
+                <element signature="e#229#230#0" expanded="true" />
+                <element signature="e#267#268#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/JianzhiOffer_24_ReverseLinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/JianzhiOffer_18_deleteDuplicationLinkedListNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1501">
+              <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
             </state>
           </provider>
         </entry>
@@ -119,17 +167,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/ThreadValves/CyclicBarrierDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ThreadValves/CountDownLatch2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ThreadValves/CountDownLatchDemo2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ThreadValves/CountDownLatchDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ThreadValves/ThreadValvesDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Others/AtomicIntegerDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ReentrantLockDemo/SpinLock.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Others/AtomicReferenceDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Others/NotReentrantLock.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ReentrantLockDemo/NotReentrantLock.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/redisClientJedis/JedisTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/SearchAlgorithm/LeetCode_315_CountOfSmallerNumbersAfterSelf.java" />
         <option value="$PROJECT_DIR$/src/main/java/SearchAlgorithm/BinaryTree.java" />
@@ -170,6 +207,17 @@
         <option value="$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/KthBSTNode_BinarySearchTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/FindNumberOfAppearOnlyOnce.java" />
         <option value="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_56_FindNumberOfAppearOnlyOnce.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_50_FirstNotRepeatingChar.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SearchAlgorithm/LeetCode_33_SearchInRotatedSortedArray.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_16_PowerImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/JianzhiOffer_24_ReverseLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/JianzhiOffer_18_deleteDuplicationLinkedListNode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/JianzhiOffer_22_FindKthToTailLinkedListNode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leetcodeAlgorithm/Leetcode141LinkedListCycle_Easy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/JianzhiOffer_23_DoesLinkedListHasCycle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/Leetcode141LinkedListCycle_Easy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/JianzhiOffer_23_DoesLinkedListHasLoop.java" />
+        <option value="$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/JianzhiOffer_25_MergeTwoSortedLinkedList.java" />
       </list>
     </option>
   </component>
@@ -186,7 +234,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="width" value="1378" />
     <option name="height" value="780" />
@@ -201,6 +249,7 @@
     <panes>
       <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -232,35 +281,18 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="BinaryTreeBasicAlgorithms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetcodeAlgorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetcodeAlgorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="JianzhiOfferAlgorithms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetcodeAlgorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetcodeAlgorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Test" type="462c0819:PsiDirectoryNode" />
+              <item name="LinkedListAlgorithms" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534578335324" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534686743991" />
     <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -287,7 +319,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.JianzhiOffer_56_FindNumberOfAppearOnlyOnce">
+  <component name="RunManager" selected="JUnit.JianzhiOffer_25_MergeTwoSortedLinkedList.test">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -311,16 +343,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindNumberOfAppearOnlyOnce.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JianzhiOffer_18_deleteDuplicationLinkedListNode.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JianzhiOfferAlgorithms.*" />
+          <option name="PATTERN" value="LinkedListAlgorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="JianzhiOfferAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="JianzhiOfferAlgorithms.FindNumberOfAppearOnlyOnce" />
+      <option name="PACKAGE_NAME" value="LinkedListAlgorithms" />
+      <option name="MAIN_CLASS_NAME" value="LinkedListAlgorithms.JianzhiOffer_18_deleteDuplicationLinkedListNode" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -328,65 +360,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindNumberOfAppearOnlyOnce.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JianzhiOffer_22_FindKthToTailLinkedListNode.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JianzhiOfferAlgorithms.*" />
+          <option name="PATTERN" value="LinkedListAlgorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="JianzhiOfferAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="JianzhiOfferAlgorithms.FindNumberOfAppearOnlyOnce" />
-      <option name="METHOD_NAME" value="test3" />
+      <option name="PACKAGE_NAME" value="LinkedListAlgorithms" />
+      <option name="MAIN_CLASS_NAME" value="LinkedListAlgorithms.JianzhiOffer_22_FindKthToTailLinkedListNode" />
+      <option name="METHOD_NAME" value="test4" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JianzhiOffer_56_FindNumberOfAppearOnlyOnce" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JianzhiOffer_23_DoesLinkedListHasLoop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JianzhiOfferAlgorithms.*" />
+          <option name="PATTERN" value="LinkedListAlgorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="JianzhiOfferAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="JianzhiOfferAlgorithms.JianzhiOffer_56_FindNumberOfAppearOnlyOnce" />
+      <option name="PACKAGE_NAME" value="LinkedListAlgorithms" />
+      <option name="MAIN_CLASS_NAME" value="LinkedListAlgorithms.JianzhiOffer_23_DoesLinkedListHasLoop" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JianzhiOffer_56_FindNumberOfAppearOnlyOnce.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JianzhiOffer_23_DoesLinkedListHasLoop.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JianzhiOfferAlgorithms.*" />
+          <option name="PATTERN" value="LinkedListAlgorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="JianzhiOfferAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="JianzhiOfferAlgorithms.JianzhiOffer_56_FindNumberOfAppearOnlyOnce" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="LinkedListAlgorithms" />
+      <option name="MAIN_CLASS_NAME" value="LinkedListAlgorithms.JianzhiOffer_23_DoesLinkedListHasLoop" />
+      <option name="METHOD_NAME" value="test5" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KthBSTNode_BinarySearchTree.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JianzhiOffer_25_MergeTwoSortedLinkedList.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BinaryTreeBasicAlgorithms.*" />
+          <option name="PATTERN" value="LinkedListAlgorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="BinaryTreeBasicAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="BinaryTreeBasicAlgorithms.KthBSTNode_BinarySearchTree" />
+      <option name="PACKAGE_NAME" value="LinkedListAlgorithms" />
+      <option name="MAIN_CLASS_NAME" value="LinkedListAlgorithms.JianzhiOffer_25_MergeTwoSortedLinkedList" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -410,19 +442,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.CyclicBarrierDemo.CyclicBarrierIsBrokenTest" />
-      <item itemvalue="JUnit.KthBSTNode_BinarySearchTree.test" />
-      <item itemvalue="JUnit.FindNumberOfAppearOnlyOnce.test" />
-      <item itemvalue="JUnit.FindNumberOfAppearOnlyOnce.test3" />
-      <item itemvalue="JUnit.JianzhiOffer_56_FindNumberOfAppearOnlyOnce.test" />
-      <item itemvalue="JUnit.JianzhiOffer_56_FindNumberOfAppearOnlyOnce" />
+      <item itemvalue="JUnit.JianzhiOffer_18_deleteDuplicationLinkedListNode.test" />
+      <item itemvalue="JUnit.JianzhiOffer_22_FindKthToTailLinkedListNode.test4" />
+      <item itemvalue="JUnit.JianzhiOffer_23_DoesLinkedListHasLoop.test5" />
+      <item itemvalue="JUnit.JianzhiOffer_23_DoesLinkedListHasLoop" />
+      <item itemvalue="JUnit.JianzhiOffer_25_MergeTwoSortedLinkedList.test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.JianzhiOffer_56_FindNumberOfAppearOnlyOnce" />
-        <item itemvalue="JUnit.JianzhiOffer_56_FindNumberOfAppearOnlyOnce.test" />
-        <item itemvalue="JUnit.FindNumberOfAppearOnlyOnce.test3" />
-        <item itemvalue="JUnit.FindNumberOfAppearOnlyOnce.test" />
-        <item itemvalue="JUnit.KthBSTNode_BinarySearchTree.test" />
+        <item itemvalue="JUnit.JianzhiOffer_25_MergeTwoSortedLinkedList.test" />
+        <item itemvalue="JUnit.JianzhiOffer_23_DoesLinkedListHasLoop" />
+        <item itemvalue="JUnit.JianzhiOffer_23_DoesLinkedListHasLoop.test5" />
+        <item itemvalue="JUnit.JianzhiOffer_22_FindKthToTailLinkedListNode.test4" />
+        <item itemvalue="JUnit.JianzhiOffer_18_deleteDuplicationLinkedListNode.test" />
       </list>
     </recent_temporary>
   </component>
@@ -451,7 +483,8 @@
       <workItem from="1534123988707" duration="33930000" />
       <workItem from="1534469466595" duration="1802000" />
       <workItem from="1534555041231" duration="579000" />
-      <workItem from="1534557958501" duration="14391000" />
+      <workItem from="1534557958501" duration="24363000" />
+      <workItem from="1534653165716" duration="17132000" />
     </task>
     <task id="LOCAL-00001" summary="2222">
       <created>1533133335915</created>
@@ -464,45 +497,45 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FindNumberOfAppearOnlyOnce_test - 2018.08.18 at 15h 04m 32s.xml">
-      <configuration name="FindNumberOfAppearOnlyOnce.test" configurationId="JUnit" />
+    <history-entry file="JianzhiOffer_23_DoesLinkedListHasLoop_test5 - 2018.08.19 at 17h 49m 53s.xml">
+      <configuration name="JianzhiOffer_23_DoesLinkedListHasLoop.test5" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FindNumberOfAppearOnlyOnce_test - 2018.08.18 at 15h 05m 28s.xml">
-      <configuration name="FindNumberOfAppearOnlyOnce.test" configurationId="JUnit" />
+    <history-entry file="JianzhiOffer_23_DoesLinkedListHasLoop_test5 - 2018.08.19 at 19h 26m 49s.xml">
+      <configuration name="JianzhiOffer_23_DoesLinkedListHasLoop.test5" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FindNumberOfAppearOnlyOnce_test - 2018.08.18 at 15h 06m 51s.xml">
-      <configuration name="FindNumberOfAppearOnlyOnce.test" configurationId="JUnit" />
+    <history-entry file="JianzhiOffer_23_DoesLinkedListHasLoop_test5 - 2018.08.19 at 19h 44m 19s.xml">
+      <configuration name="JianzhiOffer_23_DoesLinkedListHasLoop.test5" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FindNumberOfAppearOnlyOnce_test - 2018.08.18 at 15h 08m 12s.xml">
-      <configuration name="FindNumberOfAppearOnlyOnce.test" configurationId="JUnit" />
+    <history-entry file="JianzhiOffer_23_DoesLinkedListHasLoop_test5 - 2018.08.19 at 19h 45m 00s.xml">
+      <configuration name="JianzhiOffer_23_DoesLinkedListHasLoop.test5" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FindNumberOfAppearOnlyOnce_test - 2018.08.18 at 15h 08m 31s.xml">
-      <configuration name="FindNumberOfAppearOnlyOnce.test" configurationId="JUnit" />
+    <history-entry file="JianzhiOffer_23_DoesLinkedListHasLoop - 2018.08.19 at 19h 47m 38s.xml">
+      <configuration name="JianzhiOffer_23_DoesLinkedListHasLoop" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FindNumberOfAppearOnlyOnce_test - 2018.08.18 at 15h 08m 50s.xml">
-      <configuration name="FindNumberOfAppearOnlyOnce.test" configurationId="JUnit" />
+    <history-entry file="JianzhiOffer_23_DoesLinkedListHasLoop - 2018.08.19 at 19h 49m 16s.xml">
+      <configuration name="JianzhiOffer_23_DoesLinkedListHasLoop" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FindNumberOfAppearOnlyOnce_test - 2018.08.18 at 15h 17m 02s.xml">
-      <configuration name="FindNumberOfAppearOnlyOnce.test" configurationId="JUnit" />
+    <history-entry file="JianzhiOffer_25_MergeTwoSortedLinkedList_test - 2018.08.19 at 21h 47m 10s.xml">
+      <configuration name="JianzhiOffer_25_MergeTwoSortedLinkedList.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FindNumberOfAppearOnlyOnce_test3 - 2018.08.18 at 15h 33m 50s.xml">
-      <configuration name="FindNumberOfAppearOnlyOnce.test3" configurationId="JUnit" />
+    <history-entry file="JianzhiOffer_25_MergeTwoSortedLinkedList_test - 2018.08.19 at 21h 47m 31s.xml">
+      <configuration name="JianzhiOffer_25_MergeTwoSortedLinkedList.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JianzhiOffer_56_FindNumberOfAppearOnlyOnce_test - 2018.08.18 at 15h 37m 05s.xml">
-      <configuration name="JianzhiOffer_56_FindNumberOfAppearOnlyOnce.test" configurationId="JUnit" />
+    <history-entry file="JianzhiOffer_25_MergeTwoSortedLinkedList_test - 2018.08.19 at 21h 47m 40s.xml">
+      <configuration name="JianzhiOffer_25_MergeTwoSortedLinkedList.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JianzhiOffer_56_FindNumberOfAppearOnlyOnce - 2018.08.18 at 15h 37m 17s.xml">
-      <configuration name="JianzhiOffer_56_FindNumberOfAppearOnlyOnce" configurationId="JUnit" />
+    <history-entry file="JianzhiOffer_25_MergeTwoSortedLinkedList_test - 2018.08.19 at 21h 48m 17s.xml">
+      <configuration name="JianzhiOffer_25_MergeTwoSortedLinkedList.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="206929000" />
+    <option name="totallyTimeSpent" value="234033000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.36384267" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30635402" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -510,8 +543,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3280757" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947917" weight="0.38032788" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32786885" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49947917" visible="true" weight="0.3737705" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39905363" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -520,7 +553,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5005208" side_tool="true" weight="0.424017" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32624868" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3262295" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -532,37 +565,6 @@
       <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3296875" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36384267" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3280757" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947917" visible="true" weight="0.38032788" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39905363" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5005208" side_tool="true" weight="0.424017" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32624868" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
-      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3296875" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -575,47 +577,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="2222" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ThreadValves/CyclicBarrierDemo.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/redisClientJedis/JedisTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Others/BitSetDemo.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Test/SearchInRotatedSortedArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SearchAlgorithm/LeetCode_34_SearchRange.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="64" column="31" selection-start-line="64" selection-start-column="31" selection-end-line="64" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SearchAlgorithm/LeetCode_35_SearchInsertPosition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SearchAlgorithm/LeetCode_33_SearchInRotatedSortedArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SearchAlgorithm/BinaryTree.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/SearchAlgorithm/LeetCode_449_SerializeAndDeserializeBST.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/SearchAlgorithm/BinarySearchTree.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/SearchAlgorithm/BinarySearch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -768,62 +729,127 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_GetNumberOfK.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" lean-forward="true" selection-end-line="110" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_53_SearchNumberInSortedArray_2_GetNumberSameAsIndex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="77" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_53_SearchNumberInSortedArray_1_GetNumberOfK.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="108" column="1" lean-forward="true" selection-start-line="108" selection-start-column="1" selection-end-line="108" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_53_SearchNumberInSortedArray_2_GetMissingNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1007">
-          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_GetNumberOfK.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_53_SearchNumberInSortedArray_2_GetNumberSameAsIndex.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/KthBSTNode_BinarySearchTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="92" column="32" selection-start-line="92" selection-start-column="32" selection-end-line="92" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/FindNumberOfAppearOnlyOnce.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_56_FindNumberOfAppearOnlyOnce.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="91" column="28" selection-start-line="91" selection-start-column="28" selection-end-line="91" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SearchAlgorithm/JianzhiOffer_53_SearchNumberInSortedArray_2_GetMissingNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SearchAlgorithm/JianzhiOffer_53_SearchNumberInSortedArray_1_GetNumberOfK.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SearchAlgorithm/LeetCode_33_SearchInRotatedSortedArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1520">
+          <caret line="111" column="10" lean-forward="true" selection-start-line="111" selection-start-column="10" selection-end-line="111" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_16_PowerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_50_FirstNotRepeatingChar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SearchAlgorithm/JianzhiOffer_53_SearchNumberInSortedArray_3_GetNumberSameAsIndex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetcodeAlgorithm/Leetcode27RemoveElement_Easy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-532">
+          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/Leetcode141LinkedListCycle_Easy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/JianzhiOffer_24_ReverseLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/JianzhiOffer_22_FindKthToTailLinkedListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="671">
+          <caret line="74" column="27" lean-forward="true" selection-start-line="74" selection-start-column="27" selection-end-line="74" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/JianzhiOffer_18_deleteDuplicationLinkedListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1501">
+          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/JianzhiOffer_23_DoesLinkedListHasCycle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="51" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/JianzhiOffer_23_DoesLinkedListHasLoop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="34" selection-end-column="5" />
           <folding>
-            <element signature="e#857#858#0" expanded="true" />
-            <element signature="e#910#911#0" expanded="true" />
-            <element signature="e#1716#1717#0" expanded="true" />
-            <element signature="e#1774#1775#0" expanded="true" />
-            <element signature="e#1848#1858#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_53_SearchNumberInSortedArray_3_GetNumberSameAsIndex.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/JianzhiOffer_25_MergeTwoSortedLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="32" column="36" lean-forward="true" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/FindNumberOfAppearOnlyOnce.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_56_FindNumberOfAppearOnlyOnce.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="101" column="5" lean-forward="true" selection-start-line="67" selection-start-column="3" selection-end-line="101" selection-end-column="5" />
+        <state relative-caret-position="234">
+          <caret line="53" column="5" lean-forward="true" selection-start-line="41" selection-start-column="4" selection-end-line="53" selection-end-column="5" />
+          <folding>
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
