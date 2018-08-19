@@ -95,6 +95,9 @@ public class JianzhiOffer_23_DoesLinkedListHasLoop {
         ListNode entryNode = EntryNodeOfLoop(head);
         System.out.println("entryNode.val = " + entryNode.val);
 
+        ListNode entryNode2 = EntryNodeOfLoop2(head);
+        System.out.println("entryNode2.val = " + entryNode2.val);
+
     }
 
     /************************链表T5：求链表中环的长度********************************/
@@ -129,10 +132,18 @@ public class JianzhiOffer_23_DoesLinkedListHasLoop {
      * 题目介绍：
      * 给一个链表，若其中包含环，请找出该链表的环的入口结点，否则，输出null。
      *
-     * 思路分析：首先判断链表中是否存在环；不存在，返回null；
+     * 思路分析：
+     * 方法1：
+     *          首先判断链表中是否存在环；不存在，返回null；
      *          然后，获取环的长度n，若长度为0，表示环不存在；
      *          最后，利用两个引用ahead和behind，先让ahead走n步，
      *          再让它们同时前进，步伐都是，它们相遇的节点就是环的入口节点。
+     *  方法2： 最终结论：环入口点与起始点的距离等于相遇点至环入口节点的距离加上环的整数倍。
+     *          对应算法：在判断出相遇点后，设置两个指针，一个指向相遇点，一个指向环起始点，
+     *          两指针必定在环的入口节点第一次相遇。
+     */
+    /**
+     * 方法1：
      */
     public ListNode EntryNodeOfLoop(ListNode head){
         if (head == null) return null;
@@ -163,5 +174,27 @@ public class JianzhiOffer_23_DoesLinkedListHasLoop {
         }
         return ahead;
     }
+    /**
+     * 方法2：
+     */
+    public ListNode EntryNodeOfLoop2(ListNode head){
+        if (head == null) return null;
+        ListNode fast = head,slow = head;
+        int loopLength = 0;
+        while(fast != null && fast.next != null){
+            fast = fast.next.next;
+            slow = slow.next;
+            if(fast == slow){//判断是否相遇，一定在环中某节点相遇
+               ListNode start = head;
+               while(start != fast){//起点与相遇点必定在入口点第一次相遇
+                   start = start.next;
+                   fast = fast.next;
+               }
+               return fast;//一定要写在里面，否则用break跳出循环
+            }
+        }
+        return null;
+    }
+
 
 }
