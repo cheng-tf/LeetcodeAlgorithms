@@ -26,6 +26,8 @@ public class KthBSTNode_BinarySearchTree {
         inOrderTraversal(root);
         inOrderTraversalwhile(root);
 
+
+
     }
 
 
@@ -43,9 +45,12 @@ public class KthBSTNode_BinarySearchTree {
      * 注意：二叉树中的任意一个节点都是中间节点，即使叶子节点也有两个null左右子树，
      * 因此二叉树中的任意一个节点都会经过k的判断，且经过1个，k就减1，正好找到那个k为1的节点。
      */
+
+    /**
+     * 方法1：递归方式
+     */
     TreeNode KthNode(TreeNode pRoot, int[] k){
-        //递归终止条件
-        if(pRoot == null||k[0] < 1) return null;
+        if(pRoot == null||k[0] < 1) return null; //递归终止条件
         //首先遍历左子树,若结果不为null，则返回；否在往下执行
         TreeNode result = KthNode(pRoot.left,k);
         if(result != null) return result;
@@ -56,12 +61,12 @@ public class KthBSTNode_BinarySearchTree {
     }
 
     /**
-     * 非递归方式：利用栈和while循环
-     * @param pRoot
+     * 方法2：非递归方式：利用栈和while循环
      */
     TreeNode KthNode1(TreeNode pRoot, int k){
         return  KthNodeWhile( pRoot, new int[]{k});
     }
+
     public TreeNode KthNodeWhile(TreeNode root,int[] k){
         Deque<TreeNode> stack = new ArrayDeque<TreeNode>();
         while(!(stack.isEmpty()&&root == null)){
@@ -78,8 +83,9 @@ public class KthBSTNode_BinarySearchTree {
     }
 
 
+    /*********复习使用***********/
     /**
-     * 递归的中序遍历
+     * 基本的递归的中序遍历
      */
     public void inOrderTraversal(TreeNode root){
         if(root == null) return;
@@ -88,6 +94,21 @@ public class KthBSTNode_BinarySearchTree {
         inOrderTraversal(root.right);
     }
 
+    /**
+     * 二叉树结构
+     */
+    class TreeNode{
+        TreeNode left;
+        TreeNode right;
+        int val;
+        TreeNode(int val){
+            this.val = val;
+        }
+    }
+
+    /**
+     * 基本的非递归的中序遍历
+     */
     public void inOrderTraversalwhile(TreeNode root){
         Deque<TreeNode> stack = new ArrayDeque<TreeNode>();
         while(!(stack.isEmpty()&&root == null)){
@@ -102,16 +123,4 @@ public class KthBSTNode_BinarySearchTree {
         }
     }
 
-
-    /**
-     * 二叉树结构
-     */
-     class TreeNode{
-        TreeNode left;
-        TreeNode right;
-        int val;
-        TreeNode(int val){
-            this.val = val;
-        }
-     }
 }
