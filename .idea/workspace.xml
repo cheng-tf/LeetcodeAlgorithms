@@ -4,7 +4,13 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/NextNodeOfBinaryTreeInOrderTraversal.java" line="15" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8667834-e393-4670-ba6c-135b805a3a36" name="Default" comment="" />
+    <list default="true" id="c8667834-e393-4670-ba6c-135b805a3a36" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ArrayAlgorithms/JianzhiOffer_29_PrintMatrixByClock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ArrayAlgorithms/JianzhiOffer_4_FindElementInTwoDimensionalArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/JianzhiOffer_6_PrintListFromTailToHead.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/StringAlgorithms/JianzhiOffer_5_ReplaceSpace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,11 +29,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="JianzhiOffer_NumberOfBit1.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_NumberOfBit1.java">
+      <file leaf-file-name="JianzhiOffer_6_PrintListFromTailToHead.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/JianzhiOffer_6_PrintListFromTailToHead.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="31" column="37" lean-forward="true" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+            <state relative-caret-position="-798">
+              <caret line="37" selection-start-line="37" selection-end-line="99" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1195#1204#0" expanded="true" />
+                <element signature="e#1296#1305#0" expanded="true" />
+                <element signature="e#1670#1679#0" expanded="true" />
+                <element signature="e#2214#2223#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JianzhiOffer_29_PrintMatrixByClock.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ArrayAlgorithms/JianzhiOffer_29_PrintMatrixByClock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="104" column="4" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="104" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#494#503#0" expanded="true" />
+                <element signature="e#2178#2187#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JianzhiOffer_18_deleteDuplicationLinkedListNode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/JianzhiOffer_18_deleteDuplicationLinkedListNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="80" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -51,6 +87,7 @@
       <find>count_smaller</find>
       <find>left</find>
       <find>leftSmallerNums</find>
+      <find>spaceCoun</find>
     </findStrings>
     <replaceStrings>
       <replace>TreeNodeWithCount</replace>
@@ -59,6 +96,7 @@
       <replace>right</replace>
       <replace>rightSmallerNums</replace>
       <replace />
+      <replace>spaceCount</replace>
     </replaceStrings>
     <dirStrings>
       <dir>E:\GitHubRepository\LeetcodeAlgorithms\src\main\java\BiShiAlgorithms</dir>
@@ -75,10 +113,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/Others/IntegerSourceCode.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Others/ScannerDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ThreadPoolDemo/ScheduledThreadPoolDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Others/BitSetDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/ThreadValves/CyclicBarrierDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/ThreadValves/CountDownLatch2.java" />
         <option value="$PROJECT_DIR$/src/main/java/ThreadValves/CountDownLatchDemo2.java" />
@@ -126,6 +160,10 @@
         <option value="$PROJECT_DIR$/src/main/java/Test/QuickSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/FullSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_NumberOfBit1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ArrayAlgorithms/JianzhiOffer_4_FindElementInTwoDimensionalArray.java" />
+        <option value="$PROJECT_DIR$/src/main/java/StringAlgorithms/JianzhiOffer_5_ReplaceSpace.java" />
+        <option value="$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/JianzhiOffer_6_PrintListFromTailToHead.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ArrayAlgorithms/JianzhiOffer_29_PrintMatrixByClock.java" />
       </list>
     </option>
   </component>
@@ -190,15 +228,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="BiShiAlgorithms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetcodeAlgorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetcodeAlgorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="JianzhiOfferAlgorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="ArrayAlgorithms" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LeetcodeAlgorithms" type="b2602c69:ProjectViewProjectNode" />
@@ -245,7 +275,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.JianzhiOffer_NumberOfBit1.test3">
+  <component name="RunManager" selected="JUnit.JianzhiOffer_29_PrintMatrixByClock.test">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -272,18 +302,18 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="FullSort.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JianzhiOffer_29_PrintMatrixByClock.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JianzhiOfferAlgorithms.*" />
+          <option name="PATTERN" value="ArrayAlgorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="JianzhiOfferAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="JianzhiOfferAlgorithms.FullSort" />
+      <option name="PACKAGE_NAME" value="ArrayAlgorithms" />
+      <option name="MAIN_CLASS_NAME" value="ArrayAlgorithms.JianzhiOffer_29_PrintMatrixByClock" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -295,18 +325,64 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="JianzhiOffer_NumberOfBit1.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JianzhiOffer_4_FindElementInTwoDimensionalArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JianzhiOfferAlgorithms.*" />
+          <option name="PATTERN" value="ArrayAlgorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="JianzhiOfferAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="JianzhiOfferAlgorithms.JianzhiOffer_NumberOfBit1" />
+      <option name="PACKAGE_NAME" value="ArrayAlgorithms" />
+      <option name="MAIN_CLASS_NAME" value="ArrayAlgorithms.JianzhiOffer_4_FindElementInTwoDimensionalArray" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="JianzhiOffer_5_ReplaceSpace" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetcodeAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StringAlgorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="StringAlgorithms" />
+      <option name="MAIN_CLASS_NAME" value="StringAlgorithms.JianzhiOffer_5_ReplaceSpace" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="JianzhiOffer_5_ReplaceSpace.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetcodeAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StringAlgorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="StringAlgorithms" />
+      <option name="MAIN_CLASS_NAME" value="StringAlgorithms.JianzhiOffer_5_ReplaceSpace" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -318,65 +394,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="JianzhiOffer_NumberOfBit1.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JianzhiOffer_6_PrintListFromTailToHead.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JianzhiOfferAlgorithms.*" />
+          <option name="PATTERN" value="LinkedListAlgorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="JianzhiOfferAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="JianzhiOfferAlgorithms.JianzhiOffer_NumberOfBit1" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="JianzhiOffer_NumberOfBit1.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetcodeAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JianzhiOfferAlgorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="JianzhiOfferAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="JianzhiOfferAlgorithms.JianzhiOffer_NumberOfBit1" />
-      <option name="METHOD_NAME" value="test3" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="QuickSort.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetcodeAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Test" />
-      <option name="MAIN_CLASS_NAME" value="Test.QuickSort" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="LinkedListAlgorithms" />
+      <option name="MAIN_CLASS_NAME" value="LinkedListAlgorithms.JianzhiOffer_6_PrintListFromTailToHead" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -427,19 +457,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.CyclicBarrierDemo.CyclicBarrierIsBrokenTest" />
-      <item itemvalue="JUnit.QuickSort.test" />
-      <item itemvalue="JUnit.FullSort.test" />
-      <item itemvalue="JUnit.JianzhiOffer_NumberOfBit1.test" />
-      <item itemvalue="JUnit.JianzhiOffer_NumberOfBit1.test2" />
-      <item itemvalue="JUnit.JianzhiOffer_NumberOfBit1.test3" />
+      <item itemvalue="JUnit.JianzhiOffer_4_FindElementInTwoDimensionalArray" />
+      <item itemvalue="JUnit.JianzhiOffer_5_ReplaceSpace.test" />
+      <item itemvalue="JUnit.JianzhiOffer_5_ReplaceSpace" />
+      <item itemvalue="JUnit.JianzhiOffer_6_PrintListFromTailToHead.test1" />
+      <item itemvalue="JUnit.JianzhiOffer_29_PrintMatrixByClock.test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.JianzhiOffer_NumberOfBit1.test3" />
-        <item itemvalue="JUnit.JianzhiOffer_NumberOfBit1.test2" />
-        <item itemvalue="JUnit.JianzhiOffer_NumberOfBit1.test" />
-        <item itemvalue="JUnit.FullSort.test" />
-        <item itemvalue="JUnit.QuickSort.test" />
+        <item itemvalue="JUnit.JianzhiOffer_29_PrintMatrixByClock.test" />
+        <item itemvalue="JUnit.JianzhiOffer_6_PrintListFromTailToHead.test1" />
+        <item itemvalue="JUnit.JianzhiOffer_5_ReplaceSpace" />
+        <item itemvalue="JUnit.JianzhiOffer_5_ReplaceSpace.test" />
+        <item itemvalue="JUnit.JianzhiOffer_4_FindElementInTwoDimensionalArray" />
       </list>
     </recent_temporary>
   </component>
@@ -467,7 +497,7 @@
       <workItem from="1534041394709" duration="21403000" />
       <workItem from="1534123988707" duration="33930000" />
       <workItem from="1534469466595" duration="1802000" />
-      <workItem from="1534731434517" duration="350000" />
+      <workItem from="1534731434517" duration="16969000" />
     </task>
     <task id="LOCAL-00001" summary="2222">
       <created>1533133335915</created>
@@ -480,46 +510,47 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="JianzhiOffer_NumberOfBit1_test - 2018.08.14 at 15h 28m 46s.xml">
-      <configuration name="JianzhiOffer_NumberOfBit1.test" configurationId="JUnit" />
+    <history-entry file="JianzhiOffer_6_PrintListFromTailToHead_test1 - 2018.08.21 at 10h 33m 41s.xml">
+      <configuration name="JianzhiOffer_6_PrintListFromTailToHead.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JianzhiOffer_NumberOfBit1_test - 2018.08.14 at 15h 30m 49s.xml">
-      <configuration name="JianzhiOffer_NumberOfBit1.test" configurationId="JUnit" />
+    <history-entry file="JianzhiOffer_6_PrintListFromTailToHead_test1 - 2018.08.21 at 10h 33m 53s.xml">
+      <configuration name="JianzhiOffer_6_PrintListFromTailToHead.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JianzhiOffer_NumberOfBit1_test - 2018.08.14 at 15h 32m 38s.xml">
-      <configuration name="JianzhiOffer_NumberOfBit1.test" configurationId="JUnit" />
+    <history-entry file="JianzhiOffer_6_PrintListFromTailToHead_test1 - 2018.08.21 at 10h 34m 33s.xml">
+      <configuration name="JianzhiOffer_6_PrintListFromTailToHead.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JianzhiOffer_NumberOfBit1_test - 2018.08.14 at 16h 12m 11s.xml">
-      <configuration name="JianzhiOffer_NumberOfBit1.test" configurationId="JUnit" />
+    <history-entry file="JianzhiOffer_29_PrintMatrixByClock_test - 2018.08.21 at 12h 53m 44s.xml">
+      <configuration name="JianzhiOffer_29_PrintMatrixByClock.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JianzhiOffer_NumberOfBit1_test - 2018.08.14 at 16h 12m 45s.xml">
-      <configuration name="JianzhiOffer_NumberOfBit1.test" configurationId="JUnit" />
+    <history-entry file="JianzhiOffer_29_PrintMatrixByClock_test - 2018.08.21 at 12h 55m 12s.xml">
+      <configuration name="JianzhiOffer_29_PrintMatrixByClock.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JianzhiOffer_NumberOfBit1_test - 2018.08.14 at 16h 14m 29s.xml">
-      <configuration name="JianzhiOffer_NumberOfBit1.test" configurationId="JUnit" />
+    <history-entry file="JianzhiOffer_29_PrintMatrixByClock_test - 2018.08.21 at 12h 55m 45s.xml">
+      <configuration name="JianzhiOffer_29_PrintMatrixByClock.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JianzhiOffer_NumberOfBit1_test - 2018.08.14 at 16h 20m 03s.xml">
-      <configuration name="JianzhiOffer_NumberOfBit1.test" configurationId="JUnit" />
+    <history-entry file="JianzhiOffer_29_PrintMatrixByClock_test - 2018.08.21 at 12h 56m 40s.xml">
+      <configuration name="JianzhiOffer_29_PrintMatrixByClock.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JianzhiOffer_NumberOfBit1_test2 - 2018.08.14 at 16h 42m 39s.xml">
-      <configuration name="JianzhiOffer_NumberOfBit1.test2" configurationId="JUnit" />
+    <history-entry file="JianzhiOffer_29_PrintMatrixByClock_test - 2018.08.21 at 12h 57m 10s.xml">
+      <configuration name="JianzhiOffer_29_PrintMatrixByClock.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JianzhiOffer_NumberOfBit1_test3 - 2018.08.14 at 16h 52m 06s.xml">
-      <configuration name="JianzhiOffer_NumberOfBit1.test3" configurationId="JUnit" />
+    <history-entry file="JianzhiOffer_29_PrintMatrixByClock_test - 2018.08.21 at 12h 57m 48s.xml">
+      <configuration name="JianzhiOffer_29_PrintMatrixByClock.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JianzhiOffer_NumberOfBit1_test3 - 2018.08.14 at 17h 01m 49s.xml">
-      <configuration name="JianzhiOffer_NumberOfBit1.test3" configurationId="JUnit" />
+    <history-entry file="JianzhiOffer_29_PrintMatrixByClock_test - 2018.08.21 at 13h 06m 56s.xml">
+      <configuration name="JianzhiOffer_29_PrintMatrixByClock.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="192309000" />
+    <option name="totallyTimeSpent" value="208928000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32624868" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -527,11 +558,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947917" weight="0.424017" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49947917" visible="true" weight="0.2678002" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28177083" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28177083" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -542,7 +573,6 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.3296875" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32624868" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -560,12 +590,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="2222" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ReentrantLockDemo/NotReentrantLock.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ReentrantLockDemo/MyReentrantLock.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Others/AtomicReferenceDemo.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ReentrantLockDemo/NotReentrantLock.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/RedisClientJedis.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ThreadValves/CyclicBarrierDemo.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/redisClientJedis/JedisTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Others/BitSetDemo.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Test/SearchInRotatedSortedArray.java">
@@ -762,8 +786,62 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_NumberOfBit1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="31" column="37" lean-forward="true" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+        <state relative-caret-position="171">
+          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ArrayAlgorithms/JianzhiOffer_4_FindElementInTwoDimensionalArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JDK8/src.zip!/java/lang/StringBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="254" selection-start-line="254" selection-end-line="254" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/StringAlgorithms/JianzhiOffer_5_ReplaceSpace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/JianzhiOffer_18_deleteDuplicationLinkedListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="80" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/JianzhiOffer_6_PrintListFromTailToHead.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-798">
+          <caret line="37" selection-start-line="37" selection-end-line="99" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1195#1204#0" expanded="true" />
+            <element signature="e#1296#1305#0" expanded="true" />
+            <element signature="e#1670#1679#0" expanded="true" />
+            <element signature="e#2214#2223#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ArrayAlgorithms/JianzhiOffer_29_PrintMatrixByClock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="104" column="4" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="104" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#494#503#0" expanded="true" />
+            <element signature="e#2178#2187#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
