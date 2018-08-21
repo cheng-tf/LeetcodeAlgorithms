@@ -99,9 +99,6 @@ public class JianzhiOffer_6_PrintListFromTailToHead {
         return result;
     }
 
-
-
-
     //测试
     @Test
     public void test1() {
