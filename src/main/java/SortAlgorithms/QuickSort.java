@@ -21,7 +21,7 @@ public class QuickSort {
      */
     public void quickSort(int[] array,int low,int high){
         if(low >= high) return ;//递归终止条件：包括=，因为这是排序需求，low==high时候，只有1个数，无需排序
-        int mid = partition(array,low,high);
+        int mid = partition(array,low,high);//有一次把high写成nums.length-1，导致栈溢出java.lang.StackOverflowError
         quickSort(array,low,mid-1);
         quickSort(array,mid+1,high);
     }
@@ -34,7 +34,7 @@ public class QuickSort {
      * @return
      */
     public int partition(int[] nums,int low,int high){
-        int pivot = nums[high];
+        int pivot = nums[high];//pivot基准
         while(low < high){//当low>=high时，跳出循环
             while(low < high&&nums[low] <= pivot) low++;//nums[low]<=pivot这里包括等号，原因是
             if(low < high) nums[high--] = nums[low];
