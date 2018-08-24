@@ -4,10 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/NextNodeOfBinaryTreeInOrderTraversal.java" line="15" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8667834-e393-4670-ba6c-135b805a3a36" name="Default" comment="提交">
-      <change afterPath="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_66_BuildMultiplyArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c8667834-e393-4670-ba6c-135b805a3a36" name="Default" comment="提交" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +27,7 @@
     <session id="-1967828417">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.57" value="1" />
@@ -50,13 +47,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="9358" />
+          <entry key="java" value="9359" />
           <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="9358" />
+          <entry key="JAVA" value="9359" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
@@ -85,8 +82,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_66_BuildMultiplyArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="502">
-              <caret line="46" column="31" lean-forward="true" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
+            <state relative-caret-position="285">
+              <caret line="22" column="62" lean-forward="true" selection-start-line="22" selection-start-column="62" selection-end-line="22" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -274,7 +271,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535114001649" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535114039485" />
     <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -470,7 +467,7 @@
       <workItem from="1534990099862" duration="150000" />
       <workItem from="1534990425946" duration="5803000" />
       <workItem from="1535039883550" duration="911000" />
-      <workItem from="1535072358582" duration="22712000" />
+      <workItem from="1535072358582" duration="23494000" />
     </task>
     <task id="LOCAL-00001" summary="2222">
       <created>1533133335915</created>
@@ -525,15 +522,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MergeSort_test - 2018.08.24 at 15h 50m 50s.xml">
-      <configuration name="MergeSort.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MergeSort - 2018.08.24 at 15h 51m 55s.xml">
-      <configuration name="MergeSort" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MergeSort_test - 2018.08.24 at 15h 52m 37s.xml">
-      <configuration name="MergeSort.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MergeSort_test - 2018.08.24 at 15h 53m 15s.xml">
       <configuration name="MergeSort.test" configurationId="JUnit" />
     </history-entry>
@@ -555,15 +543,24 @@
     <history-entry file="JianzhiOffer_64_theSumOf1ToN - 2018.08.24 at 17h 50m 12s.xml">
       <configuration name="JianzhiOffer_64_theSumOf1ToN" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="JianzhiOffer_66_BuildMultiplyArray_test - 2018.08.24 at 20h 30m 59s.xml">
+      <configuration name="JianzhiOffer_66_BuildMultiplyArray.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JianzhiOffer_66_BuildMultiplyArray_test - 2018.08.24 at 20h 32m 59s.xml">
+      <configuration name="JianzhiOffer_66_BuildMultiplyArray.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JianzhiOffer_66_BuildMultiplyArray_test - 2018.08.24 at 20h 33m 26s.xml">
+      <configuration name="JianzhiOffer_66_BuildMultiplyArray.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="269431000" />
+    <option name="totallyTimeSpent" value="270213000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21055438" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21055438" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -572,7 +569,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3280757" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947917" visible="true" weight="0.29826465" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947917" weight="0.29826465" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3985122" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -813,8 +810,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_66_BuildMultiplyArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="46" column="31" lean-forward="true" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
+        <state relative-caret-position="285">
+          <caret line="22" column="62" lean-forward="true" selection-start-line="22" selection-start-column="62" selection-end-line="22" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
