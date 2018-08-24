@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8667834-e393-4670-ba6c-135b805a3a36" name="Default" comment="提交">
-      <change afterPath="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_64_theSumOf1ToN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_66_BuildMultiplyArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_NumberOfBit1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_NumberOfBit1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SortAlgorithms/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SortAlgorithms/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JianzhiOfferAlgorithms/JianzhiOffer_NumberOfBit1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JianzhiOfferAlgorithms/JianzhiOffer_NumberOfBit1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SortAlgorithms/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SortAlgorithms/MergeSort.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,23 +40,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="10" />
+          <entry key="java" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="10" />
+          <entry key="JAVA" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="8498" />
+          <entry key="java" value="9358" />
           <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="8498" />
+          <entry key="JAVA" value="9358" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
@@ -77,11 +73,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_64_theSumOf1ToN.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="26" column="49" lean-forward="true" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
+            <state relative-caret-position="27">
+              <caret line="9" selection-start-line="9" selection-end-line="23" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_66_BuildMultiplyArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="502">
+              <caret line="46" column="31" lean-forward="true" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -133,7 +141,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/BiShiAlgorithms/PinDuoDuo0805.java" />
         <option value="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_ReConstructBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_GetMaxTreeDepth.java" />
         <option value="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_StrToInt_IntegerValueOf.java" />
@@ -184,6 +191,7 @@
         <option value="$PROJECT_DIR$/src/main/java/SortAlgorithms/MergeSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_NumberOfBit1.java" />
         <option value="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_64_theSumOf1ToN.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_66_BuildMultiplyArray.java" />
       </list>
     </option>
   </component>
@@ -266,7 +274,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535104336229" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535114001649" />
     <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -293,7 +301,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.JianzhiOffer_64_theSumOf1ToN">
+  <component name="RunManager" selected="JUnit.JianzhiOffer_66_BuildMultiplyArray.test">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -349,6 +357,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JianzhiOffer_66_BuildMultiplyArray.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetcodeAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JianzhiOfferAlgorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="JianzhiOfferAlgorithms" />
+      <option name="MAIN_CLASS_NAME" value="JianzhiOfferAlgorithms.JianzhiOffer_66_BuildMultiplyArray" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JianzhiOffer_NumberOfBit1.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeAlgorithms" />
       <extension name="coverage">
@@ -383,21 +408,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetcodeAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SortAlgorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SortAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="SortAlgorithms.MergeSort" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -414,19 +424,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.CyclicBarrierDemo.CyclicBarrierIsBrokenTest" />
-      <item itemvalue="JUnit.MergeSort" />
       <item itemvalue="JUnit.JianzhiOffer_NumberOfBit1.test2" />
       <item itemvalue="JUnit.JianzhiOffer_NumberOfBit1.test22" />
       <item itemvalue="JUnit.JianzhiOffer_64_theSumOf1ToN.test" />
       <item itemvalue="JUnit.JianzhiOffer_64_theSumOf1ToN" />
+      <item itemvalue="JUnit.JianzhiOffer_66_BuildMultiplyArray.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JianzhiOffer_66_BuildMultiplyArray.test" />
         <item itemvalue="JUnit.JianzhiOffer_64_theSumOf1ToN" />
         <item itemvalue="JUnit.JianzhiOffer_64_theSumOf1ToN.test" />
         <item itemvalue="JUnit.JianzhiOffer_NumberOfBit1.test22" />
         <item itemvalue="JUnit.JianzhiOffer_NumberOfBit1.test2" />
-        <item itemvalue="JUnit.MergeSort" />
       </list>
     </recent_temporary>
   </component>
@@ -460,7 +470,7 @@
       <workItem from="1534990099862" duration="150000" />
       <workItem from="1534990425946" duration="5803000" />
       <workItem from="1535039883550" duration="911000" />
-      <workItem from="1535072358582" duration="20677000" />
+      <workItem from="1535072358582" duration="22712000" />
     </task>
     <task id="LOCAL-00001" summary="2222">
       <created>1533133335915</created>
@@ -504,19 +514,17 @@
       <option name="project" value="LOCAL" />
       <updated>1535098644672</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="提交">
+      <created>1535104362533</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1535104362533</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MergeSort - 2018.08.24 at 15h 47m 02s.xml">
-      <configuration name="MergeSort" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MergeSort - 2018.08.24 at 15h 48m 33s.xml">
-      <configuration name="MergeSort" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MergeSort - 2018.08.24 at 15h 49m 48s.xml">
-      <configuration name="MergeSort" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MergeSort_test - 2018.08.24 at 15h 50m 50s.xml">
       <configuration name="MergeSort.test" configurationId="JUnit" />
     </history-entry>
@@ -538,9 +546,18 @@
     <history-entry file="JianzhiOffer_NumberOfBit1_test22 - 2018.08.24 at 17h 28m 53s.xml">
       <configuration name="JianzhiOffer_NumberOfBit1.test22" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="JianzhiOffer_64_theSumOf1ToN_test - 2018.08.24 at 17h 49m 15s.xml">
+      <configuration name="JianzhiOffer_64_theSumOf1ToN.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JianzhiOffer_64_theSumOf1ToN - 2018.08.24 at 17h 49m 39s.xml">
+      <configuration name="JianzhiOffer_64_theSumOf1ToN" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JianzhiOffer_64_theSumOf1ToN - 2018.08.24 at 17h 50m 12s.xml">
+      <configuration name="JianzhiOffer_64_theSumOf1ToN" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="267396000" />
+    <option name="totallyTimeSpent" value="269431000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -589,7 +606,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="提交" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_ReConstructBinaryTree.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/MyBinaryTree.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/BinaryTreeTraversals.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -790,8 +806,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_64_theSumOf1ToN.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="26" column="49" lean-forward="true" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
+        <state relative-caret-position="27">
+          <caret line="9" selection-start-line="9" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_66_BuildMultiplyArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="46" column="31" lean-forward="true" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
