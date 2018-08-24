@@ -14,7 +14,7 @@ public class MergeSort {
      * 两种实现方式：1递归方法；非递归方法。
      */
 
-    public void merge2(int[] nums,int low,int mid,int high){
+    public void mergeTwoSubArray(int[] nums,int low,int mid,int high){
         //默认low--mid和mid+1---high为两个排好的序的子数组
         int len = high-low+1;
         int[] temp = new int[len];//每次merge都要创建一个数组
@@ -41,7 +41,7 @@ public class MergeSort {
         int mid = (low+high)>>1;
         mergeSort2(nums,low,mid);
         mergeSort2(nums,mid+1,high);
-        merge2(nums,low,mid,high);
+        mergeTwoSubArray(nums,low,mid,high);
     }
 
     @Test
@@ -49,7 +49,7 @@ public class MergeSort {
         //测试merge方法
         int[] nums = {1,3,4,5,2,4,6,11};
         System.out.println("Arrays.toString(num) = " + Arrays.toString(nums));
-        merge2(nums,0,3, nums.length-1);
+        mergeTwoSubArray(nums,0,3, nums.length-1);
         System.out.println("Arrays.toString(num) = " + Arrays.toString(nums));
 
         //递归法：归并排序
@@ -77,12 +77,17 @@ public class MergeSort {
         int mid = (low + high)>>1;
         mergeSort(copyNums,nums,low,mid);//交替使用nums和copyNums
         mergeSort(copyNums,nums,mid+1,high);
-        mergeTowSubArray(copyNums,nums,low,mid,high);//将最终排序结果拷贝至nums中
+        //将最终排序结果拷贝至nums中，因此最终正确排序就是nums，而copyNums不是
+        mergeTowSubArray(copyNums,nums,low,mid,high);
     }
 
+    /**
+     * 合并两个排序子数组为一个排序的子数组
+     * （归并思想，与合并两个有序链表是一致的）
+     */
     public void mergeTowSubArray(int[] nums,int[] copyNums,int low,int mid,int high){
         int i = mid,j = high,indexCopy = high;
-        while(i >= low&&j >= mid+1){
+        while(i >= low&&j >= mid+1){//其中之一遍历结束，则结束while
             copyNums[indexCopy--] = nums[i]>nums[j]?nums[i--]:nums[j--];
         }
         while(i>=low) copyNums[indexCopy--] = nums[i--];
