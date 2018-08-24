@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8667834-e393-4670-ba6c-135b805a3a36" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/SortAlgorithms/JianzhiOffer_xx_InversePairsBasedOnMergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/JianzhiOffer_52_FindFirstCommonNodeOfTwoLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SortAlgorithms/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SortAlgorithms/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SortAlgorithms/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SortAlgorithms/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ArrayAlgorithms/JianzhiOffer_13_RobotMovingRange.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ArrayAlgorithms/JianzhiOffer_13_RobotMovingRange.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SortAlgorithms/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SortAlgorithms/MergeSort.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,10 +16,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/LeetcodeAlgorithms$CyclicBarrierDemo_CyclicBarrierIsBrokenTest.ic" NAME="CyclicBarrierDemo.CyclicBarrierIsBrokenTest Coverage Results" MODIFIED="1533302418301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/LeetcodeAlgorithms$CountDownLatchDemo.ic" NAME="CountDownLatchDemo Coverage Results" MODIFIED="1533300128538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>ThreadValves.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/LeetcodeAlgorithms$CountDownLatchDemo.ic" NAME="CountDownLatchDemo Coverage Results" MODIFIED="1533300128538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/LeetcodeAlgorithms$CyclicBarrierDemo_CyclicBarrierIsBrokenTest.ic" NAME="CyclicBarrierDemo.CyclicBarrierIsBrokenTest Coverage Results" MODIFIED="1533302418301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>ThreadValves.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/LeetcodeAlgorithms$JianzhiOffer_12_hasPathInMatrix.ic" NAME="JianzhiOffer_12_hasPathInMatrix Coverage Results" MODIFIED="1534922264482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -36,29 +32,30 @@
         <counts>
           <entry key="project.closed" value="2" />
           <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.57" value="1" />
           <entry key="project.open.time.96" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="4" />
+          <entry key="java" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="4" />
+          <entry key="JAVA" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2414" />
+          <entry key="java" value="4305" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2414" />
+          <entry key="JAVA" value="4305" />
         </counts>
       </usages-collector>
     </session>
@@ -68,7 +65,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/SortAlgorithms/MergeSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
+            <state relative-caret-position="171">
               <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -77,11 +74,34 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/SortAlgorithms/JianzhiOffer_xx_InversePairsBasedOnMergeSort.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="380">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/JianzhiOffer_52_FindFirstCommonNodeOfTwoLinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#860#870#0" expanded="true" />
+                <element signature="e#921#931#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/JianzhiOffer_6_PrintListFromTailToHead.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1121">
+              <caret line="113" column="30" lean-forward="true" selection-start-line="104" selection-start-column="7" selection-end-line="113" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -133,7 +153,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/SearchAlgorithm/BinaryTreeTraversals.java" />
         <option value="$PROJECT_DIR$/src/main/java/SearchAlgorithm/BinarySearchTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/SearchAlgorithm/LeetCode_449_SerializeAndDeserializeBST.java" />
         <option value="$PROJECT_DIR$/src/main/java/BiShiAlgorithms/PinDuoDuo0805.java" />
@@ -184,6 +203,7 @@
         <option value="$PROJECT_DIR$/src/main/java/SortAlgorithms/QuickSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/SortAlgorithms/MergeSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/SortAlgorithms/JianzhiOffer_xx_InversePairsBasedOnMergeSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/JianzhiOffer_52_FindFirstCommonNodeOfTwoLinkedList.java" />
       </list>
     </option>
   </component>
@@ -200,7 +220,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="width" value="1378" />
     <option name="height" value="780" />
@@ -213,8 +233,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -246,19 +264,21 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="SortAlgorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="LinkedListAlgorithms" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535040600845" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535079622028" />
     <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -285,7 +305,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MergeSort.test">
+  <component name="RunManager" selected="JUnit.JianzhiOffer_52_FindFirstCommonNodeOfTwoLinkedList">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -303,6 +323,38 @@
       <option name="PACKAGE_NAME" value="ThreadValves" />
       <option name="MAIN_CLASS_NAME" value="ThreadValves.CyclicBarrierDemo" />
       <option name="METHOD_NAME" value="CyclicBarrierIsBrokenTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JianzhiOffer_52_FindFirstCommonNodeOfTwoLinkedList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetcodeAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LinkedListAlgorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="LinkedListAlgorithms" />
+      <option name="MAIN_CLASS_NAME" value="LinkedListAlgorithms.JianzhiOffer_52_FindFirstCommonNodeOfTwoLinkedList" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JianzhiOffer_52_FindFirstCommonNodeOfTwoLinkedList.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetcodeAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LinkedListAlgorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="LinkedListAlgorithms" />
+      <option name="MAIN_CLASS_NAME" value="LinkedListAlgorithms.JianzhiOffer_52_FindFirstCommonNodeOfTwoLinkedList" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -341,38 +393,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyQuickSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetcodeAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SortAlgorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SortAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="SortAlgorithms.MyQuickSort" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyQuickSort.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetcodeAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SortAlgorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SortAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="SortAlgorithms.MyQuickSort" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="QuickSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeAlgorithms" />
       <extension name="coverage">
@@ -404,19 +424,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.CyclicBarrierDemo.CyclicBarrierIsBrokenTest" />
-      <item itemvalue="JUnit.MyQuickSort.test" />
-      <item itemvalue="JUnit.MyQuickSort" />
       <item itemvalue="JUnit.QuickSort" />
       <item itemvalue="JUnit.MergeSort.test" />
       <item itemvalue="JUnit.MergeSort" />
+      <item itemvalue="JUnit.JianzhiOffer_52_FindFirstCommonNodeOfTwoLinkedList.test" />
+      <item itemvalue="JUnit.JianzhiOffer_52_FindFirstCommonNodeOfTwoLinkedList" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JianzhiOffer_52_FindFirstCommonNodeOfTwoLinkedList" />
+        <item itemvalue="JUnit.JianzhiOffer_52_FindFirstCommonNodeOfTwoLinkedList.test" />
         <item itemvalue="JUnit.MergeSort.test" />
         <item itemvalue="JUnit.MergeSort" />
         <item itemvalue="JUnit.QuickSort" />
-        <item itemvalue="JUnit.MyQuickSort" />
-        <item itemvalue="JUnit.MyQuickSort.test" />
       </list>
     </recent_temporary>
   </component>
@@ -450,6 +470,7 @@
       <workItem from="1534990099862" duration="150000" />
       <workItem from="1534990425946" duration="5803000" />
       <workItem from="1535039883550" duration="911000" />
+      <workItem from="1535072358582" duration="5194000" />
     </task>
     <task id="LOCAL-00001" summary="2222">
       <created>1533133335915</created>
@@ -476,44 +497,45 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MyQuickSort - 2018.08.23 at 10h 37m 25s.xml">
-      <configuration name="MyQuickSort" configurationId="JUnit" />
+    <history-entry file="JianzhiOffer_52_FindFirstCommonNodeOfTwoLinkedList - 2018.08.24 at 09h 55m 35s.xml">
+      <configuration name="JianzhiOffer_52_FindFirstCommonNodeOfTwoLinkedList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QuickSort - 2018.08.23 at 10h 38m 45s.xml">
-      <configuration name="QuickSort" configurationId="JUnit" />
+    <history-entry file="JianzhiOffer_52_FindFirstCommonNodeOfTwoLinkedList - 2018.08.24 at 09h 56m 34s.xml">
+      <configuration name="JianzhiOffer_52_FindFirstCommonNodeOfTwoLinkedList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MergeSort_test - 2018.08.23 at 11h 19m 20s.xml">
-      <configuration name="MergeSort.test" configurationId="JUnit" />
+    <history-entry file="JianzhiOffer_52_FindFirstCommonNodeOfTwoLinkedList_test - 2018.08.24 at 10h 19m 18s.xml">
+      <configuration name="JianzhiOffer_52_FindFirstCommonNodeOfTwoLinkedList.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MergeSort_test - 2018.08.23 at 11h 24m 36s.xml">
-      <configuration name="MergeSort.test" configurationId="JUnit" />
+    <history-entry file="JianzhiOffer_52_FindFirstCommonNodeOfTwoLinkedList_test - 2018.08.24 at 10h 20m 13s.xml">
+      <configuration name="JianzhiOffer_52_FindFirstCommonNodeOfTwoLinkedList.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MergeSort - 2018.08.23 at 11h 25m 33s.xml">
-      <configuration name="MergeSort" configurationId="JUnit" />
+    <history-entry file="JianzhiOffer_52_FindFirstCommonNodeOfTwoLinkedList_test - 2018.08.24 at 10h 27m 06s.xml">
+      <configuration name="JianzhiOffer_52_FindFirstCommonNodeOfTwoLinkedList.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MergeSort - 2018.08.23 at 11h 26m 04s.xml">
-      <configuration name="MergeSort" configurationId="JUnit" />
+    <history-entry file="JianzhiOffer_52_FindFirstCommonNodeOfTwoLinkedList - 2018.08.24 at 10h 30m 42s.xml">
+      <configuration name="JianzhiOffer_52_FindFirstCommonNodeOfTwoLinkedList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MergeSort - 2018.08.23 at 11h 29m 49s.xml">
-      <configuration name="MergeSort" configurationId="JUnit" />
+    <history-entry file="JianzhiOffer_52_FindFirstCommonNodeOfTwoLinkedList_test - 2018.08.24 at 10h 31m 15s.xml">
+      <configuration name="JianzhiOffer_52_FindFirstCommonNodeOfTwoLinkedList.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MergeSort - 2018.08.23 at 11h 30m 20s.xml">
-      <configuration name="MergeSort" configurationId="JUnit" />
+    <history-entry file="JianzhiOffer_52_FindFirstCommonNodeOfTwoLinkedList - 2018.08.24 at 10h 32m 10s.xml">
+      <configuration name="JianzhiOffer_52_FindFirstCommonNodeOfTwoLinkedList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MergeSort - 2018.08.23 at 11h 30m 39s.xml">
-      <configuration name="MergeSort" configurationId="JUnit" />
+    <history-entry file="JianzhiOffer_52_FindFirstCommonNodeOfTwoLinkedList - 2018.08.24 at 10h 32m 40s.xml">
+      <configuration name="JianzhiOffer_52_FindFirstCommonNodeOfTwoLinkedList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MergeSort_test - 2018.08.23 at 11h 39m 55s.xml">
-      <configuration name="MergeSort.test" configurationId="JUnit" />
+    <history-entry file="JianzhiOffer_52_FindFirstCommonNodeOfTwoLinkedList - 2018.08.24 at 10h 33m 06s.xml">
+      <configuration name="JianzhiOffer_52_FindFirstCommonNodeOfTwoLinkedList" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="246719000" />
+    <option name="totallyTimeSpent" value="251913000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1378" height="780" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29514417" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21055438" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -522,7 +544,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3280757" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49947917" visible="true" weight="0.29836065" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49947917" visible="true" weight="0.29826465" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3985122" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -555,7 +577,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="2222" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/LeetCode_107_BinaryTreeLevelOrderTraversal_II.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/JianzhiOffer_GetMaxTreeDepth.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_StrToInt_IntegerValueOf.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_ReConstructBinaryTree.java" />
@@ -689,7 +710,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/ArrayAlgorithms/JianzhiOffer_4_FindElementInTwoDimensionalArray.java" />
     <entry file="jar://D:/JDK8/src.zip!/java/lang/StringBuffer.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ArrayAlgorithms/JianzhiOffer_29_PrintMatrixByClock.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/JianzhiOffer_6_PrintListFromTailToHead.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/StackAndQueueAlgorithms/JianzhiOffer_30_StackWithMinMethode.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_57_FindContinuousSequenceWithSumOfK.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_57_FindContinuousSequenceWithSumOfS.java" />
@@ -714,7 +734,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SortAlgorithms/MergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
+        <state relative-caret-position="171">
           <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -725,7 +745,26 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/SortAlgorithms/JianzhiOffer_xx_InversePairsBasedOnMergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/JianzhiOffer_6_PrintListFromTailToHead.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1121">
+          <caret line="113" column="30" lean-forward="true" selection-start-line="104" selection-start-column="7" selection-end-line="113" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/JianzhiOffer_52_FindFirstCommonNodeOfTwoLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#860#870#0" expanded="true" />
+            <element signature="e#921#931#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
