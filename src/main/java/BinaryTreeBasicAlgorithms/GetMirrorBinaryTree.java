@@ -16,8 +16,6 @@ public class GetMirrorBinaryTree {
         Mirror(root.right);
     }
 
-
-
     /**
      * 二叉树的数据结构
      */
