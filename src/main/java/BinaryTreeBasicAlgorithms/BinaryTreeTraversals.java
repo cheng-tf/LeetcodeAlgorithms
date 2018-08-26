@@ -1,10 +1,8 @@
 package BinaryTreeBasicAlgorithms;
 
 import org.junit.Test;
-import sun.reflect.generics.tree.Tree;
-
-import java.lang.reflect.Array;
 import java.util.*;
+
 
 public class BinaryTreeTraversals {
     
