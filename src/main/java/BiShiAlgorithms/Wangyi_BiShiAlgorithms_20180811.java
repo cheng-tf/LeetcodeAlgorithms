@@ -87,8 +87,6 @@ public class Wangyi_BiShiAlgorithms_20180811 {
         System.out.println("(a==b) = " + (a == b));//int b自动转型为Long对象，故是true
         System.out.println("b.equals(a) = " + a.equals(b));//
         System.out.println("(b==c) = " + (b==c));//报错，类型不一致
-
-
     }
 
 
