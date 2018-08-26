@@ -31,7 +31,7 @@
     <session id="-1967828417">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.57" value="1" />
@@ -82,7 +82,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/BinaryTreeTraversals.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
+            <state relative-caret-position="329">
               <caret line="298" column="13" lean-forward="true" selection-start-line="298" selection-start-column="13" selection-end-line="298" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -213,7 +213,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="width" value="1378" />
     <option name="height" value="780" />
@@ -271,7 +271,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535296119033" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535296132690" />
     <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -486,7 +486,7 @@
       <workItem from="1535072358582" duration="23494000" />
       <workItem from="1535202940047" duration="4549000" />
       <workItem from="1535246111905" duration="21073000" />
-      <workItem from="1535284981047" duration="5471000" />
+      <workItem from="1535284981047" duration="5498000" />
     </task>
     <task id="LOCAL-00001" summary="2222">
       <created>1533133335915</created>
@@ -593,7 +593,14 @@
       <option name="project" value="LOCAL" />
       <updated>1535292570026</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="提交">
+      <created>1535296136826</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1535296136827</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -629,11 +636,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="301306000" />
+    <option name="totallyTimeSpent" value="301333000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32526475" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -644,7 +650,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32786885" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947917" visible="true" weight="0.3229508" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947917" weight="0.3229508" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39836067" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -919,7 +925,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/BinaryTreeTraversals.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
+        <state relative-caret-position="329">
           <caret line="298" column="13" lean-forward="true" selection-start-line="298" selection-start-column="13" selection-end-line="298" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
