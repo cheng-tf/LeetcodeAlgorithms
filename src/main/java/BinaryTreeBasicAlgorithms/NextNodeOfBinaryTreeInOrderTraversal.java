@@ -7,7 +7,6 @@ public class NextNodeOfBinaryTreeInOrderTraversal {
         TreeLinkNode left = null;
         TreeLinkNode right = null;
         TreeLinkNode next = null;//指向父节点
-
         TreeLinkNode(int val) {
             this.val = val;
         }

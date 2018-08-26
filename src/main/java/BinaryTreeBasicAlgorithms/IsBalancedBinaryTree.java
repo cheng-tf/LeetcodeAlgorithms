@@ -13,7 +13,7 @@ public class IsBalancedBinaryTree {
     /**
      * 二叉树数据结构
      */
-    public  class TreeNode{
+    private  class TreeNode{
         int val;
         TreeNode left;
         TreeNode right;

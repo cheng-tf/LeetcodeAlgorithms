@@ -97,7 +97,7 @@ public class KthBSTNode_BinarySearchTree {
     /**
      * 二叉树结构
      */
-    class TreeNode{
+    private class TreeNode{
         TreeNode left;
         TreeNode right;
         int val;

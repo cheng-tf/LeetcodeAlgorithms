@@ -11,7 +11,7 @@ public class BinaryTreeTraversals {
     /**
      * 二叉树的数据结构
      */
-    public class TreeNode{
+    private class TreeNode{
         TreeNode left;
         TreeNode right;
         int val;
