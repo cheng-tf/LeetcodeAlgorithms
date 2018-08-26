@@ -204,8 +204,9 @@ public class BinaryTreeTraversals {
 
     /***
      * 按层遍历：每一层放到一个List中，返回List<List>
-     *
-     * 思路分析：利用双端队列Deque解决
+     * 思路分析：利用双端队列Deque解决。
+     *          增加两个统计数，一个是currentLevelCount一个是nextLevelCount；
+     *          用于标识当前层的范围，其他思路与按层遍历整个二叉树类似。
      */
     public ArrayList<ArrayList<Integer>> traversalByEveryLevel(TreeNode root){
         ArrayList<ArrayList<Integer>> lists = new ArrayList<ArrayList<Integer>>();
@@ -240,13 +241,15 @@ public class BinaryTreeTraversals {
 
     /**
      * 题目：LeetCode_107_BinaryTreeLevelOrderTraversal_II
-     * 改进：首先打印最后一层，最后打印第一层。也就是要求List<List>的第一子List为最后一层。
-     * 递归方法解决：首先获取二叉树的深度，然后再递归的时候传入当前层的标记。
+     * 改进：从下往上按层遍历二叉树；首先打印最后一层，最后打印第一层。也就是要求List<List>的第一子List为最后一层。
+     * 递归方法解决：首先获取二叉树的深度，初始化lists结果集合；
+     *              然后在递归的时候传入当前层的层数，利用层数标识往lists的第几个list中添加元素；
+     *              按照前序遍历的顺序递归，递归终止条件是node==null。
      */
     public List<List<Integer>> binaryTreeLevelOrderTraversal_II(TreeNode root){
-        int maxDepth = getMaxDepth(root);
+        int maxDepth = getMaxDepth(root);//获取二叉树深度
         List<List<Integer>> lists = new ArrayList<List<Integer>>();
-        for(int i = 0;i < maxDepth;i++) lists.add(new ArrayList<Integer>());
+        for(int i = 0;i < maxDepth;i++)  lists.add(new ArrayList<Integer>());//初始化lists
         perLevelTraversal(root,1,lists,maxDepth);
         return lists;
     }
@@ -265,6 +268,8 @@ public class BinaryTreeTraversals {
 
     /********************按照锯齿形或之字形遍历打印二叉树**********************/
     /**
+     * 题目介绍：
+     *         按照锯齿形或之字形遍历打印二叉树
      * 思路分析：利用两个栈，一个存储当前层的节点引用，另一个存储下一层的节点引用。
      *          奇数层时先存左节点，再存右节点；偶数层时先存右节点，再存左节点。
      *          因此设置一个flag作为0或1的标识；0与1交换：flag=(flag+1)&1;
