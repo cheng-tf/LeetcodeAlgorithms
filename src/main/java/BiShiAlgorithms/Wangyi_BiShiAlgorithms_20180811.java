@@ -2,6 +2,7 @@ package BiShiAlgorithms;
 import org.junit.Test;
 
 import java.util.Scanner;
+import java.util.concurrent.atomic.AtomicInteger;
 
 public class Wangyi_BiShiAlgorithms_20180811 {
 
@@ -60,7 +61,6 @@ public class Wangyi_BiShiAlgorithms_20180811 {
      * 思路分析：利用滑动窗口解决
      * @param n 一堂课的分钟数
      * @param k 叫醒一次清醒分钟数
-     * @param perValue 每分钟的分数
      * @param isSleep 每分钟是否睡着
      * @return  返回最大的总分数
      */
@@ -79,6 +79,29 @@ public class Wangyi_BiShiAlgorithms_20180811 {
         return maxSumValue;
     }
 
+    /********************Java基础题目***************************/
+    public void IntegerLong(){
+        Long a = 1024L;
+        int b = 1024;
+        Integer c = null;
+        System.out.println("(a==b) = " + (a == b));//int b自动转型为Long对象，故是true
+        System.out.println("b.equals(a) = " + a.equals(b));//
+        System.out.println("(b==c) = " + (b==c));//报错，类型不一致
+
+
+    }
+
+
+
+    public void test2(){
+
+        Integer a = 1;
+        Integer b = 2;
+        //写一个函数，交换a和b的值
+        System.out.println("a="+a +";b="+b);//a=2;b=1
+    }
+
+
 
     @Test
     public void test(){
@@ -87,7 +110,11 @@ public class Wangyi_BiShiAlgorithms_20180811 {
         int[] isSleep =   {1,1,0,1,0,0};
         int maxSumValue = maxSumValue(n,k,perValues,isSleep);
         System.out.println("maxSumValue = " + maxSumValue);
+
+        IntegerLong();
     }
+
+
 
 
 

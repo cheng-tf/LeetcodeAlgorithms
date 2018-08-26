@@ -35,6 +35,7 @@ public class IntegerSourceCode {
         for(int num:nums){
             integerObjectIsTheSameAutoBoxing(num);//根据大小而定
         }
+
 	}
 
     /**
@@ -54,6 +55,9 @@ public class IntegerSourceCode {
         Integer a = new Integer(i);
         Integer b = new Integer(i);
         System.out.println("new的方式："+ i +" --> "+( a == b ));//true or false?
+    }
+    private  void integerObjectIsTheSameNew2(int i) {
+
     }
 
 
