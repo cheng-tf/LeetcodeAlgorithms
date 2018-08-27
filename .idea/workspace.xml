@@ -6,8 +6,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8667834-e393-4670-ba6c-135b805a3a36" name="Default" comment="提交">
-      <change afterPath="$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/ConvertBetweenBSTandDoublelyLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/FullSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/FullSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BinaryTreeBasicAlgorithms/ConvertBetweenBSTandDoublelyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BinaryTreeBasicAlgorithms/ConvertBetweenBSTandDoublelyLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JianzhiOfferAlgorithms/FullSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JianzhiOfferAlgorithms/FullSort.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,10 +19,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/LeetcodeAlgorithms$CountDownLatchDemo.ic" NAME="CountDownLatchDemo Coverage Results" MODIFIED="1533300128538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/LeetcodeAlgorithms$CyclicBarrierDemo_CyclicBarrierIsBrokenTest.ic" NAME="CyclicBarrierDemo.CyclicBarrierIsBrokenTest Coverage Results" MODIFIED="1533302418301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>ThreadValves.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/LeetcodeAlgorithms$CyclicBarrierDemo_CyclicBarrierIsBrokenTest.ic" NAME="CyclicBarrierDemo.CyclicBarrierIsBrokenTest Coverage Results" MODIFIED="1533302418301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/LeetcodeAlgorithms$CountDownLatchDemo.ic" NAME="CountDownLatchDemo Coverage Results" MODIFIED="1533300128538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>ThreadValves.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/LeetcodeAlgorithms$JianzhiOffer_12_hasPathInMatrix.ic" NAME="JianzhiOffer_12_hasPathInMatrix Coverage Results" MODIFIED="1534922264482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -38,31 +40,32 @@
           <entry key="project.open.time.61" value="1" />
           <entry key="project.open.time.62" value="1" />
           <entry key="project.open.time.68" value="1" />
+          <entry key="project.open.time.84" value="1" />
           <entry key="project.open.time.96" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
-          <entry key="java" value="51" />
+          <entry key="java" value="52" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="51" />
+          <entry key="JAVA" value="52" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="26517" />
+          <entry key="java" value="27777" />
           <entry key="txt" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="26517" />
+          <entry key="JAVA" value="27777" />
           <entry key="PLAIN_TEXT" value="23" />
         </counts>
       </usages-collector>
@@ -70,15 +73,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/ConvertBetweenBSTandDoublelyLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="64" lean-forward="true" selection-start-line="41" selection-start-column="3" selection-end-line="64" />
+            <state relative-caret-position="271">
+              <caret line="60" selection-start-line="60" selection-end-line="61" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#267#268#0" expanded="true" />
-                <element signature="e#305#306#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/FullSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="137" column="5" lean-forward="true" selection-start-line="48" selection-start-column="4" selection-end-line="137" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1752#1760#0" expanded="true" />
+                <element signature="e#2586#2594#0" expanded="true" />
+                <element signature="e#3317#3325#0" expanded="true" />
+                <element signature="e#3467#3475#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -87,8 +104,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/BinaryTreeTraversals.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="18" selection-end-column="5" />
+            <state relative-caret-position="133">
+              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="18" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -158,7 +175,6 @@
         <option value="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_TwoStackToQueue.java" />
         <option value="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_JumpFloor_Based_on_Fibonacci.java" />
         <option value="$PROJECT_DIR$/src/main/java/Test/QuickSort.java" />
-        <option value="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/FullSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/ArrayAlgorithms/JianzhiOffer_4_FindElementInTwoDimensionalArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/StringAlgorithms/JianzhiOffer_5_ReplaceSpace.java" />
         <option value="$PROJECT_DIR$/src/main/java/ArrayAlgorithms/JianzhiOffer_29_PrintMatrixByClock.java" />
@@ -202,6 +218,7 @@
         <option value="$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/JianzhiOffer.java" />
         <option value="$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/JianzhiOffer_35_TheCopyOfComplexLinkedList.java" />
         <option value="$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/ConvertBetweenBSTandDoublelyLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/FullSort.java" />
       </list>
     </option>
   </component>
@@ -231,9 +248,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -265,18 +279,21 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="BinaryTreeBasicAlgorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="JianzhiOfferAlgorithms" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535376614024" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535386180725" />
     <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -303,7 +320,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ConvertBetweenBSTandDoublelyLinkedList">
+  <component name="RunManager" selected="JUnit.FullSort.test2">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -376,7 +393,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JianzhiOffer_20_isNumeric.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FullSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeAlgorithms" />
       <extension name="coverage">
         <pattern>
@@ -385,8 +402,23 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="JianzhiOfferAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="JianzhiOfferAlgorithms.JianzhiOffer_20_isNumeric" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="JianzhiOfferAlgorithms.FullSort" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FullSort.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetcodeAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JianzhiOfferAlgorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="JianzhiOfferAlgorithms" />
+      <option name="MAIN_CLASS_NAME" value="JianzhiOfferAlgorithms.FullSort" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -403,23 +435,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="LinkedListAlgorithms" />
       <option name="MAIN_CLASS_NAME" value="LinkedListAlgorithms.JianzhiOffer_35_TheCopyOfComplexLinkedList" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JianzhiOffer_35_TheCopyOfComplexLinkedList.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetcodeAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LinkedListAlgorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="LinkedListAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="LinkedListAlgorithms.JianzhiOffer_35_TheCopyOfComplexLinkedList" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -442,19 +457,19 @@
     <list>
       <item itemvalue="JUnit.BinaryTreeTraversals.test" />
       <item itemvalue="JUnit.CyclicBarrierDemo.CyclicBarrierIsBrokenTest" />
-      <item itemvalue="JUnit.JianzhiOffer_20_isNumeric.test" />
-      <item itemvalue="JUnit.JianzhiOffer_35_TheCopyOfComplexLinkedList.test" />
       <item itemvalue="JUnit.JianzhiOffer_35_TheCopyOfComplexLinkedList" />
       <item itemvalue="JUnit.ConvertBetweenBSTandDoublelyLinkedList.test" />
       <item itemvalue="JUnit.ConvertBetweenBSTandDoublelyLinkedList" />
+      <item itemvalue="JUnit.FullSort.test2" />
+      <item itemvalue="JUnit.FullSort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FullSort.test2" />
+        <item itemvalue="JUnit.FullSort" />
         <item itemvalue="JUnit.ConvertBetweenBSTandDoublelyLinkedList" />
         <item itemvalue="JUnit.ConvertBetweenBSTandDoublelyLinkedList.test" />
         <item itemvalue="JUnit.JianzhiOffer_35_TheCopyOfComplexLinkedList" />
-        <item itemvalue="JUnit.JianzhiOffer_35_TheCopyOfComplexLinkedList.test" />
-        <item itemvalue="JUnit.JianzhiOffer_20_isNumeric.test" />
       </list>
     </recent_temporary>
   </component>
@@ -493,6 +508,7 @@
       <workItem from="1535246111905" duration="21073000" />
       <workItem from="1535284981047" duration="5498000" />
       <workItem from="1535333345588" duration="24135000" />
+      <workItem from="1535382916657" duration="3157000" />
     </task>
     <task id="LOCAL-00001" summary="2222">
       <created>1533133335915</created>
@@ -631,44 +647,45 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ConvertBetweenBSTandDoublelyLinkedList - 2018.08.27 at 20h 53m 14s.xml">
-      <configuration name="ConvertBetweenBSTandDoublelyLinkedList" configurationId="JUnit" />
+    <history-entry file="FullSort - 2018.08.27 at 23h 43m 22s.xml">
+      <configuration name="FullSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConvertBetweenBSTandDoublelyLinkedList - 2018.08.27 at 21h 00m 51s.xml">
-      <configuration name="ConvertBetweenBSTandDoublelyLinkedList" configurationId="JUnit" />
+    <history-entry file="FullSort - 2018.08.27 at 23h 43m 43s.xml">
+      <configuration name="FullSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConvertBetweenBSTandDoublelyLinkedList - 2018.08.27 at 21h 14m 15s.xml">
-      <configuration name="ConvertBetweenBSTandDoublelyLinkedList" configurationId="JUnit" />
+    <history-entry file="FullSort - 2018.08.27 at 23h 44m 40s.xml">
+      <configuration name="FullSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConvertBetweenBSTandDoublelyLinkedList - 2018.08.27 at 21h 14m 34s.xml">
-      <configuration name="ConvertBetweenBSTandDoublelyLinkedList" configurationId="JUnit" />
+    <history-entry file="FullSort_test2 - 2018.08.27 at 23h 45m 26s.xml">
+      <configuration name="FullSort.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConvertBetweenBSTandDoublelyLinkedList - 2018.08.27 at 21h 14m 56s.xml">
-      <configuration name="ConvertBetweenBSTandDoublelyLinkedList" configurationId="JUnit" />
+    <history-entry file="FullSort_test2 - 2018.08.27 at 23h 48m 35s.xml">
+      <configuration name="FullSort.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConvertBetweenBSTandDoublelyLinkedList - 2018.08.27 at 21h 16m 38s.xml">
-      <configuration name="ConvertBetweenBSTandDoublelyLinkedList" configurationId="JUnit" />
+    <history-entry file="FullSort_test2 - 2018.08.27 at 23h 48m 53s.xml">
+      <configuration name="FullSort.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConvertBetweenBSTandDoublelyLinkedList - 2018.08.27 at 21h 16m 59s.xml">
-      <configuration name="ConvertBetweenBSTandDoublelyLinkedList" configurationId="JUnit" />
+    <history-entry file="FullSort_test2 - 2018.08.27 at 23h 52m 40s.xml">
+      <configuration name="FullSort.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConvertBetweenBSTandDoublelyLinkedList - 2018.08.27 at 21h 22m 49s.xml">
-      <configuration name="ConvertBetweenBSTandDoublelyLinkedList" configurationId="JUnit" />
+    <history-entry file="FullSort_test2 - 2018.08.27 at 23h 53m 11s.xml">
+      <configuration name="FullSort.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConvertBetweenBSTandDoublelyLinkedList - 2018.08.27 at 21h 24m 33s.xml">
-      <configuration name="ConvertBetweenBSTandDoublelyLinkedList" configurationId="JUnit" />
+    <history-entry file="FullSort_test2 - 2018.08.28 at 00h 02m 17s.xml">
+      <configuration name="FullSort.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConvertBetweenBSTandDoublelyLinkedList - 2018.08.27 at 21h 25m 44s.xml">
-      <configuration name="ConvertBetweenBSTandDoublelyLinkedList" configurationId="JUnit" />
+    <history-entry file="FullSort_test2 - 2018.08.28 at 00h 03m 01s.xml">
+      <configuration name="FullSort.test2" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="325468000" />
+    <option name="totallyTimeSpent" value="328625000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18283582" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2655068" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -677,8 +694,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32786885" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947917" weight="0.32212582" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39804772" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49947917" visible="true" weight="0.32131147" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.46885246" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -711,7 +728,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="提交" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_57_FindContinuousSequenceWithSumOfK.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_57_FindContinuousSequenceWithSumOfS.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/StackAndQueueAlgorithms/JianzhiOffer_30_StackWithMinMethod2.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/StringAlgorithms/JianzhiOffer_58_ReverseSentence.java" />
@@ -819,9 +835,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -916,13 +929,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/JianzhiOffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/JianzhiOffer.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/JianzhiOffer_25_MergeTwoSortedLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -937,24 +944,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/BinaryTreeTraversals.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/ConvertBetweenBSTandDoublelyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="18" selection-end-column="5" />
+        <state relative-caret-position="271">
+          <caret line="60" selection-start-line="60" selection-end-line="61" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/ConvertBetweenBSTandDoublelyLinkedList.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/BinaryTreeTraversals.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="64" lean-forward="true" selection-start-line="41" selection-start-column="3" selection-end-line="64" />
+        <state relative-caret-position="133">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="18" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#267#268#0" expanded="true" />
-            <element signature="e#305#306#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/FullSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="137" column="5" lean-forward="true" selection-start-line="48" selection-start-column="4" selection-end-line="137" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1752#1760#0" expanded="true" />
+            <element signature="e#2586#2594#0" expanded="true" />
+            <element signature="e#3317#3325#0" expanded="true" />
+            <element signature="e#3467#3475#0" expanded="true" />
           </folding>
         </state>
       </provider>
