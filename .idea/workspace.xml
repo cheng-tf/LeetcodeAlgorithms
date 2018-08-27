@@ -2,12 +2,13 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/NextNodeOfBinaryTreeInOrderTraversal.java" line="14" />
-    <bookmark url="file://$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/JianzhiOffer_35_TheCopyOfComplexLinkedList.java" line="81" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/JianzhiOffer_35_TheCopyOfComplexLinkedList.java" line="82" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8667834-e393-4670-ba6c-135b805a3a36" name="Default" comment="提交">
-      <change afterPath="$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/JianzhiOffer_35_TheCopyOfComplexLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/JianzhiOffer_35_TheCopyOfComplexLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/JianzhiOffer_35_TheCopyOfComplexLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JianzhiOfferAlgorithms/JianzhiOffer_20_isNumeric.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JianzhiOfferAlgorithms/JianzhiOffer_20_isNumeric.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,25 +46,25 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
-          <entry key="java" value="47" />
+          <entry key="java" value="49" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="47" />
+          <entry key="JAVA" value="49" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="23834" />
-          <entry key="txt" value="14" />
+          <entry key="java" value="23991" />
+          <entry key="txt" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="23834" />
-          <entry key="PLAIN_TEXT" value="14" />
+          <entry key="JAVA" value="23991" />
+          <entry key="PLAIN_TEXT" value="23" />
         </counts>
       </usages-collector>
     </session>
@@ -73,12 +74,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/JianzhiOffer_35_TheCopyOfComplexLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="26" selection-start-line="26" selection-end-line="37" selection-end-column="59" />
-              <folding>
-                <element signature="e#313#314#0" expanded="true" />
-                <element signature="e#355#356#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="219">
+              <caret line="126" column="41" lean-forward="true" selection-start-line="126" selection-start-column="41" selection-end-line="126" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -263,7 +260,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535358359656" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535358727044" />
     <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -477,7 +474,7 @@
       <workItem from="1535202940047" duration="4549000" />
       <workItem from="1535246111905" duration="21073000" />
       <workItem from="1535284981047" duration="5498000" />
-      <workItem from="1535333345588" duration="14772000" />
+      <workItem from="1535333345588" duration="15275000" />
     </task>
     <task id="LOCAL-00001" summary="2222">
       <created>1533133335915</created>
@@ -591,7 +588,14 @@
       <option name="project" value="LOCAL" />
       <updated>1535296136827</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="提交">
+      <created>1535358412056</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1535358412056</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -627,13 +631,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="316105000" />
+    <option name="totallyTimeSpent" value="316608000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18283582" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18283582" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -642,7 +646,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32786885" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49947917" visible="true" weight="0.32212582" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947917" visible="true" weight="0.32212582" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39804772" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -676,7 +680,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="提交" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ArrayAlgorithms/JianzhiOffer_29_PrintMatrixByClock.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/StackAndQueueAlgorithms/JianzhiOffer_30_StackWithMinMethode.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_57_FindContinuousSequenceWithSumOfK.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_57_FindContinuousSequenceWithSumOfS.java" />
@@ -900,14 +903,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/JianzhiOffer_25_MergeTwoSortedLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/JianzhiOffer_35_TheCopyOfComplexLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="26" selection-start-line="26" selection-end-line="37" selection-end-column="59" />
-          <folding>
-            <element signature="e#313#314#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="219">
+          <caret line="126" column="41" lean-forward="true" selection-start-line="126" selection-start-column="41" selection-end-line="126" selection-end-column="41" />
         </state>
       </provider>
     </entry>

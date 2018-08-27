@@ -133,6 +133,8 @@ public class JianzhiOffer_35_TheCopyOfComplexLinkedList {
             if(originalNode.random != null)
                  copyNode.random = originalNode.random.next;
             originalNode = copyNode.next;
+//            originalNode.next.random = originalNode.random==null?null:originalNode.random.next;
+//            originalNode = originalNode.next.next;
         }
         //第三步：拆分链表，奇数为原链表，偶数为新复制链表
         originalNode = pHead;
