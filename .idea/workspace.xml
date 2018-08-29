@@ -4,7 +4,13 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/NextNodeOfBinaryTreeInOrderTraversal.java" line="13" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8667834-e393-4670-ba6c-135b805a3a36" name="Default" comment="" />
+    <list default="true" id="c8667834-e393-4670-ba6c-135b805a3a36" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_49_GetTheKthUglyNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_50_RegexMatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ArrayAlgorithms/JianzhiOffer_45_FindTheMinNumberOfNumberArray$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ArrayAlgorithms/JianzhiOffer_45_FindTheMinNumberOfNumberArray$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ArrayAlgorithms/JianzhiOffer_45_FindTheMinNumberOfNumberArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ArrayAlgorithms/JianzhiOffer_45_FindTheMinNumberOfNumberArray.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -67,7 +73,17 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="JianzhiOffer_50_RegexMatch.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_50_RegexMatch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1026">
+              <caret line="64" column="71" selection-start-line="64" selection-start-column="71" selection-end-line="64" selection-end-column="71" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -123,8 +139,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/ArrayAlgorithms/JianzhiOffer_4_FindElementInTwoDimensionalArray.java" />
-        <option value="$PROJECT_DIR$/src/main/java/StringAlgorithms/JianzhiOffer_5_ReplaceSpace.java" />
         <option value="$PROJECT_DIR$/src/main/java/ArrayAlgorithms/JianzhiOffer_29_PrintMatrixByClock.java" />
         <option value="$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/JianzhiOffer_6_PrintListFromTailToHead.java" />
         <option value="$PROJECT_DIR$/src/main/java/StackAndQueueAlgorithms/JianzhiOffer_30_StackWithMinMethod.java" />
@@ -174,6 +188,8 @@
         <option value="$PROJECT_DIR$/src/main/java/BiShiAlgorithms/Main2.java" />
         <option value="$PROJECT_DIR$/src/main/java/BiShiAlgorithms/HaoWeiLai_BiShi_FindAllCombinationsOfNumbers.java" />
         <option value="$PROJECT_DIR$/src/main/java/ArrayAlgorithms/JianzhiOffer_45_FindTheMinNumberOfNumberArray.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_49_GetTheKthUglyNumber.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_50_RegexMatch.java" />
       </list>
     </option>
   </component>
@@ -193,7 +209,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="width" value="1378" />
     <option name="height" value="780" />
@@ -206,9 +222,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -240,20 +255,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ArrayAlgorithms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetcodeAlgorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetcodeAlgorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="BiShiAlgorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="JianzhiOfferAlgorithms" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -287,29 +295,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.JianzhiOffer_45_FindTheMinNumberOfNumberArray">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BiShiAlgorithms.Main" />
-      <module name="LeetcodeAlgorithms" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BiShiAlgorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BiShiAlgorithms.Main2" />
-      <module name="LeetcodeAlgorithms" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BiShiAlgorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="JUnit.JianzhiOffer_50_RegexMatch.test">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method>
@@ -362,29 +348,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="HaoWeiLai_BiShi_FindAllCombinationsOfNumbers.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetcodeAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BiShiAlgorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="BiShiAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="BiShiAlgorithms.HaoWeiLai_BiShi_FindAllCombinationsOfNumbers" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration name="JianzhiOffer_45_FindTheMinNumberOfNumberArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeAlgorithms" />
       <extension name="coverage">
@@ -408,18 +371,87 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="JianzhiOffer_45_FindTheMinNumberOfNumberArray.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JianzhiOffer_49_GetTheKthUglyNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BiShiAlgorithms.*" />
+          <option name="PATTERN" value="JianzhiOfferAlgorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ArrayAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="ArrayAlgorithms.JianzhiOffer_45_FindTheMinNumberOfNumberArray" />
+      <option name="PACKAGE_NAME" value="JianzhiOfferAlgorithms" />
+      <option name="MAIN_CLASS_NAME" value="JianzhiOfferAlgorithms.JianzhiOffer_49_GetTheKthUglyNumber" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="JianzhiOffer_49_GetTheKthUglyNumber.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetcodeAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JianzhiOfferAlgorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="JianzhiOfferAlgorithms" />
+      <option name="MAIN_CLASS_NAME" value="JianzhiOfferAlgorithms.JianzhiOffer_49_GetTheKthUglyNumber" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="JianzhiOffer_50_RegexMatch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetcodeAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JianzhiOfferAlgorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="JianzhiOfferAlgorithms" />
+      <option name="MAIN_CLASS_NAME" value="JianzhiOfferAlgorithms.JianzhiOffer_50_RegexMatch" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="JianzhiOffer_50_RegexMatch.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetcodeAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JianzhiOfferAlgorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="JianzhiOfferAlgorithms" />
+      <option name="MAIN_CLASS_NAME" value="JianzhiOfferAlgorithms.JianzhiOffer_50_RegexMatch" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
@@ -478,19 +510,19 @@
     <list>
       <item itemvalue="JUnit.BinaryTreeTraversals.test" />
       <item itemvalue="JUnit.CyclicBarrierDemo.CyclicBarrierIsBrokenTest" />
-      <item itemvalue="JUnit.JianzhiOffer_45_FindTheMinNumberOfNumberArray.test" />
       <item itemvalue="JUnit.JianzhiOffer_45_FindTheMinNumberOfNumberArray" />
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Main2" />
-      <item itemvalue="JUnit.HaoWeiLai_BiShi_FindAllCombinationsOfNumbers.test" />
+      <item itemvalue="JUnit.JianzhiOffer_49_GetTheKthUglyNumber.test" />
+      <item itemvalue="JUnit.JianzhiOffer_49_GetTheKthUglyNumber" />
+      <item itemvalue="JUnit.JianzhiOffer_50_RegexMatch.test" />
+      <item itemvalue="JUnit.JianzhiOffer_50_RegexMatch" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JianzhiOffer_50_RegexMatch.test" />
+        <item itemvalue="JUnit.JianzhiOffer_50_RegexMatch" />
+        <item itemvalue="JUnit.JianzhiOffer_49_GetTheKthUglyNumber" />
+        <item itemvalue="JUnit.JianzhiOffer_49_GetTheKthUglyNumber.test" />
         <item itemvalue="JUnit.JianzhiOffer_45_FindTheMinNumberOfNumberArray" />
-        <item itemvalue="JUnit.HaoWeiLai_BiShi_FindAllCombinationsOfNumbers.test" />
-        <item itemvalue="Application.Main2" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.JianzhiOffer_45_FindTheMinNumberOfNumberArray.test" />
       </list>
     </recent_temporary>
   </component>
@@ -530,6 +562,8 @@
       <workItem from="1535284981047" duration="5498000" />
       <workItem from="1535333345588" duration="24135000" />
       <workItem from="1535419959438" duration="29519000" />
+      <workItem from="1535505513059" duration="4119000" />
+      <workItem from="1535510495071" duration="7900000" />
     </task>
     <task id="LOCAL-00001" summary="2222">
       <created>1533133335915</created>
@@ -689,42 +723,43 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="JianzhiOffer_45_FindTheMinNumberOfNumberArray_test - 2018.08.28 at 18h 31m 18s.xml">
-      <configuration name="JianzhiOffer_45_FindTheMinNumberOfNumberArray.test" configurationId="JUnit" />
+    <history-entry file="JianzhiOffer_50_RegexMatch - 2018.08.29 at 14h 51m 29s.xml">
+      <configuration name="JianzhiOffer_50_RegexMatch" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JianzhiOffer_45_FindTheMinNumberOfNumberArray - 2018.08.28 at 18h 33m 32s.xml">
-      <configuration name="JianzhiOffer_45_FindTheMinNumberOfNumberArray" configurationId="JUnit" />
+    <history-entry file="JianzhiOffer_50_RegexMatch_test - 2018.08.29 at 14h 51m 59s.xml">
+      <configuration name="JianzhiOffer_50_RegexMatch.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JianzhiOffer_45_FindTheMinNumberOfNumberArray_test - 2018.08.28 at 18h 35m 58s.xml">
-      <configuration name="JianzhiOffer_45_FindTheMinNumberOfNumberArray.test" configurationId="JUnit" />
+    <history-entry file="JianzhiOffer_50_RegexMatch_test - 2018.08.29 at 14h 54m 50s.xml">
+      <configuration name="JianzhiOffer_50_RegexMatch.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JianzhiOffer_45_FindTheMinNumberOfNumberArray_test - 2018.08.28 at 18h 37m 19s.xml">
-      <configuration name="JianzhiOffer_45_FindTheMinNumberOfNumberArray.test" configurationId="JUnit" />
+    <history-entry file="JianzhiOffer_50_RegexMatch_test - 2018.08.29 at 14h 56m 59s.xml">
+      <configuration name="JianzhiOffer_50_RegexMatch.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JianzhiOffer_45_FindTheMinNumberOfNumberArray_test - 2018.08.28 at 18h 37m 42s.xml">
-      <configuration name="JianzhiOffer_45_FindTheMinNumberOfNumberArray.test" configurationId="JUnit" />
+    <history-entry file="JianzhiOffer_50_RegexMatch_test - 2018.08.29 at 14h 57m 10s.xml">
+      <configuration name="JianzhiOffer_50_RegexMatch.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JianzhiOffer_45_FindTheMinNumberOfNumberArray - 2018.08.28 at 18h 38m 57s.xml">
-      <configuration name="JianzhiOffer_45_FindTheMinNumberOfNumberArray" configurationId="JUnit" />
+    <history-entry file="JianzhiOffer_50_RegexMatch_test - 2018.08.29 at 15h 02m 07s.xml">
+      <configuration name="JianzhiOffer_50_RegexMatch.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JianzhiOffer_xx_FindADuplicateNumber - 2018.08.28 at 20h 12m 39s.xml">
-      <configuration name="JianzhiOffer_xx_FindADuplicateNumber" configurationId="JUnit" />
+    <history-entry file="JianzhiOffer_50_RegexMatch_test - 2018.08.29 at 15h 02m 48s.xml">
+      <configuration name="JianzhiOffer_50_RegexMatch.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HaoWeiLai_BiShi_FindAllCombinationsOfNumbers_test - 2018.08.28 at 21h 39m 05s.xml">
-      <configuration name="HaoWeiLai_BiShi_FindAllCombinationsOfNumbers.test" configurationId="JUnit" />
+    <history-entry file="JianzhiOffer_50_RegexMatch_test - 2018.08.29 at 15h 03m 38s.xml">
+      <configuration name="JianzhiOffer_50_RegexMatch.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HaoWeiLai_BiShi_FindAllCombinationsOfNumbers_test - 2018.08.28 at 21h 39m 55s.xml">
-      <configuration name="HaoWeiLai_BiShi_FindAllCombinationsOfNumbers.test" configurationId="JUnit" />
+    <history-entry file="JianzhiOffer_50_RegexMatch_test - 2018.08.29 at 15h 04m 05s.xml">
+      <configuration name="JianzhiOffer_50_RegexMatch.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JianzhiOffer_45_FindTheMinNumberOfNumberArray - 2018.08.28 at 22h 02m 16s.xml">
-      <configuration name="JianzhiOffer_45_FindTheMinNumberOfNumberArray" configurationId="JUnit" />
+    <history-entry file="JianzhiOffer_50_RegexMatch_test - 2018.08.29 at 15h 07m 27s.xml">
+      <configuration name="JianzhiOffer_50_RegexMatch.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="357729000" />
+    <option name="totallyTimeSpent" value="369748000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -736,46 +771,25 @@
       <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947917" weight="0.32199788" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49947917" visible="true" weight="0.3209352" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1828125" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26510417" />
       <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32731137" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39744952" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3296875" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2655068" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947917" weight="0.32131147" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.46885246" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3296875" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5005208" side_tool="true" weight="0.424017" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32731137" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -803,20 +817,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_65_AddByBitOperation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="21" column="37" lean-forward="true" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SortAlgorithms/JianzhiOffer_xx_InversePairsBasedOnMergeSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="53" column="36" lean-forward="true" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SortAlgorithms/MergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="730">
@@ -982,13 +982,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1102">
           <caret line="145" column="28" lean-forward="true" selection-start-line="145" selection-start-column="28" selection-end-line="145" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1752#1760#0" expanded="true" />
-            <element signature="e#2586#2594#0" expanded="true" />
-            <element signature="e#3317#3325#0" expanded="true" />
-            <element signature="e#3467#3475#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -996,9 +989,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="22" column="40" lean-forward="true" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1006,19 +996,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-173">
           <caret line="66" column="8" lean-forward="true" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/Jianzhi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/Jianzhi.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_43_theNumberOf1Between1AndN.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="498">
@@ -1082,17 +1063,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BiShiAlgorithms/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="55" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#630#638#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BiShiAlgorithms/Main.java" />
     <entry file="jar://D:/JDK8/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="338">
@@ -1125,9 +1096,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1135,13 +1103,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1143#2025#0" expanded="true" />
-            <element signature="e#2024#2025#0" expanded="true" />
-            <element signature="e#2284#2527#0" expanded="true" />
-            <element signature="e#2526#2527#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_49_GetTheKthUglyNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="41" column="5" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="41" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_50_RegexMatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="64" column="71" selection-start-line="64" selection-start-column="71" selection-end-line="64" selection-end-column="71" />
         </state>
       </provider>
     </entry>
