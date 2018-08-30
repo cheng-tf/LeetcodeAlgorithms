@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8667834-e393-4670-ba6c-135b805a3a36" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_61_PlayingCardsIsContinuous.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_xx_FirstAppearingOnce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/JianzhiOffer_62_TheLastRemainingNumberOfCircle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JianzhiOfferAlgorithms/JianzhiOffer_50_RegexMatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JianzhiOfferAlgorithms/JianzhiOffer_50_RegexMatch.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -71,14 +73,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="JianzhiOffer_61_PlayingCardsIsContinuous.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_61_PlayingCardsIsContinuous.java">
+      <file leaf-file-name="JianzhiOffer_62_TheLastRemainingNumberOfCircle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/JianzhiOffer_62_TheLastRemainingNumberOfCircle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+            <state relative-caret-position="1159">
+              <caret line="62" column="29" lean-forward="true" selection-start-line="62" selection-start-column="29" selection-end-line="62" selection-end-column="29" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1029#1030#0" expanded="true" />
+                <element signature="e#1067#1068#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JianzhiOffer_xx_FirstAppearingOnce.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_xx_FirstAppearingOnce.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="532">
+              <caret line="28" column="39" lean-forward="true" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JianzhiOffer_6_PrintListFromTailToHead.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/JianzhiOffer_6_PrintListFromTailToHead.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="10" selection-start-line="10" selection-end-line="19" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -139,8 +160,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/JianzhiOffer_6_PrintListFromTailToHead.java" />
-        <option value="$PROJECT_DIR$/src/main/java/StackAndQueueAlgorithms/JianzhiOffer_30_StackWithMinMethod.java" />
         <option value="$PROJECT_DIR$/src/main/java/StackAndQueueAlgorithms/JianzhiOffer_30_StackWithMinMethod2.java" />
         <option value="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_57_FindContinuousSequenceWithSumOfK.java" />
         <option value="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_57_FindContinuousSequenceWithSumOfS.java" />
@@ -190,6 +209,8 @@
         <option value="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_49_GetTheKthUglyNumber.java" />
         <option value="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_50_RegexMatch.java" />
         <option value="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_61_PlayingCardsIsContinuous.java" />
+        <option value="$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/JianzhiOffer_62_TheLastRemainingNumberOfCircle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_xx_FirstAppearingOnce.java" />
       </list>
     </option>
   </component>
@@ -209,7 +230,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="width" value="1378" />
     <option name="height" value="780" />
@@ -295,7 +316,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.JianzhiOffer_61_PlayingCardsIsContinuous.test">
+  <component name="RunManager" selected="JUnit.JianzhiOffer_xx_FirstAppearingOnce">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method>
@@ -348,98 +369,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="JianzhiOffer_49_GetTheKthUglyNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetcodeAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JianzhiOfferAlgorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="JianzhiOfferAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="JianzhiOfferAlgorithms.JianzhiOffer_49_GetTheKthUglyNumber" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="JianzhiOffer_49_GetTheKthUglyNumber.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetcodeAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JianzhiOfferAlgorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="JianzhiOfferAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="JianzhiOfferAlgorithms.JianzhiOffer_49_GetTheKthUglyNumber" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="JianzhiOffer_50_RegexMatch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetcodeAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JianzhiOfferAlgorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="JianzhiOfferAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="JianzhiOfferAlgorithms.JianzhiOffer_50_RegexMatch" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="JianzhiOffer_50_RegexMatch.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetcodeAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JianzhiOfferAlgorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="JianzhiOfferAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="JianzhiOfferAlgorithms.JianzhiOffer_50_RegexMatch" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration name="JianzhiOffer_61_PlayingCardsIsContinuous.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeAlgorithms" />
       <extension name="coverage">
@@ -452,6 +381,98 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="JianzhiOfferAlgorithms" />
       <option name="MAIN_CLASS_NAME" value="JianzhiOfferAlgorithms.JianzhiOffer_61_PlayingCardsIsContinuous" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="JianzhiOffer_62_TheLastRemainingNumberOfCircle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetcodeAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LinkedListAlgorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="LinkedListAlgorithms" />
+      <option name="MAIN_CLASS_NAME" value="LinkedListAlgorithms.JianzhiOffer_62_TheLastRemainingNumberOfCircle" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="JianzhiOffer_62_TheLastRemainingNumberOfCircle.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetcodeAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LinkedListAlgorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="LinkedListAlgorithms" />
+      <option name="MAIN_CLASS_NAME" value="LinkedListAlgorithms.JianzhiOffer_62_TheLastRemainingNumberOfCircle" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="JianzhiOffer_xx_FirstAppearingOnce" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetcodeAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JianzhiOfferAlgorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="JianzhiOfferAlgorithms" />
+      <option name="MAIN_CLASS_NAME" value="JianzhiOfferAlgorithms.JianzhiOffer_xx_FirstAppearingOnce" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="JianzhiOffer_xx_FirstAppearingOnce.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetcodeAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JianzhiOfferAlgorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="JianzhiOfferAlgorithms" />
+      <option name="MAIN_CLASS_NAME" value="JianzhiOfferAlgorithms.JianzhiOffer_xx_FirstAppearingOnce" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
@@ -510,19 +531,19 @@
     <list>
       <item itemvalue="JUnit.BinaryTreeTraversals.test" />
       <item itemvalue="JUnit.CyclicBarrierDemo.CyclicBarrierIsBrokenTest" />
-      <item itemvalue="JUnit.JianzhiOffer_49_GetTheKthUglyNumber.test" />
-      <item itemvalue="JUnit.JianzhiOffer_49_GetTheKthUglyNumber" />
-      <item itemvalue="JUnit.JianzhiOffer_50_RegexMatch.test" />
-      <item itemvalue="JUnit.JianzhiOffer_50_RegexMatch" />
       <item itemvalue="JUnit.JianzhiOffer_61_PlayingCardsIsContinuous.test" />
+      <item itemvalue="JUnit.JianzhiOffer_62_TheLastRemainingNumberOfCircle.test" />
+      <item itemvalue="JUnit.JianzhiOffer_62_TheLastRemainingNumberOfCircle" />
+      <item itemvalue="JUnit.JianzhiOffer_xx_FirstAppearingOnce.test" />
+      <item itemvalue="JUnit.JianzhiOffer_xx_FirstAppearingOnce" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JianzhiOffer_xx_FirstAppearingOnce" />
+        <item itemvalue="JUnit.JianzhiOffer_xx_FirstAppearingOnce.test" />
+        <item itemvalue="JUnit.JianzhiOffer_62_TheLastRemainingNumberOfCircle" />
+        <item itemvalue="JUnit.JianzhiOffer_62_TheLastRemainingNumberOfCircle.test" />
         <item itemvalue="JUnit.JianzhiOffer_61_PlayingCardsIsContinuous.test" />
-        <item itemvalue="JUnit.JianzhiOffer_50_RegexMatch.test" />
-        <item itemvalue="JUnit.JianzhiOffer_50_RegexMatch" />
-        <item itemvalue="JUnit.JianzhiOffer_49_GetTheKthUglyNumber" />
-        <item itemvalue="JUnit.JianzhiOffer_49_GetTheKthUglyNumber.test" />
       </list>
     </recent_temporary>
   </component>
@@ -564,7 +585,7 @@
       <workItem from="1535419959438" duration="29519000" />
       <workItem from="1535505513059" duration="4119000" />
       <workItem from="1535510495071" duration="8002000" />
-      <workItem from="1535589802167" duration="2671000" />
+      <workItem from="1535589802167" duration="10288000" />
     </task>
     <task id="LOCAL-00001" summary="2222">
       <created>1533133335915</created>
@@ -727,43 +748,50 @@
       <option name="project" value="LOCAL" />
       <updated>1535527253757</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="提交">
+      <created>1535593578947</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1535593578947</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="JianzhiOffer_50_RegexMatch_test - 2018.08.29 at 14h 51m 59s.xml">
-      <configuration name="JianzhiOffer_50_RegexMatch.test" configurationId="JUnit" />
+    <history-entry file="JianzhiOffer_xx_FirstAppearingOnce - 2018.08.30 at 12h 27m 32s.xml">
+      <configuration name="JianzhiOffer_xx_FirstAppearingOnce" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JianzhiOffer_50_RegexMatch_test - 2018.08.29 at 14h 54m 50s.xml">
-      <configuration name="JianzhiOffer_50_RegexMatch.test" configurationId="JUnit" />
+    <history-entry file="JianzhiOffer_xx_FirstAppearingOnce - 2018.08.30 at 12h 28m 01s.xml">
+      <configuration name="JianzhiOffer_xx_FirstAppearingOnce" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JianzhiOffer_50_RegexMatch_test - 2018.08.29 at 14h 56m 59s.xml">
-      <configuration name="JianzhiOffer_50_RegexMatch.test" configurationId="JUnit" />
+    <history-entry file="JianzhiOffer_xx_FirstAppearingOnce - 2018.08.30 at 12h 28m 48s.xml">
+      <configuration name="JianzhiOffer_xx_FirstAppearingOnce" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JianzhiOffer_50_RegexMatch_test - 2018.08.29 at 14h 57m 10s.xml">
-      <configuration name="JianzhiOffer_50_RegexMatch.test" configurationId="JUnit" />
+    <history-entry file="JianzhiOffer_xx_FirstAppearingOnce_test - 2018.08.30 at 12h 43m 17s.xml">
+      <configuration name="JianzhiOffer_xx_FirstAppearingOnce.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JianzhiOffer_50_RegexMatch_test - 2018.08.29 at 15h 02m 07s.xml">
-      <configuration name="JianzhiOffer_50_RegexMatch.test" configurationId="JUnit" />
+    <history-entry file="JianzhiOffer_xx_FirstAppearingOnce_test - 2018.08.30 at 12h 43m 39s.xml">
+      <configuration name="JianzhiOffer_xx_FirstAppearingOnce.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JianzhiOffer_50_RegexMatch_test - 2018.08.29 at 15h 02m 48s.xml">
-      <configuration name="JianzhiOffer_50_RegexMatch.test" configurationId="JUnit" />
+    <history-entry file="JianzhiOffer_xx_FirstAppearingOnce_test - 2018.08.30 at 12h 45m 09s.xml">
+      <configuration name="JianzhiOffer_xx_FirstAppearingOnce.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JianzhiOffer_50_RegexMatch_test - 2018.08.29 at 15h 03m 38s.xml">
-      <configuration name="JianzhiOffer_50_RegexMatch.test" configurationId="JUnit" />
+    <history-entry file="JianzhiOffer_xx_FirstAppearingOnce_test - 2018.08.30 at 12h 50m 32s.xml">
+      <configuration name="JianzhiOffer_xx_FirstAppearingOnce.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JianzhiOffer_50_RegexMatch_test - 2018.08.29 at 15h 04m 05s.xml">
-      <configuration name="JianzhiOffer_50_RegexMatch.test" configurationId="JUnit" />
+    <history-entry file="JianzhiOffer_xx_FirstAppearingOnce_test - 2018.08.30 at 12h 50m 41s.xml">
+      <configuration name="JianzhiOffer_xx_FirstAppearingOnce.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JianzhiOffer_50_RegexMatch_test - 2018.08.29 at 15h 07m 27s.xml">
-      <configuration name="JianzhiOffer_50_RegexMatch.test" configurationId="JUnit" />
+    <history-entry file="JianzhiOffer_xx_FirstAppearingOnce - 2018.08.30 at 12h 54m 49s.xml">
+      <configuration name="JianzhiOffer_xx_FirstAppearingOnce" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JianzhiOffer_61_PlayingCardsIsContinuous_test - 2018.08.30 at 09h 42m 03s.xml">
-      <configuration name="JianzhiOffer_61_PlayingCardsIsContinuous.test" configurationId="JUnit" />
+    <history-entry file="JianzhiOffer_xx_FirstAppearingOnce - 2018.08.30 at 12h 57m 55s.xml">
+      <configuration name="JianzhiOffer_xx_FirstAppearingOnce" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="372521000" />
+    <option name="totallyTimeSpent" value="380138000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -790,7 +818,7 @@
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.46885246" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.46865037" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3296875" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -821,25 +849,10 @@
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="6" />
+      <option name="time" value="7" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/Java/JDK/src.zip!/java/lang/Long.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_NumberOfBit1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3439">
-          <caret line="181" column="5" selection-start-line="181" selection-start-column="5" selection-end-line="181" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_64_theSumOf1ToN.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" selection-start-line="9" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SortAlgorithms/QuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -1129,11 +1142,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_61_PlayingCardsIsContinuous.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        <state relative-caret-position="380">
+          <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/JianzhiOffer_6_PrintListFromTailToHead.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="10" selection-start-line="10" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/JianzhiOffer_62_TheLastRemainingNumberOfCircle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1159">
+          <caret line="62" column="29" lean-forward="true" selection-start-line="62" selection-start-column="29" selection-end-line="62" selection-end-column="29" />
+          <folding>
+            <element signature="e#1029#1030#0" expanded="true" />
+            <element signature="e#1067#1068#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_xx_FirstAppearingOnce.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" column="39" lean-forward="true" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
         </state>
       </provider>
     </entry>
