@@ -4,12 +4,11 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/NextNodeOfBinaryTreeInOrderTraversal.java" line="13" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8667834-e393-4670-ba6c-135b805a3a36" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_Fibonacci_JumpFloor_RectCover.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_RectangleCover.java" afterDir="false" />
+    <list default="true" id="c8667834-e393-4670-ba6c-135b805a3a36" name="Default" comment="提交">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcodeAlgorithm/Leetcode_290_WordPattern_Easy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcodeAlgorithm/Leetcode_3_LongestSubstringWithoutRepeatingCharacters_Medium.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_Fibonacci.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_JumpFloor_Based_on_Fibonacci.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_Fibonacci_JumpFloor_RectCover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_Fibonacci_JumpFloor_RectCover.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,35 +38,36 @@
           <entry key="project.open.time.57" value="1" />
           <entry key="project.open.time.61" value="1" />
           <entry key="project.open.time.62" value="1" />
+          <entry key="project.open.time.65" value="1" />
           <entry key="project.open.time.68" value="1" />
           <entry key="project.open.time.72" value="1" />
           <entry key="project.open.time.84" value="1" />
           <entry key="project.open.time.96" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
-          <entry key="java" value="59" />
+          <entry key="java" value="62" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="59" />
+          <entry key="JAVA" value="62" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="28862" />
-          <entry key="txt" value="31" />
+          <entry key="java" value="32359" />
+          <entry key="txt" value="41" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="28862" />
-          <entry key="PLAIN_TEXT" value="31" />
+          <entry key="JAVA" value="32359" />
+          <entry key="PLAIN_TEXT" value="41" />
         </counts>
       </usages-collector>
     </session>
@@ -75,19 +75,32 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_RectangleCover.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_Fibonacci_JumpFloor_RectCover.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="114">
+              <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leetcodeAlgorithm/Leetcode_3_LongestSubstringWithoutRepeatingCharacters_Medium.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="267">
+              <caret line="64" column="35" selection-start-line="64" selection-start-column="35" selection-end-line="64" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_Fibonacci_JumpFloor_RectCover.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leetcodeAlgorithm/Leetcode_290_WordPattern_Easy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="142" column="8" selection-start-line="142" selection-start-column="8" selection-end-line="142" selection-end-column="8" />
+            <state relative-caret-position="285">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2456#2474#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -136,6 +149,7 @@
     <option name="PATH_TO_GIT" value="C:\Program Files\Git\bin\git.exe" />
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="三合一" />
         <option value="ZhaoHong" />
       </list>
     </option>
@@ -148,8 +162,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/ArrayAlgorithms/JianzhiOffer_39_MoreThanHalfNum.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ArrayAlgorithms/JianzhiOffer_12_hasPathInMatrix.java" />
         <option value="$PROJECT_DIR$/src/main/java/ArrayAlgorithms/JianzhiOffer_13_RobotMovingRange.java" />
         <option value="$PROJECT_DIR$/src/main/java/LRUCacheImpl/HashMapPlusLinkedList.java" />
         <option value="$PROJECT_DIR$/src/main/java/SortAlgorithms/MyQuickSort.java" />
@@ -199,6 +211,8 @@
         <option value="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_JumpFloor_Based_on_Fibonacci.java" />
         <option value="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_RectangleCover.java" />
         <option value="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_Fibonacci_JumpFloor_RectCover.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leetcodeAlgorithm/Leetcode_3_LongestSubstringWithoutRepeatingCharacters_Medium.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leetcodeAlgorithm/Leetcode_290_WordPattern_Easy.java" />
       </list>
     </option>
   </component>
@@ -215,7 +229,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="width" value="1378" />
     <option name="height" value="780" />
@@ -228,9 +242,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -262,19 +273,22 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="JianzhiOfferAlgorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcodeAlgorithm" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="compareTo&#9;PSI&#9;JAVA://ArrayAlgorithms.JianzhiOffer_45_FindTheMinNumberOfNumberArray.NewComparator#compareTo" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535767968999" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535815051358" />
     <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -301,7 +315,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.JianzhiOffer_Fibonacci_JumpFloor_RectCover.test33">
+  <component name="RunManager" selected="JUnit.Leetcode_290_WordPattern_Easy.test">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -344,7 +358,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JianzhiOffer_Fibonacci_JumpFloor_RectCover.test33" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JianzhiOffer_Fibonacci_JumpFloor_RectCover" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeAlgorithms" />
       <extension name="coverage">
         <pattern>
@@ -354,7 +368,39 @@
       </extension>
       <option name="PACKAGE_NAME" value="JianzhiOfferAlgorithms" />
       <option name="MAIN_CLASS_NAME" value="JianzhiOfferAlgorithms.JianzhiOffer_Fibonacci_JumpFloor_RectCover" />
-      <option name="METHOD_NAME" value="test33" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Leetcode_290_WordPattern_Easy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetcodeAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcodeAlgorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcodeAlgorithm" />
+      <option name="MAIN_CLASS_NAME" value="leetcodeAlgorithm.Leetcode_290_WordPattern_Easy" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Leetcode_290_WordPattern_Easy.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetcodeAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcodeAlgorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcodeAlgorithm" />
+      <option name="MAIN_CLASS_NAME" value="leetcodeAlgorithm.Leetcode_290_WordPattern_Easy" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -362,32 +408,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JianzhiOffer_xx_FirstAppearingOnce" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Leetcode_3_LongestSubstringWithoutRepeatingCharacters_Medium" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JianzhiOfferAlgorithms.*" />
+          <option name="PATTERN" value="leetcodeAlgorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="JianzhiOfferAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="JianzhiOfferAlgorithms.JianzhiOffer_xx_FirstAppearingOnce" />
+      <option name="PACKAGE_NAME" value="leetcodeAlgorithm" />
+      <option name="MAIN_CLASS_NAME" value="leetcodeAlgorithm.Leetcode_3_LongestSubstringWithoutRepeatingCharacters_Medium" />
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JianzhiOffer_xx_FirstAppearingOnce.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Leetcode_3_LongestSubstringWithoutRepeatingCharacters_Medium.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JianzhiOfferAlgorithms.*" />
+          <option name="PATTERN" value="leetcodeAlgorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="JianzhiOfferAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="JianzhiOfferAlgorithms.JianzhiOffer_xx_FirstAppearingOnce" />
+      <option name="PACKAGE_NAME" value="leetcodeAlgorithm" />
+      <option name="MAIN_CLASS_NAME" value="leetcodeAlgorithm.Leetcode_3_LongestSubstringWithoutRepeatingCharacters_Medium" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
@@ -397,40 +443,6 @@
       </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="VM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="leetcode409LongestPalindrome_Easy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetcodeAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="PalindromeAlgorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="PalindromeAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="PalindromeAlgorithms.leetcode409LongestPalindrome_Easy" />
-      <option name="VM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="leetcode409LongestPalindrome_Easy.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetcodeAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="PalindromeAlgorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="PalindromeAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="PalindromeAlgorithms.leetcode409LongestPalindrome_Easy" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -449,19 +461,19 @@
     <list>
       <item itemvalue="JUnit.BinaryTreeTraversals.test" />
       <item itemvalue="JUnit.CyclicBarrierDemo.CyclicBarrierIsBrokenTest" />
-      <item itemvalue="JUnit.JianzhiOffer_xx_FirstAppearingOnce.test" />
-      <item itemvalue="JUnit.JianzhiOffer_xx_FirstAppearingOnce" />
-      <item itemvalue="JUnit.leetcode409LongestPalindrome_Easy.test" />
-      <item itemvalue="JUnit.leetcode409LongestPalindrome_Easy" />
-      <item itemvalue="JUnit.JianzhiOffer_Fibonacci_JumpFloor_RectCover.test33" />
+      <item itemvalue="JUnit.JianzhiOffer_Fibonacci_JumpFloor_RectCover" />
+      <item itemvalue="JUnit.Leetcode_3_LongestSubstringWithoutRepeatingCharacters_Medium.test" />
+      <item itemvalue="JUnit.Leetcode_3_LongestSubstringWithoutRepeatingCharacters_Medium" />
+      <item itemvalue="JUnit.Leetcode_290_WordPattern_Easy.test" />
+      <item itemvalue="JUnit.Leetcode_290_WordPattern_Easy" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.JianzhiOffer_Fibonacci_JumpFloor_RectCover.test33" />
-        <item itemvalue="JUnit.leetcode409LongestPalindrome_Easy.test" />
-        <item itemvalue="JUnit.leetcode409LongestPalindrome_Easy" />
-        <item itemvalue="JUnit.JianzhiOffer_xx_FirstAppearingOnce" />
-        <item itemvalue="JUnit.JianzhiOffer_xx_FirstAppearingOnce.test" />
+        <item itemvalue="JUnit.Leetcode_290_WordPattern_Easy.test" />
+        <item itemvalue="JUnit.Leetcode_290_WordPattern_Easy" />
+        <item itemvalue="JUnit.Leetcode_3_LongestSubstringWithoutRepeatingCharacters_Medium" />
+        <item itemvalue="JUnit.Leetcode_3_LongestSubstringWithoutRepeatingCharacters_Medium.test" />
+        <item itemvalue="JUnit.JianzhiOffer_Fibonacci_JumpFloor_RectCover" />
       </list>
     </recent_temporary>
   </component>
@@ -505,6 +517,7 @@
       <workItem from="1535510495071" duration="8002000" />
       <workItem from="1535589802167" duration="12566000" />
       <workItem from="1535692163538" duration="3835000" />
+      <workItem from="1535786920260" duration="7905000" />
     </task>
     <task id="LOCAL-00001" summary="2222">
       <created>1533133335915</created>
@@ -674,49 +687,56 @@
       <option name="project" value="LOCAL" />
       <updated>1535593578947</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="提交">
+      <created>1535778222438</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1535778222438</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="JianzhiOffer_xx_FirstAppearingOnce_test - 2018.08.30 at 12h 50m 32s.xml">
-      <configuration name="JianzhiOffer_xx_FirstAppearingOnce.test" configurationId="JUnit" />
+    <history-entry file="Leetcode_290_WordPattern_Easy_test - 2018.09.01 at 22h 02m 57s.xml">
+      <configuration name="Leetcode_290_WordPattern_Easy.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JianzhiOffer_xx_FirstAppearingOnce_test - 2018.08.30 at 12h 50m 41s.xml">
-      <configuration name="JianzhiOffer_xx_FirstAppearingOnce.test" configurationId="JUnit" />
+    <history-entry file="Leetcode_290_WordPattern_Easy_test - 2018.09.01 at 22h 04m 41s.xml">
+      <configuration name="Leetcode_290_WordPattern_Easy.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JianzhiOffer_xx_FirstAppearingOnce - 2018.08.30 at 12h 54m 49s.xml">
-      <configuration name="JianzhiOffer_xx_FirstAppearingOnce" configurationId="JUnit" />
+    <history-entry file="Leetcode_290_WordPattern_Easy_test - 2018.09.01 at 22h 05m 15s.xml">
+      <configuration name="Leetcode_290_WordPattern_Easy.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JianzhiOffer_xx_FirstAppearingOnce - 2018.08.30 at 12h 57m 55s.xml">
-      <configuration name="JianzhiOffer_xx_FirstAppearingOnce" configurationId="JUnit" />
+    <history-entry file="Leetcode_290_WordPattern_Easy_test - 2018.09.01 at 22h 05m 40s.xml">
+      <configuration name="Leetcode_290_WordPattern_Easy.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JianzhiOffer_xx_FirstAppearingOnce - 2018.08.30 at 13h 05m 42s.xml">
-      <configuration name="JianzhiOffer_xx_FirstAppearingOnce" configurationId="JUnit" />
+    <history-entry file="Leetcode_290_WordPattern_Easy_test - 2018.09.01 at 22h 05m 47s.xml">
+      <configuration name="Leetcode_290_WordPattern_Easy.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="leetcode409LongestPalindrome_Easy_test - 2018.08.31 at 13h 02m 51s.xml">
-      <configuration name="leetcode409LongestPalindrome_Easy.test" configurationId="JUnit" />
+    <history-entry file="Leetcode_290_WordPattern_Easy_test - 2018.09.01 at 23h 04m 30s.xml">
+      <configuration name="Leetcode_290_WordPattern_Easy.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="leetcode409LongestPalindrome_Easy_test - 2018.08.31 at 13h 03m 57s.xml">
-      <configuration name="leetcode409LongestPalindrome_Easy.test" configurationId="JUnit" />
+    <history-entry file="Leetcode_290_WordPattern_Easy - 2018.09.01 at 23h 05m 59s.xml">
+      <configuration name="Leetcode_290_WordPattern_Easy" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="leetcode409LongestPalindrome_Easy_test - 2018.08.31 at 13h 05m 20s.xml">
-      <configuration name="leetcode409LongestPalindrome_Easy.test" configurationId="JUnit" />
+    <history-entry file="Leetcode_290_WordPattern_Easy_test - 2018.09.01 at 23h 06m 23s.xml">
+      <configuration name="Leetcode_290_WordPattern_Easy.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="leetcode409LongestPalindrome_Easy - 2018.08.31 at 13h 05m 27s.xml">
-      <configuration name="leetcode409LongestPalindrome_Easy" configurationId="JUnit" />
+    <history-entry file="Leetcode_290_WordPattern_Easy_test - 2018.09.01 at 23h 06m 58s.xml">
+      <configuration name="Leetcode_290_WordPattern_Easy.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="leetcode409LongestPalindrome_Easy_test - 2018.08.31 at 14h 23m 17s.xml">
-      <configuration name="leetcode409LongestPalindrome_Easy.test" configurationId="JUnit" />
+    <history-entry file="Leetcode_290_WordPattern_Easy_test - 2018.09.01 at 23h 07m 43s.xml">
+      <configuration name="Leetcode_290_WordPattern_Easy.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="388870000" />
+    <option name="totallyTimeSpent" value="398411000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31996974" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32526475" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -725,14 +745,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32731137" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947917" weight="0.3209352" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.46865037" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49947917" visible="true" weight="0.22786885" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.46721312" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3295082" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3295082" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5005208" side_tool="true" weight="0.424017" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.324295" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -771,8 +791,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/SortAlgorithms/My.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/JianzhiOffer_GetMaxTreeDepth.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/MyBinaryTree.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_66_BuildMultiplyArray.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1011,9 +1029,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1021,9 +1036,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="318">
           <caret line="145" column="28" selection-start-line="145" selection-start-column="28" selection-end-line="145" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1031,37 +1043,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="271">
           <caret line="60" selection-start-line="60" selection-end-line="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_Fibonacci.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_JumpFloor_Based_on_Fibonacci.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_RectangleCover.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_Fibonacci.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_JumpFloor_Based_on_Fibonacci.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_RectangleCover.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_Fibonacci_JumpFloor_RectCover.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="142" column="8" selection-start-line="142" selection-start-column="8" selection-end-line="142" selection-end-column="8" />
+        <state relative-caret-position="114">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetcodeAlgorithm/Leetcode_3_LongestSubstringWithoutRepeatingCharacters_Medium.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="64" column="35" selection-start-line="64" selection-start-column="35" selection-end-line="64" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetcodeAlgorithm/Leetcode_290_WordPattern_Easy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2456#2474#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

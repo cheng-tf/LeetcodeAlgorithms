@@ -3,12 +3,6 @@ package JianzhiOfferAlgorithms;
 import org.junit.Test;
 
 public class JianzhiOffer_Fibonacci_JumpFloor_RectCover {
-    {
-
-    }
-    static{
-
-    }
     /*****************************最基本思想：斐波那契数列******************************/
     /**
      * 题目描述：
