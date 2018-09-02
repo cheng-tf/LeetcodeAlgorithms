@@ -4,18 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/NextNodeOfBinaryTreeInOrderTraversal.java" line="13" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8667834-e393-4670-ba6c-135b805a3a36" name="Default" comment="提交">
-      <change afterPath="$PROJECT_DIR$/src/main/java/HashTableAlgorithms/BasicKnowledgeOfHashTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HashTableAlgorithms/Leetcode_49_GroupAnagrams_Medium.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HashTableAlgorithms/leetcode_409_LongestPalindrome_Easy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PalindromeAlgorithms/leetcode409LongestPalindrome_Easy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcodeAlgorithm/Leetcode_290_WordPattern_Easy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HashTableAlgorithms/Leetcode_290_WordPattern_Easy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcodeAlgorithm/Leetcode_3_LongestSubstringWithoutRepeatingCharacters_Medium.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HashTableAlgorithms/Leetcode_3_LongestSubstringWithoutRepeatingCharacters_Medium.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/PalindromeAlgorithms/leetcode409LongestPalindrome_Easy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcodeAlgorithm/Leetcode_290_WordPattern_Easy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcodeAlgorithm/Leetcode_3_LongestSubstringWithoutRepeatingCharacters_Medium.class" beforeDir="false" />
-    </list>
+    <list default="true" id="c8667834-e393-4670-ba6c-135b805a3a36" name="Default" comment="提交" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,8 +82,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/HashTableAlgorithms/BasicKnowledgeOfHashTable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="237" column="24" lean-forward="true" selection-start-line="237" selection-start-column="24" selection-end-line="237" selection-end-column="24" />
+            <state relative-caret-position="247">
+              <caret line="171" column="44" lean-forward="true" selection-start-line="171" selection-start-column="44" selection-end-line="171" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2286#2287#0" expanded="true" />
@@ -241,7 +230,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="width" value="1378" />
     <option name="height" value="780" />
@@ -308,7 +297,7 @@
     <property name="SearchEverywhereHistoryKey" value="compareTo&#9;PSI&#9;JAVA://ArrayAlgorithms.JianzhiOffer_45_FindTheMinNumberOfNumberArray.NewComparator#compareTo" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535866146876" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535870589059" />
     <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -542,7 +531,7 @@
       <workItem from="1535589802167" duration="12566000" />
       <workItem from="1535692163538" duration="3835000" />
       <workItem from="1535786920260" duration="8143000" />
-      <workItem from="1535852457143" duration="13370000" />
+      <workItem from="1535852457143" duration="14060000" />
     </task>
     <task id="LOCAL-00001" summary="2222">
       <created>1533133335915</created>
@@ -723,15 +712,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BasicKnowledgeOfHashTable_test3 - 2018.09.02 at 12h 54m 45s.xml">
-      <configuration name="BasicKnowledgeOfHashTable.test3" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BasicKnowledgeOfHashTable_test3 - 2018.09.02 at 12h 55m 02s.xml">
-      <configuration name="BasicKnowledgeOfHashTable.test3" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BasicKnowledgeOfHashTable_test3 - 2018.09.02 at 12h 55m 45s.xml">
-      <configuration name="BasicKnowledgeOfHashTable.test3" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BasicKnowledgeOfHashTable - 2018.09.02 at 12h 56m 09s.xml">
       <configuration name="BasicKnowledgeOfHashTable" configurationId="JUnit" />
     </history-entry>
@@ -753,9 +733,18 @@
     <history-entry file="BasicKnowledgeOfHashTable_test4 - 2018.09.02 at 13h 24m 35s.xml">
       <configuration name="BasicKnowledgeOfHashTable.test4" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BasicKnowledgeOfHashTable_test4 - 2018.09.02 at 13h 28m 04s.xml">
+      <configuration name="BasicKnowledgeOfHashTable.test4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BasicKnowledgeOfHashTable_test4 - 2018.09.02 at 13h 28m 28s.xml">
+      <configuration name="BasicKnowledgeOfHashTable.test4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BasicKnowledgeOfHashTable_test4 - 2018.09.02 at 13h 28m 46s.xml">
+      <configuration name="BasicKnowledgeOfHashTable.test4" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="412019000" />
+    <option name="totallyTimeSpent" value="412709000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1102,8 +1091,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/HashTableAlgorithms/BasicKnowledgeOfHashTable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="237" column="24" lean-forward="true" selection-start-line="237" selection-start-column="24" selection-end-line="237" selection-end-column="24" />
+        <state relative-caret-position="247">
+          <caret line="171" column="44" lean-forward="true" selection-start-line="171" selection-start-column="44" selection-end-line="171" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2286#2287#0" expanded="true" />
