@@ -82,8 +82,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/HashTableAlgorithms/BasicKnowledgeOfHashTable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="171" column="44" lean-forward="true" selection-start-line="171" selection-start-column="44" selection-end-line="171" selection-end-column="44" />
+            <state relative-caret-position="380">
+              <caret line="157" column="24" lean-forward="true" selection-start-line="157" selection-start-column="24" selection-end-line="157" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2286#2287#0" expanded="true" />
@@ -230,7 +230,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="width" value="1378" />
     <option name="height" value="780" />
@@ -297,7 +297,7 @@
     <property name="SearchEverywhereHistoryKey" value="compareTo&#9;PSI&#9;JAVA://ArrayAlgorithms.JianzhiOffer_45_FindTheMinNumberOfNumberArray.NewComparator#compareTo" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535870589059" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535888353802" />
     <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -531,7 +531,7 @@
       <workItem from="1535589802167" duration="12566000" />
       <workItem from="1535692163538" duration="3835000" />
       <workItem from="1535786920260" duration="8143000" />
-      <workItem from="1535852457143" duration="14060000" />
+      <workItem from="1535852457143" duration="14735000" />
     </task>
     <task id="LOCAL-00001" summary="2222">
       <created>1533133335915</created>
@@ -744,7 +744,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="412709000" />
+    <option name="totallyTimeSpent" value="413384000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1091,8 +1091,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/HashTableAlgorithms/BasicKnowledgeOfHashTable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="171" column="44" lean-forward="true" selection-start-line="171" selection-start-column="44" selection-end-line="171" selection-end-column="44" />
+        <state relative-caret-position="380">
+          <caret line="157" column="24" lean-forward="true" selection-start-line="157" selection-start-column="24" selection-end-line="157" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2286#2287#0" expanded="true" />
