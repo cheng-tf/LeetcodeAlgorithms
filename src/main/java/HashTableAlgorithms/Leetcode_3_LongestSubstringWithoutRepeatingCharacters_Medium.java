@@ -1,4 +1,4 @@
-package leetcodeAlgorithm;
+package HashTableAlgorithms;
 
 import org.junit.Test;
 

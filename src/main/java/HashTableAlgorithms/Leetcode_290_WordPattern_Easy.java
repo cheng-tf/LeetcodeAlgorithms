@@ -1,16 +1,17 @@
-package leetcodeAlgorithm;
+package HashTableAlgorithms;
 
 import org.junit.Test;
 import java.util.HashMap;
 
 public class Leetcode_290_WordPattern_Easy {
-    /*****************Leetcode290.Word Pattern******************/
+    /*****************Leetcode290.Word Pattern 词语模式******************/
 
     /**
+     * 难度：Easy
+     * https://leetcode.com/problems/word-pattern/description/
      * Given a pattern and a string str, find if str follows the same pattern.
-     *
-     * Here follow means a full match, such that there is a bijection between a letter in pattern and a non-empty word in str.
-     *
+     * Here follow means a full match, such that there is a bijection
+     * between a letter in pattern and a non-empty word in str.
      * Example 1:
      * Input: pattern = "abba", str = "dog cat cat dog"   Output: true
      * Example 2:
@@ -58,6 +59,7 @@ public class Leetcode_290_WordPattern_Easy {
         }
         return true;
     }
+    /**********************************测试********************************/
     //测试
     @Test
     public void test(){
@@ -68,5 +70,4 @@ public class Leetcode_290_WordPattern_Easy {
         boolean result3 = wordPattern("aaaa","dog cat cat dog");
         System.out.println("result3 = " + result3);
     }
-
 }

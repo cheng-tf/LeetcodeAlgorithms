@@ -1,13 +1,13 @@
-package PalindromeAlgorithms;
+package HashTableAlgorithms;
 
 import org.junit.Test;
 
-public class leetcode409LongestPalindrome_Easy {
-
+public class leetcode_409_LongestPalindrome_Easy {
     /************Leetcode409:最长回文长度******************************/
     /**
      * https://leetcode.com/problems/longest-palindrome/description/
-     *Given a string which consists of lowercase or uppercase letters, find the length of the longest palindromes that can be built with those letters.
+     *Given a string which consists of lowercase or uppercase letters,
+     * find the length of the longest palindromes that can be built with those letters.
      *
      * This is case sensitive, for example "Aa" is not considered a palindrome here.
      * Note:
@@ -46,6 +46,7 @@ public class leetcode409LongestPalindrome_Easy {
         if('a'<= c && c <='z') return c-'a'+ 26;
         return 53;
     }
+
     //测试
     @Test
     public void test(){
