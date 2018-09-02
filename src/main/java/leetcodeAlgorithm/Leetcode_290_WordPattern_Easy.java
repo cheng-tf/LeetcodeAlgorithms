@@ -1,7 +1,6 @@
 package leetcodeAlgorithm;
 
 import org.junit.Test;
-
 import java.util.HashMap;
 
 public class Leetcode_290_WordPattern_Easy {
@@ -50,18 +49,15 @@ public class Leetcode_290_WordPattern_Easy {
                 if(hashMap.get(strs[i]) != patternChars[i]) return false;
             }else{
                 if(isUsed[patternChars[i]-'a']){
-                    return false;//已经使用过
+                    return false;//已经使用过直接返回false
                 }else{
-                    isUsed[patternChars[i]-'a']=true;
+                    isUsed[patternChars[i]-'a'] = true;
                     hashMap.put(strs[i],patternChars[i]);
                 }
             }
         }
         return true;
     }
-
-
-
     //测试
     @Test
     public void test(){
@@ -71,8 +67,6 @@ public class Leetcode_290_WordPattern_Easy {
         System.out.println("result2 = " + result2);
         boolean result3 = wordPattern("aaaa","dog cat cat dog");
         System.out.println("result3 = " + result3);
-
     }
-
 
 }
