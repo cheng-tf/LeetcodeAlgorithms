@@ -5,8 +5,7 @@ import org.junit.Test;
 import java.util.ArrayDeque;
 
 public class Leetcode_402_RemoveKDigits_Medium {
-    /**************************************************************/
-
+    /***************************Leetcode_402_RemoveKDigits_Medium***********************************/
     /**
      * 难度：Medium
      * https://leetcode.com/problems/remove-k-digits/description/
@@ -47,7 +46,7 @@ public class Leetcode_402_RemoveKDigits_Medium {
      *          10200，k=1；1入栈，然后0来了，1出栈，k-1=0；0不入栈，k=0了，直接把2/0/0入栈即可；
      *          最后返回200。
      *          一开始，就是纠结在0，这里设计很巧妙，
-     *          注意：删除k个数字，最后剩下的数字位数，不一定必须是（总位数-k）；出现开头为0情况，
+     *          注意理解困难之处：删除k个数字，最后剩下的数字位数，不一定必须是（总位数-k）；出现开头为0情况，
      *          最后结果位数可以小于（总位数-k）。
      */
 
