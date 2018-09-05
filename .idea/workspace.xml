@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8667834-e393-4670-ba6c-135b805a3a36" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/GreedyAlgorithms/Leetcode_455_AssignCookies_Easy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/GreedyAlgorithms/Leetcode_376_WiggleSubsequence_Medium.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/GreedyAlgorithms/Leetcode_402_RemoveKDigits_Medium.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GreedyAlgorithms/Leetcode_455_AssignCookies_Easy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GreedyAlgorithms/Leetcode_455_AssignCookies_Easy.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,14 +72,15 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/GreedyAlgorithms/Leetcode_455_AssignCookies_Easy.java">
+    <leaf>
+      <file leaf-file-name="Leetcode_402_RemoveKDigits_Medium.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/GreedyAlgorithms/Leetcode_402_RemoveKDigits_Medium.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1349">
-              <caret line="71" column="44" lean-forward="true" selection-start-line="71" selection-start-column="44" selection-end-line="71" selection-end-column="44" />
+            <state relative-caret-position="729">
+              <caret line="82" column="1" lean-forward="true" selection-start-line="82" selection-start-column="1" selection-end-line="82" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1385#1396#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -109,6 +113,7 @@
       <find>get(</find>
       <find>ListNode</find>
       <find>guard_tail</find>
+      <find>preNum</find>
     </findStrings>
     <replaceStrings>
       <replace>TreeNodeWithCount</replace>
@@ -124,6 +129,7 @@
       <replace>right</replace>
       <replace>DListNode</replace>
       <replace>tail</replace>
+      <replace>nums[i-1]</replace>
     </replaceStrings>
     <dirStrings>
       <dir>E:\GitHubRepository\LeetcodeAlgorithms\src\main\java\BiShiAlgorithms</dir>
@@ -146,8 +152,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/SortAlgorithms/My.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Others/IntegerSourceCode.java" />
         <option value="$PROJECT_DIR$/src/main/java/StackAndQueueAlgorithms/JianzhiOffer31_IsPopOrderSameWithPushOrder.java" />
         <option value="$PROJECT_DIR$/src/main/java/BiShiAlgorithms/Wangyi_BiShiAlgorithms_20180811.java" />
         <option value="$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/SerializeAndDeserializeBinaryTree.java" />
@@ -197,6 +201,8 @@
         <option value="$PROJECT_DIR$/src/main/java/LRUCacheImpl/LRUCache_BasedOn_LinkedHashMap.java" />
         <option value="$PROJECT_DIR$/src/main/java/LRUCacheImpl/HashMapVSLinkedHashMap.java" />
         <option value="$PROJECT_DIR$/src/main/java/GreedyAlgorithms/Leetcode_455_AssignCookies_Easy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/GreedyAlgorithms/Leetcode_376_WiggleSubsequence_Medium.java" />
+        <option value="$PROJECT_DIR$/src/main/java/GreedyAlgorithms/Leetcode_402_RemoveKDigits_Medium.java" />
       </list>
     </option>
   </component>
@@ -213,6 +219,9 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="width" value="1378" />
@@ -226,6 +235,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -251,13 +261,20 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="LeetcodeAlgorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetcodeAlgorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="GreedyAlgorithms" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -291,10 +308,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Leetcode_455_AssignCookies_Easy.test">
+  <component name="RunManager" selected="JUnit.Leetcode_402_RemoveKDigits_Medium.test">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
+      <method>
         <option name="Make" enabled="true" />
       </method>
     </configuration>
@@ -306,15 +323,20 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="BinaryTreeBasicAlgorithms" />
       <option name="MAIN_CLASS_NAME" value="BinaryTreeBasicAlgorithms.BinaryTreeTraversals" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="CyclicBarrierDemo.CyclicBarrierIsBrokenTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="LeetcodeAlgorithms" />
@@ -324,15 +346,20 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="ThreadValves" />
       <option name="MAIN_CLASS_NAME" value="ThreadValves.CyclicBarrierDemo" />
       <option name="METHOD_NAME" value="CyclicBarrierIsBrokenTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="HashMapVSLinkedHashMap.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeAlgorithms" />
@@ -342,69 +369,89 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="LRUCacheImpl" />
       <option name="MAIN_CLASS_NAME" value="LRUCacheImpl.HashMapVSLinkedHashMap" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
-    <configuration name="LRUCache_BasedOn_LinkedHashMap.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Leetcode_376_WiggleSubsequence_Medium" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LRUCacheImpl.*" />
+          <option name="PATTERN" value="GreedyAlgorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="LRUCacheImpl" />
-      <option name="MAIN_CLASS_NAME" value="LRUCacheImpl.LRUCache_BasedOn_LinkedHashMap" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="GreedyAlgorithms" />
+      <option name="MAIN_CLASS_NAME" value="GreedyAlgorithms.Leetcode_376_WiggleSubsequence_Medium" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Leetcode_376_WiggleSubsequence_Medium.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetcodeAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GreedyAlgorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="GreedyAlgorithms" />
+      <option name="MAIN_CLASS_NAME" value="GreedyAlgorithms.Leetcode_376_WiggleSubsequence_Medium" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
-    <configuration name="Leetcode_146_LRUCache_Hard.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Leetcode_402_RemoveKDigits_Medium.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LRUCacheImpl.*" />
+          <option name="PATTERN" value="GreedyAlgorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="LRUCacheImpl" />
-      <option name="MAIN_CLASS_NAME" value="LRUCacheImpl.Leetcode_146_LRUCache_Hard" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="GreedyAlgorithms" />
+      <option name="MAIN_CLASS_NAME" value="GreedyAlgorithms.Leetcode_402_RemoveKDigits_Medium" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Leetcode_146_LRUCache_Hard.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetcodeAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LRUCacheImpl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="LRUCacheImpl" />
-      <option name="MAIN_CLASS_NAME" value="LRUCacheImpl.Leetcode_146_LRUCache_Hard" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="Leetcode_455_AssignCookies_Easy.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeAlgorithms" />
@@ -414,48 +461,81 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="GreedyAlgorithms" />
       <option name="MAIN_CLASS_NAME" value="GreedyAlgorithms.Leetcode_455_AssignCookies_Easy" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+      <method>
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
-      <method v="2">
+      <method>
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="JUnit.BinaryTreeTraversals.test" />
       <item itemvalue="JUnit.CyclicBarrierDemo.CyclicBarrierIsBrokenTest" />
-      <item itemvalue="JUnit.Leetcode_146_LRUCache_Hard.test2" />
-      <item itemvalue="JUnit.Leetcode_146_LRUCache_Hard.test1" />
-      <item itemvalue="JUnit.LRUCache_BasedOn_LinkedHashMap.test" />
       <item itemvalue="JUnit.HashMapVSLinkedHashMap.test" />
       <item itemvalue="JUnit.Leetcode_455_AssignCookies_Easy.test" />
+      <item itemvalue="JUnit.Leetcode_376_WiggleSubsequence_Medium.test" />
+      <item itemvalue="JUnit.Leetcode_376_WiggleSubsequence_Medium" />
+      <item itemvalue="JUnit.Leetcode_402_RemoveKDigits_Medium.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Leetcode_402_RemoveKDigits_Medium.test" />
+        <item itemvalue="JUnit.Leetcode_376_WiggleSubsequence_Medium.test" />
+        <item itemvalue="JUnit.Leetcode_376_WiggleSubsequence_Medium" />
         <item itemvalue="JUnit.Leetcode_455_AssignCookies_Easy.test" />
         <item itemvalue="JUnit.HashMapVSLinkedHashMap.test" />
-        <item itemvalue="JUnit.LRUCache_BasedOn_LinkedHashMap.test" />
-        <item itemvalue="JUnit.Leetcode_146_LRUCache_Hard.test1" />
-        <item itemvalue="JUnit.Leetcode_146_LRUCache_Hard.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -502,6 +582,8 @@
       <workItem from="1535786920260" duration="8143000" />
       <workItem from="1535852457143" duration="25148000" />
       <workItem from="1536064734005" duration="4531000" />
+      <workItem from="1536109282016" duration="4349000" />
+      <workItem from="1536134737254" duration="5455000" />
     </task>
     <task id="LOCAL-00001" summary="2222">
       <created>1533133335915</created>
@@ -682,72 +764,73 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Leetcode_146_LRUCache_Hard_test2 - 2018.09.03 at 16h 06m 17s.xml">
-      <configuration name="Leetcode_146_LRUCache_Hard.test2" configurationId="JUnit" />
+    <history-entry file="Leetcode_376_WiggleSubsequence_Medium - 2018.09.05 at 09h 29m 37s.xml">
+      <configuration name="Leetcode_376_WiggleSubsequence_Medium" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Leetcode_146_LRUCache_Hard_test2 - 2018.09.03 at 16h 22m 21s.xml">
-      <configuration name="Leetcode_146_LRUCache_Hard.test2" configurationId="JUnit" />
+    <history-entry file="Leetcode_376_WiggleSubsequence_Medium_test - 2018.09.05 at 09h 32m 38s.xml">
+      <configuration name="Leetcode_376_WiggleSubsequence_Medium.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Leetcode_146_LRUCache_Hard_test1 - 2018.09.03 at 16h 23m 07s.xml">
-      <configuration name="Leetcode_146_LRUCache_Hard.test1" configurationId="JUnit" />
+    <history-entry file="Leetcode_376_WiggleSubsequence_Medium_test - 2018.09.05 at 09h 36m 51s.xml">
+      <configuration name="Leetcode_376_WiggleSubsequence_Medium.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LRUCache_BasedOn_LinkedHashMap_test - 2018.09.03 at 22h 14m 00s.xml">
-      <configuration name="LRUCache_BasedOn_LinkedHashMap.test" configurationId="JUnit" />
+    <history-entry file="Leetcode_376_WiggleSubsequence_Medium_test - 2018.09.05 at 09h 37m 01s.xml">
+      <configuration name="Leetcode_376_WiggleSubsequence_Medium.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LRUCache_BasedOn_LinkedHashMap_test - 2018.09.03 at 22h 14m 49s.xml">
-      <configuration name="LRUCache_BasedOn_LinkedHashMap.test" configurationId="JUnit" />
+    <history-entry file="Leetcode_402_RemoveKDigits_Medium_test - 2018.09.05 at 19h 22m 39s.xml">
+      <configuration name="Leetcode_402_RemoveKDigits_Medium.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HashMapVSLinkedHashMap_test - 2018.09.03 at 22h 43m 31s.xml">
-      <configuration name="HashMapVSLinkedHashMap.test" configurationId="JUnit" />
+    <history-entry file="Leetcode_402_RemoveKDigits_Medium_test - 2018.09.05 at 19h 23m 11s.xml">
+      <configuration name="Leetcode_402_RemoveKDigits_Medium.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HashMapVSLinkedHashMap_test - 2018.09.03 at 22h 44m 13s.xml">
-      <configuration name="HashMapVSLinkedHashMap.test" configurationId="JUnit" />
+    <history-entry file="Leetcode_402_RemoveKDigits_Medium_test - 2018.09.05 at 19h 24m 45s.xml">
+      <configuration name="Leetcode_402_RemoveKDigits_Medium.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HashMapVSLinkedHashMap_test - 2018.09.03 at 22h 45m 12s.xml">
-      <configuration name="HashMapVSLinkedHashMap.test" configurationId="JUnit" />
+    <history-entry file="Leetcode_402_RemoveKDigits_Medium_test - 2018.09.05 at 19h 25m 21s.xml">
+      <configuration name="Leetcode_402_RemoveKDigits_Medium.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Leetcode_455_AssignCookies_Easy_test - 2018.09.04 at 21h 51m 59s.xml">
-      <configuration name="Leetcode_455_AssignCookies_Easy.test" configurationId="JUnit" />
+    <history-entry file="Leetcode_402_RemoveKDigits_Medium_test - 2018.09.05 at 19h 58m 23s.xml">
+      <configuration name="Leetcode_402_RemoveKDigits_Medium.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Leetcode_455_AssignCookies_Easy_test - 2018.09.04 at 22h 46m 32s.xml">
-      <configuration name="Leetcode_455_AssignCookies_Easy.test" configurationId="JUnit" />
+    <history-entry file="Leetcode_402_RemoveKDigits_Medium_test - 2018.09.05 at 19h 59m 05s.xml">
+      <configuration name="Leetcode_402_RemoveKDigits_Medium.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="448436000" />
+    <option name="totallyTimeSpent" value="458240000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23373677" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32731137" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947917" weight="0.31639344" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.46721312" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3295082" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5005208" side_tool="true" weight="0.424017" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.324295" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.324295" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5005208" side_tool="true" weight="0.424017" />
       <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947917" weight="0.31562167" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3295082" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Designer" order="3" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23333333" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.46652496" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3296875" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32731137" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -771,17 +854,10 @@
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
+      <option name="time" value="1" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/Jianzhi.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_43_theNumberOf1Between1AndN.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="84" column="22" lean-forward="true" selection-start-line="84" selection-start-column="22" selection-end-line="84" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ArrayAlgorithms/JianzhiOffer_4_FindElementInTwoDimensionalArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -909,9 +985,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -926,9 +999,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="950">
           <caret line="90" column="22" lean-forward="true" selection-start-line="90" selection-start-column="22" selection-end-line="90" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -936,12 +1006,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="449">
           <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1008#1016#0" expanded="true" />
-            <element signature="e#1181#1197#0" expanded="true" />
-            <element signature="e#2016#2024#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -949,15 +1013,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="157" column="24" lean-forward="true" selection-start-line="157" selection-start-column="24" selection-end-line="157" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2286#2287#0" expanded="true" />
-            <element signature="e#2324#2325#0" expanded="true" />
-            <element signature="e#3183#3184#0" expanded="true" />
-            <element signature="e#3212#3213#0" expanded="true" />
-            <element signature="e#5633#5634#0" expanded="true" />
-            <element signature="e#5670#5671#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -983,9 +1038,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="54" lean-forward="true" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1018,22 +1070,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LRUCacheImpl/HashMapPlusLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LRUCacheImpl/HashMapPlusLinkedList.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/LRUCacheImpl/HashMapVSLinkedHashMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="19" column="77" lean-forward="true" selection-start-line="19" selection-start-column="77" selection-end-line="19" selection-end-column="77" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#214#232#0" expanded="true" />
-            <element signature="e#574#592#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1041,9 +1082,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="519">
           <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1051,18 +1089,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="124" column="33" lean-forward="true" selection-start-line="124" selection-start-column="33" selection-end-line="124" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GreedyAlgorithms/Leetcode_455_AssignCookies_Easy.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/GreedyAlgorithms/Leetcode_455_AssignCookies_Easy.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/GreedyAlgorithms/Leetcode_376_WiggleSubsequence_Medium.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1349">
-          <caret line="71" column="44" lean-forward="true" selection-start-line="71" selection-start-column="44" selection-end-line="71" selection-end-column="44" />
+        <state relative-caret-position="911">
+          <caret line="48" column="38" lean-forward="true" selection-start-line="48" selection-start-column="38" selection-end-line="48" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GreedyAlgorithms/Leetcode_402_RemoveKDigits_Medium.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="729">
+          <caret line="82" column="1" lean-forward="true" selection-start-line="82" selection-start-column="1" selection-end-line="82" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1385#1396#0" expanded="true" />
           </folding>
         </state>
       </provider>
