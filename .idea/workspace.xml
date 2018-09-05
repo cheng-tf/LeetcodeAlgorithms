@@ -81,22 +81,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="678" />
+          <entry key="java" value="1383" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="678" />
+          <entry key="JAVA" value="1383" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="2" />
+          <entry key="java" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="2" />
+          <entry key="JAVA" value="3" />
         </counts>
       </usages-collector>
     </session>
@@ -116,11 +116,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/GreedyAlgorithms/Leetcode_376_WiggleSubsequence_Medium.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+            <state relative-caret-position="342">
+              <caret line="18" column="54" lean-forward="true" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/GreedyAlgorithms/Leetcode_55_JumpGame_Medium.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="62" column="40" lean-forward="true" selection-start-line="62" selection-start-column="40" selection-end-line="62" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -200,7 +209,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/StackAndQueueAlgorithms/JianzhiOffer31_IsPopOrderSameWithPushOrder.java" />
         <option value="$PROJECT_DIR$/src/main/java/BiShiAlgorithms/Wangyi_BiShiAlgorithms_20180811.java" />
         <option value="$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/SerializeAndDeserializeBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/JianzhiOffer_GetMaxTreeDepth.java" />
@@ -251,6 +259,7 @@
         <option value="$PROJECT_DIR$/src/main/java/GreedyAlgorithms/Leetcode_455_AssignCookies_Easy.java" />
         <option value="$PROJECT_DIR$/src/main/java/GreedyAlgorithms/Leetcode_376_WiggleSubsequence_Medium.java" />
         <option value="$PROJECT_DIR$/src/main/java/GreedyAlgorithms/Leetcode_402_RemoveKDigits_Medium.java" />
+        <option value="$PROJECT_DIR$/src/main/java/GreedyAlgorithms/Leetcode_55_JumpGame_Medium.java" />
       </list>
     </option>
   </component>
@@ -267,7 +276,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="width" value="1378" />
     <option name="height" value="780" />
@@ -334,7 +343,7 @@
     <property name="SearchEverywhereHistoryKey" value="compareTo&#9;PSI&#9;JAVA://ArrayAlgorithms.JianzhiOffer_45_FindTheMinNumberOfNumberArray.NewComparator#compareTo" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536161261187" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536164830303" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../GitBase/Git/bin/git.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -361,7 +370,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Leetcode_402_RemoveKDigits_Medium">
+  <component name="RunManager" selected="JUnit.Leetcode_55_JumpGame_Medium.test">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -472,7 +481,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Leetcode_455_AssignCookies_Easy.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Leetcode_55_JumpGame_Medium.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeAlgorithms" />
       <extension name="coverage">
         <pattern>
@@ -481,7 +490,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="GreedyAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="GreedyAlgorithms.Leetcode_455_AssignCookies_Easy" />
+      <option name="MAIN_CLASS_NAME" value="GreedyAlgorithms.Leetcode_55_JumpGame_Medium" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
@@ -509,19 +518,19 @@
     <list>
       <item itemvalue="JUnit.BinaryTreeTraversals.test" />
       <item itemvalue="JUnit.CyclicBarrierDemo.CyclicBarrierIsBrokenTest" />
-      <item itemvalue="JUnit.Leetcode_455_AssignCookies_Easy.test" />
       <item itemvalue="JUnit.Leetcode_376_WiggleSubsequence_Medium.test" />
       <item itemvalue="JUnit.Leetcode_376_WiggleSubsequence_Medium" />
       <item itemvalue="JUnit.Leetcode_402_RemoveKDigits_Medium.test" />
       <item itemvalue="JUnit.Leetcode_402_RemoveKDigits_Medium" />
+      <item itemvalue="JUnit.Leetcode_55_JumpGame_Medium.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Leetcode_55_JumpGame_Medium.test" />
         <item itemvalue="JUnit.Leetcode_402_RemoveKDigits_Medium" />
         <item itemvalue="JUnit.Leetcode_376_WiggleSubsequence_Medium" />
         <item itemvalue="JUnit.Leetcode_402_RemoveKDigits_Medium.test" />
         <item itemvalue="JUnit.Leetcode_376_WiggleSubsequence_Medium.test" />
-        <item itemvalue="JUnit.Leetcode_455_AssignCookies_Easy.test" />
       </list>
     </recent_temporary>
   </component>
@@ -570,7 +579,7 @@
       <workItem from="1536064734005" duration="4531000" />
       <workItem from="1536109282016" duration="4349000" />
       <workItem from="1536134737254" duration="5455000" />
-      <workItem from="1536157515715" duration="2670000" />
+      <workItem from="1536157515715" duration="5313000" />
     </task>
     <task id="LOCAL-00001" summary="2222">
       <created>1533133335915</created>
@@ -768,16 +777,17 @@
       <option name="project" value="LOCAL" />
       <updated>1536161296348</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="提交">
+      <created>1536161321669</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1536161321669</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Leetcode_376_WiggleSubsequence_Medium_test - 2018.09.05 at 09h 36m 51s.xml">
-      <configuration name="Leetcode_376_WiggleSubsequence_Medium.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Leetcode_376_WiggleSubsequence_Medium_test - 2018.09.05 at 09h 37m 01s.xml">
-      <configuration name="Leetcode_376_WiggleSubsequence_Medium.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Leetcode_402_RemoveKDigits_Medium_test - 2018.09.05 at 19h 22m 39s.xml">
       <configuration name="Leetcode_402_RemoveKDigits_Medium.test" configurationId="JUnit" />
     </history-entry>
@@ -802,15 +812,21 @@
     <history-entry file="Leetcode_402_RemoveKDigits_Medium - 2018.09.05 at 22h 28m 01s.xml">
       <configuration name="Leetcode_402_RemoveKDigits_Medium" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Leetcode_55_JumpGame_Medium_test - 2018.09.06 at 00h 12m 13s.xml">
+      <configuration name="Leetcode_55_JumpGame_Medium.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Leetcode_55_JumpGame_Medium_test - 2018.09.06 at 00h 13m 03s.xml">
+      <configuration name="Leetcode_55_JumpGame_Medium.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="460910000" />
+    <option name="totallyTimeSpent" value="463553000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23676248" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23676248" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -819,7 +835,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32731137" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947917" visible="true" weight="0.31527093" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49947917" visible="true" weight="0.31527093" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.46652496" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -865,13 +881,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ArrayAlgorithms/JianzhiOffer_4_FindElementInTwoDimensionalArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ArrayAlgorithms/JianzhiOffer_xx_FindADuplicateNumber.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1158">
@@ -1119,8 +1128,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/GreedyAlgorithms/Leetcode_376_WiggleSubsequence_Medium.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        <state relative-caret-position="342">
+          <caret line="18" column="54" lean-forward="true" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GreedyAlgorithms/Leetcode_55_JumpGame_Medium.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="62" column="40" lean-forward="true" selection-start-line="62" selection-start-column="40" selection-end-line="62" selection-end-column="40" />
         </state>
       </provider>
     </entry>
