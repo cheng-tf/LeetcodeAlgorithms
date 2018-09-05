@@ -79,5 +79,4 @@ public class Leetcode_402_RemoveKDigits_Medium {
         System.out.println("result2 = " + result2);
     }
 
-
 }
