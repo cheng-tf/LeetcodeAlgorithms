@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c8667834-e393-4670-ba6c-135b805a3a36" name="Default" comment="提交">
-      <change afterPath="$PROJECT_DIR$/src/main/java/GreedyAlgorithms/Leetcode_45_JumpGameII_Hard.java" afterDir="false" />
+    <list default="true" id="c8667834-e393-4670-ba6c-135b805a3a36" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/GreedyAlgorithms/Leetcode_452_MinimumNumberofArrowstoBurstBalloons_Medium.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/GreedyAlgorithms/POJ_2431_Expedition_Hard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GreedyAlgorithms/Leetcode_55_JumpGame_Medium.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GreedyAlgorithms/Leetcode_55_JumpGame_Medium.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/GreedyAlgorithms/Leetcode_402_RemoveKDigits_Medium.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GreedyAlgorithms/Leetcode_402_RemoveKDigits_Medium.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -101,23 +100,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Leetcode_402_RemoveKDigits_Medium.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/GreedyAlgorithms/Leetcode_402_RemoveKDigits_Medium.java">
+      <file leaf-file-name="Leetcode_452_MinimumNumberofArrowstoBurstBalloons_Medium.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/GreedyAlgorithms/Leetcode_452_MinimumNumberofArrowstoBurstBalloons_Medium.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="380">
+              <caret line="38" column="1" lean-forward="true" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1723#1893#0" expanded="true" />
+                <element signature="e#1892#1893#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Leetcode_55_JumpGame_Medium.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/GreedyAlgorithms/Leetcode_55_JumpGame_Medium.java">
+      <file leaf-file-name="POJ_2431_Expedition_Hard.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/GreedyAlgorithms/POJ_2431_Expedition_Hard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="71" selection-start-line="71" selection-end-line="73" selection-end-column="51" />
+            <state relative-caret-position="481">
+              <caret line="61" column="4" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -189,8 +190,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/SerializeAndDeserializeBinaryTree.java" />
-        <option value="$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/JianzhiOffer_GetMaxTreeDepth.java" />
         <option value="$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/FindPathsEqualsTarget.java" />
         <option value="$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/GetDepthOfBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/GetMirrorBinaryTree.java" />
@@ -240,6 +239,8 @@
         <option value="$PROJECT_DIR$/src/main/java/GreedyAlgorithms/Leetcode_402_RemoveKDigits_Medium.java" />
         <option value="$PROJECT_DIR$/src/main/java/GreedyAlgorithms/Leetcode_55_JumpGame_Medium.java" />
         <option value="$PROJECT_DIR$/src/main/java/GreedyAlgorithms/Leetcode_45_JumpGameII_Hard.java" />
+        <option value="$PROJECT_DIR$/src/main/java/GreedyAlgorithms/Leetcode_452_MinimumNumberofArrowstoBurstBalloons_Medium.java" />
+        <option value="$PROJECT_DIR$/src/main/java/GreedyAlgorithms/POJ_2431_Expedition_Hard.java" />
       </list>
     </option>
   </component>
@@ -259,7 +260,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="width" value="1378" />
     <option name="height" value="780" />
@@ -345,7 +346,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Leetcode_45_JumpGameII_Hard.test">
+  <component name="RunManager" selected="JUnit.Leetcode_452_MinimumNumberofArrowstoBurstBalloons_Medium">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method>
@@ -398,29 +399,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="Leetcode_376_WiggleSubsequence_Medium" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetcodeAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="GreedyAlgorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="GreedyAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="GreedyAlgorithms.Leetcode_376_WiggleSubsequence_Medium" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration name="Leetcode_402_RemoveKDigits_Medium" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeAlgorithms" />
       <extension name="coverage">
@@ -435,6 +413,52 @@
       <option name="MAIN_CLASS_NAME" value="GreedyAlgorithms.Leetcode_402_RemoveKDigits_Medium" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Leetcode_452_MinimumNumberofArrowstoBurstBalloons_Medium" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetcodeAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GreedyAlgorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="GreedyAlgorithms" />
+      <option name="MAIN_CLASS_NAME" value="GreedyAlgorithms.Leetcode_452_MinimumNumberofArrowstoBurstBalloons_Medium" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Leetcode_452_MinimumNumberofArrowstoBurstBalloons_Medium.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetcodeAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GreedyAlgorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="GreedyAlgorithms" />
+      <option name="MAIN_CLASS_NAME" value="GreedyAlgorithms.Leetcode_452_MinimumNumberofArrowstoBurstBalloons_Medium" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -481,29 +505,6 @@
       <option name="MAIN_CLASS_NAME" value="GreedyAlgorithms.Leetcode_55_JumpGame_Medium" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="Leetcode_55_JumpGame_Medium.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetcodeAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="GreedyAlgorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="GreedyAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="GreedyAlgorithms.Leetcode_55_JumpGame_Medium" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -560,19 +561,19 @@
     <list>
       <item itemvalue="JUnit.BinaryTreeTraversals.test" />
       <item itemvalue="JUnit.CyclicBarrierDemo.CyclicBarrierIsBrokenTest" />
-      <item itemvalue="JUnit.Leetcode_376_WiggleSubsequence_Medium" />
       <item itemvalue="JUnit.Leetcode_402_RemoveKDigits_Medium" />
-      <item itemvalue="JUnit.Leetcode_55_JumpGame_Medium.test" />
       <item itemvalue="JUnit.Leetcode_55_JumpGame_Medium" />
       <item itemvalue="JUnit.Leetcode_45_JumpGameII_Hard.test" />
+      <item itemvalue="JUnit.Leetcode_452_MinimumNumberofArrowstoBurstBalloons_Medium.test" />
+      <item itemvalue="JUnit.Leetcode_452_MinimumNumberofArrowstoBurstBalloons_Medium" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Leetcode_452_MinimumNumberofArrowstoBurstBalloons_Medium" />
+        <item itemvalue="JUnit.Leetcode_452_MinimumNumberofArrowstoBurstBalloons_Medium.test" />
         <item itemvalue="JUnit.Leetcode_45_JumpGameII_Hard.test" />
         <item itemvalue="JUnit.Leetcode_55_JumpGame_Medium" />
         <item itemvalue="JUnit.Leetcode_402_RemoveKDigits_Medium" />
-        <item itemvalue="JUnit.Leetcode_55_JumpGame_Medium.test" />
-        <item itemvalue="JUnit.Leetcode_376_WiggleSubsequence_Medium" />
       </list>
     </recent_temporary>
   </component>
@@ -622,7 +623,7 @@
       <workItem from="1536109282016" duration="4349000" />
       <workItem from="1536134737254" duration="5455000" />
       <workItem from="1536157515715" duration="5313000" />
-      <workItem from="1536198497268" duration="10748000" />
+      <workItem from="1536198497268" duration="20024000" />
     </task>
     <task id="LOCAL-00001" summary="2222">
       <created>1533133335915</created>
@@ -834,22 +835,17 @@
       <option name="project" value="LOCAL" />
       <updated>1536198182901</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="提交">
+      <created>1536216374572</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1536216374573</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Leetcode_45_JumpGameII_Hard_test - 2018.09.06 at 11h 23m 42s.xml">
-      <configuration name="Leetcode_45_JumpGameII_Hard.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Leetcode_45_JumpGameII_Hard_test - 2018.09.06 at 12h 36m 59s.xml">
-      <configuration name="Leetcode_45_JumpGameII_Hard.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Leetcode_45_JumpGameII_Hard_test - 2018.09.06 at 12h 42m 33s.xml">
-      <configuration name="Leetcode_45_JumpGameII_Hard.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Leetcode_45_JumpGameII_Hard_test - 2018.09.06 at 12h 43m 17s.xml">
-      <configuration name="Leetcode_45_JumpGameII_Hard.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Leetcode_45_JumpGameII_Hard_test - 2018.09.06 at 12h 45m 38s.xml">
       <configuration name="Leetcode_45_JumpGameII_Hard.test" configurationId="JUnit" />
     </history-entry>
@@ -868,9 +864,21 @@
     <history-entry file="Leetcode_45_JumpGameII_Hard_test - 2018.09.06 at 14h 41m 42s.xml">
       <configuration name="Leetcode_45_JumpGameII_Hard.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Leetcode_452_MinimumNumberofArrowstoBurstBalloons_Medium_test - 2018.09.06 at 17h 18m 27s.xml">
+      <configuration name="Leetcode_452_MinimumNumberofArrowstoBurstBalloons_Medium.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Leetcode_452_MinimumNumberofArrowstoBurstBalloons_Medium - 2018.09.06 at 17h 21m 08s.xml">
+      <configuration name="Leetcode_452_MinimumNumberofArrowstoBurstBalloons_Medium" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Leetcode_452_MinimumNumberofArrowstoBurstBalloons_Medium_test - 2018.09.06 at 17h 51m 01s.xml">
+      <configuration name="Leetcode_452_MinimumNumberofArrowstoBurstBalloons_Medium.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Leetcode_452_MinimumNumberofArrowstoBurstBalloons_Medium - 2018.09.06 at 18h 23m 55s.xml">
+      <configuration name="Leetcode_452_MinimumNumberofArrowstoBurstBalloons_Medium" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="475374000" />
+    <option name="totallyTimeSpent" value="484650000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -927,25 +935,11 @@
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/GreedyAlgorithms/Leetcode_55_JumpGame_Medium.java</url>
-          <line>72</line>
-          <properties />
-        </line-breakpoint>
       </breakpoints>
       <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/JDK8/src.zip!/java/util/ComparableTimSort.java" />
-    <entry file="jar://D:/JDK8/src.zip!/java/lang/Comparable.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Others/StringInternTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="28" column="29" lean-forward="true" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/JDK8/src.zip!/java/lang/AbstractStringBuilder.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/BiShiAlgorithms/Main.java" />
     <entry file="jar://D:/JDK8/src.zip!/java/lang/String.java" />
@@ -1164,16 +1158,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GreedyAlgorithms/Leetcode_402_RemoveKDigits_Medium.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.10/junit-4.10.jar!/org/junit/runners/model/FrameworkMethod.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="338">
@@ -1181,21 +1165,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GreedyAlgorithms/Leetcode_45_JumpGameII_Hard.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/GreedyAlgorithms/Leetcode_55_JumpGame_Medium.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="126" column="23" lean-forward="true" selection-start-line="126" selection-start-column="23" selection-end-line="126" selection-end-column="23" />
+        <state relative-caret-position="152">
+          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GreedyAlgorithms/Leetcode_402_RemoveKDigits_Medium.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3045#3054#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GreedyAlgorithms/Leetcode_55_JumpGame_Medium.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/GreedyAlgorithms/Leetcode_45_JumpGameII_Hard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="59" column="27" lean-forward="true" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GreedyAlgorithms/Leetcode_452_MinimumNumberofArrowstoBurstBalloons_Medium.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
-          <caret line="71" selection-start-line="71" selection-end-line="73" selection-end-column="51" />
+          <caret line="38" column="1" lean-forward="true" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1723#1893#0" expanded="true" />
+            <element signature="e#1892#1893#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GreedyAlgorithms/POJ_2431_Expedition_最Hard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="38" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GreedyAlgorithms/POJ_2431_Expedition_Hard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="61" column="4" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="4" />
         </state>
       </provider>
     </entry>
