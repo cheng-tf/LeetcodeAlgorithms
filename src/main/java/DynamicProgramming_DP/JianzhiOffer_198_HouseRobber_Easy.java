@@ -123,7 +123,7 @@ public class JianzhiOffer_198_HouseRobber_Easy {
     public void test(){
         int[][] nums = {{1,2,3,1},{2,7,9,3,1},{5,2,6,3,1,7}};
         for(int[] num : nums){
-            System.out.println("rob(num) = " + rob(num));
+            System.out.println("rob(num) = " + rob1(num));
         }
     }
 }
