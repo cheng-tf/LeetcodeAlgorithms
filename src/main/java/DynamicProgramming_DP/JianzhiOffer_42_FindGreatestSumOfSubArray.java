@@ -1,4 +1,4 @@
-package ArrayAlgorithms;
+package DynamicProgramming_DP;
 
 import org.junit.Test;
 

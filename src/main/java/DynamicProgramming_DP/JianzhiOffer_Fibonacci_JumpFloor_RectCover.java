@@ -1,4 +1,4 @@
-package JianzhiOfferAlgorithms;
+package DynamicProgramming_DP;
 
 import org.junit.Test;
 
@@ -117,7 +117,8 @@ public class JianzhiOffer_Fibonacci_JumpFloor_RectCover {
         if(n <= 0) return 0;
         if(n==1||n==2) return n;
         int result = 0;
-        while(--n>=0) result += JumpFloorIIBasedOnFibonacci(n);
+        while(--n>=0)
+            result += JumpFloorIIBasedOnFibonacci(n);
         return result + 1;
     }
 
@@ -137,12 +138,27 @@ public class JianzhiOffer_Fibonacci_JumpFloor_RectCover {
         if(n <= 0) return 0;
         if(n == 1) return 1;
         int result = 1;
-        while(--n>0)  result *= 2;
+//        while(--n>0)  result *= 2;
+//        while(--n>0)  result <<= 1;//利用左移替代乘2
+        //先计算2^n，再乘以result
+        result *= power(2,n-1);
+        return result;
+    }
+    
+    //利用递归实现base的n次方
+    public int power(int base,int n){
+        if(n == 0) return 1;
+        if(n == 1) return base;
+        int result = power(base,n>>1);//核心
+        result *= result;//关键
+        if((n&1)==1) result *= base;
         return result;
     }
     //测试
     @Test
     public void test22(){
+        for(int i = 0;i < 10;i++)
+            System.out.println("power(3,"+i + ") = " + power(3,i));
         for(int i = 1;i < 10;i++){
             System.out.println(JumpFloorII(i));
             System.out.println(JumpFloorIIBasedOnFibonacci(i));
