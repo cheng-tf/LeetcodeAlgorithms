@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8667834-e393-4670-ba6c-135b805a3a36" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/DynamicProgramming_DP/Leetcode_70_ClimbingStairs_Easy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DynamicProgramming_DP/Leetcode_746_MinCostClimbingStairs_Easy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BiShiAlgorithms/KeDaXunFei_0907.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DynamicProgramming_DP/JianzhiOffer_198_HouseRobber_Easy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ArrayAlgorithms/JianzhiOffer_42_FindGreatestSumOfSubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DynamicProgramming_DP/JianzhiOffer_42_FindGreatestSumOfSubArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_Fibonacci_JumpFloor_RectCover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DynamicProgramming_DP/JianzhiOffer_Fibonacci_JumpFloor_RectCover.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JianzhiOfferAlgorithms/JianzhiOffer_Fibonacci_JumpFloor_RectCover.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ArrayAlgorithms/JianzhiOffer_42_FindGreatestSumOfSubArray.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -106,35 +104,21 @@
       <file leaf-file-name="POJ_2431_Expedition_Hard.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/GreedyAlgorithms/POJ_2431_Expedition_Hard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="44" column="8" lean-forward="true" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
+            <state relative-caret-position="228">
+              <caret line="12" column="51" lean-forward="true" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Leetcode_70_ClimbingStairs_Easy.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/DynamicProgramming_DP/Leetcode_70_ClimbingStairs_Easy.java">
+      <file leaf-file-name="JianzhiOffer_198_HouseRobber_Easy.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/DynamicProgramming_DP/JianzhiOffer_198_HouseRobber_Easy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JianzhiOffer_Fibonacci_JumpFloor_RectCover.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/DynamicProgramming_DP/JianzhiOffer_Fibonacci_JumpFloor_RectCover.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="133" selection-start-line="133" selection-end-line="145" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Leetcode_746_MinCostClimbingStairs_Easy.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/DynamicProgramming_DP/Leetcode_746_MinCostClimbingStairs_Easy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="722">
-              <caret line="38" column="27" lean-forward="true" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
+            <state relative-caret-position="720">
+              <caret line="126" column="9" lean-forward="true" selection-start-line="126" selection-start-column="9" selection-end-line="126" selection-end-column="9" />
+              <folding>
+                <element signature="e#2621#2622#0" expanded="true" />
+                <element signature="e#2669#2670#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -206,9 +190,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/IsSymmetricalBinaryTreeByTraversal.java" />
-        <option value="$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/KthBSTNode_BinarySearchTree.java" />
-        <option value="$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/NextNodeOfBinaryTreeInOrderTraversal.java" />
         <option value="$PROJECT_DIR$/src/main/java/ArrayAlgorithms/JianzhiOffer_40_GetTheKLeastNumbers.java" />
         <option value="$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/VerifySquenceOfBSTPreOrderOrPostOrder.java" />
         <option value="$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/BinaryTreeTraversals.java" />
@@ -257,6 +238,9 @@
         <option value="$PROJECT_DIR$/src/main/java/DynamicProgramming_DP/Leetcode_746_MinCostClimbingStairs_Easy.java" />
         <option value="$PROJECT_DIR$/src/main/java/DynamicProgramming_DP/JianzhiOffer_Fibonacci_JumpFloor_RectCover.java" />
         <option value="$PROJECT_DIR$/src/main/java/DynamicProgramming_DP/JianzhiOffer_42_FindGreatestSumOfSubArray.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BiShiAlgorithms/KeDaXunFei.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BiShiAlgorithms/KeDaXunFei_0907.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DynamicProgramming_DP/JianzhiOffer_198_HouseRobber_Easy.java" />
       </list>
     </option>
   </component>
@@ -378,7 +362,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.JianzhiOffer_Fibonacci_JumpFloor_RectCover.test22">
+  <component name="RunManager" selected="JUnit.JianzhiOffer_198_HouseRobber_Easy">
+    <configuration name="KeDaXunFei" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BiShiAlgorithms.KeDaXunFei" />
+      <module name="LeetcodeAlgorithms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BiShiAlgorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method>
@@ -431,6 +426,52 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="JianzhiOffer_198_HouseRobber_Easy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetcodeAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DynamicProgramming_DP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="DynamicProgramming_DP" />
+      <option name="MAIN_CLASS_NAME" value="DynamicProgramming_DP.JianzhiOffer_198_HouseRobber_Easy" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="JianzhiOffer_198_HouseRobber_Easy.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetcodeAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DynamicProgramming_DP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="DynamicProgramming_DP" />
+      <option name="MAIN_CLASS_NAME" value="DynamicProgramming_DP.JianzhiOffer_198_HouseRobber_Easy" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration name="JianzhiOffer_Fibonacci_JumpFloor_RectCover" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeAlgorithms" />
       <extension name="coverage">
@@ -467,75 +508,6 @@
       <option name="PACKAGE_NAME" value="DynamicProgramming_DP" />
       <option name="MAIN_CLASS_NAME" value="DynamicProgramming_DP.JianzhiOffer_Fibonacci_JumpFloor_RectCover" />
       <option name="METHOD_NAME" value="test22" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="Leetcode_452_MinimumNumberofArrowstoBurstBalloons_Medium" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetcodeAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="GreedyAlgorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="GreedyAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="GreedyAlgorithms.Leetcode_452_MinimumNumberofArrowstoBurstBalloons_Medium" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="Leetcode_70_ClimbingStairs_Easy.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetcodeAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DynamicProgramming_DP.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="DynamicProgramming_DP" />
-      <option name="MAIN_CLASS_NAME" value="DynamicProgramming_DP.Leetcode_70_ClimbingStairs_Easy" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="Leetcode_746_MinCostClimbingStairs_Easy.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetcodeAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DynamicProgramming_DP.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="DynamicProgramming_DP" />
-      <option name="MAIN_CLASS_NAME" value="DynamicProgramming_DP.Leetcode_746_MinCostClimbingStairs_Easy" />
-      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -593,19 +565,19 @@
     <list>
       <item itemvalue="JUnit.BinaryTreeTraversals.test" />
       <item itemvalue="JUnit.CyclicBarrierDemo.CyclicBarrierIsBrokenTest" />
-      <item itemvalue="JUnit.Leetcode_452_MinimumNumberofArrowstoBurstBalloons_Medium" />
       <item itemvalue="JUnit.JianzhiOffer_Fibonacci_JumpFloor_RectCover" />
-      <item itemvalue="JUnit.Leetcode_70_ClimbingStairs_Easy.test" />
-      <item itemvalue="JUnit.Leetcode_746_MinCostClimbingStairs_Easy.test" />
       <item itemvalue="JUnit.JianzhiOffer_Fibonacci_JumpFloor_RectCover.test22" />
+      <item itemvalue="Application.KeDaXunFei" />
+      <item itemvalue="JUnit.JianzhiOffer_198_HouseRobber_Easy.test" />
+      <item itemvalue="JUnit.JianzhiOffer_198_HouseRobber_Easy" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JianzhiOffer_198_HouseRobber_Easy" />
+        <item itemvalue="JUnit.JianzhiOffer_198_HouseRobber_Easy.test" />
+        <item itemvalue="Application.KeDaXunFei" />
         <item itemvalue="JUnit.JianzhiOffer_Fibonacci_JumpFloor_RectCover.test22" />
         <item itemvalue="JUnit.JianzhiOffer_Fibonacci_JumpFloor_RectCover" />
-        <item itemvalue="JUnit.Leetcode_746_MinCostClimbingStairs_Easy.test" />
-        <item itemvalue="JUnit.Leetcode_70_ClimbingStairs_Easy.test" />
-        <item itemvalue="JUnit.Leetcode_452_MinimumNumberofArrowstoBurstBalloons_Medium" />
       </list>
     </recent_temporary>
   </component>
@@ -655,7 +627,7 @@
       <workItem from="1536109282016" duration="4349000" />
       <workItem from="1536134737254" duration="5455000" />
       <workItem from="1536157515715" duration="5313000" />
-      <workItem from="1536198497268" duration="30710000" />
+      <workItem from="1536198497268" duration="45878000" />
     </task>
     <task id="LOCAL-00001" summary="2222">
       <created>1533133335915</created>
@@ -878,42 +850,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="JianzhiOffer_Fibonacci_JumpFloor_RectCover_test22 - 2018.09.07 at 12h 58m 13s.xml">
-      <configuration name="JianzhiOffer_Fibonacci_JumpFloor_RectCover.test22" configurationId="JUnit" />
+    <history-entry file="JianzhiOffer_198_HouseRobber_Easy_test - 2018.09.07 at 20h 35m 13s.xml">
+      <configuration name="JianzhiOffer_198_HouseRobber_Easy.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JianzhiOffer_Fibonacci_JumpFloor_RectCover_test22 - 2018.09.07 at 13h 05m 35s.xml">
-      <configuration name="JianzhiOffer_Fibonacci_JumpFloor_RectCover.test22" configurationId="JUnit" />
+    <history-entry file="JianzhiOffer_198_HouseRobber_Easy_test - 2018.09.07 at 20h 39m 11s.xml">
+      <configuration name="JianzhiOffer_198_HouseRobber_Easy.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JianzhiOffer_Fibonacci_JumpFloor_RectCover_test22 - 2018.09.07 at 13h 08m 17s.xml">
-      <configuration name="JianzhiOffer_Fibonacci_JumpFloor_RectCover.test22" configurationId="JUnit" />
+    <history-entry file="JianzhiOffer_198_HouseRobber_Easy_test - 2018.09.07 at 20h 57m 39s.xml">
+      <configuration name="JianzhiOffer_198_HouseRobber_Easy.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JianzhiOffer_Fibonacci_JumpFloor_RectCover_test22 - 2018.09.07 at 13h 08m 21s.xml">
-      <configuration name="JianzhiOffer_Fibonacci_JumpFloor_RectCover.test22" configurationId="JUnit" />
+    <history-entry file="JianzhiOffer_198_HouseRobber_Easy_test - 2018.09.07 at 20h 58m 09s.xml">
+      <configuration name="JianzhiOffer_198_HouseRobber_Easy.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JianzhiOffer_Fibonacci_JumpFloor_RectCover_test22 - 2018.09.07 at 13h 19m 36s.xml">
-      <configuration name="JianzhiOffer_Fibonacci_JumpFloor_RectCover.test22" configurationId="JUnit" />
+    <history-entry file="JianzhiOffer_198_HouseRobber_Easy_test - 2018.09.07 at 21h 01m 04s.xml">
+      <configuration name="JianzhiOffer_198_HouseRobber_Easy.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JianzhiOffer_Fibonacci_JumpFloor_RectCover_test22 - 2018.09.07 at 13h 20m 05s.xml">
-      <configuration name="JianzhiOffer_Fibonacci_JumpFloor_RectCover.test22" configurationId="JUnit" />
+    <history-entry file="JianzhiOffer_198_HouseRobber_Easy - 2018.09.07 at 21h 28m 12s.xml">
+      <configuration name="JianzhiOffer_198_HouseRobber_Easy" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JianzhiOffer_Fibonacci_JumpFloor_RectCover_test22 - 2018.09.07 at 13h 20m 58s.xml">
-      <configuration name="JianzhiOffer_Fibonacci_JumpFloor_RectCover.test22" configurationId="JUnit" />
+    <history-entry file="JianzhiOffer_198_HouseRobber_Easy - 2018.09.07 at 21h 28m 43s.xml">
+      <configuration name="JianzhiOffer_198_HouseRobber_Easy" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JianzhiOffer_Fibonacci_JumpFloor_RectCover_test22 - 2018.09.07 at 13h 22m 32s.xml">
-      <configuration name="JianzhiOffer_Fibonacci_JumpFloor_RectCover.test22" configurationId="JUnit" />
+    <history-entry file="JianzhiOffer_198_HouseRobber_Easy - 2018.09.07 at 21h 42m 01s.xml">
+      <configuration name="JianzhiOffer_198_HouseRobber_Easy" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JianzhiOffer_Fibonacci_JumpFloor_RectCover_test22 - 2018.09.07 at 13h 23m 00s.xml">
-      <configuration name="JianzhiOffer_Fibonacci_JumpFloor_RectCover.test22" configurationId="JUnit" />
+    <history-entry file="JianzhiOffer_198_HouseRobber_Easy - 2018.09.07 at 21h 42m 15s.xml">
+      <configuration name="JianzhiOffer_198_HouseRobber_Easy" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JianzhiOffer_Fibonacci_JumpFloor_RectCover_test22 - 2018.09.07 at 13h 24m 28s.xml">
-      <configuration name="JianzhiOffer_Fibonacci_JumpFloor_RectCover.test22" configurationId="JUnit" />
+    <history-entry file="JianzhiOffer_198_HouseRobber_Easy - 2018.09.07 at 21h 43m 33s.xml">
+      <configuration name="JianzhiOffer_198_HouseRobber_Easy" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="495336000" />
+    <option name="totallyTimeSpent" value="510504000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -926,11 +898,11 @@
       <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947917" visible="true" weight="0.31455898" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947917" weight="0.31455898" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3295082" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23645833" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23645833" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -968,31 +940,10 @@
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="2" />
+      <option name="time" value="5" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/BiShiAlgorithms/Main3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BiShiAlgorithms/HaoWeiLai_BiShi_FindAllCombinationsOfNumbers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BiShiAlgorithms/Main2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ArrayAlgorithms/JianzhiOffer_45_FindTheMinNumberOfNumberArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -1246,31 +1197,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GreedyAlgorithms/POJ_2431_Expedition_Hard.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/DynamicProgramming_DP/JianzhiOffer_Fibonacci_JumpFloor_RectCover.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="44" column="8" lean-forward="true" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
+        <state relative-caret-position="676">
+          <caret line="128" column="28" lean-forward="true" selection-start-line="128" selection-start-column="28" selection-end-line="128" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DynamicProgramming_DP/Leetcode_746_MinCostClimbingStairs_Easy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="38" column="27" lean-forward="true" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
+        <state relative-caret-position="804">
+          <caret line="59" column="57" lean-forward="true" selection-start-line="59" selection-start-column="57" selection-end-line="59" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DynamicProgramming_DP/Leetcode_70_ClimbingStairs_Easy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+        <state relative-caret-position="893">
+          <caret line="47" column="34" lean-forward="true" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DynamicProgramming_DP/JianzhiOffer_Fibonacci_JumpFloor_RectCover.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/BiShiAlgorithms/KeDaXunFei_0907.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="133" selection-start-line="133" selection-end-line="145" selection-end-column="5" />
+        <state relative-caret-position="304">
+          <caret line="16" column="44" lean-forward="true" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BiShiAlgorithms/KeDaXunFei.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" lean-forward="true" selection-end-line="83" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GreedyAlgorithms/POJ_2431_Expedition_Hard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="51" lean-forward="true" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DynamicProgramming_DP/JianzhiOffer_198_HouseRobber_Easy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="126" column="9" lean-forward="true" selection-start-line="126" selection-start-column="9" selection-end-line="126" selection-end-column="9" />
+          <folding>
+            <element signature="e#2621#2622#0" expanded="true" />
+            <element signature="e#2669#2670#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
