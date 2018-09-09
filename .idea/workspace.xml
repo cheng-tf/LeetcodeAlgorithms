@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8667834-e393-4670-ba6c-135b805a3a36" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/BiShiAlgorithms/Disifanshi_0909.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BiShiAlgorithms/Toutiao_20180909.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BiShiAlgorithms/Toutiao_2_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BiShiAlgorithms/Toutiao_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DynamicProgramming_DP/Leetcode_174_DungeonGame_Hard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DynamicProgramming_DP/Leetcode_300_LongestIncreasingSubsequence_Medium_Hard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DynamicProgramming_DP/Leetcode_64_MinimumPathSum_Medium.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SearchAlgorithm/GetInsertionIndex.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BiShiAlgorithms/Toutiao_20180909.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BiShiAlgorithms/Toutiao_20180909.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,7 +27,8 @@
     <session id="-1967828417">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="13" />
+          <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.57" value="1" />
@@ -48,30 +42,30 @@
           <entry key="project.open.time.84" value="1" />
           <entry key="project.open.time.96" value="1" />
           <entry key="project.open.time.99" value="1" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="3" />
-          <entry key="java" value="97" />
+          <entry key="java" value="98" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="3" />
-          <entry key="JAVA" value="97" />
+          <entry key="JAVA" value="98" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="56165" />
+          <entry key="java" value="56192" />
           <entry key="txt" value="41" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="56165" />
+          <entry key="JAVA" value="56192" />
           <entry key="PLAIN_TEXT" value="41" />
         </counts>
       </usages-collector>
@@ -106,7 +100,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -217,13 +211,13 @@
         <option value="$PROJECT_DIR$/src/main/java/DynamicProgramming_DP/Leetcode_322_CoinChange_Medium.java" />
         <option value="$PROJECT_DIR$/src/main/java/DynamicProgramming_DP/Leetcode_120_Triangle_Medium.java" />
         <option value="$PROJECT_DIR$/src/main/java/DynamicProgramming_DP/Leetcode_64_MinimumPathSum_Medium.java" />
-        <option value="$PROJECT_DIR$/src/main/java/BiShiAlgorithms/Toutiao_20180909.java" />
         <option value="$PROJECT_DIR$/src/main/java/BiShiAlgorithms/Toutiao_3.java" />
         <option value="$PROJECT_DIR$/src/main/java/BiShiAlgorithms/Toutiao_2_.java" />
         <option value="$PROJECT_DIR$/src/main/java/BiShiAlgorithms/Disifanshi_0909.java" />
         <option value="$PROJECT_DIR$/src/main/java/SearchAlgorithm/GetInsertionIndex.java" />
         <option value="$PROJECT_DIR$/src/main/java/DynamicProgramming_DP/Leetcode_300_LongestIncreasingSubsequence_Medium_Hard.java" />
         <option value="$PROJECT_DIR$/src/main/java/DynamicProgramming_DP/Leetcode_174_DungeonGame_Hard.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BiShiAlgorithms/Toutiao_20180909.java" />
       </list>
     </option>
   </component>
@@ -253,6 +247,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -285,7 +281,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="DynamicProgramming_DP" type="462c0819:PsiDirectoryNode" />
+              <item name="BiShiAlgorithms" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LeetcodeAlgorithms" type="b2602c69:ProjectViewProjectNode" />
@@ -307,8 +303,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -554,6 +548,7 @@
       <workItem from="1536330077167" duration="41000" />
       <workItem from="1536454825923" duration="21119000" />
       <workItem from="1536495498991" duration="3129000" />
+      <workItem from="1536499237151" duration="365000" />
     </task>
     <task id="LOCAL-00001" summary="2222">
       <created>1533133335915</created>
@@ -808,12 +803,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="550642000" />
+    <option name="totallyTimeSpent" value="551007000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18759455" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26701966" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1117,13 +1112,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BiShiAlgorithms/Toutiao_20180909.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="62" selection-start-line="62" selection-end-line="91" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Java/JDK/src.zip!/java/lang/StringBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="123">
@@ -1156,6 +1144,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1825">
           <caret line="73" column="8" lean-forward="true" selection-start-line="73" selection-start-column="8" selection-end-line="73" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BiShiAlgorithms/Toutiao_20180909.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="61" column="37" lean-forward="true" selection-start-line="61" selection-start-column="37" selection-end-line="61" selection-end-column="37" />
         </state>
       </provider>
     </entry>

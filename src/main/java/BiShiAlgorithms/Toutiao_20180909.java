@@ -5,33 +5,8 @@ public class Toutiao_20180909 {
 
     }
 
-    //80%
-    public static void main1(String[] args) {
-        Scanner in = new Scanner(System.in);
-        String line = in.nextLine();
-        char[] chars = line.toCharArray();
-        int[] hashTable = new int[256];
-        int count = 0,maxLen = 0;
-        for(int i = 0;i < chars.length;i++){
-            int c = chars[i];
-            if(hashTable[c]==0){
-                hashTable[c]++;
-                count++;
-            }else{
-                if(maxLen < count)
-                    maxLen = count;
-                for(int ii = 0;ii < hashTable.length;ii++)
-                    hashTable[ii] = 0;
-                count = 1;
-                hashTable[c]++;
-            }
-        }
-        if(maxLen < count)
-            maxLen = count;
-        System.out.println(maxLen);
-    }
 
-    //80%
+    //80%  有错误之处
     public static void main2(String[] args) {
         Scanner in = new Scanner(System.in);
         String line = in.nextLine();
@@ -47,6 +22,7 @@ public class Toutiao_20180909 {
             }else{
                 if(maxLen < count)
                     maxLen = count;
+                //这里错误
                 for(int ii = start;ii < i;ii++)
                     hashTable[chars[ii]] = 0;
                 start = i;
@@ -58,7 +34,6 @@ public class Toutiao_20180909 {
             maxLen = count;
         System.out.println(maxLen);
     }
-
 
     //100%
     public static void main(String[] args) {
@@ -92,9 +67,6 @@ public class Toutiao_20180909 {
     }
 
 
-
-
-
         public static int maxString(String str) {
             if (str == null || str.length() == 0)
                 return 0;
@@ -121,54 +93,4 @@ public class Toutiao_20180909 {
             System.out.println(maxString(str));
         }
 
-
-
-      /*
-        #include <iostream>
-    using namespace std;
-
-    int lengthOfLongestSubstring(string s) {
-        int len=s.size();
-        int count=0;
-        int start=0;
-        bool isOk=true;
-
-        int longLastIndex=0;
-        int longLenth=0;
-
-        for(int i=0;i<len;i++){
-            isOk=true;
-            for(int j=0;j<count;j++){
-                if(s[j+start]==s[i]){
-                    isOk=false;
-                    start=j+start+1;
-                    break;
-                }
-
-            }
-            if(isOk){
-                count++;
-                if(i==len-1&&longLenth<count){
-                    longLenth=count;
-                }
-            }
-            else{
-                if(longLenth<count){
-                    longLenth=count;
-                }
-                count=i-start+1;
-
-            }
-        }
-
-        return longLenth;
-    }
-
-    int main(){
-        string s;
-        cin >> s;
-        cout<<lengthOfLongestSubstring(s)<<endl;
-        return 0;
-    }
-    */
 }
