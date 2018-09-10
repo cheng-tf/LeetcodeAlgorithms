@@ -13,14 +13,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/LeetcodeAlgorithms$CyclicBarrierDemo_CyclicBarrierIsBrokenTest.ic" NAME="CyclicBarrierDemo.CyclicBarrierIsBrokenTest Coverage Results" MODIFIED="1533302418301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>ThreadValves.*</FILTER>
-    </SUITE>
     <SUITE FILE_PATH="coverage/LeetcodeAlgorithms$CountDownLatchDemo.ic" NAME="CountDownLatchDemo Coverage Results" MODIFIED="1533300128538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>ThreadValves.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/LeetcodeAlgorithms$JianzhiOffer_12_hasPathInMatrix.ic" NAME="JianzhiOffer_12_hasPathInMatrix Coverage Results" MODIFIED="1534922264482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>ArrayAlgorithms.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/LeetcodeAlgorithms$CyclicBarrierDemo_CyclicBarrierIsBrokenTest.ic" NAME="CyclicBarrierDemo.CyclicBarrierIsBrokenTest Coverage Results" MODIFIED="1533302418301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ThreadValves.*</FILTER>
     </SUITE>
   </component>
   <component name="FUSProjectUsageTrigger">
@@ -74,18 +74,20 @@
     <session id="741899408">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1383" />
+          <entry key="java" value="2502" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1383" />
+          <entry key="JAVA" value="2502" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -101,12 +103,16 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/SearchAlgorithm/SearchAlgorithms_DFS_BFS/Leetcode_200_NumberOfIslands_Medium.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="72" column="4" selection-start-line="72" selection-start-column="4" selection-end-line="72" selection-end-column="4" />
+            <state relative-caret-position="763">
+              <caret line="107" lean-forward="true" selection-start-line="107" selection-end-line="107" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2500#2509#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -246,7 +252,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="814" />
     <option name="height" value="867" />
@@ -259,7 +265,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -306,19 +312,19 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="compareTo&#9;PSI&#9;JAVA://ArrayAlgorithms.JianzhiOffer_45_FindTheMinNumberOfNumberArray.NewComparator#compareTo" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536543686621" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536595702364" />
     <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -341,7 +347,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Leetcode_200_NumberOfIslands_Medium">
+  <component name="RunManager" selected="JUnit.Leetcode_200_NumberOfIslands_Medium.test">
     <configuration name="Disifanshi_0909" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BiShiAlgorithms.Disifanshi_0909" />
       <module name="LeetcodeAlgorithms" />
@@ -495,8 +501,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Leetcode_200_NumberOfIslands_Medium" />
         <item itemvalue="JUnit.Leetcode_200_NumberOfIslands_Medium.test" />
+        <item itemvalue="JUnit.Leetcode_200_NumberOfIslands_Medium" />
         <item itemvalue="JUnit.Leetcode_174_DungeonGame_Hard.test" />
         <item itemvalue="JUnit.GetInsertionIndex.test" />
         <item itemvalue="Application.Disifanshi_0909" />
@@ -555,6 +561,7 @@
       <workItem from="1536495498991" duration="3129000" />
       <workItem from="1536499237151" duration="365000" />
       <workItem from="1536540306511" duration="3184000" />
+      <workItem from="1536587589695" duration="4123000" />
     </task>
     <task id="LOCAL-00001" summary="2222">
       <created>1533133335915</created>
@@ -777,45 +784,44 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GetInsertionIndex_test - 2018.09.09 at 16h 56m 54s.xml">
-      <configuration name="GetInsertionIndex.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GetInsertionIndex_test - 2018.09.09 at 16h 57m 59s.xml">
-      <configuration name="GetInsertionIndex.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Leetcode_174_DungeonGame_Hard_test - 2018.09.09 at 20h 54m 02s.xml">
-      <configuration name="Leetcode_174_DungeonGame_Hard.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Leetcode_174_DungeonGame_Hard_test - 2018.09.09 at 20h 55m 05s.xml">
-      <configuration name="Leetcode_174_DungeonGame_Hard.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Leetcode_174_DungeonGame_Hard_test - 2018.09.09 at 20h 56m 17s.xml">
-      <configuration name="Leetcode_174_DungeonGame_Hard.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Leetcode_200_NumberOfIslands_Medium_test - 2018.09.10 at 09h 20m 12s.xml">
-      <configuration name="Leetcode_200_NumberOfIslands_Medium.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Leetcode_200_NumberOfIslands_Medium_test - 2018.09.10 at 09h 21m 16s.xml">
-      <configuration name="Leetcode_200_NumberOfIslands_Medium.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Leetcode_200_NumberOfIslands_Medium_test - 2018.09.10 at 09h 22m 29s.xml">
-      <configuration name="Leetcode_200_NumberOfIslands_Medium.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Leetcode_200_NumberOfIslands_Medium_test - 2018.09.10 at 09h 23m 55s.xml">
       <configuration name="Leetcode_200_NumberOfIslands_Medium.test" configurationId="JUnit" />
     </history-entry>
     <history-entry file="Leetcode_200_NumberOfIslands_Medium - 2018.09.10 at 09h 32m 53s.xml">
       <configuration name="Leetcode_200_NumberOfIslands_Medium" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Leetcode_200_NumberOfIslands_Medium_test - 2018.09.10 at 23h 39m 26s.xml">
+      <configuration name="Leetcode_200_NumberOfIslands_Medium.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Leetcode_200_NumberOfIslands_Medium_test - 2018.09.10 at 23h 41m 20s.xml">
+      <configuration name="Leetcode_200_NumberOfIslands_Medium.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Leetcode_200_NumberOfIslands_Medium - 2018.09.10 at 23h 41m 55s.xml">
+      <configuration name="Leetcode_200_NumberOfIslands_Medium" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Leetcode_200_NumberOfIslands_Medium_test - 2018.09.10 at 23h 42m 20s.xml">
+      <configuration name="Leetcode_200_NumberOfIslands_Medium.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Leetcode_200_NumberOfIslands_Medium_test - 2018.09.10 at 23h 45m 20s.xml">
+      <configuration name="Leetcode_200_NumberOfIslands_Medium.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Leetcode_200_NumberOfIslands_Medium_test - 2018.09.10 at 23h 47m 14s.xml">
+      <configuration name="Leetcode_200_NumberOfIslands_Medium.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Leetcode_200_NumberOfIslands_Medium_test - 2018.09.10 at 23h 55m 28s.xml">
+      <configuration name="Leetcode_200_NumberOfIslands_Medium.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Leetcode_200_NumberOfIslands_Medium_test - 2018.09.10 at 23h 59m 00s.xml">
+      <configuration name="Leetcode_200_NumberOfIslands_Medium.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="554191000" />
+    <option name="totallyTimeSpent" value="558314000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26972282" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19591528" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -824,7 +830,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32731137" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49947917" visible="true" weight="0.36373508" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947917" weight="0.36288998" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.46558705" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1095,13 +1101,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Java/JDK/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="204" selection-start-line="204" selection-end-line="204" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://D:/Java/JDK/src.zip!/java/lang/String.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/BiShiAlgorithms/Toutiao_2_.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="934">
@@ -1109,13 +1109,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Java/JDK/src.zip!/java/lang/StringBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="87" column="11" selection-start-line="87" selection-start-column="11" selection-end-line="87" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://D:/Java/JDK/src.zip!/java/lang/StringBuilder.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/BiShiAlgorithms/Disifanshi_0909.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
@@ -1151,31 +1145,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SearchAlgorithms_DFS_BFS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="37" selection-start-column="13" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SearchAlgorithm/SearchAlgorithms_DFS_BFS/Leetcode_200/_NumberOfIslands_Medium.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="38" lean-forward="true" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SearchAlgorithm/SearchAlgorithms_DFS_BFS/Leetcode_200/Leetcode__NumberOfIslands_Medium.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SearchAlgorithms_DFS_BFS.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/SearchAlgorithm/SearchAlgorithms_DFS_BFS/Leetcode_200/_NumberOfIslands_Medium.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/SearchAlgorithm/SearchAlgorithms_DFS_BFS/Leetcode_200/Leetcode__NumberOfIslands_Medium.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/SearchAlgorithm/SearchAlgorithms_DFS_BFS/Leetcode_200_NumberOfIslands_Medium.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="72" column="4" selection-start-line="72" selection-start-column="4" selection-end-line="72" selection-end-column="4" />
+        <state relative-caret-position="763">
+          <caret line="107" lean-forward="true" selection-start-line="107" selection-end-line="107" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2500#2509#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
