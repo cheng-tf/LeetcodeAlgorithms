@@ -1,4 +1,4 @@
-package JianzhiOfferAlgorithms;
+package NumberAlgorithms;
 
 import org.junit.Test;
 

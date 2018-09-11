@@ -1,4 +1,4 @@
-package JianzhiOfferAlgorithms;
+package BinaryTreeBasicAlgorithms;
 
 import sun.reflect.generics.tree.Tree;
 
@@ -33,8 +33,9 @@ public class JianzhiOffer_ReConstructBinaryTree {
         //在中序遍历结果中寻找当前子树的根节点索引
         while(rootIndex <= inEnd && in[rootIndex] != pre[preStart]) rootIndex++;
         //递归调用
-        root.left = reConstructBinaryTree(pre,preStart+1,preStart+(rootIndex-inStart),in,inStart,rootIndex-1);
-        root.right = reConstructBinaryTree(pre,preStart+(rootIndex-inStart)+1,preEnd,in,rootIndex + 1,inEnd);
+        int len = rootIndex - inStart;
+        root.left = reConstructBinaryTree(pre,preStart+1,preStart+len,in,inStart,rootIndex-1);
+        root.right = reConstructBinaryTree(pre,preStart+len+1,preEnd,in,rootIndex + 1,inEnd);
         return root;
     }
 

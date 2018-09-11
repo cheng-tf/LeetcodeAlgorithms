@@ -1,4 +1,4 @@
-package JianzhiOfferAlgorithms;
+package NumberAlgorithms;
 
 import org.junit.Test;
 
@@ -81,7 +81,7 @@ public class JianzhiOffer_NumberOfBit1 {
         int flag = 1;
         int num = 0;
         while(flag != 0){
-            if((n & flag) != 0) num++;
+            if((n & flag) != 0) num++;//注意条件是!=0不是==1了。
             flag = flag<<1;
         }
         return num;

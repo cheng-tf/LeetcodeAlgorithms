@@ -177,6 +177,8 @@ public class JianzhiOffer_Fibonacci_JumpFloor_RectCover {
      * 思路分析：也属于斐波那契数列问题。
      *          f(n)=f(n-1)+f(n-2);
      *          f(1)=1;f(2)=2;
+     *          分析：2*n的大矩形：可以在覆盖了2*(n-1)的大矩形的基础上，竖着放置一个矩形；
+     *              或者在2*（n-2）的基础上，横着放两个矩形，因此f(n)=f(n-1)+f(n-2);
      */
     //方法1：递归方法
     public int RectCover(int target) {
