@@ -36,6 +36,9 @@ public class Leetcode_146_LRUCache_Hard {
      *           需要将该节点移动到双端队列的头节点：包括两步：删除当前节点，并在头节点插入。
      *           对于put操作：若存在，则修改，并删除当前节点移动到头节点；
      *                        若不存在，则直接添加到头节点。
+     *
+     *    易错点：deleteTailNode中需要从hashMap中删除<key,Node>;
+     *    deleteCurrentNode不需要从hashMap中删除。
      */
 
     class LRUCache {
