@@ -1,8 +1,8 @@
 package BiShiAlgorithms;
+
 import org.junit.Test;
 
 import java.util.Scanner;
-import java.util.concurrent.atomic.AtomicInteger;
 
 public class Wangyi_BiShiAlgorithms_20180811 {
 

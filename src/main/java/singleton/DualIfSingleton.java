@@ -1,7 +1,5 @@
 package singleton;
 
-import java.util.concurrent.locks.ReentrantLock;
-
 /**
  * 创建一个字节数组，充当锁对象
  */

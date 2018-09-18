@@ -1,6 +1,5 @@
 package singleton;
 
-import com.sun.xml.internal.bind.v2.runtime.unmarshaller.XsiNilLoader;
 import org.junit.Test;
 
 public class SingletonTest {

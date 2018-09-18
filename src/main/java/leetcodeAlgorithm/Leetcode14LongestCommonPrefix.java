@@ -2,9 +2,6 @@ package leetcodeAlgorithm;
 
 import org.junit.Test;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Leetcode14LongestCommonPrefix {
     /*
     https://leetcode.com/problems/longest-common-prefix/description/

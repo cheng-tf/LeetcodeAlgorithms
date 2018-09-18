@@ -1,8 +1,8 @@
 package ThreadValves;
 
-import java.util.concurrent.CountDownLatch;
-
 import org.junit.Test;
+
+import java.util.concurrent.CountDownLatch;
 
 public class CountDownLatchDemo {
 	/**

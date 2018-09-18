@@ -3,7 +3,6 @@ package HashTableAlgorithms;
 import org.junit.Test;
 
 import java.util.Arrays;
-import java.util.Map;
 
 public class BasicKnowledgeOfHashTable {
 

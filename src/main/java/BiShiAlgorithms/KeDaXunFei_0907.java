@@ -1,9 +1,7 @@
 package BiShiAlgorithms;
 
 
-        import java.util.Arrays;
-        import java.util.LinkedList;
-        import java.util.Scanner;
+import java.util.Scanner;
 
 public class KeDaXunFei_0907 {
 

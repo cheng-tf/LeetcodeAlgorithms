@@ -2,8 +2,6 @@ package DynamicProgramming_DP;
 
 import org.junit.Test;
 
-import java.util.Arrays;
-
 public class Leetcode_322_CoinChange_Medium {
     /************Leetcode_322_CoinChange_Medium**************/
 

@@ -1,6 +1,7 @@
 package HashTableAlgorithms;
 
 import org.junit.Test;
+
 import java.util.HashMap;
 
 public class Leetcode_290_WordPattern_Easy {

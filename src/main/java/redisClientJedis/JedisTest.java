@@ -1,12 +1,10 @@
 package redisClientJedis;
 
-import java.util.Map;
-
 import org.apache.commons.pool2.impl.GenericObjectPoolConfig;
-import org.junit.Test;
-
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
+
+import java.util.Map;
 
 public class JedisTest {
 	

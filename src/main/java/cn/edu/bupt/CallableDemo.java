@@ -2,7 +2,6 @@ package cn.edu.bupt;
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.FutureTask;
-import java.util.concurrent.TimeUnit;
 
 public class CallableDemo {
     public static void main(String[] args) throws Exception{

@@ -1,8 +1,6 @@
 package BinaryTreeBasicAlgorithms;
 
 
-import org.junit.Test;
-
 /**
  * 判断是否是二叉树
  * 递归思想

@@ -1,10 +1,10 @@
 package ThreadValves;
 
+import org.junit.Test;
+
 import java.util.Scanner;
 import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;
-
-import org.junit.Test;
 
 public class CyclicBarrierDemo {
 

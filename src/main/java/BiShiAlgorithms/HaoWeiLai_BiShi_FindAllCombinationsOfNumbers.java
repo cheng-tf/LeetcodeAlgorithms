@@ -3,7 +3,6 @@ package BiShiAlgorithms;
 import org.junit.Test;
 
 import java.util.ArrayList;
-import java.util.Scanner;
 import java.util.TreeSet;
 
 public class HaoWeiLai_BiShi_FindAllCombinationsOfNumbers {

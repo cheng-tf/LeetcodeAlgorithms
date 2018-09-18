@@ -1,6 +1,5 @@
 package ThreadValves;
 
-import org.junit.Test;
 import java.util.concurrent.CountDownLatch;
 
 public class CountDownLatchDemo2 extends Thread{

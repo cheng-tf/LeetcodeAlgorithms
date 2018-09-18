@@ -3,12 +3,10 @@ package ArrayAlgorithms;
 import org.junit.Test;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class JianzhiOffer_40_GetTheKLeastNumbers {
 
     /***************剑指Offer40:最小的k个数******************/
-
     /**
      * 题目描述
      * 输入n个整数，找出其中最小的K个数。

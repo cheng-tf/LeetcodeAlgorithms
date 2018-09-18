@@ -1,7 +1,5 @@
 package BiShiAlgorithms;
 
-import org.junit.Test;
-
 import java.util.Scanner;
 
 public class PinDuoDuo0805 {

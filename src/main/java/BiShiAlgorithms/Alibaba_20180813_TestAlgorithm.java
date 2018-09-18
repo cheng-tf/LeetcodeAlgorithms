@@ -1,8 +1,5 @@
 package BiShiAlgorithms;
 
-import org.junit.Test;
-
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Alibaba_20180813_TestAlgorithm {

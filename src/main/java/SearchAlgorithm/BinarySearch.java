@@ -2,8 +2,6 @@ package SearchAlgorithm;
 
 import org.junit.Test;
 
-import java.util.Arrays;
-
 public class BinarySearch {
     @Test
     public void test() {

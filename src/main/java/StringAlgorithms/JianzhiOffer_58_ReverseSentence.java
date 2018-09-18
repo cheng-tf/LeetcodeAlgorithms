@@ -2,8 +2,6 @@ package StringAlgorithms;
 
 import org.junit.Test;
 
-import java.util.Arrays;
-
 public class JianzhiOffer_58_ReverseSentence {
 
     /***********剑指Offer58：翻转单词顺序列************************/
