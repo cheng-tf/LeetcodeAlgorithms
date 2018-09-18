@@ -1,62 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d7df596c-3805-4562-8d5d-672348011059" name="Default Changelist" comment="111">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_mail_javax_mail_api_1_6_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_8_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetcodeAlgorithms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LeetcodeAlgorithms.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ArrayAlgorithms/JianzhiOffer_40_GetTheKLeastNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ArrayAlgorithms/JianzhiOffer_40_GetTheKLeastNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ArrayAlgorithms/JianzhiOffer_45_FindTheMinNumberOfNumberArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ArrayAlgorithms/JianzhiOffer_45_FindTheMinNumberOfNumberArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BiShiAlgorithms/Alibaba_20180813_TestAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BiShiAlgorithms/Alibaba_20180813_TestAlgorithm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BiShiAlgorithms/HaoWeiLai_BiShi_FindAllCombinationsOfNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BiShiAlgorithms/HaoWeiLai_BiShi_FindAllCombinationsOfNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BiShiAlgorithms/KeDaXunFei_0907.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BiShiAlgorithms/KeDaXunFei_0907.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BiShiAlgorithms/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BiShiAlgorithms/Main2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BiShiAlgorithms/PinDuoDuo0805.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BiShiAlgorithms/PinDuoDuo0805.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BiShiAlgorithms/Wangyi_BiShiAlgorithms_20180811.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BiShiAlgorithms/Wangyi_BiShiAlgorithms_20180811.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/BinaryTreeTraversals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/BinaryTreeTraversals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/ConvertBetweenBSTandDoublelyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/ConvertBetweenBSTandDoublelyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/IsBalancedBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/IsBalancedBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/JianzhiOffer_ReConstructBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/JianzhiOffer_ReConstructBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/KthBSTNode_BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/KthBSTNode_BinarySearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DynamicProgramming_DP/Leetcode_322_CoinChange_Medium.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DynamicProgramming_DP/Leetcode_322_CoinChange_Medium.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HashTableAlgorithms/BasicKnowledgeOfHashTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HashTableAlgorithms/BasicKnowledgeOfHashTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HashTableAlgorithms/Leetcode_290_WordPattern_Easy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HashTableAlgorithms/Leetcode_290_WordPattern_Easy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HashTableAlgorithms/Leetcode_76_MinimumWindowSubstring_Hard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HashTableAlgorithms/Leetcode_76_MinimumWindowSubstring_Hard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaMailSender/QQSendMailDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaMailSender/QQSendMailDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaMailSender/SendMailDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaMailSender/SendMailDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/July5/MyServerNewThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/July5/MyServerNewThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/JianzhiOffer_23_DoesLinkedListHasLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/JianzhiOffer_23_DoesLinkedListHasLoop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Others/IntegerSourceCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/IntegerSourceCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SearchAlgorithm/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SearchAlgorithm/BinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SearchAlgorithm/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SearchAlgorithm/BinarySearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SearchAlgorithm/LeetCode_315_CountOfSmallerNumbersAfterSelf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SearchAlgorithm/LeetCode_315_CountOfSmallerNumbersAfterSelf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SearchAlgorithm/LeetCode_34_SearchRange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SearchAlgorithm/LeetCode_34_SearchRange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SortAlgorithms/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SortAlgorithms/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/StringAlgorithms/JianzhiOffer_58_ReverseSentence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StringAlgorithms/JianzhiOffer_58_ReverseSentence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ThreadValves/CountDownLatchDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ThreadValves/CountDownLatchDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ThreadValves/CountDownLatchDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ThreadValves/CountDownLatchDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ThreadValves/CyclicBarrierDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ThreadValves/CyclicBarrierDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/bupt/CallableDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/bupt/CallableDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcodeAlgorithm/Leetcode14LongestCommonPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcodeAlgorithm/Leetcode14LongestCommonPrefix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcodeAlgorithm/Leetcode38CountandSay_Easy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcodeAlgorithm/Leetcode38CountandSay_Easy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/redisClientJedis/JedisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/redisClientJedis/JedisTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/singleton/DualIfSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/singleton/DualIfSingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/singleton/SingletonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/singleton/SingletonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Leetcode/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Leetcode/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JianzhiOfferAlgorithms/JianzhiOffer_64_theSumOf1ToN.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JianzhiOfferAlgorithms/JianzhiOffer_NumberOfBit1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JianzhiOfferAlgorithms/JianzhiOffer_StrToInt_IntegerValueOf.class" beforeDir="false" />
-    </list>
+    <list default="true" id="d7df596c-3805-4562-8d5d-672348011059" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -100,17 +45,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ArrayAlgorithms/JianzhiOffer_40_GetTheKLeastNumbers.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="8" column="55" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -143,7 +78,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -166,24 +101,6 @@
               <item name="LeetcodeAlgorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetcodeAlgorithms" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="LeetcodeAlgorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetcodeAlgorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetcodeAlgorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetcodeAlgorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetcodeAlgorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetcodeAlgorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ArrayAlgorithms" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -194,7 +111,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537236576561" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537239624818" />
     <property name="node.js.detected.package.jscs" value="true" />
     <property name="node.js.path.for.package.jscs" value="project" />
     <property name="node.js.selected.package.jscs" value="" />
@@ -250,8 +167,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1537233686992</updated>
-      <workItem from="1537233688187" duration="2883000" />
+      <workItem from="1537233688187" duration="4255000" />
     </task>
+    <task id="LOCAL-00001" summary="111">
+      <created>1537236600992</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1537236600992</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -260,11 +185,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2883000" />
+    <option name="totallyTimeSpent" value="4255000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -302,6 +226,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="111" />
+    <option name="LAST_COMMIT_MESSAGE" value="111" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/LRUCacheImpl/Leetcode_146_LRUCache_Hard.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -331,8 +259,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ArrayAlgorithms/JianzhiOffer_40_GetTheKLeastNumbers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="8" column="55" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
+        <state relative-caret-position="209">
+          <caret line="28" column="40" lean-forward="true" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
         </state>
       </provider>
     </entry>
