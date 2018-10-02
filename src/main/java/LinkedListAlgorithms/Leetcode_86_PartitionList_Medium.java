@@ -1,12 +1,13 @@
 package LinkedListAlgorithms;
 
+
 import org.junit.Test;
 
 public class Leetcode_86_PartitionList_Medium {
     /******************Leetcode_86_PartitionList_Medium*******************/
     /**************DateTime: 2018-10-01**********************/
     /**
-     * 题目介绍：Leetcode_86_PartitionList_Medium
+     * 题目介绍：Leetcode_86_PartitionList_Medium  链表划分
      * 难度：Medium
      * Given a linked list and a value x, partition it such that all nodes
      * less than x come before nodes greater than or equal to x.
@@ -23,7 +24,6 @@ public class Leetcode_86_PartitionList_Medium {
     public class ListNode {
         int val;
         ListNode next;
-
         ListNode(int x) {
             val = x;
         }

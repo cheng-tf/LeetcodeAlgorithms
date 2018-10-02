@@ -3,10 +3,20 @@ package LinkedListAlgorithms;
 import org.junit.Test;
 
 public class JianzhiOffer_18_deleteDuplicationLinkedListNode {
+    /**************************链表T2：删除链表节点******************************************/
 
+    /**
+     * 题目描述：在O(1)时间内删除链表节点。
+     *
+     * 思路分析:若遍历寻找待删除的节点前一节点，则时间复杂度为O(n)，不符合要求。
+     *      O(1)的实现方式：复制后一节点到该节点,然后只需要删除后一节点即可。
+     *      特殊情况：待删除节点是尾节点，①若只有1个节点的情况；②多个节点，该节点是尾节点。
+     *  //注意：这里假定链表中肯定存在待删除的节点。
+     */
     /**
      * 共用的链表结构ListNode
      */
+
     private class ListNode {
         int val;
         ListNode next = null;
@@ -14,6 +24,7 @@ public class JianzhiOffer_18_deleteDuplicationLinkedListNode {
             this.val = val;
         }
     }
+
     /**
      * 打印链表
      */
@@ -28,20 +39,9 @@ public class JianzhiOffer_18_deleteDuplicationLinkedListNode {
             sb.append(headTemp.val).append("-->");
             headTemp = headTemp.next;
         }
-        System.out.println(sb.toString().substring(0,sb.length()-3));
+        String result = sb.toString().substring(0,sb.length()-3);
+        System.out.println(result);
     }
-
-
-    /**************************链表T2：删除链表节点******************************************/
-
-    /**
-     * 题目描述：在O(1)时间内删除链表节点。
-     *
-     * 思路分析:若遍历寻找待删除的节点前一节点，则时间复杂度为O(n)。
-     *      实现方式：复制后一节点到该节点,然后只需要删除后一节点即可。
-     *      特殊情况：待删除节点是尾节点，①若只有1个节点的情况；②多个节点，该节点是尾节点。
-     *  //注意：这里假定链表中肯定存在待删除的节点。
-     */
 
     public void deleteListNode(ListNode head, ListNode toBeDeleted){
         if(head == null || toBeDeleted == null) return;
@@ -51,6 +51,9 @@ public class JianzhiOffer_18_deleteDuplicationLinkedListNode {
             toBeDeleted.next = next.next;
         }else{//尾节点
             if(head == toBeDeleted){//只有一个节点
+                //解释为head=null不起作用？ 因为Java方法只有值传递，对于引用传递都是地址，
+                //形参与实参都指向同一个对象地址，形参试图改变指向地址，不改变实参；
+                //但是形参和实参对该指向的对象的操作是等价的，比如形参引用可以改变对象的属性。
                 head = null;
                 toBeDeleted = null;
             }else{//多个节点，只能顺序查找待删除节点的前一节点了
@@ -78,6 +81,7 @@ public class JianzhiOffer_18_deleteDuplicationLinkedListNode {
         node4.next = node5;
         printLinkedList(head);
         deleteListNode(head,node2);
+        deleteListNode(head,head);
         printLinkedList(head);
 
         deleteListNode(head,null);
@@ -85,9 +89,9 @@ public class JianzhiOffer_18_deleteDuplicationLinkedListNode {
     }
 
 
-    /*******************************链表T3：删除链表中重复的节点***********************/
+    /*******************************链表T3：删除有序链表中重复的节点***********************/
     /**
-     *  题目描述：删除链表中重复的节点。(注意：已经排序了)
+     *  题目描述：删除有序链表中重复的节点。(注意：已经排序了)
      *  在一个排序的链表中，存在重复的结点，请删除该链表中重复的结点，
      *  重复的结点不保留，返回链表头指针。
      *  例如，链表1->2->3->3->4->4->5 处理后为 1->2->5
@@ -142,4 +146,5 @@ public class JianzhiOffer_18_deleteDuplicationLinkedListNode {
         ListNode newHead = deleteDuplication(head);
         printLinkedList(newHead);
     }
+
 }

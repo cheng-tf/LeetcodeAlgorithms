@@ -5,7 +5,6 @@ import org.junit.Test;
 public class JianzhiOffer_13_RobotMovingRange {
 
     /*********************剑指Offer13:机器人移动范围****************************************/
-
     /**
      * 题目介绍：
      *     地上有一个m行和n列的方格。一个机器人从坐标0,0的格子开始移动，每一次只能向左，右，上，下四个方向移动一格，
@@ -39,7 +38,7 @@ public class JianzhiOffer_13_RobotMovingRange {
         }
         return count;
     }
-    
+
     public boolean checkCurrentPoint(int x,int y,int threshold,int rows,int cols){
         if(x<0||x >= rows||y>= cols||y<0) return false;
         int sum = getSum(x) + getSum(y);
