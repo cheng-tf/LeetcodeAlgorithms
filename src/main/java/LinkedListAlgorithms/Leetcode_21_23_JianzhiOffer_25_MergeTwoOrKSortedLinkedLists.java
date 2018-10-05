@@ -35,7 +35,7 @@ public class Leetcode_21_23_JianzhiOffer_25_MergeTwoOrKSortedLinkedLists {
 
     /**
      * 方法1：递归方法
-     * 2018-10
+     * 2018-08
      */
     public ListNode mergeTwoLists_1(ListNode list1, ListNode list2) {
         if (list1 == null) return list2;
