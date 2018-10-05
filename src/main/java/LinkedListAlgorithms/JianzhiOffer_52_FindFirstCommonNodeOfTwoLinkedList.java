@@ -15,9 +15,10 @@ public class JianzhiOffer_52_FindFirstCommonNodeOfTwoLinkedList {
      * 输入两个链表，找出它们的第一个公共结点。
      *
      * 思路分析：
-     * 方法1：蛮力法，遍历第一个链表的每一个节点的时候，遍历第二个节点，时间复杂度为O(mn);
+     * 方法1：蛮力法，遍历第一个链表的每一个节点的时候，遍历第二个节点，时间复杂度为O(mn);显然该方法不可取。
+     * 继续分析：
      * 由于两个链表有公共节点，那么应该成"Y"的结构，即从某个节点开始，以后都一样。那么如果从后往前查找
-     * 就只需要O(n)的时间复杂度。
+     * 就只需要O(n)的时间复杂度。因此，有了方法2：
      * 方法2：利用两个栈分别存储两个链表，从栈顶依次判断共同的节点，返回最后一个共同节点。
      * 方法3：先计算两个栈的长度，然后先让长的栈指针走几步，然后两指针同时出发判断即可。
      */
@@ -121,7 +122,6 @@ public class JianzhiOffer_52_FindFirstCommonNodeOfTwoLinkedList {
         printLinkedList(head2);
         ListNode commonNode2 = FindFirstCommonNode2(head1,head2);
         System.out.println("commonNode2 = " + commonNode2.val);
-
     }
 
 

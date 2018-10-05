@@ -40,6 +40,7 @@ public class JianzhiOffer_23_DoesLinkedListHasLoop {
      * 思路分析：利用两个指针，一个fast，一个slow，fast一次走两步，
      * slow 一次走一步，如果存在环，则fast与slow会指向同一个节点；
      * 若fast遇到null，则表述不存在。
+     * <前提：只要存在环，快指针和慢指针必定相遇。>
      */
     public boolean hasLoop(ListNode head){
         if(head == null) return false;//可删去，后面会对head判断
@@ -137,7 +138,7 @@ public class JianzhiOffer_23_DoesLinkedListHasLoop {
      *          最后，利用两个引用ahead和behind，先让ahead走n步，
      *          再让它们同时前进，步伐都是，它们相遇的节点就是环的入口节点。
      *  方法2： 最终结论：环入口点与起始点的距离等于相遇点至环入口节点的距离加上环的整数倍。
-     *          对应算法：在判断出相遇点后，设置两个指针，一个指向相遇点，一个指向环起始点，
+     *          对应算法：在判断出相遇点后，设置两个指针，一个指向相遇点，一个指向起始点，
      *          两指针必定在环的入口节点第一次相遇。
      */
     /**
@@ -178,7 +179,6 @@ public class JianzhiOffer_23_DoesLinkedListHasLoop {
     public ListNode EntryNodeOfLoop2(ListNode head){
         if (head == null) return null;
         ListNode fast = head,slow = head;
-        int loopLength = 0;
         while(fast != null && fast.next != null){
             fast = fast.next.next;
             slow = slow.next;
