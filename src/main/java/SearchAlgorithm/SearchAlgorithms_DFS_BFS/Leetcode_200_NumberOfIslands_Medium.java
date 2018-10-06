@@ -36,7 +36,7 @@ public class Leetcode_200_NumberOfIslands_Medium {
      *        然后利用嵌套循环遍历每一个格子，只有当前格子为1且visited未访问过，
      *        调用DFS搜索该岛屿的所有格子，每一次调用DFS，都会自动递归地将该岛屿
      *        上下左右四个格子都标记为true，同时岛屿计数加一，最后返回岛屿总数即可。
-     * 方法2：宽度优先搜索：BFS。
+     * 方法2：广度优先搜索：BFS。
      *        利用一个队列数据结构结合while循环搜索并标记一个岛屿的所有的方格。
      *        首先岛屿的第一个方格进入队列，进入即标记为true；然后弹出该点的时候，
      *        将上下左右满足条件的四个方格进入队列，并标记为true。
@@ -59,6 +59,7 @@ public class Leetcode_200_NumberOfIslands_Medium {
         for(int i = 0;i < rows;i++){
             for(int j = 0;j < columns;j++){
                 if(grid[i][j] == '1' && !visited[i][j]){//新岛屿的起点
+                    //采用了类似模板的设计模式
 //                    DFS(grid,visited,i,j);//通过递归调用将该岛屿的所有格标记为true
                     BFS(grid,visited,i,j);//通过递归调用将该岛屿的所有格标记为true
                     count++;
@@ -78,7 +79,7 @@ public class Leetcode_200_NumberOfIslands_Medium {
         DFS(grid,visited,i,j-1);//左
     }
 
-    //方法2：BFS宽度优先搜索
+    //方法2：BFS广度优先搜索(宽度)
     public void BFS(char[][] grid,boolean[][] visited,int x,int y ){
         if(x < 0 ||x >= grid.length|| y <0 || y >= grid[x].length||grid[x][y] != '1'|| visited[x][y]) return;
         int[] dx = {-1,0,1,0};

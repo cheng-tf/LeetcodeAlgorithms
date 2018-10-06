@@ -41,23 +41,23 @@ public class LeetCode160_IntersectionOfTwoLinkedLists_JianzhiOffer_52_FindFirstC
      * 方法2：利用两个栈实现
      */
     public ListNode getIntersectionNode(ListNode pHead1, ListNode pHead2) {
-        if(pHead1==null||pHead2==null) return null;
-        ListNode head1 = pHead1,head2 = pHead2;//不改变原来的引用
+        if (pHead1 == null || pHead2 == null) return null;
+        ListNode head1 = pHead1, head2 = pHead2;//不改变原来的引用
         Deque<ListNode> stack1 = new ArrayDeque<ListNode>();
         Deque<ListNode> stack2 = new ArrayDeque<ListNode>();
-        while(head1 != null){
+        while (head1 != null) {
             stack1.push(head1);
             head1 = head1.next;
         }
-        while(head2 != null){
+        while (head2 != null) {
             stack2.push(head2);
             head2 = head2.next;
         }
         ListNode preCommonNode = null;
-        while(!stack1.isEmpty() && !stack2.isEmpty()){
+        while (!stack1.isEmpty() && !stack2.isEmpty()) {
             ListNode node1 = stack1.pop();
             ListNode node2 = stack2.pop();
-            if(node1 == node2) preCommonNode = node1;//倒着看应该获取最后一个公共节点
+            if (node1 == node2) preCommonNode = node1;//倒着看应该获取最后一个公共节点
         }
         return preCommonNode;
     }
@@ -66,20 +66,20 @@ public class LeetCode160_IntersectionOfTwoLinkedLists_JianzhiOffer_52_FindFirstC
      * 方法3：先求链表的长度，然后利用两指针遍历链表
      */
     public ListNode getIntersectionNode_2(ListNode pHead1, ListNode pHead2) {
-        if(pHead1==null||pHead2==null) return null;
-        ListNode head1 = pHead1,head2 = pHead2;//不改变原来的引用
+        if (pHead1 == null || pHead2 == null) return null;
+        ListNode head1 = pHead1, head2 = pHead2;//不改变原来的引用
         //求链表长度
         int len1 = getLengthOfLinkedList(head1);
         int len2 = getLengthOfLinkedList(head2);
         int diffLen = len1 - len2;//链表长度之差
-        if(len1 < len2){//默认是链表1长于链表2
+        if (len1 < len2) {//默认是链表1长于链表2
             ListNode temp = head1;
             head1 = head2;
             head2 = temp;
             diffLen = -diffLen;//取相反数
         }
-        while(diffLen-- != 0)  head1 = head1.next;//先走几步
-        while(head1 != head2){//同时前进
+        while (diffLen-- != 0) head1 = head1.next;//先走几步
+        while (head1 != head2) {//同时前进
             head1 = head1.next;
             head2 = head2.next;
         }
@@ -87,12 +87,12 @@ public class LeetCode160_IntersectionOfTwoLinkedLists_JianzhiOffer_52_FindFirstC
     }
 
     /**
-     *  获取链表的长度
+     * 获取链表的长度
      */
-    public int getLengthOfLinkedList(ListNode head){
+    public int getLengthOfLinkedList(ListNode head) {
         ListNode head1 = head;//不改变head引用
         int len = 0;
-        while(head1 != null){
+        while (head1 != null) {
             len++;
             head1 = head1.next;
         }
@@ -101,7 +101,7 @@ public class LeetCode160_IntersectionOfTwoLinkedLists_JianzhiOffer_52_FindFirstC
 
     //测试
     @Test
-    public void test(){
+    public void test() {
         ListNode head1 = new ListNode(1);
         ListNode node2 = new ListNode(2);
         ListNode node3 = new ListNode(3);
@@ -126,12 +126,11 @@ public class LeetCode160_IntersectionOfTwoLinkedLists_JianzhiOffer_52_FindFirstC
         node27.next = node4;
         printLinkedList(head2);
 
-        ListNode commonNode = getIntersectionNode(head1,head2);
+        ListNode commonNode = getIntersectionNode(head1, head2);
         System.out.println("commonNode = " + commonNode.val);
 
-        printLinkedList(head1);
         printLinkedList(head2);
-        ListNode commonNode2 = getIntersectionNode_2(head1,head2);
+        ListNode commonNode2 = getIntersectionNode_2(head1, head2);
         System.out.println("commonNode2 = " + commonNode2.val);
     }
 
@@ -147,20 +146,22 @@ public class LeetCode160_IntersectionOfTwoLinkedLists_JianzhiOffer_52_FindFirstC
             this.val = val;
         }
     }
+
     /**
      * 打印链表
      */
-    public void printLinkedList(ListNode head){
-        if(head == null){
+    public void printLinkedList(ListNode head) {
+        if (head == null) {
             System.out.println("NULL");
             return;
         }
         ListNode headTemp = head;
         StringBuilder sb = new StringBuilder();
-        while(headTemp != null){
+        while (headTemp != null) {
             sb.append(headTemp.val).append("-->");
             headTemp = headTemp.next;
         }
-        System.out.println(sb.toString().substring(0,sb.length()-3));
+        System.out.println(sb.toString().substring(0, sb.length() - 3));
     }
+
 }
