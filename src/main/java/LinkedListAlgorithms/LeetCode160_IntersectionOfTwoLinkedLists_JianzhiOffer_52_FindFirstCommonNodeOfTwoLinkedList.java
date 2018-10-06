@@ -99,7 +99,6 @@ public class LeetCode160_IntersectionOfTwoLinkedLists_JianzhiOffer_52_FindFirstC
         return len;
     }
 
-
     //测试
     @Test
     public void test(){
