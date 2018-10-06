@@ -2,9 +2,209 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7df596c-3805-4562-8d5d-672348011059" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/Leetcode_21_23_JianzhiOffer_25_MergeTwoOrKSortedLinkedLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HashTableAlgorithms/LeetCode_599_MinimumIndexSumOfTwoLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/LeetCode160_IntersectionOfTwoLinkedLists_JianzhiOffer_52_FindFirstCommonNodeOfTwoLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/JianzhiOffer_25_MergeTwoSortedLinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetcodeAlgorithms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LeetcodeAlgorithms.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/JianzhiOffer_52_FindFirstCommonNodeOfTwoLinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ArrayAlgorithms/JianzhiOffer_12_hasPathInMatrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ArrayAlgorithms/JianzhiOffer_12_hasPathInMatrix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ArrayAlgorithms/JianzhiOffer_13_RobotMovingRange.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ArrayAlgorithms/JianzhiOffer_13_RobotMovingRange.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ArrayAlgorithms/JianzhiOffer_29_PrintMatrixByClock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ArrayAlgorithms/JianzhiOffer_29_PrintMatrixByClock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ArrayAlgorithms/JianzhiOffer_39_MoreThanHalfNum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ArrayAlgorithms/JianzhiOffer_39_MoreThanHalfNum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ArrayAlgorithms/JianzhiOffer_40_GetTheKLeastNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ArrayAlgorithms/JianzhiOffer_40_GetTheKLeastNumbers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ArrayAlgorithms/JianzhiOffer_45_FindTheMinNumberOfNumberArray$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ArrayAlgorithms/JianzhiOffer_45_FindTheMinNumberOfNumberArray$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ArrayAlgorithms/JianzhiOffer_45_FindTheMinNumberOfNumberArray$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ArrayAlgorithms/JianzhiOffer_45_FindTheMinNumberOfNumberArray$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ArrayAlgorithms/JianzhiOffer_45_FindTheMinNumberOfNumberArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ArrayAlgorithms/JianzhiOffer_45_FindTheMinNumberOfNumberArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ArrayAlgorithms/JianzhiOffer_4_FindElementInTwoDimensionalArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ArrayAlgorithms/JianzhiOffer_4_FindElementInTwoDimensionalArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ArrayAlgorithms/JianzhiOffer_xx_FindADuplicateNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ArrayAlgorithms/JianzhiOffer_xx_FindADuplicateNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BiShiAlgorithms/Alibaba_20180813_TestAlgorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BiShiAlgorithms/Alibaba_20180813_TestAlgorithm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BiShiAlgorithms/HaoWeiLai_BiShi_FindAllCombinationsOfNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BiShiAlgorithms/HaoWeiLai_BiShi_FindAllCombinationsOfNumbers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BiShiAlgorithms/Main2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BiShiAlgorithms/Main2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BiShiAlgorithms/Main3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BiShiAlgorithms/Main3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BiShiAlgorithms/PinDuoDuo0805.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BiShiAlgorithms/PinDuoDuo0805.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BiShiAlgorithms/TengXun_PhoneInterview_20180810_OddEvenSeparation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BiShiAlgorithms/TengXun_PhoneInterview_20180810_OddEvenSeparation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BiShiAlgorithms/Wangyi_BiShiAlgorithms_20180811.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BiShiAlgorithms/Wangyi_BiShiAlgorithms_20180811.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BinaryTreeBasicAlgorithms/BinaryTreeTraversals$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BinaryTreeBasicAlgorithms/BinaryTreeTraversals$TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BinaryTreeBasicAlgorithms/BinaryTreeTraversals.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BinaryTreeBasicAlgorithms/BinaryTreeTraversals.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BinaryTreeBasicAlgorithms/ConvertBetweenBSTandDoublelyLinkedList$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BinaryTreeBasicAlgorithms/ConvertBetweenBSTandDoublelyLinkedList$TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BinaryTreeBasicAlgorithms/ConvertBetweenBSTandDoublelyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BinaryTreeBasicAlgorithms/ConvertBetweenBSTandDoublelyLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BinaryTreeBasicAlgorithms/FindPathsEqualsTarget$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BinaryTreeBasicAlgorithms/FindPathsEqualsTarget$TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BinaryTreeBasicAlgorithms/FindPathsEqualsTarget.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BinaryTreeBasicAlgorithms/FindPathsEqualsTarget.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BinaryTreeBasicAlgorithms/GetDepthOfBinaryTree$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BinaryTreeBasicAlgorithms/GetDepthOfBinaryTree$TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BinaryTreeBasicAlgorithms/GetDepthOfBinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BinaryTreeBasicAlgorithms/GetDepthOfBinaryTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BinaryTreeBasicAlgorithms/GetMirrorBinaryTree$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BinaryTreeBasicAlgorithms/GetMirrorBinaryTree$TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BinaryTreeBasicAlgorithms/GetMirrorBinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BinaryTreeBasicAlgorithms/GetMirrorBinaryTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BinaryTreeBasicAlgorithms/IsBalancedBinaryTree$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BinaryTreeBasicAlgorithms/IsBalancedBinaryTree$TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BinaryTreeBasicAlgorithms/IsBalancedBinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BinaryTreeBasicAlgorithms/IsBalancedBinaryTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BinaryTreeBasicAlgorithms/IsSymmetricalBinaryTreeByTraversal$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BinaryTreeBasicAlgorithms/IsSymmetricalBinaryTreeByTraversal$TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BinaryTreeBasicAlgorithms/IsSymmetricalBinaryTreeByTraversal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BinaryTreeBasicAlgorithms/IsSymmetricalBinaryTreeByTraversal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BinaryTreeBasicAlgorithms/JianzhiOffer_26_HasSubtree$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BinaryTreeBasicAlgorithms/JianzhiOffer_26_HasSubtree$TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BinaryTreeBasicAlgorithms/JianzhiOffer_26_HasSubtree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BinaryTreeBasicAlgorithms/JianzhiOffer_26_HasSubtree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BinaryTreeBasicAlgorithms/KthBSTNode_BinarySearchTree$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BinaryTreeBasicAlgorithms/KthBSTNode_BinarySearchTree$TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BinaryTreeBasicAlgorithms/KthBSTNode_BinarySearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BinaryTreeBasicAlgorithms/KthBSTNode_BinarySearchTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BinaryTreeBasicAlgorithms/NextNodeOfBinaryTreeInOrderTraversal$TreeLinkNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BinaryTreeBasicAlgorithms/NextNodeOfBinaryTreeInOrderTraversal$TreeLinkNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BinaryTreeBasicAlgorithms/NextNodeOfBinaryTreeInOrderTraversal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BinaryTreeBasicAlgorithms/NextNodeOfBinaryTreeInOrderTraversal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BinaryTreeBasicAlgorithms/SerializeAndDeserializeBinaryTree$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BinaryTreeBasicAlgorithms/SerializeAndDeserializeBinaryTree$TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BinaryTreeBasicAlgorithms/SerializeAndDeserializeBinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BinaryTreeBasicAlgorithms/SerializeAndDeserializeBinaryTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BinaryTreeBasicAlgorithms/VerifySquenceOfBSTPreOrderOrPostOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BinaryTreeBasicAlgorithms/VerifySquenceOfBSTPreOrderOrPostOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GreedyAlgorithms/Leetcode_376_WiggleSubsequence_Medium.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GreedyAlgorithms/Leetcode_376_WiggleSubsequence_Medium.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GreedyAlgorithms/Leetcode_402_RemoveKDigits_Medium.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GreedyAlgorithms/Leetcode_402_RemoveKDigits_Medium.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GreedyAlgorithms/Leetcode_455_AssignCookies_Easy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GreedyAlgorithms/Leetcode_455_AssignCookies_Easy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HashTableAlgorithms/BasicKnowledgeOfHashTable$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HashTableAlgorithms/BasicKnowledgeOfHashTable$ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HashTableAlgorithms/BasicKnowledgeOfHashTable$MapListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HashTableAlgorithms/BasicKnowledgeOfHashTable$MapListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HashTableAlgorithms/BasicKnowledgeOfHashTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HashTableAlgorithms/BasicKnowledgeOfHashTable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HashTableAlgorithms/Leetcode_187_RepeatedDNASequences_Medium.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HashTableAlgorithms/Leetcode_187_RepeatedDNASequences_Medium.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HashTableAlgorithms/Leetcode_290_WordPattern_Easy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HashTableAlgorithms/Leetcode_290_WordPattern_Easy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HashTableAlgorithms/Leetcode_3_LongestSubstringWithoutRepeatingCharacters_Medium.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HashTableAlgorithms/Leetcode_3_LongestSubstringWithoutRepeatingCharacters_Medium.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HashTableAlgorithms/Leetcode_49_GroupAnagrams_Medium.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HashTableAlgorithms/Leetcode_49_GroupAnagrams_Medium.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HashTableAlgorithms/Leetcode_76_MinimumWindowSubstring_Hard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HashTableAlgorithms/Leetcode_76_MinimumWindowSubstring_Hard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HashTableAlgorithms/leetcode_409_LongestPalindrome_Easy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HashTableAlgorithms/leetcode_409_LongestPalindrome_Easy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaMailSender/QQSendMailDemo$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaMailSender/QQSendMailDemo$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaMailSender/QQSendMailDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaMailSender/QQSendMailDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaMailSender/SendMailDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaMailSender/SendMailDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JianzhiOfferAlgorithms/FullSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JianzhiOfferAlgorithms/FullSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JianzhiOfferAlgorithms/JianzhiOffer_16_PowerImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JianzhiOfferAlgorithms/JianzhiOffer_16_PowerImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JianzhiOfferAlgorithms/JianzhiOffer_20_isNumeric.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JianzhiOfferAlgorithms/JianzhiOffer_20_isNumeric.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JianzhiOfferAlgorithms/JianzhiOffer_43_theNumberOf1Between1AndN.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JianzhiOfferAlgorithms/JianzhiOffer_43_theNumberOf1Between1AndN.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JianzhiOfferAlgorithms/JianzhiOffer_49_GetTheKthUglyNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JianzhiOfferAlgorithms/JianzhiOffer_49_GetTheKthUglyNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JianzhiOfferAlgorithms/JianzhiOffer_50_FirstNotRepeatingChar.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JianzhiOfferAlgorithms/JianzhiOffer_50_FirstNotRepeatingChar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JianzhiOfferAlgorithms/JianzhiOffer_50_RegexMatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JianzhiOfferAlgorithms/JianzhiOffer_50_RegexMatch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JianzhiOfferAlgorithms/JianzhiOffer_56_FindNumberOfAppearOnlyOnce.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JianzhiOfferAlgorithms/JianzhiOffer_56_FindNumberOfAppearOnlyOnce.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JianzhiOfferAlgorithms/JianzhiOffer_57_FindContinuousSequenceWithSumOfS.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JianzhiOfferAlgorithms/JianzhiOffer_57_FindContinuousSequenceWithSumOfS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JianzhiOfferAlgorithms/JianzhiOffer_61_PlayingCardsIsContinuous.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JianzhiOfferAlgorithms/JianzhiOffer_61_PlayingCardsIsContinuous.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JianzhiOfferAlgorithms/JianzhiOffer_65_AddByBitOperation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JianzhiOfferAlgorithms/JianzhiOffer_65_AddByBitOperation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JianzhiOfferAlgorithms/JianzhiOffer_66_BuildMultiplyArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JianzhiOfferAlgorithms/JianzhiOffer_66_BuildMultiplyArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JianzhiOfferAlgorithms/JianzhiOffer_FindNumbersWithSumOfS.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JianzhiOfferAlgorithms/JianzhiOffer_FindNumbersWithSumOfS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JianzhiOfferAlgorithms/JianzhiOffer_LeftRotateString.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JianzhiOfferAlgorithms/JianzhiOffer_LeftRotateString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JianzhiOfferAlgorithms/JianzhiOffer_MaxValueInSlidingWindows.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JianzhiOfferAlgorithms/JianzhiOffer_MaxValueInSlidingWindows.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JianzhiOfferAlgorithms/JianzhiOffer_xx_FirstAppearingOnce.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JianzhiOfferAlgorithms/JianzhiOffer_xx_FirstAppearingOnce.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/July2/NodeList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/July2/NodeList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/July2/ReverseLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/July2/ReverseLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/July4/InetAddressDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/July4/InetAddressDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/July5/MyClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/July5/MyClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/July5/MyServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/July5/MyServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/July5/MyServerNewThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/July5/MyServerNewThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/July5/RecursiveTest$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/July5/RecursiveTest$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/July5/RecursiveTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/July5/RecursiveTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/July5/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/July5/Task.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/July5/ThreadPoolServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/July5/ThreadPoolServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/July5/URLEnDecoderDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/July5/URLEnDecoderDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LRUCacheImpl/HashMapVSLinkedHashMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LRUCacheImpl/HashMapVSLinkedHashMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LRUCacheImpl/LRUCache_BasedOn_LinkedHashMap$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LRUCacheImpl/LRUCache_BasedOn_LinkedHashMap$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LRUCacheImpl/LRUCache_BasedOn_LinkedHashMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LRUCacheImpl/LRUCache_BasedOn_LinkedHashMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LRUCacheImpl/Leetcode_146_LRUCache_Hard$LRUCache$DListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LRUCacheImpl/Leetcode_146_LRUCache_Hard$LRUCache$DListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LRUCacheImpl/Leetcode_146_LRUCache_Hard$LRUCache.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LRUCacheImpl/Leetcode_146_LRUCache_Hard$LRUCache.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LRUCacheImpl/Leetcode_146_LRUCache_Hard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LRUCacheImpl/Leetcode_146_LRUCache_Hard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LRUCacheImpl/Leetcode_146_LRUCache_Hard_HashtableDoubleLinkedList_with_a_touch_of_pseudo_nodes$LRUCache$DLinkedNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LRUCacheImpl/Leetcode_146_LRUCache_Hard_HashtableDoubleLinkedList_with_a_touch_of_pseudo_nodes$LRUCache$DLinkedNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LRUCacheImpl/Leetcode_146_LRUCache_Hard_HashtableDoubleLinkedList_with_a_touch_of_pseudo_nodes$LRUCache.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LRUCacheImpl/Leetcode_146_LRUCache_Hard_HashtableDoubleLinkedList_with_a_touch_of_pseudo_nodes$LRUCache.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LRUCacheImpl/Leetcode_146_LRUCache_Hard_HashtableDoubleLinkedList_with_a_touch_of_pseudo_nodes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LRUCacheImpl/Leetcode_146_LRUCache_Hard_HashtableDoubleLinkedList_with_a_touch_of_pseudo_nodes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LinkedListAlgorithms/JianzhiOffer_18_deleteDuplicationLinkedListNode$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LinkedListAlgorithms/JianzhiOffer_18_deleteDuplicationLinkedListNode$ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LinkedListAlgorithms/JianzhiOffer_18_deleteDuplicationLinkedListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LinkedListAlgorithms/JianzhiOffer_18_deleteDuplicationLinkedListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LinkedListAlgorithms/JianzhiOffer_22_FindKthToTailLinkedListNode$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LinkedListAlgorithms/JianzhiOffer_22_FindKthToTailLinkedListNode$ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LinkedListAlgorithms/JianzhiOffer_22_FindKthToTailLinkedListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LinkedListAlgorithms/JianzhiOffer_22_FindKthToTailLinkedListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LinkedListAlgorithms/JianzhiOffer_23_DoesLinkedListHasLoop$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LinkedListAlgorithms/JianzhiOffer_23_DoesLinkedListHasLoop$ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LinkedListAlgorithms/JianzhiOffer_23_DoesLinkedListHasLoop.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LinkedListAlgorithms/JianzhiOffer_23_DoesLinkedListHasLoop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LinkedListAlgorithms/JianzhiOffer_24_ReverseLinkedList$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LinkedListAlgorithms/JianzhiOffer_24_ReverseLinkedList$ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LinkedListAlgorithms/JianzhiOffer_24_ReverseLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LinkedListAlgorithms/JianzhiOffer_24_ReverseLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LinkedListAlgorithms/JianzhiOffer_52_FindFirstCommonNodeOfTwoLinkedList$ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LinkedListAlgorithms/JianzhiOffer_52_FindFirstCommonNodeOfTwoLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LinkedListAlgorithms/JianzhiOffer_62_TheLastRemainingNumberOfCircle$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LinkedListAlgorithms/JianzhiOffer_62_TheLastRemainingNumberOfCircle$ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LinkedListAlgorithms/JianzhiOffer_62_TheLastRemainingNumberOfCircle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LinkedListAlgorithms/JianzhiOffer_62_TheLastRemainingNumberOfCircle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LinkedListAlgorithms/JianzhiOffer_6_PrintListFromTailToHead$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LinkedListAlgorithms/JianzhiOffer_6_PrintListFromTailToHead$ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LinkedListAlgorithms/JianzhiOffer_6_PrintListFromTailToHead.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LinkedListAlgorithms/JianzhiOffer_6_PrintListFromTailToHead.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Others/AtomicIntegerDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Others/AtomicIntegerDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Others/BitSetDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Others/BitSetDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Others/IntegerSourceCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Others/IntegerSourceCode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Others/ScannerDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Others/ScannerDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Others/StringInternTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Others/StringInternTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ReentrantLockDemo/MyReentrantLock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ReentrantLockDemo/MyReentrantLock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ReentrantLockDemo/NotReentrantLock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ReentrantLockDemo/NotReentrantLock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ReentrantLockDemo/SpinLock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ReentrantLockDemo/SpinLock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ReentrantLockDemo/UnReentrantLock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ReentrantLockDemo/UnReentrantLock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SearchAlgorithm/BinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SearchAlgorithm/BinarySearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SearchAlgorithm/BinarySearchTree$BSTNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SearchAlgorithm/BinarySearchTree$BSTNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SearchAlgorithm/BinarySearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SearchAlgorithm/BinarySearchTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SearchAlgorithm/JianzhiOffer_53_SearchNumberInSortedArray_1_GetNumberOfK.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SearchAlgorithm/JianzhiOffer_53_SearchNumberInSortedArray_1_GetNumberOfK.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SearchAlgorithm/JianzhiOffer_53_SearchNumberInSortedArray_2_GetMissingNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SearchAlgorithm/JianzhiOffer_53_SearchNumberInSortedArray_2_GetMissingNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SearchAlgorithm/JianzhiOffer_53_SearchNumberInSortedArray_3_GetNumberSameAsIndex.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SearchAlgorithm/JianzhiOffer_53_SearchNumberInSortedArray_3_GetNumberSameAsIndex.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SearchAlgorithm/LeetCode_315_CountOfSmallerNumbersAfterSelf$BSTNodeWithCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SearchAlgorithm/LeetCode_315_CountOfSmallerNumbersAfterSelf$BSTNodeWithCount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SearchAlgorithm/LeetCode_315_CountOfSmallerNumbersAfterSelf.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SearchAlgorithm/LeetCode_315_CountOfSmallerNumbersAfterSelf.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SearchAlgorithm/LeetCode_33_SearchInRotatedSortedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SearchAlgorithm/LeetCode_33_SearchInRotatedSortedArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SearchAlgorithm/LeetCode_34_SearchRange.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SearchAlgorithm/LeetCode_34_SearchRange.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SearchAlgorithm/LeetCode_35_SearchInsertPosition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SearchAlgorithm/LeetCode_35_SearchInsertPosition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SearchAlgorithm/LeetCode_449_SerializeAndDeserializeBST$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SearchAlgorithm/LeetCode_449_SerializeAndDeserializeBST$TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SearchAlgorithm/LeetCode_449_SerializeAndDeserializeBST.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SearchAlgorithm/LeetCode_449_SerializeAndDeserializeBST.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SortAlgorithms/BubbleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SortAlgorithms/BubbleSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SortAlgorithms/InsertSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SortAlgorithms/InsertSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SortAlgorithms/JianzhiOffer_xx_InversePairsBasedOnMergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SortAlgorithms/JianzhiOffer_xx_InversePairsBasedOnMergeSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SortAlgorithms/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SortAlgorithms/MergeSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SortAlgorithms/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SortAlgorithms/QuickSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SortAlgorithms/SelectionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SortAlgorithms/SelectionSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/StackAndQueueAlgorithms/JianzhiOffer31_IsPopOrderSameWithPushOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/StackAndQueueAlgorithms/JianzhiOffer31_IsPopOrderSameWithPushOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/StackAndQueueAlgorithms/JianzhiOffer_30_StackWithMinMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/StackAndQueueAlgorithms/JianzhiOffer_30_StackWithMinMethod.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/StackAndQueueAlgorithms/JianzhiOffer_30_StackWithMinMethod2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/StackAndQueueAlgorithms/JianzhiOffer_30_StackWithMinMethod2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/StringAlgorithms/JianzhiOffer_58_ReverseSentence.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/StringAlgorithms/JianzhiOffer_58_ReverseSentence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/StringAlgorithms/JianzhiOffer_5_ReplaceSpace.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/StringAlgorithms/JianzhiOffer_5_ReplaceSpace.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Test/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test/QuickSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Test/SearchInRotatedSortedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test/SearchInRotatedSortedArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ThreadPoolDemo/ScheduledThreadPoolDemo$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ThreadPoolDemo/ScheduledThreadPoolDemo$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ThreadPoolDemo/ScheduledThreadPoolDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ThreadPoolDemo/ScheduledThreadPoolDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ThreadValves/BarrierAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ThreadValves/BarrierAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ThreadValves/CountDownLatchDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ThreadValves/CountDownLatchDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ThreadValves/CountDownLatchDemo2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ThreadValves/CountDownLatchDemo2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ThreadValves/CyclicBarrierDemo$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ThreadValves/CyclicBarrierDemo$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ThreadValves/CyclicBarrierDemo$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ThreadValves/CyclicBarrierDemo$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ThreadValves/CyclicBarrierDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ThreadValves/CyclicBarrierDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ThreadValves/ReentrantLockDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ThreadValves/ReentrantLockDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ThreadValves/Target1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ThreadValves/Target1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ThreadValves/Target2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ThreadValves/Target2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ThreadValves/Target3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ThreadValves/Target3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ThreadValves/ThreadValvesDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ThreadValves/ThreadValvesDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/bupt/CallableDemo$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/edu/bupt/CallableDemo$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/bupt/CallableDemo$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/edu/bupt/CallableDemo$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/bupt/CallableDemo$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/edu/bupt/CallableDemo$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/bupt/CallableDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/edu/bupt/CallableDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/bupt/MonitorObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/edu/bupt/MonitorObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/bupt/MyTimeUnit$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/edu/bupt/MyTimeUnit$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/bupt/MyTimeUnit$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/edu/bupt/MyTimeUnit$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/bupt/MyTimeUnit$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/edu/bupt/MyTimeUnit$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/bupt/MyTimeUnit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/edu/bupt/MyTimeUnit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/bupt/Singleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/edu/bupt/Singleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/bupt/SingletonByEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/edu/bupt/SingletonByEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/bupt/SingletonEnum$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/edu/bupt/SingletonEnum$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/bupt/SingletonEnum$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/edu/bupt/SingletonEnum$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/bupt/SingletonEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/edu/bupt/SingletonEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/bupt/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/edu/bupt/Task.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcodeAlgorithm/Leetcode100SameTree_Easy$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcodeAlgorithm/Leetcode100SameTree_Easy$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcodeAlgorithm/Leetcode100SameTree_Easy$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcodeAlgorithm/Leetcode100SameTree_Easy$TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcodeAlgorithm/Leetcode100SameTree_Easy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcodeAlgorithm/Leetcode100SameTree_Easy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcodeAlgorithm/Leetcode10RegularExpressionMatching_Hard$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcodeAlgorithm/Leetcode10RegularExpressionMatching_Hard$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcodeAlgorithm/Leetcode10RegularExpressionMatching_Hard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcodeAlgorithm/Leetcode10RegularExpressionMatching_Hard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcodeAlgorithm/Leetcode14LongestCommonPrefix$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcodeAlgorithm/Leetcode14LongestCommonPrefix$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcodeAlgorithm/Leetcode14LongestCommonPrefix.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcodeAlgorithm/Leetcode14LongestCommonPrefix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcodeAlgorithm/Leetcode26RemoveDuplicatesfromSortedArray$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcodeAlgorithm/Leetcode26RemoveDuplicatesfromSortedArray$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcodeAlgorithm/Leetcode26RemoveDuplicatesfromSortedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcodeAlgorithm/Leetcode26RemoveDuplicatesfromSortedArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcodeAlgorithm/Leetcode27RemoveElement_Easy$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcodeAlgorithm/Leetcode27RemoveElement_Easy$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcodeAlgorithm/Leetcode27RemoveElement_Easy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcodeAlgorithm/Leetcode27RemoveElement_Easy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcodeAlgorithm/Leetcode28ImplementstrStrindexOf_Easy$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcodeAlgorithm/Leetcode28ImplementstrStrindexOf_Easy$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcodeAlgorithm/Leetcode28ImplementstrStrindexOf_Easy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcodeAlgorithm/Leetcode28ImplementstrStrindexOf_Easy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcodeAlgorithm/Leetcode38CountandSay_Easy$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcodeAlgorithm/Leetcode38CountandSay_Easy$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcodeAlgorithm/Leetcode38CountandSay_Easy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcodeAlgorithm/Leetcode38CountandSay_Easy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcodeAlgorithm/Leetcode537ComplexNumberMultiplication$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcodeAlgorithm/Leetcode537ComplexNumberMultiplication$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcodeAlgorithm/Leetcode537ComplexNumberMultiplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcodeAlgorithm/Leetcode537ComplexNumberMultiplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcodeAlgorithm/leetcode136SingleNumber_Easy$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcodeAlgorithm/leetcode136SingleNumber_Easy$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcodeAlgorithm/leetcode136SingleNumber_Easy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcodeAlgorithm/leetcode136SingleNumber_Easy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/redisClientJedis/JedisTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/redisClientJedis/JedisTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/singleton/DualIfSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/singleton/DualIfSingleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/singleton/EnumSingleton$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/singleton/EnumSingleton$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/singleton/EnumSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/singleton/EnumSingleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/singleton/NestedSingleton$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/singleton/NestedSingleton$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/singleton/NestedSingleton$SingletonHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/singleton/NestedSingleton$SingletonHolder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/singleton/NestedSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/singleton/NestedSingleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/singleton/Singleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/singleton/Singleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/singleton/SingletonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/singleton/SingletonTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,28 +256,29 @@
         <counts>
           <entry key="project.closed" value="1" />
           <entry key="project.open.time.61" value="1" />
+          <entry key="project.open.time.72" value="1" />
           <entry key="project.open.time.75" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="3" />
+          <entry key="java" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="3" />
+          <entry key="JAVA" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1243" />
+          <entry key="java" value="2653" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1243" />
+          <entry key="JAVA" value="2653" />
         </counts>
       </usages-collector>
     </session>
@@ -87,8 +288,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/Leetcode_21_23_JianzhiOffer_25_MergeTwoOrKSortedLinkedLists.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="171" lean-forward="true" selection-start-line="171" selection-end-line="171" />
+            <state relative-caret-position="146">
+              <caret line="160" column="14" lean-forward="true" selection-start-line="160" selection-start-column="14" selection-end-line="160" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -131,6 +332,9 @@
         <option value="$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/JianzhiOffer_ReConstructBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/JianzhiOffer_25_MergeTwoSortedLinkedList.java" />
         <option value="$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/Leetcode_21_23_JianzhiOffer_25_MergeTwoOrKSortedLinkedLists.java" />
+        <option value="$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/JianzhiOffer_52_FindFirstCommonNodeOfTwoLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/LeetCode160_IntersectionOfTwoLinkedLists_JianzhiOffer_52_FindFirstCommonNodeOfTwoLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/HashTableAlgorithms/LeetCode_599_MinimumIndexSumOfTwoLists.java" />
       </list>
     </option>
   </component>
@@ -169,7 +373,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
@@ -203,18 +406,19 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="LinkedListAlgorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="HashTableAlgorithms" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538708790532" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538795792142" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../rocketmq" />
     <property name="node.js.detected.package.jscs" value="true" />
     <property name="node.js.path.for.package.jscs" value="project" />
@@ -238,16 +442,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Leetcode_21_23_JianzhiOffer_25_MergeTwoOrKSortedLinkedLists.test">
-    <configuration name="KuaiShou_0925" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BiShiAlgorithms.KuaiShou_0925" />
+  <component name="RunManager" selected="JUnit.LeetCode_599_MinimumIndexSumOfTwoLists.test">
+    <configuration name="JianzhiOffer_52_FindFirstCommonNodeOfTwoLinkedList.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BiShiAlgorithms.*" />
+          <option name="PATTERN" value="LinkedListAlgorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="LinkedListAlgorithms" />
+      <option name="MAIN_CLASS_NAME" value="LinkedListAlgorithms.JianzhiOffer_52_FindFirstCommonNodeOfTwoLinkedList" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -268,32 +475,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KuaiShou_0925_GetSumBinaryTree.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LeetCode160_IntersectionOfTwoLinkedLists_JianzhiOffer_52_FindFirstCommonNodeOfTwoLinkedList.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BinaryTreeBasicAlgorithms.*" />
+          <option name="PATTERN" value="LinkedListAlgorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="BinaryTreeBasicAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="BinaryTreeBasicAlgorithms.KuaiShou_0925_GetSumBinaryTree" />
-      <option name="METHOD_NAME" value="main" />
+      <option name="PACKAGE_NAME" value="LinkedListAlgorithms" />
+      <option name="MAIN_CLASS_NAME" value="LinkedListAlgorithms.LeetCode160_IntersectionOfTwoLinkedLists_JianzhiOffer_52_FindFirstCommonNodeOfTwoLinkedList" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KuaiShou_0925_GetSumBinaryTree.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LeetCode_599_MinimumIndexSumOfTwoLists.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BinaryTreeBasicAlgorithms.*" />
+          <option name="PATTERN" value="HashTableAlgorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="BinaryTreeBasicAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="BinaryTreeBasicAlgorithms.KuaiShou_0925_GetSumBinaryTree" />
+      <option name="PACKAGE_NAME" value="HashTableAlgorithms" />
+      <option name="MAIN_CLASS_NAME" value="HashTableAlgorithms.LeetCode_599_MinimumIndexSumOfTwoLists" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -317,19 +524,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.KuaiShou_0925" />
-      <item itemvalue="JUnit.KuaiShou_0925_GetSumBinaryTree.main" />
-      <item itemvalue="JUnit.KuaiShou_0925_GetSumBinaryTree.test" />
       <item itemvalue="JUnit.JianzhiOffer_ReConstructBinaryTree.test" />
       <item itemvalue="JUnit.Leetcode_21_23_JianzhiOffer_25_MergeTwoOrKSortedLinkedLists.test" />
+      <item itemvalue="JUnit.JianzhiOffer_52_FindFirstCommonNodeOfTwoLinkedList.test" />
+      <item itemvalue="JUnit.LeetCode160_IntersectionOfTwoLinkedLists_JianzhiOffer_52_FindFirstCommonNodeOfTwoLinkedList.test" />
+      <item itemvalue="JUnit.LeetCode_599_MinimumIndexSumOfTwoLists.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LeetCode_599_MinimumIndexSumOfTwoLists.test" />
+        <item itemvalue="JUnit.LeetCode160_IntersectionOfTwoLinkedLists_JianzhiOffer_52_FindFirstCommonNodeOfTwoLinkedList.test" />
+        <item itemvalue="JUnit.JianzhiOffer_52_FindFirstCommonNodeOfTwoLinkedList.test" />
         <item itemvalue="JUnit.Leetcode_21_23_JianzhiOffer_25_MergeTwoOrKSortedLinkedLists.test" />
         <item itemvalue="JUnit.JianzhiOffer_ReConstructBinaryTree.test" />
-        <item itemvalue="JUnit.KuaiShou_0925_GetSumBinaryTree.test" />
-        <item itemvalue="JUnit.KuaiShou_0925_GetSumBinaryTree.main" />
-        <item itemvalue="Application.KuaiShou_0925" />
       </list>
     </recent_temporary>
   </component>
@@ -347,6 +554,7 @@
       <workItem from="1537870827830" duration="19340000" />
       <workItem from="1538623287298" duration="1229000" />
       <workItem from="1538704454430" duration="3265000" />
+      <workItem from="1538792398802" duration="3308000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <created>1537236600992</created>
@@ -366,45 +574,45 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="KuaiShou_0925_GetSumBinaryTree_test - 2018.09.26 at 13h 33m 33s.xml">
-      <configuration name="KuaiShou_0925_GetSumBinaryTree.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JianzhiOffer_ReConstructBinaryTree_test - 2018.09.26 at 13h 33m 38s.xml">
-      <configuration name="JianzhiOffer_ReConstructBinaryTree.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JianzhiOffer_ReConstructBinaryTree_test - 2018.09.26 at 13h 35m 03s.xml">
-      <configuration name="JianzhiOffer_ReConstructBinaryTree.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JianzhiOffer_ReConstructBinaryTree_test - 2018.09.26 at 13h 36m 09s.xml">
-      <configuration name="JianzhiOffer_ReConstructBinaryTree.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JianzhiOffer_ReConstructBinaryTree_test - 2018.09.26 at 13h 42m 22s.xml">
-      <configuration name="JianzhiOffer_ReConstructBinaryTree.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JianzhiOffer_ReConstructBinaryTree_test - 2018.09.26 at 14h 06m 59s.xml">
-      <configuration name="JianzhiOffer_ReConstructBinaryTree.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Leetcode_21_23_JianzhiOffer_25_MergeTwoOrKSortedLinkedLists_test - 2018.10.05 at 10h 14m 10s.xml">
-      <configuration name="Leetcode_21_23_JianzhiOffer_25_MergeTwoOrKSortedLinkedLists.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Leetcode_21_23_JianzhiOffer_25_MergeTwoOrKSortedLinkedLists_test - 2018.10.05 at 10h 15m 21s.xml">
-      <configuration name="Leetcode_21_23_JianzhiOffer_25_MergeTwoOrKSortedLinkedLists.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Leetcode_21_23_JianzhiOffer_25_MergeTwoOrKSortedLinkedLists_test - 2018.10.05 at 10h 15m 45s.xml">
       <configuration name="Leetcode_21_23_JianzhiOffer_25_MergeTwoOrKSortedLinkedLists.test" configurationId="JUnit" />
     </history-entry>
     <history-entry file="Leetcode_21_23_JianzhiOffer_25_MergeTwoOrKSortedLinkedLists_test - 2018.10.05 at 10h 16m 48s.xml">
       <configuration name="Leetcode_21_23_JianzhiOffer_25_MergeTwoOrKSortedLinkedLists.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="JianzhiOffer_52_FindFirstCommonNodeOfTwoLinkedList_test - 2018.10.06 at 10h 29m 20s.xml">
+      <configuration name="JianzhiOffer_52_FindFirstCommonNodeOfTwoLinkedList.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LeetCode160_IntersectionOfTwoLinkedLists_JianzhiOffer_52_FindFirstCommonNodeOfTwoLinkedList_test - 2018.10.06 at 10h 34m 51s.xml">
+      <configuration name="LeetCode160_IntersectionOfTwoLinkedLists_JianzhiOffer_52_FindFirstCommonNodeOfTwoLinkedList.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LeetCode_599_MinimumIndexSumOfTwoLists_test - 2018.10.06 at 11h 07m 51s.xml">
+      <configuration name="LeetCode_599_MinimumIndexSumOfTwoLists.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LeetCode_599_MinimumIndexSumOfTwoLists_test - 2018.10.06 at 11h 08m 41s.xml">
+      <configuration name="LeetCode_599_MinimumIndexSumOfTwoLists.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LeetCode_599_MinimumIndexSumOfTwoLists_test - 2018.10.06 at 11h 09m 09s.xml">
+      <configuration name="LeetCode_599_MinimumIndexSumOfTwoLists.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LeetCode_599_MinimumIndexSumOfTwoLists_test - 2018.10.06 at 11h 10m 57s.xml">
+      <configuration name="LeetCode_599_MinimumIndexSumOfTwoLists.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LeetCode_599_MinimumIndexSumOfTwoLists_test - 2018.10.06 at 11h 11m 52s.xml">
+      <configuration name="LeetCode_599_MinimumIndexSumOfTwoLists.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LeetCode_599_MinimumIndexSumOfTwoLists_test - 2018.10.06 at 11h 14m 47s.xml">
+      <configuration name="LeetCode_599_MinimumIndexSumOfTwoLists.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28089000" />
+    <option name="totallyTimeSpent" value="31397000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1386" height="788" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23378582" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2413273" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -414,7 +622,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.35528332" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3995657" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39816234" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -503,17 +711,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/JianzhiOffer_25_MergeTwoSortedLinkedList.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/JianzhiOffer_25_MergeTwoSortedLinkedList.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/JianzhiOffer_52_FindFirstCommonNodeOfTwoLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        <state relative-caret-position="250">
+          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/HashTableAlgorithms/LeetCode_599_MinimumIndexSumOfTwoLists.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2268#2284#0" expanded="true" />
+            <element signature="e#2411#2419#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/LeetCode160_IntersectionOfTwoLinkedLists_JianzhiOffer_52_FindFirstCommonNodeOfTwoLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="94" column="29" lean-forward="true" selection-start-line="94" selection-start-column="29" selection-end-line="94" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/Leetcode_21_23_JianzhiOffer_25_MergeTwoOrKSortedLinkedLists.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="171" lean-forward="true" selection-start-line="171" selection-end-line="171" />
+        <state relative-caret-position="146">
+          <caret line="160" column="14" lean-forward="true" selection-start-line="160" selection-start-column="14" selection-end-line="160" selection-end-column="14" />
         </state>
       </provider>
     </entry>

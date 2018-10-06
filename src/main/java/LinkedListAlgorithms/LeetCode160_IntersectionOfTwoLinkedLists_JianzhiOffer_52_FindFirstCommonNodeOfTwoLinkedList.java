@@ -5,14 +5,28 @@ import org.junit.Test;
 import java.util.ArrayDeque;
 import java.util.Deque;
 
-public class JianzhiOffer_52_FindFirstCommonNodeOfTwoLinkedList {
-
-
-    /*****************剑指Offer52:两个链表的第一个公共节点********************************/
-
+public class LeetCode160_IntersectionOfTwoLinkedLists_JianzhiOffer_52_FindFirstCommonNodeOfTwoLinkedList {
+    /********************两个链表的第一个公共节点*****************************/
     /***
+     * LeetCode160_IntersectionOfTwoLinkedLists_JianzhiOffer_52_FindFirstCommonNodeOfTwoLinkedList
+     * 难度：Easy
+     * DateTime : 2018-10-06 10:36
      * 题目描述:
-     * 输入两个链表，找出它们的第一个公共结点。
+     *     输入两个链表，找出它们的第一个公共结点。
+     * Write a program to find the node
+     * at which the intersection of two singly linked lists begins.
+     * For example, the following two linked lists:
+     * A:          a1 → a2
+     *                    ↘
+     *                      c1 → c2 → c3
+     *                    ↗
+     * B:     b1 → b2 → b3
+     * begin to intersect at node c1.
+     * Notes:
+     *       If the two linked lists have no intersection at all, return null.
+     *       The linked lists must retain their original structure after the function returns.
+     *       You may assume there are no cycles anywhere in the entire linked structure.
+     *       Your code should preferably run in O(n) time and use only O(1) memory.
      *
      * 思路分析：
      * 方法1：蛮力法，遍历第一个链表的每一个节点的时候，遍历第二个节点，时间复杂度为O(mn);显然该方法不可取。
@@ -26,7 +40,7 @@ public class JianzhiOffer_52_FindFirstCommonNodeOfTwoLinkedList {
     /**
      * 方法2：利用两个栈实现
      */
-    public ListNode FindFirstCommonNode2(ListNode pHead1, ListNode pHead2) {
+    public ListNode getIntersectionNode(ListNode pHead1, ListNode pHead2) {
         if(pHead1==null||pHead2==null) return null;
         ListNode head1 = pHead1,head2 = pHead2;//不改变原来的引用
         Deque<ListNode> stack1 = new ArrayDeque<ListNode>();
@@ -48,12 +62,10 @@ public class JianzhiOffer_52_FindFirstCommonNodeOfTwoLinkedList {
         return preCommonNode;
     }
 
-
-
     /**
      * 方法3：先求链表的长度，然后利用两指针遍历链表
      */
-    public ListNode FindFirstCommonNode(ListNode pHead1, ListNode pHead2) {
+    public ListNode getIntersectionNode_2(ListNode pHead1, ListNode pHead2) {
         if(pHead1==null||pHead2==null) return null;
         ListNode head1 = pHead1,head2 = pHead2;//不改变原来的引用
         //求链表长度
@@ -115,12 +127,12 @@ public class JianzhiOffer_52_FindFirstCommonNodeOfTwoLinkedList {
         node27.next = node4;
         printLinkedList(head2);
 
-        ListNode commonNode = FindFirstCommonNode(head1,head2);
+        ListNode commonNode = getIntersectionNode(head1,head2);
         System.out.println("commonNode = " + commonNode.val);
 
         printLinkedList(head1);
         printLinkedList(head2);
-        ListNode commonNode2 = FindFirstCommonNode2(head1,head2);
+        ListNode commonNode2 = getIntersectionNode_2(head1,head2);
         System.out.println("commonNode2 = " + commonNode2.val);
     }
 

@@ -16,6 +16,22 @@
       <module fileurl="file://$PROJECT_DIR$/../rocketmq/namesrv/src/main/main7.iml" filepath="$PROJECT_DIR$/../rocketmq/namesrv/src/main/main7.iml" />
       <module fileurl="file://$PROJECT_DIR$/../rocketmq/client/src/main/main8.iml" filepath="$PROJECT_DIR$/../rocketmq/client/src/main/main8.iml" />
       <module fileurl="file://$PROJECT_DIR$/../rocketmq/common/src/main/main9.iml" filepath="$PROJECT_DIR$/../rocketmq/common/src/main/main9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../rocketmq/rocketmq-all.iml" filepath="$PROJECT_DIR$/../rocketmq/rocketmq-all.iml" group="rocketmq-all and modules" />
+      <module fileurl="file://$PROJECT_DIR$/../rocketmq/rocketmq-broker.iml" filepath="$PROJECT_DIR$/../rocketmq/rocketmq-broker.iml" group="rocketmq-all and modules" />
+      <module fileurl="file://$PROJECT_DIR$/../rocketmq/rocketmq-client.iml" filepath="$PROJECT_DIR$/../rocketmq/rocketmq-client.iml" group="rocketmq-all and modules" />
+      <module fileurl="file://$PROJECT_DIR$/../rocketmq/rocketmq-common.iml" filepath="$PROJECT_DIR$/../rocketmq/rocketmq-common.iml" group="rocketmq-all and modules" />
+      <module fileurl="file://$PROJECT_DIR$/../rocketmq/rocketmq-distribution.iml" filepath="$PROJECT_DIR$/../rocketmq/rocketmq-distribution.iml" group="rocketmq-all and modules" />
+      <module fileurl="file://$PROJECT_DIR$/../rocketmq/rocketmq-example.iml" filepath="$PROJECT_DIR$/../rocketmq/rocketmq-example.iml" group="rocketmq-all and modules" />
+      <module fileurl="file://$PROJECT_DIR$/../rocketmq/rocketmq-filter.iml" filepath="$PROJECT_DIR$/../rocketmq/rocketmq-filter.iml" group="rocketmq-all and modules" />
+      <module fileurl="file://$PROJECT_DIR$/../rocketmq/rocketmq-logappender.iml" filepath="$PROJECT_DIR$/../rocketmq/rocketmq-logappender.iml" group="rocketmq-all and modules" />
+      <module fileurl="file://$PROJECT_DIR$/../rocketmq/rocketmq-logging.iml" filepath="$PROJECT_DIR$/../rocketmq/rocketmq-logging.iml" group="rocketmq-all and modules" />
+      <module fileurl="file://$PROJECT_DIR$/../rocketmq/rocketmq-namesrv.iml" filepath="$PROJECT_DIR$/../rocketmq/rocketmq-namesrv.iml" group="rocketmq-all and modules" />
+      <module fileurl="file://$PROJECT_DIR$/../rocketmq/rocketmq-openmessaging.iml" filepath="$PROJECT_DIR$/../rocketmq/rocketmq-openmessaging.iml" group="rocketmq-all and modules" />
+      <module fileurl="file://$PROJECT_DIR$/../rocketmq/rocketmq-remoting.iml" filepath="$PROJECT_DIR$/../rocketmq/rocketmq-remoting.iml" group="rocketmq-all and modules" />
+      <module fileurl="file://$PROJECT_DIR$/../rocketmq/rocketmq-srvutil.iml" filepath="$PROJECT_DIR$/../rocketmq/rocketmq-srvutil.iml" group="rocketmq-all and modules" />
+      <module fileurl="file://$PROJECT_DIR$/../rocketmq/rocketmq-store.iml" filepath="$PROJECT_DIR$/../rocketmq/rocketmq-store.iml" group="rocketmq-all and modules" />
+      <module fileurl="file://$PROJECT_DIR$/../rocketmq/rocketmq-test.iml" filepath="$PROJECT_DIR$/../rocketmq/rocketmq-test.iml" group="rocketmq-all and modules" />
+      <module fileurl="file://$PROJECT_DIR$/../rocketmq/rocketmq-tools.iml" filepath="$PROJECT_DIR$/../rocketmq/rocketmq-tools.iml" group="rocketmq-all and modules" />
       <module fileurl="file://$PROJECT_DIR$/../rocketmq/remoting/src/test/test.iml" filepath="$PROJECT_DIR$/../rocketmq/remoting/src/test/test.iml" />
       <module fileurl="file://$PROJECT_DIR$/../rocketmq/namesrv/src/test/test1.iml" filepath="$PROJECT_DIR$/../rocketmq/namesrv/src/test/test1.iml" />
       <module fileurl="file://$PROJECT_DIR$/../rocketmq/client/src/test/test10.iml" filepath="$PROJECT_DIR$/../rocketmq/client/src/test/test10.iml" />
