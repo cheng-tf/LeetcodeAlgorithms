@@ -1,14 +1,18 @@
 package LinkedListAlgorithms;
 
-
 import org.junit.Test;
 
-public class JianzhiOffer_24_ReverseLinkedList {
-    /**************两个题目：1.反转整个链表；2.反转链表中的部分链表；*******************/
+public class LeetCode_206_I_92_II_JianzhiOffer_24_Reverse_Linked_List {
 
-    /************************链表题目1：反转链表_LeetCode_206. Reverse Linked List************************/
+    /**************两个题目：1.反转整个链表；2.反转链表中的部分链表；*******************/
     /**
-     * 链表T1：反转链表_LeetCode_206. Reverse Linked List
+     * LeetCode_206_Reverse_Linked_List
+     * LeetCode_92_Reverse_Linked_List_II
+     */
+
+    /************************反转链表_LeetCode_206_Reverse_Linked_List************************/
+    /**
+     * 链表T1：反转链表_LeetCode_206_Reverse_Linked_List
      * 难度：Easy
      * https://leetcode.com/problems/reverse-linked-list/description/
      * 题目描述   链表T1：反转链表
@@ -25,6 +29,8 @@ public class JianzhiOffer_24_ReverseLinkedList {
      *          1. 循环实现。需要三个引用，前一个节点preNode，当前节点currentNode，
      *          后一个节点nextNode；断开链表之前，暂时保存下一节点nextNode；
      *         在头节点head之前引入null，作为head的pre节点。
+     *         2. 递归实现。
+     *            递归方法的实现。递归方法返回后n-1个节点翻转之后的头节点。
      */
 
     /**
@@ -53,7 +59,7 @@ public class JianzhiOffer_24_ReverseLinkedList {
     /**
      * 该方法递归实现逆序整个链表
      *
-     * @param preTail       : 已经逆序好的尾节点
+     * @param preTail : 已经逆序好的尾节点
      * @param head：剩下链表的头节点
      * @return ： 返回逆序后链表的头节点
      */
@@ -104,23 +110,25 @@ public class JianzhiOffer_24_ReverseLinkedList {
 
     }
 
-    /*****************LeetCode_206. Reverse Linked List*********************/
+    /*****************LeetCode_92_Reverse_Linked_List_II*********************/
     /**
-     * Reverse a singly linked list.
+     * LeetCode_92_Reverse_Linked_List_II_反转链表II-升级版
+     * 难度：Medium
+     * DateTime：2018-10-06
+     * https://leetcode.com/problems/reverse-linked-list-ii/description/
+     *
+     * 题目介绍：
+     * Reverse a linked list from position m to n. Do it in one-pass.
+     * Note: 1 ≤ m ≤ n ≤ length of list.
      * Example:
-     * Input: 1->2->3->4->5->NULL
-     * Output: 5->4->3->2->1->NULL
-     * Follow up:
-     * A linked list can be reversed either iteratively or recursively.
-     * Could you implement both?
+     * Input: 1->2->3->4->5->NULL, m = 2, n = 4
+     * Output: 1->4->3->2->5->NULL
      *
      * 思路分析：
      *          步骤分割：第一步：首先前进m-1步，到达第m节点；
      *                  第二步：反转m->n节点;
      *                  第三步：反转链表的头尾处理。
-     * 两种实现。
-     * 1. while循环实现。
-     * 2. 递归实现。
+     * 两种实现。while循环实现。(递归不适合）
      */
 
     /**
@@ -129,20 +137,17 @@ public class JianzhiOffer_24_ReverseLinkedList {
     public ListNode reverseBetween(ListNode head, int m, int n) {
         if (head == null || m < 1 || m > n) return null;
         ListNode head1 = head;
-        ListNode preTail = null;
+        ListNode preTail = null;//需要逆置节点的前驱节点
 
-        //第一步：前进至第m-1节点，即行走m-2步
-        for (int i = 1; i < m - 1 && head1 != null; i++) {
+        //第一步：前进至第m节点，即行走m-1步;注意考虑m为1的情况，此时preTail=null
+        int i = 1;
+        while(head1 != null && i++ < m){
+            preTail = head1;
             head1 = head1.next;
         }
-        if (m > 1) {//说明m不是1，m若是1，则preTail==null
-            preTail = head1;
-        }
-        //这一步不一定要走，如果m=n的情况下，一步都需要走
-        if (head1 != null&& m!=1 ) head1 = head1.next;//第m节点
         //第二步：反转m->n节点
+        if(head1 == null) return head;//head1为null，不需要后翻转了
         ListNode preNode = null;
-        if(head1 == null) return head;//head1为1，不需要后翻转了
         ListNode reverseListPreHead = head1;
         ListNode nextNode;
         while (head1 != null && m++ <= n) {
@@ -152,13 +157,58 @@ public class JianzhiOffer_24_ReverseLinkedList {
             head1 = nextNode;
         }
         //第三步：反转链表的头尾处理
-        reverseListPreHead.next = head1;
-        if (preTail != null) {//若preTail为null，则忽略
+        reverseListPreHead.next = head1;//处理尾巴
+        if (preTail != null) {//处理头部
             preTail.next = preNode;
             return head;
         }else{
-            return preNode;//需要改变返回的头节点
+            return preNode;//若preTail为null,返回翻转链表段的最后一个节点
         }
+    }
+
+    /**
+     * 循环实现:将上述整体中翻转部分节点部分拆分出来，原理一样的。
+     */
+    public ListNode reverseBetween_2(ListNode head, int m, int n) {
+        if (head == null || m < 1 || m > n) return null;
+        ListNode head1 = head;
+        ListNode preTail = null;//需要逆置节点的前驱节点
+
+        //第一步：前进至第m节点，即行走m-1步;注意考虑m为1的情况，此时preTail=null
+        int i = 1;
+        while(head1 != null && i++ < m){
+            preTail = head1;
+            head1 = head1.next;
+        }
+        //第二步：反转m->n节点
+        if(head1 == null) return head;//head1为null，不需要后翻转了
+        ListNode reverseListTail = reverseListBetween(head1,m,n);
+        //第三步：反转链表的头处理
+        if (preTail != null) {//处理头部
+            preTail.next = reverseListTail;
+            return head;
+        }else{
+            return reverseListTail;//若preTail为null,返回翻转链表段的最后一个节点
+        }
+    }
+
+    /**
+     * while循环实现的翻转部分
+     * @param head1
+     * @return 返回的是翻转链表的最后一个节点，也就是新的头节点
+     */
+    public ListNode reverseListBetween(ListNode head1,int m,int n) {
+        ListNode reverseListPreHead = head1;
+        ListNode preNode = null;
+        ListNode nextNode;
+        while (head1 != null && m++ <= n) {
+            nextNode = head1.next;
+            head1.next = preNode;
+            preNode = head1;
+            head1 = nextNode;
+        }
+        reverseListPreHead.next = head1;//处理尾巴
+        return preNode;
     }
 
     /************************测试**************************/
@@ -183,8 +233,12 @@ public class JianzhiOffer_24_ReverseLinkedList {
         ListNode node21 = new ListNode(5);
         head2.next = node21;
         //测试reverseList
+//        printLinkedList(head2);
+//        ListNode newHead2 = reverseBetween(head2, 2, 2);
+//        printLinkedList(newHead2);
+
         printLinkedList(head2);
-        ListNode newHead2 = reverseBetween(head2, 2, 2);
+        ListNode newHead2 = reverseBetween_2(head2, 2, 2);
         printLinkedList(newHead2);
     }
 
@@ -214,8 +268,9 @@ public class JianzhiOffer_24_ReverseLinkedList {
             sb.append(headTemp.val).append("-->");
             headTemp = headTemp.next;
         }
-        System.out.println(sb.toString().substring(0, sb.length() - 3));
+        String r = sb.toString();
+        System.out.println(r.substring(0, sb.length() - 3));
     }
 
-
 }
+

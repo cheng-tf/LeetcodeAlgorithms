@@ -2,6 +2,9 @@ package LinkedListAlgorithms;
 
 import org.junit.Test;
 
+import java.util.HashSet;
+import java.util.Set;
+
 public class LeetCode_141_142_JianzhiOffer_23_DoesLinkedListHasLoop {
     /**
      * 与环有关的三个题：
@@ -18,15 +21,25 @@ public class LeetCode_141_142_JianzhiOffer_23_DoesLinkedListHasLoop {
      * Given a linked list, determine if it has a cycle in it.
      * Follow up:
      * Can you solve it without using extra space?
-     * <p>
+     *
      * 思路分析：
-     * 1. 经典算法：快慢指针。利用两个指针，一个fast，一个slow，fast一次走两步，
+     * 方法1. 经典算法：快慢指针。利用两个指针，一个fast，一个slow，fast一次走两步，
      * slow 一次走一步，如果存在环，则fast与slow会指向同一个节点；
      * 若fast遇到null，则表述不存在。
      * 空间复杂度为O(1).
      * <前提：只要存在环，快指针和慢指针必定相遇。>
-     * 2. 利用HashMap实现：
-     *
+     *     链表中是否有环的判断
+     * 可以设置两个指针(fast,slow)，初始值均指向头，slow每次向前一步，fast每次向前两步；
+     * 如果链表中有环，则fast先进入环中，而slow后进入环中，两个指针在环中必定相遇;
+     * 如果fast遍历到尾部为NULL，则无环。
+     * 方法2. 利用Set集合实现：
+     *    和寻找两个链表的第一个公共节点类似，这里更简单些。
+     *    在向set集合中add元素之前，首先判断set中是否含有该节点，
+     *    若有该节点，即存在环，且该节点就是环的入口节点；
+     *    若没有，则直接add进去。
+     */
+    /**
+     * 方法1：经典算法：快慢双指针。
      */
     public boolean hasCycle(ListNode head) {
         if (head == null) return false;//可删去，后面会对head判断
@@ -38,6 +51,23 @@ public class LeetCode_141_142_JianzhiOffer_23_DoesLinkedListHasLoop {
         }
         return false;
     }
+    /**
+     * 方法2：利用Set集合解决。
+     */
+    public boolean hasCycleBySet(ListNode head) {
+        if (head == null) return false;
+        Set<ListNode> set = new HashSet<ListNode>();
+        while(head != null){
+            if(set.contains(head)){
+                return true;
+            }else{
+                set.add(head);
+            }
+            head = head.next;
+        }
+        return false;
+    }
+
 
 //    /**
 //     * 递归实现
@@ -61,9 +91,15 @@ public class LeetCode_141_142_JianzhiOffer_23_DoesLinkedListHasLoop {
     /**
      * 题目介绍：链表T5：求链表中环的长度
      * 若链表中存在环，则返回环的长度；否则返回0。
+     *
      * 思路分析：判断链表中是否存在环的基础上，改进算法。
      * 判断链表中是否含有环，方法是fast和slow一定在环中同时指定一个节点，
      * 那么找到该节点之后，通过循环走一圈计数即可。
+     * 判断有没有环都是通过找到了环中的一个节点，因此，根据该节点转一圈并计数即可。
+     * 可以根据快慢指针，也可以根据Set集合。
+     */
+    /**
+     * 方法1：
      */
     public int getCycleLength(ListNode head) {
         if (head == null) return 0;//后面包括
@@ -71,17 +107,41 @@ public class LeetCode_141_142_JianzhiOffer_23_DoesLinkedListHasLoop {
         while (fast != null && fast.next != null) {//只要fast或fast.next为null，则说明不存在环
             fast = fast.next.next;
             slow = slow.next;
-            if (fast == slow) {
-                int count = 1;
-                while (fast.next != slow) {
-                    fast = fast.next;
-                    count++;
-                }
-                return count;//不用return的时候，记得使用break跳出循环，否则无限循环
-            }
+            if (fast == slow) break;
         }
-        return 0;
+        if(fast == null) return 0;//不存在环
+        int count = 1;
+        while (fast.next != slow) {
+            count++;
+            fast = fast.next;
+        }
+        return count;
     }
+
+    /**
+     * 方法2：利用Set集合求环长度。
+     */
+    public int getCycleLengthBySet(ListNode head) {
+        if (head == null) return 0;
+        Set<ListNode> set = new HashSet<ListNode>();
+        while(head != null){
+            if(set.contains(head)){
+                break;
+            }else{
+                set.add(head);
+            }
+            head = head.next;
+        }
+        if(head == null) return 0;
+        int len = 1;
+        ListNode temp = head;
+        while(temp.next != head){
+            len++;
+            temp = temp.next;
+        }
+        return len;
+    }
+
 
     /************************3. 找出链表中环的入口节点******************************************/
 
@@ -98,16 +158,39 @@ public class LeetCode_141_142_JianzhiOffer_23_DoesLinkedListHasLoop {
      * Can you solve it without using extra space?
      *
      * 思路分析：
-     * 方法1： 首先判断链表中是否存在环；不存在，返回null；
+     * 方法1： 利用Set集合实现。
+     *         和寻找两个链表的第一个公共节点类似，这里更简单些。
+     *          在向set集合中add元素之前，首先判断set中是否含有该节点，
+     *          若有该节点，即存在环，且该节点就是环的入口节点；
+     *          若没有，则直接add进去。
+     * 方法2：首先判断链表中是否存在环；不存在，返回null；
      *          然后，获取环的长度n，若长度为0，表示环不存在；
-     *          最后，利用两个引用ahead和behind，先让ahead走n步，
-     *          再让它们同时前进，步伐都是，它们相遇的节点就是环的入口节点。
-     *  方法2： 最终结论：环入口点与起始点的距离等于相遇点至环入口节点的距离加上环的整数倍。
+     *          最后，利用两个引用ahead和behind，都是从链表头节点出发，先让ahead走n步，
+     *          再让它们同时前进，步伐都是1，它们相遇的节点就是环的入口节点。
+     *  方法:3： 最终结论：环入口点与起始点的距离等于相遇点至环入口节点的距离加上环的整数倍。
      *          对应算法：在判断出相遇点后，设置两个指针，一个指向相遇点，一个指向起始点，
      *          两指针必定在环的入口节点第一次相遇。
      */
+
     /**
-     * 方法1：
+     * 方法1：利用Set集合解决。
+     */
+    public ListNode EntryNodeOfCycleBySet(ListNode head) {
+        if (head == null) return null;
+        Set<ListNode> set = new HashSet<ListNode>();
+        while(head != null){
+            if(set.contains(head)){
+                return head;
+            }else{
+                set.add(head);
+            }
+            head = head.next;
+        }
+        return null;
+    }
+
+    /**
+     * 方法2：
      */
     public ListNode EntryNodeOfCycle(ListNode head) {//detectCycle
         if (head == null) return null;
@@ -140,7 +223,7 @@ public class LeetCode_141_142_JianzhiOffer_23_DoesLinkedListHasLoop {
     }
 
     /**
-     * 方法2：
+     * 方法3：
      */
     public ListNode EntryNodeOfCycle_2(ListNode head) {//detectCycle_2
         if (head == null) return null;
@@ -177,8 +260,17 @@ public class LeetCode_141_142_JianzhiOffer_23_DoesLinkedListHasLoop {
         boolean hasLoop = hasCycle(head);
         System.out.println("hasLoop = " + hasLoop);
 
+        boolean hasLoop2 = hasCycleBySet(head);
+        System.out.println("hasLoop2 = " + hasLoop2);
+
         int loopLength = getCycleLength(head);
         System.out.println("loopLength = " + loopLength);
+
+        int loopLength2 = getCycleLengthBySet(head);
+        System.out.println("loopLength2 = " + loopLength2);
+
+        ListNode entryNode1 = EntryNodeOfCycleBySet(head);
+        System.out.println("entryNode1.val = " + entryNode1.val);
 
         ListNode entryNode = EntryNodeOfCycle(head);
         System.out.println("entryNode.val = " + entryNode.val);
@@ -200,21 +292,5 @@ public class LeetCode_141_142_JianzhiOffer_23_DoesLinkedListHasLoop {
         }
     }
 
-    /**
-     * 打印链表
-     */
-    public void printLinkedList(ListNode head) {
-        if (head == null) {
-            System.out.println("NULL");
-            return;
-        }
-        ListNode headTemp = head;
-        StringBuilder sb = new StringBuilder();
-        while (headTemp != null) {
-            sb.append(headTemp.val).append("-->");
-            headTemp = headTemp.next;
-        }
-        System.out.println(sb.toString().substring(0, sb.length() - 3));
-    }
 }
 
