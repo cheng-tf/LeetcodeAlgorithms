@@ -19,10 +19,14 @@ public class LeetCode_141_142_JianzhiOffer_23_DoesLinkedListHasLoop {
      * Follow up:
      * Can you solve it without using extra space?
      * <p>
-     * 思路分析：利用两个指针，一个fast，一个slow，fast一次走两步，
+     * 思路分析：
+     * 1. 经典算法：快慢指针。利用两个指针，一个fast，一个slow，fast一次走两步，
      * slow 一次走一步，如果存在环，则fast与slow会指向同一个节点；
      * 若fast遇到null，则表述不存在。
+     * 空间复杂度为O(1).
      * <前提：只要存在环，快指针和慢指针必定相遇。>
+     * 2. 利用HashMap实现：
+     *
      */
     public boolean hasCycle(ListNode head) {
         if (head == null) return false;//可删去，后面会对head判断

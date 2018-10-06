@@ -2,8 +2,7 @@ package LinkedListAlgorithms;
 
 import org.junit.Test;
 
-import java.util.ArrayDeque;
-import java.util.Deque;
+import java.util.*;
 
 public class LeetCode160_IntersectionOfTwoLinkedLists_JianzhiOffer_52_FindFirstCommonNodeOfTwoLinkedList {
     /********************两个链表的第一个公共节点*****************************/
@@ -34,7 +33,12 @@ public class LeetCode160_IntersectionOfTwoLinkedLists_JianzhiOffer_52_FindFirstC
      * 由于两个链表有公共节点，那么应该成"Y"的结构，即从某个节点开始，以后都一样。那么如果从后往前查找
      * 就只需要O(n)的时间复杂度。因此，有了方法2：
      * 方法2：利用两个栈分别存储两个链表，从栈顶依次判断共同的节点，返回最后一个共同节点。
-     * 方法3：先计算两个栈的长度，然后先让长的栈指针走几步，然后两指针同时出发判断即可。
+     * 空间复杂度为O（M+N）。
+     * 方法3：先计算两个链表的长度，然后先让长的链表指针走几步，然后两指针同时出发判断即可。
+     * 空间复杂度为O（1）,若强调空间复杂度时，选用该方法。
+     * 方法4：利用Set集合完成。首先将链表head1的节点都put到set集合中，然后遍历链表head2；
+     * 逐个判断set中是否含有head2中的节点，若有，则直接返回，即为第一个公共节点。
+     * 空间复杂度为O(N).
      */
 
     /**
@@ -64,6 +68,7 @@ public class LeetCode160_IntersectionOfTwoLinkedLists_JianzhiOffer_52_FindFirstC
 
     /**
      * 方法3：先求链表的长度，然后利用两指针遍历链表
+     * 注意：需要判断哪一个链表长及相应的处理。
      */
     public ListNode getIntersectionNode_2(ListNode pHead1, ListNode pHead2) {
         if (pHead1 == null || pHead2 == null) return null;
@@ -99,6 +104,26 @@ public class LeetCode160_IntersectionOfTwoLinkedLists_JianzhiOffer_52_FindFirstC
         return len;
     }
 
+    /**
+     * 方法4:利用Set集合完成
+     */
+    public ListNode getIntersectionNode_3(ListNode pHead1, ListNode pHead2) {
+        if(pHead1 == null||pHead2 == null) return null;
+        Set<ListNode> set = new HashSet<ListNode>();
+        while(pHead1 != null){
+            set.add(pHead1);
+            pHead1 = pHead1.next;
+        }
+        while(pHead2 != null){
+           if(set.contains(pHead2))
+               return pHead2;
+           pHead2 = pHead2.next;
+        }
+        return null;
+    }
+
+
+
     //测试
     @Test
     public void test() {
@@ -132,6 +157,10 @@ public class LeetCode160_IntersectionOfTwoLinkedLists_JianzhiOffer_52_FindFirstC
         printLinkedList(head2);
         ListNode commonNode2 = getIntersectionNode_2(head1, head2);
         System.out.println("commonNode2 = " + commonNode2.val);
+
+        printLinkedList(head2);
+        ListNode commonNode3 = getIntersectionNode_3(head1, head2);
+        System.out.println("commonNode3 = " + commonNode3.val);
     }
 
 
