@@ -8,7 +8,7 @@ public class LeetCode_707_DesignLinkedList_Easy {
      * LeetCode_707_DesignLinkedList_Easy
      * https://leetcode.com/problems/design-linked-list/description/
      * 难度：Easy
-     * DateTime：2018-10-007 13:22
+     * DateTime：2018-10-07 13:22
      * 题目介绍：
      * Design your implementation of the linked list. You can choose to use the singly linked list or the doubly linked list. A node in a singly linked list should have two attributes: val and next. val is the value of the current node, and next is a pointer/reference to the next node. If you want to use the doubly linked list, you will need one more attribute prev to indicate the previous node in the linked list. Assume all nodes in the linked list are 0-indexed.
      *

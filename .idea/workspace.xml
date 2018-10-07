@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7df596c-3805-4562-8d5d-672348011059" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/JianzhiOffer_23_DoesLinkedListHasLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/JianzhiOffer_23_DoesLinkedListHasLoop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/LeetCode_707_DesignLinkedList_Easy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/LeetCode_707_DesignLinkedList_Easy.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,29 +55,30 @@
         <counts>
           <entry key="project.closed" value="1" />
           <entry key="project.open.time.61" value="1" />
+          <entry key="project.open.time.65" value="1" />
           <entry key="project.open.time.72" value="1" />
           <entry key="project.open.time.75" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="8" />
+          <entry key="java" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="8" />
+          <entry key="JAVA" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2953" />
+          <entry key="java" value="2957" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2953" />
+          <entry key="JAVA" value="2957" />
         </counts>
       </usages-collector>
     </session>
@@ -84,10 +86,23 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/JianzhiOffer_23_DoesLinkedListHasLoop.java">
+        <entry file="jar://D:/Java/JDK/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+            <state relative-caret-position="190">
+              <caret line="219" column="31" selection-start-line="219" selection-start-column="23" selection-end-line="219" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Java/JDK/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="507" column="9" lean-forward="true" selection-start-line="507" selection-start-column="9" selection-end-line="507" selection-end-column="9" />
+              <folding>
+                <element signature="e#20991#20992#0" expanded="true" />
+                <element signature="e#21042#21043#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -105,6 +120,10 @@
     <findStrings>
       <find>public static  void f\(int \[\] pre\,int \[\] in\) \{ if \(pre\.length \=\= 0 \|\| in\.length \=\= 0\) \{ return \;  \} int rel\[\]\=new int\[pre\.length\]\;  dfs\(pre\, 0\, pre\.length \- 1\, in\, 0\, in\.length \- 1\,rel\)\;  for\(int i\:rel\)\n        System\.out\.print\(i\+\&quot; \&quot;\)\;  \} public static void dfs\(int \[\] pre\,int pstart\, int pend\, int \[\] in\, int istart\, int iend\,int \[\]rel\) \{ if \(pstart \&gt; pend \|\| istart \&gt; iend\) \{ return \;  \} int sum\=0\;  for\(int i\=pstart\+1\;i\&lt;\=pend\;i\+\+\)sum\+\=pre\[i\]\;  for\(int i \= istart\; i \&lt;\= iend\; i\+\+\) if\(in\[i\] \=\= pre\[pstart\]\)\{\n        rel\[i\]\=sum\;  dfs\(pre\, pstart \+ 1\, pstart \+ i \- istart\, in\, istart\, i \- 1\,rel\)\;  dfs\(pre\, i \- istart \+ pstart \+ 1\, pend\, in\, i \+ 1\, iend\,rel\)\;  \} return \;  \}\n</find>
       <find>Merge</find>
+      <find>Node</find>
+      <find>lock</find>
+      <find>lock()</find>
+      <find>FairSync</find>
     </findStrings>
     <replaceStrings>
       <replace>mergeTwoLists</replace>
@@ -134,6 +153,7 @@
         <option value="$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/LeetCode160_IntersectionOfTwoLinkedLists_JianzhiOffer_52_FindFirstCommonNodeOfTwoLinkedList.java" />
         <option value="$PROJECT_DIR$/src/main/java/HashTableAlgorithms/LeetCode_599_MinimumIndexSumOfTwoLists.java" />
         <option value="$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/JianzhiOffer_23_DoesLinkedListHasLoop.java" />
+        <option value="$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/LeetCode_707_DesignLinkedList_Easy.java" />
       </list>
     </option>
   </component>
@@ -172,8 +192,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -212,6 +230,8 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -354,6 +374,7 @@
       <workItem from="1538623287298" duration="1229000" />
       <workItem from="1538704454430" duration="3265000" />
       <workItem from="1538792398802" duration="4409000" />
+      <workItem from="1538921662927" duration="1695000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <created>1537236600992</created>
@@ -412,13 +433,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32498000" />
+    <option name="totallyTimeSpent" value="34193000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1386" height="788" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3529412" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17722474" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -518,13 +539,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/JianzhiOffer_25_MergeTwoSortedLinkedList.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/JianzhiOffer_52_FindFirstCommonNodeOfTwoLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/JianzhiOffer_52_FindFirstCommonNodeOfTwoLinkedList.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/LeetCode160_IntersectionOfTwoLinkedLists_JianzhiOffer_52_FindFirstCommonNodeOfTwoLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
@@ -549,10 +564,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/JianzhiOffer_23_DoesLinkedListHasLoop.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/JianzhiOffer_23_DoesLinkedListHasLoop.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/LeetCode_707_DesignLinkedList_Easy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        <state relative-caret-position="350">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/JDK/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="507" column="9" lean-forward="true" selection-start-line="507" selection-start-column="9" selection-end-line="507" selection-end-column="9" />
+          <folding>
+            <element signature="e#20991#20992#0" expanded="true" />
+            <element signature="e#21042#21043#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/JDK/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="219" column="31" selection-start-line="219" selection-start-column="23" selection-end-line="219" selection-end-column="31" />
         </state>
       </provider>
     </entry>
