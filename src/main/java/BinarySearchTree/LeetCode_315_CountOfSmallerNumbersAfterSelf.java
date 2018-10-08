@@ -1,4 +1,4 @@
-package SearchAlgorithm;
+package BinarySearchTree;
 
 import org.junit.Test;
 
@@ -7,18 +7,6 @@ import java.util.Arrays;
 import java.util.List;
 
 public class LeetCode_315_CountOfSmallerNumbersAfterSelf {
-
-    /**
-     * 测试
-     */
-    @Test
-    public void test(){
-//        int[] nums = {5,2,6,1,32,4,3,4,5,3,-2};
-        int[] nums = new int[]{9,8,7,6,5,4,3,2,1};
-        System.out.println("nums            :\t"+ Arrays.toString(nums));
-        List<Integer> result = countSmaller(nums);
-        System.out.println("rightSmallerNums :\t"+ result.toString());
-    }
 
     /**
      * 定义一个带有count属性的二叉树结构
@@ -80,4 +68,15 @@ public class LeetCode_315_CountOfSmallerNumbersAfterSelf {
         }
     }
 
+    /**
+     * 测试
+     */
+    @Test
+    public void test(){
+//        int[] nums = {5,2,6,1,32,4,3,4,5,3,-2};
+        int[] nums = new int[]{9,8,7,6,5,4,3,2,1};
+        System.out.println("nums            :\t"+ Arrays.toString(nums));
+        List<Integer> result = countSmaller(nums);
+        System.out.println("rightSmallerNums :\t"+ result.toString());
+    }
 }

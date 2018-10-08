@@ -1,4 +1,4 @@
-package SearchAlgorithm;
+package BinarySearchTree;
 
 import org.junit.Test;
 

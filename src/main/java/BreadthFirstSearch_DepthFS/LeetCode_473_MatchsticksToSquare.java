@@ -1,4 +1,4 @@
-package SearchAlgorithm;
+package BreadthFirstSearch_DepthFS;
 
 import org.junit.Test;
 
