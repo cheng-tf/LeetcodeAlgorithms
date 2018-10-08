@@ -4,7 +4,8 @@ import org.junit.Test;
 
 import java.util.Arrays;
 
-public class JianzhiOffer_53_SearchNumberInSortedArray_34_SearchRange_Easy {
+public class LeetCode_34_SearchRange_JianzhiOffer_53_SearchNumberInSortedArray_Easy {
+
     /***************************************************/
     /**
      * T1:寻找范围,LeetCode_34_FindFirstAndLastPositionOfElementInSortedArray
