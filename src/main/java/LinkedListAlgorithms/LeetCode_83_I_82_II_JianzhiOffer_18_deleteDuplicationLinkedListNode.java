@@ -5,7 +5,7 @@ import org.junit.Test;
 public class LeetCode_83_I_82_II_JianzhiOffer_18_deleteDuplicationLinkedListNode {
     /**************************链表：删除链表节点******************************************/
     /**
-     * T1:在O(1)时间内删除链表节点。
+     * T1: 在O(1)时间内删除链表节点。
      * T2：删除有序链表中重复的节点,LeetCode_83_RemoveDuplicatesFromSortedList
      * T3：删除有序链表中所有重复的节点,LeetCode_82_RemoveDuplicatesFromSortedList_II
      */
