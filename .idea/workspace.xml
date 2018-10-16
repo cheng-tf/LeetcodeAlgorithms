@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7df596c-3805-4562-8d5d-672348011059" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/LeetCode_148_SortList_Medium.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/Leetcode_21_23_JianzhiOffer_25_MergeTwoOrKSortedLinkedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/Leetcode_21_23_JianzhiOffer_25_MergeTwoOrKSortedLinkedLists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SortAlgorithms/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SortAlgorithms/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DynamicProgramming_DP/JianzhiOffer_198_HouseRobber_Easy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DynamicProgramming_DP/JianzhiOffer_198_HouseRobber_Easy.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,21 +58,22 @@
           <entry key="project.open.time.65" value="1" />
           <entry key="project.open.time.72" value="1" />
           <entry key="project.open.time.75" value="1" />
+          <entry key="project.open.time.78" value="1" />
           <entry key="project.open.time.80" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="3" />
-          <entry key="java" value="21" />
+          <entry key="java" value="22" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="3" />
-          <entry key="JAVA" value="21" />
+          <entry key="JAVA" value="22" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -96,7 +94,21 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/DynamicProgramming_DP/JianzhiOffer_198_HouseRobber_Easy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-175">
+              <caret line="53" column="7" selection-start-line="53" selection-start-column="7" selection-end-line="53" selection-end-column="7" />
+              <folding>
+                <element signature="e#2718#2719#0" expanded="true" />
+                <element signature="e#2772#2773#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -147,6 +159,7 @@
         <option value="$PROJECT_DIR$/src/main/java/SortAlgorithms/MergeSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/LeetCode_148_SortList_Medium.java" />
         <option value="$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/Leetcode_21_23_JianzhiOffer_25_MergeTwoOrKSortedLinkedLists.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DynamicProgramming_DP/JianzhiOffer_198_HouseRobber_Easy.java" />
       </list>
     </option>
   </component>
@@ -185,9 +198,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -212,6 +225,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetcodeAlgorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetcodeAlgorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="DynamicProgramming_DP" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LeetcodeAlgorithms" type="b2602c69:ProjectViewProjectNode" />
@@ -246,7 +267,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539526676566" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539690268657" />
     <property name="extract.method.default.visibility" value="public" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../rocketmq" />
     <property name="node.js.detected.package.jscs" value="true" />
@@ -386,6 +407,7 @@
       <workItem from="1538792398802" duration="4409000" />
       <workItem from="1538921662927" duration="1695000" />
       <workItem from="1539400110376" duration="13835000" />
+      <workItem from="1539674315401" duration="1808000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <created>1537236600992</created>
@@ -444,12 +466,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49959000" />
+    <option name="totallyTimeSpent" value="51767000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="2" width="1378" height="733" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21168438" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23596358" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -590,9 +613,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -656,10 +676,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1875">
           <caret line="376" column="41" selection-start-line="376" selection-start-column="41" selection-end-line="376" selection-end-column="41" />
-          <folding>
-            <element signature="e#6335#6336#0" expanded="true" />
-            <element signature="e#6389#6390#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -667,6 +683,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-377">
           <caret line="40" column="41" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DynamicProgramming_DP/JianzhiOffer_198_HouseRobber_Easy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-175">
+          <caret line="53" column="7" selection-start-line="53" selection-start-column="7" selection-end-line="53" selection-end-column="7" />
+          <folding>
+            <element signature="e#2718#2719#0" expanded="true" />
+            <element signature="e#2772#2773#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

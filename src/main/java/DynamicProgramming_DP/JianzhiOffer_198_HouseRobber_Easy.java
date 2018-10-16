@@ -53,37 +53,38 @@ public class JianzhiOffer_198_HouseRobber_Easy {
      * 方法1：dp数组存放的就是当前数组长度下的最大钱数
      */
     public int rob1(int[] nums) {
-        if(nums == null|| nums.length == 0) return 0;
-        if(nums.length == 1) return nums[0];
-        if(nums.length == 2) return  max(nums[0],nums[1]);
+        if (nums == null || nums.length == 0) return 0;
+        if (nums.length == 1) return nums[0];
+        if (nums.length == 2) return max(nums[0], nums[1]);
         int[] dp = new int[nums.length];//存放对应最大钱数
         dp[0] = nums[0];
-        dp[1] = max(nums[0],nums[1]);
-        for(int i = 2;i < nums.length;i++){
-            dp[i] = max(dp[i-2]+nums[i],dp[i-1]);//状态转移
+        dp[1] = max(nums[0], nums[1]);
+        for (int i = 2; i < nums.length; i++) {
+            dp[i] = max(dp[i - 2] + nums[i], dp[i - 1]);//状态转移
         }
-        return dp[nums.length-1];
+        return dp[nums.length - 1];
     }
-    public int max(int a,int b){//或者直接使用Math.max方法
-        return a>b?a:b;
+
+    public int max(int a, int b) {//或者直接使用Math.max方法
+        return a > b ? a : b;
     }
 
     /**
      * 方法2：dp存放必须抢该房子的情况下的最大钱数。
      */
     public int rob2(int[] nums) {
-        if(nums == null|| nums.length == 0) return 0;
-        if(nums.length == 1) return nums[0];
-        if(nums.length == 2) return  max(nums[0],nums[1]);
-        if(nums.length == 3) return max(nums[0]+nums[2],nums[1]);
+        if (nums == null || nums.length == 0) return 0;
+        if (nums.length == 1) return nums[0];
+        if (nums.length == 2) return max(nums[0], nums[1]);
+        if (nums.length == 3) return max(nums[0] + nums[2], nums[1]);
         int[] dp = new int[nums.length];
         dp[0] = nums[0];
         dp[1] = nums[1];
-        dp[2] = nums[0]+ nums[2];
-        for(int i = 3;i < nums.length;i++){
-            dp[i] = max(dp[i-2],dp[i-3])+nums[i];
+        dp[2] = nums[0] + nums[2];
+        for (int i = 3; i < nums.length; i++) {
+            dp[i] = max(dp[i - 2], dp[i - 3]) + nums[i];
         }
-        return max(dp[nums.length-1],dp[nums.length-2]);
+        return max(dp[nums.length - 1], dp[nums.length - 2]);
     }
 
     /**
@@ -101,6 +102,7 @@ public class JianzhiOffer_198_HouseRobber_Easy {
         }
         return nums[nums.length-1]>nums[nums.length-2]?nums[nums.length-1]:nums[nums.length-2];
     }*/
+
     /**
      * 不开辟dp数组，在nums数组基础上仍然可以存储。
      */
@@ -120,9 +122,9 @@ public class JianzhiOffer_198_HouseRobber_Easy {
 
     //测试
     @Test
-    public void test(){
-        int[][] nums = {{1,2,3,1},{2,7,9,3,1},{5,2,6,3,1,7}};
-        for(int[] num : nums){
+    public void test() {
+        int[][] nums = {{1, 2, 3, 1}, {2, 7, 9, 3, 1}, {5, 2, 6, 3, 1, 7}};
+        for (int[] num : nums) {
             System.out.println("rob(num) = " + rob1(num));
         }
     }
