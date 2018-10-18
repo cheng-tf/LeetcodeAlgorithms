@@ -4,7 +4,13 @@ import java.util.Scanner;
 
 public class Main {
 
+
     public static void main(String[] args) {
+
+        Long l = 1000L;
+        System.out.println(l);
+        System.out.println("1000".equals(l.toString()));
+
 //        int result = migong();
         int[][] arr = {{
                 0, 1, 3},
