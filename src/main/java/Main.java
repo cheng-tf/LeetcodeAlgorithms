@@ -1,6 +1,7 @@
-import java.util.ArrayDeque;
-import java.util.Deque;
-import java.util.Scanner;
+import org.apache.commons.lang3.time.DateUtils;
+
+import java.text.SimpleDateFormat;
+import java.util.*;
 
 public class Main {
 
@@ -18,7 +19,48 @@ public class Main {
                 {1, 3, 1}};
         int result = helper(arr, 3, 3);
         System.out.println(result);
+
+        String consumerDate = "2001-10-10 11:11:10";
+
+        Date currDate = new Date();
+        Date date;
+        try {
+//            Date date = DateUtils.parseDate("2001-10-10", "yyyy-MM-dd");
+            date = DateUtils.parseDate(consumerDate.substring(0, 10), new String[]{"yyyy-MM-dd"});
+            SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+            String dateStr = sdf.format(new Date());
+
+            String dateStr2 = "2001-10-10 11:11:10";
+            Date date2 = sdf.parse(dateStr2);
+
+            Date date3 = DateUtils.parseDate(dateStr2,"yyyy-MM-dd HH:mm:ss");
+
+            System.out.println("date = " + sdf.format(date));
+            System.out.println("date = " + sdf.format(DateUtils.addSeconds(DateUtils.addDays(date,1),-1)));
+
+        }catch(Exception e){
+
+        }
+
+        Iterator<Calendar> ite = DateUtils.iterator(new Date(),2);
+        for(Calendar ca = ite.next();ite.hasNext();){
+            ite.next();
+            System.out.println("ca = " + ca.getTimeInMillis());
+        }
+
+        HashMap<String,Object> hashMap = new HashMap<String,Object>();
+        hashMap.put("aaa","bbbb");
+        System.out.println("hashMap = " + hashMap.get("aaa"));
+        System.out.println("hashMap = " + hashMap.get("bbb"));
+        System.out.println("hashMap = " + hashMap.get("ccc"));
+
+        hashMap.put("dddd",hashMap.get("bbb"));
+        System.out.println("hashMap = " + hashMap.get("dddd"));
+
+
+
     }
+
 
     public static int migong() {
         Scanner scanner = new Scanner(System.in);

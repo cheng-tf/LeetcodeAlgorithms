@@ -41,7 +41,7 @@ public class TouTiao_20181008 {
         int row = arr.length;
         int col = arr[0].length;
         int[][] num = new int[row][col];
-        PriorityQueue<Item> queue = new PriorityQueue<>(new Comparator<Item>() {
+        PriorityQueue<Item> queue = new PriorityQueue<Item>(new Comparator<Item>() {
             @Override
             public int compare(Item o1, Item o2) {
                 return num[o1.x][o1.y] - num[o2.x][o2.y];
