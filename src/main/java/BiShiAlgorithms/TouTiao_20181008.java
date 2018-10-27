@@ -8,7 +8,7 @@ public class TouTiao_20181008 {
         Scanner in = new Scanner(System.in);
         String line1 = in.nextLine();
         int k = Integer.parseInt(line1);
-        ArrayList<String> list = new ArrayList<>();
+        ArrayList<String> list = new ArrayList<String>();
         int num = 0;
         while (in.hasNextLine() && num < 4) {//注意while处理多个case
             String a = in.nextLine();

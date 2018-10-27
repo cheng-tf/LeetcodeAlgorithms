@@ -190,7 +190,7 @@ public class BinaryTreeTraversals {
     public ArrayList<Integer> traversalByLevel(TreeNode root) { //PrintFromTopToBottom
         ArrayList<Integer> list = new ArrayList<Integer>();
         if(root == null) return list;
-        ArrayDeque<TreeNode> deque = new ArrayDeque<>();
+        ArrayDeque<TreeNode> deque = new ArrayDeque<TreeNode>();
         deque.addLast(root);
         while(!deque.isEmpty()){//队列为空表示结束
             TreeNode pollNode = deque.pollFirst();
