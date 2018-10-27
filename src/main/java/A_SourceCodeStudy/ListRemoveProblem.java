@@ -17,7 +17,6 @@ public class ListRemoveProblem {
         list.add("CCCC");
         list.add("DDDD");
         list.add("EEE");
-
         /*//1. 普通for循环：存在漏删的情况
         for (int i = 0; i < list.size(); i++) {
             if (list.get(i).length() == 4) {
