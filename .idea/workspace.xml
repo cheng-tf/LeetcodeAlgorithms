@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7df596c-3805-4562-8d5d-672348011059" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DynamicProgramming_DP/JianzhiOffer_198_HouseRobber_Easy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DynamicProgramming_DP/JianzhiOffer_198_HouseRobber_Easy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/A_SourceCodeStudy/BigDecimalDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BiShiAlgorithms/xiaomazhixing/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,40 +53,42 @@
     <session id="-1967828417">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.61" value="1" />
           <entry key="project.open.time.65" value="1" />
           <entry key="project.open.time.72" value="1" />
           <entry key="project.open.time.75" value="1" />
           <entry key="project.open.time.78" value="1" />
           <entry key="project.open.time.80" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.open.time.81" value="1" />
+          <entry key="project.open.time.90" value="1" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="3" />
-          <entry key="java" value="22" />
+          <entry key="java" value="28" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="3" />
-          <entry key="JAVA" value="22" />
+          <entry key="JAVA" value="28" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="6" />
-          <entry key="java" value="7439" />
+          <entry key="java" value="11056" />
           <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7439" />
+          <entry key="JAVA" value="11056" />
           <entry key="PLAIN_TEXT" value="6" />
           <entry key="XML" value="3" />
         </counts>
@@ -94,15 +96,28 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/DynamicProgramming_DP/JianzhiOffer_198_HouseRobber_Easy.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/A_SourceCodeStudy/BigDecimalDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-175">
-              <caret line="53" column="7" selection-start-line="53" selection-start-column="7" selection-end-line="53" selection-end-column="7" />
+            <state relative-caret-position="1000">
+              <caret line="40" column="41" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
               <folding>
-                <element signature="e#2718#2719#0" expanded="true" />
-                <element signature="e#2772#2773#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/BiShiAlgorithms/xiaomazhixing/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="104" column="47" lean-forward="true" selection-start-line="104" selection-start-column="47" selection-end-line="104" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#155#156#0" expanded="true" />
+                <element signature="e#180#181#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -125,6 +140,7 @@
       <find>lock</find>
       <find>lock()</find>
       <find>FairSync</find>
+      <find>Zhen</find>
     </findStrings>
     <replaceStrings>
       <replace>mergeTwoLists</replace>
@@ -160,6 +176,9 @@
         <option value="$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/LeetCode_148_SortList_Medium.java" />
         <option value="$PROJECT_DIR$/src/main/java/LinkedListAlgorithms/Leetcode_21_23_JianzhiOffer_25_MergeTwoOrKSortedLinkedLists.java" />
         <option value="$PROJECT_DIR$/src/main/java/DynamicProgramming_DP/JianzhiOffer_198_HouseRobber_Easy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BiShiAlgorithms/xiaomazhixing/Xiaoma.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BiShiAlgorithms/xiaomazhixing/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/A_SourceCodeStudy/BigDecimalDemo.java" />
       </list>
     </option>
   </component>
@@ -184,7 +203,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="y" value="2" />
     <option name="width" value="1378" />
@@ -198,9 +217,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -232,7 +248,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="DynamicProgramming_DP" type="462c0819:PsiDirectoryNode" />
+              <item name="A_SourceCodeStudy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LeetcodeAlgorithms" type="b2602c69:ProjectViewProjectNode" />
@@ -240,7 +256,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="LinkedListAlgorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="BiShiAlgorithms" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LeetcodeAlgorithms" type="b2602c69:ProjectViewProjectNode" />
@@ -248,7 +264,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="OpenCSV" type="462c0819:PsiDirectoryNode" />
+              <item name="BiShiAlgorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="xiaomazhixing" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LeetcodeAlgorithms" type="b2602c69:ProjectViewProjectNode" />
@@ -256,18 +273,21 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="SortAlgorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="Others" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539690268657" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540825539398" />
     <property name="extract.method.default.visibility" value="public" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../rocketmq" />
     <property name="node.js.detected.package.jscs" value="true" />
@@ -292,17 +312,30 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Leetcode_21_23_JianzhiOffer_25_MergeTwoOrKSortedLinkedLists.test3">
-    <configuration name="LeetCode160_IntersectionOfTwoLinkedLists_JianzhiOffer_52_FindFirstCommonNodeOfTwoLinkedList.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.BigDecimalDemo.test">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BiShiAlgorithms.xiaomazhixing.Main" />
       <module name="LeetcodeAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LinkedListAlgorithms.*" />
+          <option name="PATTERN" value="BiShiAlgorithms.xiaomazhixing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="LinkedListAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="LinkedListAlgorithms.LeetCode160_IntersectionOfTwoLinkedLists_JianzhiOffer_52_FindFirstCommonNodeOfTwoLinkedList" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BigDecimalDemo.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetcodeAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="A_SourceCodeStudy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="A_SourceCodeStudy" />
+      <option name="MAIN_CLASS_NAME" value="A_SourceCodeStudy.BigDecimalDemo" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -325,22 +358,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeetCode_599_MinimumIndexSumOfTwoLists.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetcodeAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HashTableAlgorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="HashTableAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="HashTableAlgorithms.LeetCode_599_MinimumIndexSumOfTwoLists" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Leetcode_21_23_JianzhiOffer_25_MergeTwoOrKSortedLinkedLists.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeAlgorithms" />
       <extension name="coverage">
@@ -357,16 +374,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OpenCSVDemo.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Main.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OpenCSV.*" />
+          <option name="PATTERN" value="BiShiAlgorithms.xiaomazhixing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="OpenCSV" />
-      <option name="MAIN_CLASS_NAME" value="OpenCSV.OpenCSVDemo" />
+      <option name="PACKAGE_NAME" value="BiShiAlgorithms.xiaomazhixing" />
+      <option name="MAIN_CLASS_NAME" value="BiShiAlgorithms.xiaomazhixing.Main" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -374,19 +391,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.LeetCode160_IntersectionOfTwoLinkedLists_JianzhiOffer_52_FindFirstCommonNodeOfTwoLinkedList.test" />
-      <item itemvalue="JUnit.LeetCode_599_MinimumIndexSumOfTwoLists.test" />
-      <item itemvalue="JUnit.OpenCSVDemo.test" />
       <item itemvalue="JUnit.LeetCode_148_SortList_Medium.test" />
       <item itemvalue="JUnit.Leetcode_21_23_JianzhiOffer_25_MergeTwoOrKSortedLinkedLists.test3" />
+      <item itemvalue="JUnit.Main.test" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.BigDecimalDemo.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BigDecimalDemo.test" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.Main.test" />
         <item itemvalue="JUnit.Leetcode_21_23_JianzhiOffer_25_MergeTwoOrKSortedLinkedLists.test3" />
         <item itemvalue="JUnit.LeetCode_148_SortList_Medium.test" />
-        <item itemvalue="JUnit.OpenCSVDemo.test" />
-        <item itemvalue="JUnit.LeetCode_599_MinimumIndexSumOfTwoLists.test" />
-        <item itemvalue="JUnit.LeetCode160_IntersectionOfTwoLinkedLists_JianzhiOffer_52_FindFirstCommonNodeOfTwoLinkedList.test" />
       </list>
     </recent_temporary>
   </component>
@@ -408,6 +425,8 @@
       <workItem from="1538921662927" duration="1695000" />
       <workItem from="1539400110376" duration="13835000" />
       <workItem from="1539674315401" duration="1808000" />
+      <workItem from="1540812936670" duration="8605000" />
+      <workItem from="1540827293749" duration="616000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <created>1537236600992</created>
@@ -434,45 +453,44 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LeetCode_599_MinimumIndexSumOfTwoLists_test - 2018.10.06 at 11h 14m 47s.xml">
-      <configuration name="LeetCode_599_MinimumIndexSumOfTwoLists.test" configurationId="JUnit" />
+    <history-entry file="BigDecimalDemo_test - 2018.10.29 at 22h 12m 08s.xml">
+      <configuration name="BigDecimalDemo.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OpenCSVDemo_test - 2018.10.09 at 23h 35m 59s.xml">
-      <configuration name="OpenCSVDemo.test" configurationId="JUnit" />
+    <history-entry file="BigDecimalDemo_test - 2018.10.29 at 22h 12m 36s.xml">
+      <configuration name="BigDecimalDemo.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LeetCode_148_SortList_Medium_test - 2018.10.14 at 12h 06m 20s.xml">
-      <configuration name="LeetCode_148_SortList_Medium.test" configurationId="JUnit" />
+    <history-entry file="BigDecimalDemo_test - 2018.10.29 at 22h 13m 21s.xml">
+      <configuration name="BigDecimalDemo.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LeetCode_148_SortList_Medium_test - 2018.10.14 at 12h 08m 26s.xml">
-      <configuration name="LeetCode_148_SortList_Medium.test" configurationId="JUnit" />
+    <history-entry file="BigDecimalDemo_test - 2018.10.29 at 22h 16m 51s.xml">
+      <configuration name="BigDecimalDemo.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Leetcode_21_23_JianzhiOffer_25_MergeTwoOrKSortedLinkedLists_test3 - 2018.10.14 at 12h 46m 01s.xml">
-      <configuration name="Leetcode_21_23_JianzhiOffer_25_MergeTwoOrKSortedLinkedLists.test3" configurationId="JUnit" />
+    <history-entry file="BigDecimalDemo_test - 2018.10.29 at 22h 17m 38s.xml">
+      <configuration name="BigDecimalDemo.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Leetcode_21_23_JianzhiOffer_25_MergeTwoOrKSortedLinkedLists_test3 - 2018.10.14 at 12h 47m 59s.xml">
-      <configuration name="Leetcode_21_23_JianzhiOffer_25_MergeTwoOrKSortedLinkedLists.test3" configurationId="JUnit" />
+    <history-entry file="BigDecimalDemo_test - 2018.10.29 at 22h 20m 17s.xml">
+      <configuration name="BigDecimalDemo.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Leetcode_21_23_JianzhiOffer_25_MergeTwoOrKSortedLinkedLists_test3 - 2018.10.14 at 12h 51m 30s.xml">
-      <configuration name="Leetcode_21_23_JianzhiOffer_25_MergeTwoOrKSortedLinkedLists.test3" configurationId="JUnit" />
+    <history-entry file="BigDecimalDemo_test - 2018.10.29 at 22h 20m 57s.xml">
+      <configuration name="BigDecimalDemo.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Leetcode_21_23_JianzhiOffer_25_MergeTwoOrKSortedLinkedLists_test3 - 2018.10.14 at 12h 51m 52s.xml">
-      <configuration name="Leetcode_21_23_JianzhiOffer_25_MergeTwoOrKSortedLinkedLists.test3" configurationId="JUnit" />
+    <history-entry file="BigDecimalDemo_test - 2018.10.29 at 22h 21m 43s.xml">
+      <configuration name="BigDecimalDemo.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Leetcode_21_23_JianzhiOffer_25_MergeTwoOrKSortedLinkedLists_test3 - 2018.10.14 at 12h 55m 45s.xml">
-      <configuration name="Leetcode_21_23_JianzhiOffer_25_MergeTwoOrKSortedLinkedLists.test3" configurationId="JUnit" />
+    <history-entry file="BigDecimalDemo_test - 2018.10.29 at 22h 22m 29s.xml">
+      <configuration name="BigDecimalDemo.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Leetcode_21_23_JianzhiOffer_25_MergeTwoOrKSortedLinkedLists_test3 - 2018.10.14 at 17h 03m 52s.xml">
-      <configuration name="Leetcode_21_23_JianzhiOffer_25_MergeTwoOrKSortedLinkedLists.test3" configurationId="JUnit" />
+    <history-entry file="BigDecimalDemo_test - 2018.10.29 at 22h 26m 30s.xml">
+      <configuration name="BigDecimalDemo.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51767000" />
+    <option name="totallyTimeSpent" value="60988000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="2" width="1378" height="733" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23596358" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25449872" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -481,8 +499,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.15886287" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39632106" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.3846154" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3954116" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -688,11 +706,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DynamicProgramming_DP/JianzhiOffer_198_HouseRobber_Easy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-175">
-          <caret line="53" column="7" selection-start-line="53" selection-start-column="7" selection-end-line="53" selection-end-column="7" />
+        <state relative-caret-position="350">
+          <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BiShiAlgorithms/xiaomazhixing/Xiaoma.java" />
+    <entry file="jar://D:/Java/JDK/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="62" column="61" lean-forward="true" selection-start-line="62" selection-start-column="61" selection-end-line="62" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/JDK/src.zip!/java/math/BigInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10">
+          <caret line="3617" column="25" lean-forward="true" selection-start-line="3617" selection-start-column="25" selection-end-line="3617" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/A_SourceCodeStudy/BigDecimalDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1000">
+          <caret line="40" column="41" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
           <folding>
-            <element signature="e#2718#2719#0" expanded="true" />
-            <element signature="e#2772#2773#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BiShiAlgorithms/xiaomazhixing/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="104" column="47" lean-forward="true" selection-start-line="104" selection-start-column="47" selection-end-line="104" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#155#156#0" expanded="true" />
+            <element signature="e#180#181#0" expanded="true" />
           </folding>
         </state>
       </provider>
