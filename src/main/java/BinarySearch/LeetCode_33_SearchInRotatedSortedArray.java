@@ -36,33 +36,33 @@ public class LeetCode_33_SearchInRotatedSortedArray {
     public int binarySearchInRotatedSortedArray(int[] nums, int low, int high, int target) {
         while (low <= high) {
             int mid = (low + high) >> 1;
-            if(nums[low] <= nums[mid]){//第一层判断：前一段为递增区间，后一段为旋转区间；<等号时表示特殊情况，可以归在一起>
-                if(target > nums[mid]){//第二层判断：说明target肯定在mid后面的旋转区间的前一部分
+            if (nums[low] <= nums[mid]) {//第一层判断：前一段为递增区间，后一段为旋转区间；<等号时表示特殊情况，可以归在一起>
+                if (target > nums[mid]) {//第二层判断：说明target肯定在mid后面的旋转区间的前一部分
                     low = low + 1;
-                }else if(target < nums[mid]){
+                } else if (target < nums[mid]) {
                     //target小于nums[mid]对应两种情况；1.mid之前的递增区间；2.mid之后的旋转区间的后一部分
-                    if(target > nums[low]){//确定是情况1，target在mid之前的递增区间
-                        high = high -1;
-                    }else if(target < nums[low]){
+                    if (target > nums[low]) {//确定是情况1，target在mid之前的递增区间
+                        high = high - 1;
+                    } else if (target < nums[low]) {
                         low = low + 1;
-                    }else{//target == nums[low]
+                    } else {//target == nums[low]
                         return low;
                     }
-                }else{//target==nums[mid]
+                } else {//target==nums[mid]
                     return mid;
                 }
-            }else if(nums[low] > nums[mid]){//第一层判断：确定前一段为旋转区间，后一段为递增区间
-                if(target < nums[mid]){
-                    high = high-1;
-                }else if(target > nums[mid]){
-                    if(target > nums[low]){
-                        high = high -1;
-                    }else if(target < nums[low]){
+            } else if (nums[low] > nums[mid]) {//第一层判断：确定前一段为旋转区间，后一段为递增区间
+                if (target < nums[mid]) {
+                    high = high - 1;
+                } else if (target > nums[mid]) {
+                    if (target > nums[low]) {
+                        high = high - 1;
+                    } else if (target < nums[low]) {
                         low = low + 1;
-                    }else{//target == nums[low]
+                    } else {//target == nums[low]
                         return low;
                     }
-                }else{//target == nums[mid]
+                } else {//target == nums[mid]
                     return mid;
                 }
             }
@@ -137,23 +137,29 @@ public class LeetCode_33_SearchInRotatedSortedArray {
     /**
      * 给定一个旋转数组，返回最小数字。
      * 难度：Medium
-     *
+     * <p>
      * 题目描述：
      * 把一个数组最开始的若干个元素搬到数组的末尾，我们称之为数组的旋转。
      * 输入一个非减排序的数组的一个旋转，输出旋转数组的最小元素。
      * 例如数组{3,4,5,1,2}为{1,2,3,4,5}的一个旋转，该数组的最小值为1。
      * NOTE：给出的所有元素都大于0，若数组大小为0，请返回0。
-     *
-     * 思路分析：
+     * <p>
+     * 思路分析：二分查找的变式训练。
+     * 首先判断是否是旋转数组，若不是，则直接返回首元素即可；
+     * 然后，通过二分查找方法找寻最小元素：
+     * while循环的条件是：循环数组。
      */
 
     public int minNumberInRotateArray(int[] nums) {
         if (nums == null || nums.length == 0) return 0;
         int low = 0, high = nums.length - 1;
-        if (nums[low] < nums[high]) return nums[low]; //没有旋转的情况
-        while (nums[low] >= nums[high]) {//有旋转
+        if (nums[low] < nums[high]) //没有旋转的情况；注意一定没有等号，因为1,0,1,1也是旋转的情况
+            return nums[low];
+//        while (nums[low] >= nums[high]) {//有旋转
+        while (low < high) {//low < high也可以
             if (high - low == 1) return nums[high];//终止条件
             int mid = (low + high) >> 1;
+            //重点：对这种特殊情况的处理
             if (nums[mid] == nums[high] && nums[mid] == nums[low]) {//三者相同的时候，只能顺序查找如[1,0,1,1,1,1]
                 return searchMinNum(nums, low, high);
             }

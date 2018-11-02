@@ -5,7 +5,10 @@ import org.junit.Test;
 public class JianzhiOffer_NumberOfBit1 {
 
 
-
+    /**
+     * 题目描述
+     * 输入一个整数，输出该数二进制表示中1的个数。其中负数用补码表示。
+     */
 
     /**
      * 基于正数的方法

@@ -10,6 +10,7 @@ public class JianzhiOffer_6_PrintListFromTailToHead {
     /**********************剑指Offer6:从尾到头打印链表**************************/
 
     /**
+     * 2018-11-01 第二次刷
      * 题目描述
      * 输入一个链表，按链表值从尾到头的顺序返回一个ArrayList。
      *
@@ -92,6 +93,7 @@ public class JianzhiOffer_6_PrintListFromTailToHead {
         recursiveMethod(listNode, result);
         return result;
     }
+
     /**
      * 递归方法
      */

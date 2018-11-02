@@ -4,22 +4,10 @@ import org.junit.Test;
 
 public class JianzhiOffer_16_PowerImpl {
 
-
-    /**
-     * 剑指Offer16：数值的整数次方
-     */
-    @Test
-    public void test(){
-        double base = 2;
-        int exponent = 4;
-        double result = Power(base,exponent);
-        System.out.println("result = " + result);
-    }
-
     /**
      * 题目介绍：
-     *    给定一个double类型的浮点数base和int类型的整数exponent。求base的exponent次方。
-     *
+     * 给定一个double类型的浮点数base和int类型的整数exponent。求base的exponent次方。
+     * <p>
      * 思路分析：
      * 考虑特殊情况：0的0次方没有意义。
      * 指数是负数、0、正数分别处理。
@@ -28,30 +16,57 @@ public class JianzhiOffer_16_PowerImpl {
      * 对2求余利用与实现，如((expoent&1) == 1)。
      */
     boolean isFalse = false;//结果是否错的
-    public double Power(double base, int exponent) {
-        if(base==0&&exponent==0) {//0的零次方没有意义，默认返回0
+
+    public double Power1(double base, int exponent) {
+        if (base == 0 && exponent == 0) {//0的零次方没有意义，默认返回0
             isFalse = true;//返回0的不一定只是0的0次方，所以需要判断结果为0是否是错的；更严谨
             return 0;
         }
-        if(exponent==0) return 1;
+        if (exponent == 0) return 1;
         double result = 0;
-        if(exponent < 0){
-            result = myPower(base,-exponent);
-            result = 1/result;
-        }else{
-            result = myPower(base,exponent);
+        if (exponent < 0) {
+            result = myPower(base, -exponent);
+            result = 1 / result;
+        } else {
+            result = myPower(base, exponent);
         }
         return result;
     }
+
     /**
      * 利用递归实现乘方
      */
-    public double myPower(double base,int expoent){
-        if(expoent == 1) return base;
-        if(expoent == 0) return 1;
-        double result = myPower(base,expoent>>1);
+    public double myPower(double base, int expoent) {
+        if (expoent == 1) return base;
+        if (expoent == 0) return 1;
+        double result = myPower(base, expoent >> 1);
         //(expoent&1) == 1 利用位运算实现exponent%2的功能，效率更高
-        return ((expoent&1) == 1)? result*result*base:result*result;
+        return ((expoent & 1) == 1) ? result * result * base : result * result;
+    }
+
+
+    /**
+     * 将上述的myPower方法与Power方法合并在一起。
+     * 一个递归方法实现。
+     */
+    boolean isLegal = true;
+
+    public double Power(double base, int exp) {
+        if (base == 0 && exp == 0) {
+            isLegal = false;
+            return 0;
+        }
+        if (exp == 0) return 1;
+        double result = 0;
+        if (exp < 0) {
+            result = Power(base, (-exp >> 1));
+        } else {
+            result = Power(base, (exp >> 1));
+        }
+        result *= result;
+        if ((exp & 1) == 1) result *= base;
+        if (exp < 0) result = 1 / result;
+        return result;
     }
 
     /**
@@ -65,5 +80,15 @@ public class JianzhiOffer_16_PowerImpl {
         return result;
     }*/
 
+    /**
+     * 剑指Offer16：数值的整数次方
+     */
+    @Test
+    public void test() {
+        double base = 2;
+        int exponent = 4;
+        double result = Power(base, exponent);
+        System.out.println("result = " + result);
+    }
 
 }

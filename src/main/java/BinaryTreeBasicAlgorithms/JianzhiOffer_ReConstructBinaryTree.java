@@ -11,12 +11,15 @@ public class JianzhiOffer_ReConstructBinaryTree {
      * 第二题：<变式>根据前序遍历和中序遍历输出求和树的中序遍历。
      */
 //      Definition for binary tree
-      public class TreeNode {
-          int val;
-          TreeNode left;
-          TreeNode right;
-          TreeNode(int x) { val = x; }
-      }
+    public class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+
+        TreeNode(int x) {
+            val = x;
+        }
+    }
 
     /**
      * 第一题：根据前序遍历和中序遍历重构二叉树。
@@ -25,28 +28,29 @@ public class JianzhiOffer_ReConstructBinaryTree {
     /**
      * 递归调用该方法
      */
-    public TreeNode reConstructBinaryTree(int [] pre,int [] in) {
-        if(pre == null||in == null) return null;//防止pre或in为null
-        return reConstructBinaryTree(pre,0,pre.length-1,in,0,in.length-1);
-        }
+    public TreeNode reConstructBinaryTree(int[] pre, int[] in) {
+        if (pre == null || in == null) return null;//防止pre或in为null
+        return reConstructBinaryTree(pre, 0, pre.length - 1, in, 0, in.length - 1);
+    }
+
     /**
      * 递归方法
      */
-    public TreeNode reConstructBinaryTree(int[] pre,int preStart,int preEnd,int[] in,int inStart,int inEnd){
-        if(preStart> preEnd||inStart > inEnd || preEnd-preStart != inEnd-inStart) return null;
+    public TreeNode reConstructBinaryTree(int[] pre, int preStart, int preEnd, int[] in, int inStart, int inEnd) {
+        if (preStart > preEnd || inStart > inEnd || preEnd - preStart != inEnd - inStart) return null;
         TreeNode root = new TreeNode(pre[preStart]);
         int rootIndex = inStart;
         //在中序遍历结果中寻找当前子树的根节点索引
-        while(rootIndex <= inEnd && in[rootIndex] != pre[preStart]) rootIndex++;
+        while (rootIndex <= inEnd && in[rootIndex] != pre[preStart]) rootIndex++;
         //递归调用
         int len = rootIndex - inStart;
-        root.left = reConstructBinaryTree(pre,preStart+1,preStart+len,in,inStart,rootIndex-1);
-        root.right = reConstructBinaryTree(pre,preStart+len+1,preEnd,in,rootIndex + 1,inEnd);
+        root.left = reConstructBinaryTree(pre, preStart + 1, preStart + len, in, inStart, rootIndex - 1);
+        root.right = reConstructBinaryTree(pre, preStart + len + 1, preEnd, in, rootIndex + 1, inEnd);
         return root;
     }
 
     /**
-        //递归终止条件
+     //递归终止条件
      * 题目介绍：2018-09-26 快手笔试算法题第2题
      * 求和树：当前节点的值为原二叉树的左右子树的和。
      * 如：
@@ -101,30 +105,31 @@ public class JianzhiOffer_ReConstructBinaryTree {
     /**
      * 方法1
      */
-    public String getSumBinaryTreeInTraversal(int[] nums1,int[] nums2){
-        getBinaryTreeValue(nums1,0,nums1.length-1,nums2,0,nums2.length-1);
+    public String getSumBinaryTreeInTraversal(int[] nums1, int[] nums2) {
+        getBinaryTreeValue(nums1, 0, nums1.length - 1, nums2, 0, nums2.length - 1);
         StringBuilder sb = new StringBuilder();
         for (int num : nums2)
             sb.append(num).append(" ");
-        if(sb.length() >= 2)
-            sb.delete(sb.length()-1,sb.length());
+        if (sb.length() >= 2)
+            sb.delete(sb.length() - 1, sb.length());
         return sb.toString();
     }
+
     /**
      * 递归方法：基于重构二叉树的改造
      */
-    public  int getBinaryTreeValue(int[] pre,int preStart,int preEnd,int[] in,int inStart,int inEnd){
+    public int getBinaryTreeValue(int[] pre, int preStart, int preEnd, int[] in, int inStart, int inEnd) {
         //递归终止条件
-        if(preStart > preEnd||inStart > inEnd || preEnd-preStart != inEnd-inStart)
+        if (preStart > preEnd || inStart > inEnd || preEnd - preStart != inEnd - inStart)
             return 0;
         int rootIndex = inStart;
         //在中序遍历结果中寻找当前子树的根节点索引
-        while(rootIndex <= inEnd && in[rootIndex] != pre[preStart])
+        while (rootIndex <= inEnd && in[rootIndex] != pre[preStart])
             rootIndex++;
         //递归调用
         int len = rootIndex - inStart;
-        int left = getBinaryTreeValue(pre,preStart+1,preStart+len,in,inStart,rootIndex-1);
-        int right = getBinaryTreeValue(pre,preStart+len+1,preEnd,in,rootIndex + 1,inEnd);
+        int left = getBinaryTreeValue(pre, preStart + 1, preStart + len, in, inStart, rootIndex - 1);
+        int right = getBinaryTreeValue(pre, preStart + len + 1, preEnd, in, rootIndex + 1, inEnd);
         int oldValue = in[rootIndex];
         in[rootIndex] = left + right;
         return oldValue + in[rootIndex];
@@ -134,14 +139,14 @@ public class JianzhiOffer_ReConstructBinaryTree {
      * 方法2
      */
     //方法1：重构二叉树
-    public String getSumBinaryTreeInTraversal_2(int[] nums1,int[] nums2){
+    public String getSumBinaryTreeInTraversal_2(int[] nums1, int[] nums2) {
         //重构二叉树
-        TreeNode root = reConstructBinaryTree(nums1,0,nums1.length-1,nums2,0, nums2.length-1);
+        TreeNode root = reConstructBinaryTree(nums1, 0, nums1.length - 1, nums2, 0, nums2.length - 1);
         root = getSumBinaryTree(root);//得到求和树
         StringBuilder sb = new StringBuilder();
-        print(root,sb);
-        if(sb.length() >= 2){
-            sb.delete(sb.length()-1,sb.length());
+        print(root, sb);
+        if (sb.length() >= 2) {
+            sb.delete(sb.length() - 1, sb.length());
         }
         return sb.toString();
     }
@@ -149,39 +154,41 @@ public class JianzhiOffer_ReConstructBinaryTree {
     /**
      * 对原二叉树进行改造，得到求和树
      */
-    public  TreeNode getSumBinaryTree(TreeNode root){
+    public TreeNode getSumBinaryTree(TreeNode root) {
         TreeNode root2 = root;
-        if(root == null) return null;
+        if (root == null) return null;
         recursive(root);
         return root;
     }
+
     /**
      * 递归方法得求和树
      */
-    public  int recursive(TreeNode root){
+    public int recursive(TreeNode root) {
         int originalValue = root.val;
-        if(root.left == null&&root.right == null){
+        if (root.left == null && root.right == null) {
             root.val = 0;
             return originalValue + 0;
-        }else if(root.left == null){
+        } else if (root.left == null) {
             root.val = recursive(root.right);
             return originalValue + root.val;
-        }else if(root.right == null){
+        } else if (root.right == null) {
             root.val = recursive(root.left);
             return originalValue + root.val;
-        }else{
-            root.val = recursive(root.left)+recursive(root.right);
-            return  originalValue + root.val;
+        } else {
+            root.val = recursive(root.left) + recursive(root.right);
+            return originalValue + root.val;
         }
     }
+
     /**
      * 打印二叉树的中序遍历
      */
-    public  void print(TreeNode root,StringBuilder sb){
-        if(root == null) return ;
-        print(root.left,sb);
+    public void print(TreeNode root, StringBuilder sb) {
+        if (root == null) return;
+        print(root.left, sb);
         sb.append(root.val).append(" ");
-        print(root.right,sb);
+        print(root.right, sb);
     }
 
     @Test
@@ -191,13 +198,13 @@ public class JianzhiOffer_ReConstructBinaryTree {
         //nums[1]第二行
 //        int[] pre = {10,-2,8,-4,6,7,5};
 //        int[] in = {8,-2,-4,10,7,6,5};
-        int[] pre = {1,2,4,5,3,6,7};
-        int[] in = {4,2,5,1,6,3,7};
+        int[] pre = {1, 2, 4, 5, 3, 6, 7};
+        int[] in = {4, 2, 5, 1, 6, 3, 7};
         //答案为 0 4 0 20 0 12 0
         //方法2必须先执行，因为方法1会修改in数组
-        String result2 = getSumBinaryTreeInTraversal_2(pre,in);
+        String result2 = getSumBinaryTreeInTraversal_2(pre, in);
         //方法1
-        String result1 = getSumBinaryTreeInTraversal(pre,in);
+        String result1 = getSumBinaryTreeInTraversal(pre, in);
         System.out.println("result1 = " + result1);
         System.out.println("result2 = " + result2);
     }
@@ -205,7 +212,7 @@ public class JianzhiOffer_ReConstructBinaryTree {
     /**
      * 通过命令行输入，转换成int数组
      */
-    public int[][] getInputNums(){
+    public int[][] getInputNums() {
         Scanner scanner = new Scanner(System.in);
         String numStr1 = scanner.nextLine();
         String numStr2 = scanner.nextLine();
@@ -213,15 +220,15 @@ public class JianzhiOffer_ReConstructBinaryTree {
         String[] numsStr2 = numStr2.split(" ");
         int num = numsStr1.length;
         int num2 = numsStr2.length;
-        if(num != num2)
+        if (num != num2)
             System.out.println("");
         int[] nums1 = new int[num];
         int[] nums2 = new int[num2];
-        for(int i = 0;i < num;i++){
+        for (int i = 0; i < num; i++) {
             nums1[i] = Integer.parseInt(numsStr1[i]);
             nums2[i] = Integer.parseInt(numsStr2[i]);
         }
-        int[][] nums = {nums1,nums2};
+        int[][] nums = {nums1, nums2};
         return nums;
     }
 
