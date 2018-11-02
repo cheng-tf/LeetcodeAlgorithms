@@ -4,6 +4,7 @@ import org.junit.Test;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
+import java.util.Stack;
 
 public class JianzhiOffer_30_StackWithMinMethod {
 
@@ -18,19 +19,22 @@ public class JianzhiOffer_30_StackWithMinMethod {
      *           两个栈的大小一致，辅助栈的每一个元素表示对应数据栈之下的最小值。
      */
 
+    /**
+     * 利用ArrayDeque实现
+     */
     private Deque<Integer> dataStack = new ArrayDeque<Integer>();//数据栈
     private Deque<Integer> minStack = new ArrayDeque<Integer>();//辅助栈
-    
+
     public void push(int node) {
         dataStack.push(node);
-        if(!minStack.isEmpty()){
+        if (!minStack.isEmpty()) {
             int preMin = minStack.peekFirst();
-            if(node <= preMin){
+            if (node <= preMin) {
                 minStack.push(node);
-            }else{
+            } else {
                 minStack.push(preMin);
             }
-        }else{
+        } else {
             minStack.push(node);
         }
     }
@@ -47,11 +51,10 @@ public class JianzhiOffer_30_StackWithMinMethod {
     public int min() {
         return minStack.peekFirst();
     }
-    
-    
-    
+
+
     @Test
-    public void test(){
+    public void test() {
         JianzhiOffer_30_StackWithMinMethod myStack = new JianzhiOffer_30_StackWithMinMethod();
         myStack.push(3);
         myStack.push(6);
@@ -59,23 +62,57 @@ public class JianzhiOffer_30_StackWithMinMethod {
         myStack.push(-1);
         myStack.push(43);
         myStack.push(-10);
-        System.out.println("myStack.top() = " + myStack.top()+" ; "+"myStack.min() = " + myStack.min());
+        System.out.println("myStack.top() = " + myStack.top() + " ; " + "myStack.min() = " + myStack.min());
 
         myStack.pop();
-        System.out.println("myStack.top() = " + myStack.top()+" ; "+"myStack.min() = " + myStack.min());
+        System.out.println("myStack.top() = " + myStack.top() + " ; " + "myStack.min() = " + myStack.min());
 
         myStack.pop();
-        System.out.println("myStack.top() = " + myStack.top()+" ; "+"myStack.min() = " + myStack.min());
+        System.out.println("myStack.top() = " + myStack.top() + " ; " + "myStack.min() = " + myStack.min());
 
         myStack.pop();
-        System.out.println("myStack.top() = " + myStack.top()+" ; "+"myStack.min() = " + myStack.min());
+        System.out.println("myStack.top() = " + myStack.top() + " ; " + "myStack.min() = " + myStack.min());
 
         myStack.pop();
-        System.out.println("myStack.top() = " + myStack.top()+" ; "+"myStack.min() = " + myStack.min());
+        System.out.println("myStack.top() = " + myStack.top() + " ; " + "myStack.min() = " + myStack.min());
 
         myStack.pop();
-        System.out.println("myStack.top() = " + myStack.top()+" ; "+"myStack.min() = " + myStack.min());
+        System.out.println("myStack.top() = " + myStack.top() + " ; " + "myStack.min() = " + myStack.min());
 
     }
-    
+
+    /**
+     * 利用Stack实现:实现原理和ArrayDeque一样的
+     */
+
+    private Stack<Integer> dataStack_2 = new Stack<Integer>();//数据栈
+    private Stack<Integer> minStack_2 = new Stack<Integer>();//辅助栈
+
+    public void push_2(int node) {
+        dataStack_2.push(node);
+        if (!minStack_2.isEmpty()) {
+            int preMin = minStack_2.peek();
+            if (node <= preMin) {
+                minStack_2.push(node);
+            } else {
+                minStack_2.push(preMin);
+            }
+        } else {
+            minStack_2.push(node);
+        }
+    }
+
+    public void pop_2() {
+        dataStack_2.pop();
+        minStack_2.pop();
+    }
+
+    public int top_2() {
+        return dataStack_2.peek();
+    }
+
+    public int min_2() {
+        return minStack_2.peek();
+    }
+
 }
