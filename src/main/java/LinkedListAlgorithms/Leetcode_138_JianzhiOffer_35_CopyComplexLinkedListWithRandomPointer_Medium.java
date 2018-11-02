@@ -49,35 +49,39 @@ public class Leetcode_138_JianzhiOffer_35_CopyComplexLinkedListWithRandomPointer
         int label;
         RandomListNode next = null;
         RandomListNode random = null;
+
         RandomListNode(int label) {
             this.label = label;
         }
     }
+
     //打印方法
-    private void print(RandomListNode head){
+    private void print(RandomListNode head) {
         StringBuilder sb = new StringBuilder();
         RandomListNode head1 = head;
-        while(head1!= null){
+        while (head1 != null) {
             sb.append(head1.label).append("->");
             head1 = head1.next;
         }
-        System.out.println(sb.toString().substring(0,sb.length()-2));
+        System.out.println(sb.toString().substring(0, sb.length() - 2));
     }
+
     /**
      * 方法1：三步走
-     *      一个步骤对应一个方法；
+     * 一个步骤对应一个方法；
      */
-    public RandomListNode Clone(RandomListNode pHead){
+    public RandomListNode Clone(RandomListNode pHead) {
         firstStepOfCopyNode(pHead);
         secondStepOfCopyRandomLinked(pHead);
         return thirdStepOfSplitLinkedList2(pHead);
     }
+
     /**
-     *  第一步：复制节点，建立实链接。A->A'->B->B'->C->C'
+     * 第一步：复制节点，建立实链接。A->A'->B->B'->C->C'
      */
-    public void firstStepOfCopyNode(RandomListNode head){
-        RandomListNode originalNode =  head;
-        while(originalNode != null){
+    public void firstStepOfCopyNode(RandomListNode head) {
+        RandomListNode originalNode = head;
+        while (originalNode != null) {
             RandomListNode copyNode = new RandomListNode(originalNode.label);
             copyNode.next = originalNode.next;
             originalNode.next = copyNode;
@@ -88,24 +92,24 @@ public class Leetcode_138_JianzhiOffer_35_CopyComplexLinkedListWithRandomPointer
     /**
      * 第二步：复制虚链接.
      */
-    public void secondStepOfCopyRandomLinked(RandomListNode pHead){
+    public void secondStepOfCopyRandomLinked(RandomListNode pHead) {
         RandomListNode originalNode = pHead;
-        while(originalNode != null){
+        while (originalNode != null) {
             RandomListNode copyNode = originalNode.next;
-            if(originalNode.random != null)
-                copyNode.random =  originalNode.random.next;
+            if (originalNode.random != null)
+                copyNode.random = originalNode.random.next;
             originalNode = copyNode.next;
         }
     }
 
     /**
      * 第三步：拆分链表：奇数节点为原链表；偶数节点为复制链表。
-     *
+     * <p>
      * 这个方法需要注意:在拆分最后，原链表的最后一个节点的next需要指向null；
      * 容易出现：原链表为A->B->C->C'的错误情况。
      */
-    public RandomListNode thirdStepOfSplitLinkedList(RandomListNode pHead){
-        if(pHead == null) return null;
+    public RandomListNode thirdStepOfSplitLinkedList(RandomListNode pHead) {
+        if (pHead == null) return null;
         //初始化
         RandomListNode originalNode = pHead;
         RandomListNode copyHead = pHead.next;
@@ -113,7 +117,7 @@ public class Leetcode_138_JianzhiOffer_35_CopyComplexLinkedListWithRandomPointer
         originalNode.next = copyNode.next;
         originalNode = originalNode.next;
         //继续循环处理后续节点
-        while(originalNode != null){
+        while (originalNode != null) {
             copyNode.next = originalNode.next;
             copyNode = copyNode.next;
             originalNode.next = copyNode.next;
@@ -125,14 +129,14 @@ public class Leetcode_138_JianzhiOffer_35_CopyComplexLinkedListWithRandomPointer
     /**
      * 第三步的第二种实现方式
      */
-    public RandomListNode thirdStepOfSplitLinkedList2(RandomListNode pHead){
-        if(pHead == null) return null;
+    public RandomListNode thirdStepOfSplitLinkedList2(RandomListNode pHead) {
+        if (pHead == null) return null;
         //初始化
         RandomListNode originalNode = pHead;
         RandomListNode copyHead = pHead.next;
         RandomListNode copyNode = copyHead;
         //继续循环处理后续节点
-        while(copyNode.next != null){//下一个原节点不为空
+        while (copyNode.next != null) {//下一个原节点不为空
             originalNode.next = copyNode.next;
             originalNode = originalNode.next;
             copyNode.next = originalNode.next;
@@ -143,12 +147,12 @@ public class Leetcode_138_JianzhiOffer_35_CopyComplexLinkedListWithRandomPointer
     }
 
     /***************************************综合在一起的方法******************************************/
-    public RandomListNode Clone2(RandomListNode pHead){
-        if(pHead == null) return null;
+    public RandomListNode Clone2(RandomListNode pHead) {
+        if (pHead == null) return null;
         RandomListNode originalNode = pHead;
         RandomListNode copyNode = null;
         //第一步：复制节点，构造成A->A'->B->B'->C->C'
-        while(originalNode != null){
+        while (originalNode != null) {
             copyNode = new RandomListNode(originalNode.label);
             copyNode.next = originalNode.next;
             originalNode.next = copyNode;
@@ -156,26 +160,35 @@ public class Leetcode_138_JianzhiOffer_35_CopyComplexLinkedListWithRandomPointer
         }
         //第二步：复制虚链接
         originalNode = pHead;
-        while(originalNode != null){
+        while (originalNode != null) {
             copyNode = originalNode.next;
-            if(originalNode.random != null)
+            if (originalNode.random != null)
                 copyNode.random = originalNode.random.next;
             originalNode = copyNode.next;
 //            originalNode.next.random = originalNode.random==null?null:originalNode.random.next;
 //            originalNode = originalNode.next.next;
         }
         //第三步：拆分链表，奇数为原链表，偶数为新复制链表
-        originalNode = pHead;
+       /* originalNode = pHead;
         RandomListNode copyHead = pHead.next;
         copyNode = pHead.next;
-        while(copyNode.next != null){
+        while (copyNode.next != null) {
             originalNode.next = copyNode.next;
             originalNode = originalNode.next;
             copyNode.next = originalNode.next;
             copyNode = copyNode.next;
         }
-        originalNode.next = null;
-        return copyHead;
+        originalNode.next = null;*/
+        //第三步：拆分,利用傀儡头节点
+        RandomListNode dummy = new RandomListNode(-1);
+        RandomListNode currNode = dummy;
+        while (pHead != null) {
+            currNode.next = pHead.next;
+            currNode = currNode.next;
+            pHead.next = pHead.next.next;
+            pHead = pHead.next;
+        }
+        return dummy.next;
     }
 
     /**
@@ -212,7 +225,7 @@ public class Leetcode_138_JianzhiOffer_35_CopyComplexLinkedListWithRandomPointer
 
     //测试
     @Test
-    public void test(){
+    public void test() {
         RandomListNode head = new RandomListNode(0);
         RandomListNode node1 = new RandomListNode(1);
         RandomListNode node2 = new RandomListNode(2);
