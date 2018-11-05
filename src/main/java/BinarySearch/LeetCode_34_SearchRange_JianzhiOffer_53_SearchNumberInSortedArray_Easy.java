@@ -130,8 +130,7 @@ public class LeetCode_34_SearchRange_JianzhiOffer_53_SearchNumberInSortedArray_E
             }else if(target > nums[midIndex]){
                 low = midIndex + 1;
             }else{
-                if(midIndex == low||target>nums[midIndex-1])
-                    return midIndex;
+                if(midIndex == low||target>nums[midIndex-1]) return midIndex;
                 high = midIndex - 1;
             }
         }
@@ -168,8 +167,7 @@ public class LeetCode_34_SearchRange_JianzhiOffer_53_SearchNumberInSortedArray_E
             }else if(target > nums[middleIndex]){
                 low = middleIndex + 1;
             }else{
-                if(middleIndex == high||target<nums[middleIndex+1])
-                    return middleIndex;
+                if(middleIndex == high||target<nums[middleIndex+1]) return middleIndex;
                 low = middleIndex + 1;
             }
         }
