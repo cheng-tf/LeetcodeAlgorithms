@@ -17,14 +17,10 @@ public class BinarySearch {
      */
     public int binarySearch(int[] nums, int low, int high, int target) {
         while (low <= high) {//这里包括等号，与快排不一样，快排不包括等号，二分查找必须包括等号，否则出错
-            int mid = (low + high) / 2;
-            if (target < nums[mid]) {
-                high = mid - 1;
-            } else if (target > nums[mid]) {
-                low = mid + 1;
-            } else {
-                return mid;//返回查找的索引
-            }
+            int mid = (low + high) >> 1;
+            if (target < nums[mid]) high = mid - 1;
+            else if (target > nums[mid]) low = mid + 1;
+            else return mid;//返回查找的索引
         }
         return -1;//不存在则返回-1
     }
@@ -34,7 +30,7 @@ public class BinarySearch {
      */
     public int binarySearchRecursive(int[] nums, int low, int high, int target) {
         if (low > high) return -1;//递归终止条件
-        int mid = (low + high) / 2;
+        int mid = (low + high) >> 1;
         if (target < nums[mid]) {
             return binarySearchRecursive(nums, low, mid - 1, target);
         } else if (target > nums[mid]) {
