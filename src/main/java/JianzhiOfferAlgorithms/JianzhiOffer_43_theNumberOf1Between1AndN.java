@@ -40,17 +40,17 @@ public class JianzhiOffer_43_theNumberOf1Between1AndN {
      */
     public int NumberOf1Between1AndN_Solution1(int n) {
         int count = 0;
-        while(n > 0){
+        while (n > 0) {
             count += countEveryNumber(n--);
         }
         return count;
     }
-    
-    public int countEveryNumber(int num){
-        if(num <= 0) return 0;
+
+    public int countEveryNumber(int num) {
+        if (num <= 0) return 0;
         int count = 0;
-        while(num != 0){
-            if(num%10 == 1) count++;
+        while (num != 0) {
+            if (num % 10 == 1) count++;
             num /= 10;
         }
         return count;
@@ -60,31 +60,37 @@ public class JianzhiOffer_43_theNumberOf1Between1AndN {
      * 巧妙方法：分段。
      */
     public int NumberOf1Between1AndN_Solution(int n) {
-        if(n <= 0) return 0;
+        if (n <= 0) return 0;
         return countRecursive(n);
     }
-    public int countRecursive(int num){
-        if(num/10 == 0) return num>=1?1:0;//个位数
+
+    public int countRecursive(int num) {
+        //递归终止条件
+        if (num / 10 == 0) return num >= 1 ? 1 : 0;//个位数
         //位数有必要每次都计算一次，因为10000,四位数0000其从位数5直接变为位数1
-        int weiShu = weiShu(num),base = (int)Math.pow(10,weiShu-1);
+        int weiShu = weiShu(num), base = (int) Math.pow(10, weiShu - 1);
         //处理最高位
-        int first = num/base;
+        int first = num / base;
         int count = 0;
-        if(first > 1) count += base;
-        else count += num%base + 1;
-        //处理后几位
-        count += first*(weiShu-1)*base/10;
-        //递归调用weiShu-1位数据
-        count += countRecursive(num%base);
+        //1. 最高位为1的情况<只统计最高位为1>
+        if (first > 1) count += base;
+        else count += num % base + 1;
+        //2. 最高位非零时的情况<包括最高位为1，但不计算最高位1>
+        count += first * (weiShu - 1) * base / 10;
+        //3. 递归调用weiShu-1位数据
+        count += countRecursive(num % base);
         return count;
     }
-    public int weiShu(int num){
-        if(num < 0) return 0;
+
+    public int weiShu(int num) {
+        if (num < 0) return 0;
         int weiShu = 1;
-        while((num = num/10) != 0) weiShu++;
+        while ((num = num / 10) != 0) weiShu++;
         return weiShu;
     }
-/*    *//**
+    /*    */
+
+    /**
      * 巧妙方法：分段法。
      * 通过传递位数参数有错误实例，因为10000,位数是5，而下次位数就是1，不是4.
      * 必须每次都要计算位数。
@@ -112,7 +118,7 @@ public class JianzhiOffer_43_theNumberOf1Between1AndN {
 
     //测试
     @Test
-    public void test(){
+    public void test() {
         int num = 112321;
         int count = countEveryNumber(num);
         System.out.println("count = " + count);

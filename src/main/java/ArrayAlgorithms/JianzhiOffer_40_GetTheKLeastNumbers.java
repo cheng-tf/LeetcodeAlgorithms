@@ -15,41 +15,42 @@ public class JianzhiOffer_40_GetTheKLeastNumbers {
      * 思路分析:注意边界情况：k小于等于0时或大于数组长度时，直接返回空list；
      *
      * 方法1：利用快排对数组排序，然后输出最小的k个数至list中即可；
-     * 方法2：利用partition方法，只要找到分割的mid为k或k-1即可；(剑指Offer超时)
-     *        按理来说，这种算法应该比快排更快，但是超时不通过。
-     * 方法2：待定。
+     * 方法2：利用partition方法，只要找到分割的mid为k或k-1即可;
+     *        按理来说，这种算法应该比快排更快。
+     * 方法3：利用堆排实现。
      */
 
     /**
-     * 方法1：快排
+     * 方法1：基于快排算法实现
      */
-    public ArrayList<Integer> GetLeastNumbers_Solution(int [] nums, int k) {
+    public ArrayList<Integer> GetLeastNumbers_Solution(int[] nums, int k) {
         ArrayList<Integer> list = new ArrayList<Integer>();
-        if(nums == null|| nums.length==0||k<=0||k>nums.length) return list;
-        quickSort(nums,0,nums.length-1);
-        int i = 0;
-        while(i < k ) list.add(nums[i++]);
+        if (nums == null || nums.length == 0 || k <= 0 || k > nums.length) return list;
+        quickSort(nums, 0, nums.length - 1);
+        for (int i = 0; i < k; i++) list.add(nums[i]);
         return list;
     }
+
     /**
      * 快排
      */
-    public void quickSort(int[] nums,int low,int high){
-        if(low >= high) return;
-        int mid = partition(nums,low,high);
-        quickSort(nums,low,mid-1);
-        quickSort(nums,mid+1,high);
+    public void quickSort(int[] nums, int low, int high) {
+        if (low >= high) return;
+        int mid = partition(nums, low, high);
+        quickSort(nums, low, mid - 1);
+        quickSort(nums, mid + 1, high);
     }
+
     /**
      * 快排的partition方法
      */
-    public int partition(int[] nums,int low,int high){
+    public int partition(int[] nums, int low, int high) {
         int pivot = nums[high];
-        while(low < high){
-            while(low < high && nums[low] <= pivot) low++;
-            if(low < high) nums[high--] = nums[low];
-            while(low < high && nums[high] >= pivot) high--;
-            if(low < high) nums[low++] = nums[high];
+        while (low < high) {
+            while (low < high && nums[low] <= pivot) low++;
+            if (low < high) nums[high--] = nums[low];
+            while (low < high && nums[high] >= pivot) high--;
+            if (low < high) nums[low++] = nums[high];
         }
         nums[high] = pivot;
         return high;
@@ -58,21 +59,17 @@ public class JianzhiOffer_40_GetTheKLeastNumbers {
     /**
      * 方法2：仅仅利用partition方法
      */
-
-    public ArrayList<Integer> GetLeastNumbers_Solution2(int [] nums, int k) {
+    public ArrayList<Integer> GetLeastNumbers_Solution2(int[] nums, int k) {
         ArrayList<Integer> list = new ArrayList<Integer>();
-        if(nums == null|| nums.length==0||k < 1||k>nums.length) return list;
-        int low = 0,high = nums.length-1;
-        int mid = partition(nums,low,high);
-        while(mid != k){
-            if(mid > k){
-                high = mid-1;
-            }else{
-                low = mid+1;
-            }
-            mid = partition(nums,low,high);
+        if (nums == null || nums.length == 0 || k < 1 || k > nums.length) return list;
+        int low = 0, high = nums.length - 1;
+        int mid = partition(nums, low, high);
+        while (mid != k && mid != k - 1) {//当mid=k或者k-1时都说明0->k-1这k个数是小于mid的。
+            if (mid > k) high = mid - 1;
+            else low = mid + 1;
+            mid = partition(nums, low, high);
         }
-        while(--k >= 0 ) list.add(nums[k]);
+        while (--k >= 0) list.add(nums[k]);
         return list;
     }
 
@@ -174,15 +171,14 @@ import java.util.ArrayList;
      */
 
 
-
     //测试
     @Test
-    public void test(){
-        int[] nums = {2,3,4,5,1,3,64,23,-3};
-        int[] nums2 = {4,5,1,6,2,7,3,8};
-        ArrayList<Integer> list = GetLeastNumbers_Solution(nums2,17);
+    public void test() {
+        int[] nums = {2, 3, 4, 5, 1, 3, 64, 23, -3};
+        int[] nums2 = {4, 5, 1, 6, 2, 7, 3, 8};
+        ArrayList<Integer> list = GetLeastNumbers_Solution(nums, 5);
         System.out.println(list.toString());
-        ArrayList<Integer> list2 = GetLeastNumbers_Solution2(nums2,4);
+        ArrayList<Integer> list2 = GetLeastNumbers_Solution2(nums2, 4);
         System.out.println(list2.toString());
     }
 
