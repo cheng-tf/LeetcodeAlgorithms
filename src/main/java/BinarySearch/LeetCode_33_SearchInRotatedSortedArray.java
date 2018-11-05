@@ -153,10 +153,9 @@ public class LeetCode_33_SearchInRotatedSortedArray {
     public int minNumberInRotateArray(int[] nums) {
         if (nums == null || nums.length == 0) return 0;
         int low = 0, high = nums.length - 1;
-        if (nums[low] < nums[high]) //没有旋转的情况；注意一定没有等号，因为1,0,1,1也是旋转的情况
-            return nums[low];
+        if (nums[low] < nums[high]) return nums[low];//没有旋转的情况；注意一定没有等号，因为1,0,1,1也是旋转的情况
 //        while (nums[low] >= nums[high]) {//有旋转
-        while (low < high) {//low < high也可以
+        while (low < high) {
             if (high - low == 1) return nums[high];//终止条件
             int mid = (low + high) >> 1;
             //重点：对这种特殊情况的处理
