@@ -34,12 +34,10 @@ public class MergeSort {
         int[] temp = new int[len];//每次merge都要创建一个数组
         int i = low, j = mid + 1;
         int index = 0;
-        while (i <= mid && j <= high)
-            temp[index++] = nums[i] <= nums[j] ? nums[i++] : nums[j++];
+        while (i <= mid && j <= high) temp[index++] = nums[i] <= nums[j] ? nums[i++] : nums[j++];
         while (i <= mid) temp[index++] = nums[i++];
         while (j <= high) temp[index++] = nums[j++];
-        for (int k = low; k <= high; k++)
-            nums[k] = temp[k - low];
+        for (int k = low; k <= high; k++) nums[k] = temp[k - low];
     }
 
     /**
