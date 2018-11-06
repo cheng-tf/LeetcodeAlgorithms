@@ -6,6 +6,10 @@ import java.util.HashMap;
 import java.util.LinkedHashMap;
 
 public class HashMapVSLinkedHashMap {
+    /**
+     * HashMap的元素是无序的；
+     * 而LinkedHashMap中的元素是有序的，按照先入先出的顺序。
+     */
 
     //测试
     @Test
