@@ -51,17 +51,17 @@ public class Leetcode_200_NumberOfIslands_Medium {
      * 若是一个新岛屿的开始，则会利用DFS或BFS标记该岛屿的每个方格。
      */
     public int numIslands(char[][] grid) {
-        if(grid == null||grid.length == 0||grid[0].length == 0) return 0;
-        int rows = grid.length,columns = grid[0].length;
-        boolean[][] visited = new boolean[rows][columns];
+        if (grid == null || grid.length == 0 || grid[0].length == 0) return 0;
+        int rows = grid.length, cols = grid[0].length;
+        boolean[][] visited = new boolean[rows][cols];
         int count = 0;
         //嵌套循环，遍历每一个点
-        for(int i = 0;i < rows;i++){
-            for(int j = 0;j < columns;j++){
-                if(grid[i][j] == '1' && !visited[i][j]){//新岛屿的起点
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < cols; j++) {
+                if (grid[i][j] == '1' && !visited[i][j]) {//新岛屿的起点
                     //采用了类似模板的设计模式
 //                    DFS(grid,visited,i,j);//通过递归调用将该岛屿的所有格标记为true
-                    BFS(grid,visited,i,j);//通过递归调用将该岛屿的所有格标记为true
+                    BFS(grid, visited, i, j);//通过递归调用将该岛屿的所有格标记为true
                     count++;
                 }
             }
@@ -70,33 +70,33 @@ public class Leetcode_200_NumberOfIslands_Medium {
     }
 
     //方法1：DFS深度优先搜索
-    public void DFS(char[][] grid,boolean[][] visited,int i,int j ){
-        if(i < 0 ||i >= grid.length|| j <0 || j >= grid[i].length||grid[i][j] != '1'|| visited[i][j]) return;
+    public void DFS(char[][] grid, boolean[][] visited, int i, int j) {
+        if (i < 0 || i >= grid.length || j < 0 || j >= grid[i].length || grid[i][j] != '1' || visited[i][j]) return;
         visited[i][j] = true;//标记已经访问过
-        DFS(grid,visited,i-1,j);//上
-        DFS(grid,visited,i,j+1);//右
-        DFS(grid,visited,i+1,j);//下
-        DFS(grid,visited,i,j-1);//左
+        DFS(grid, visited, i - 1, j);//上
+        DFS(grid, visited, i, j + 1);//右
+        DFS(grid, visited, i + 1, j);//下
+        DFS(grid, visited, i, j - 1);//左
     }
 
-    //方法2：BFS广度优先搜索(宽度)
-    public void BFS(char[][] grid,boolean[][] visited,int x,int y ){
-        if(x < 0 ||x >= grid.length|| y <0 || y >= grid[x].length||grid[x][y] != '1'|| visited[x][y]) return;
-        int[] dx = {-1,0,1,0};
-        int[] dy = {0,1,0,-1};
+    //方法2：BFS宽度优先搜索
+    public void BFS(char[][] grid, boolean[][] visited, int x, int y) {
+        if (x < 0 || x >= grid.length || y < 0 || y >= grid[x].length || grid[x][y] != '1' || visited[x][y]) return;
+        int[] dx = {-1, 0, 1, 0};
+        int[] dy = {0, 1, 0, -1};
         ArrayDeque<Integer> deque = new ArrayDeque<Integer>();
         deque.addLast(x);
         deque.addLast(y);
         visited[x][y] = true;//一定要在进入队列的时候就做标记，否则会使同一个点多次进入队列
         //为什么？因为队列弹出一个点可能会进去4个点，若是弹出再标记的话，
         // 则4个点都是未访问的，会多次进入队列中
-        while(!deque.isEmpty()){
+        while (!deque.isEmpty()) {
             x = deque.removeFirst();
             y = deque.removeFirst();
-            for(int k =0;k < 4;k++){
+            for (int k = 0; k < 4; k++) {
                 int newX = x + dx[k];
                 int newY = y + dy[k];
-                if(newX < 0 ||newX >= grid.length|| newY <0 || newY >= grid[x].length||grid[newX][newY] != '1'|| visited[newX][newY])
+                if (newX < 0 || newX >= grid.length || newY < 0 || newY >= grid[x].length || grid[newX][newY] != '1' || visited[newX][newY])
                     continue;
                 deque.addLast(newX);
                 deque.addLast(newY);
@@ -105,20 +105,64 @@ public class Leetcode_200_NumberOfIslands_Medium {
         }
     }
 
+    /**
+     * 宽度优先搜索：合并到一个方法实现。
+     * mark数组只负责标记为'1'的点，对于为'0'的点没有必要标记，
+     * 因为判断为'0'，则直接continue;或不加入队列中。
+     */
+    public int numIslands_BFS(char[][] grid) {
+        if (grid == null || grid.length == 0 || grid[0].length == 0) return 0;
+        int rows = grid.length, cols = grid[0].length, result = 0;
+        ArrayDeque<Integer> deque = new ArrayDeque<Integer>();
+        boolean[][] mark = new boolean[rows][cols];//标记使用
+        int[] dx = {0, 0, 1, -1};
+        int[] dy = {1, -1, 0, 0};
+        //嵌套for循环遍历每一个点
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < cols; j++) {
+                if (mark[i][j] || grid[i][j] == '0') continue;//被访问过或为'0'则直接continue
+                //添加新岛屿的第一个点到队列中
+                deque.add(i);
+                deque.add(j);
+                mark[i][j] = true;
+                //利用for循环搜索该岛屿的所有土地，即将为1的全部搜索到并做标记
+                while (!deque.isEmpty()) {
+                    int x = deque.removeFirst();
+                    int y = deque.removeFirst();
+                    for (int k = 0; k < 4; k++) {
+                        int newx = x + dx[k];
+                        int newy = y + dy[k];
+                        if (newx < rows && newx >= 0 && newy >= 0 && newy < cols && !mark[newx][newy] && grid[newx][newy] == '1') {
+                            deque.addLast(newx);
+                            deque.addLast(newy);
+                            mark[newx][newy] = true;
+                        }
+                    }
+                }
+                result++;
+            }
+        }
+        return result;
+    }
+
     //测试
     @Test
-    public void test(){
-        char[][] grid = {{'1','1','1','1','0'},{'1','1','0','1','0'},{'1','1','0','0','0'},{'0','0','0','0','0'}};
+    public void test() {
+        char[][] grid = {{'1', '1', '1', '1', '0'}, {'1', '1', '0', '1', '0'}, {'1', '1', '0', '0', '0'}, {'0', '0', '0', '0', '0'}};
         int result = numIslands(grid);
         System.out.println("result = " + result);
 
-        char[][] grid2 = {{'1','1','0','0','0'},{'1','1','0','0','0'},{'0','0','1','0','0'},{'0','0','0','1','1'}};
+        char[][] grid2 = {{'1', '1', '0', '0', '0'}, {'1', '1', '0', '0', '0'}, {'0', '0', '1', '0', '0'}, {'0', '0', '0', '1', '1'}};
         int result2 = numIslands(grid2);
         System.out.println("result2 = " + result2);
 
-        char[][] grid3 = {{'1','0','1','1','0','1','1'}};
+        char[][] grid3 = {{'1', '0', '1', '1', '0', '1', '1'}};
         int result3 = numIslands(grid3);
         System.out.println("result3 = " + result3);
+
+        char[][] grid4 = {{'1', '1', '0', '0', '0'}, {'1', '1', '0', '0', '0'}, {'0', '0', '1', '0', '0'}, {'0', '0', '0', '1', '1'}};
+        int result4 = numIslands_BFS(grid4);
+        System.out.println("result4 = " + result4);
     }
 
 }
