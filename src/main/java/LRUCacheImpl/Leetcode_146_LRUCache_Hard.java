@@ -97,13 +97,13 @@ public class Leetcode_146_LRUCache_Hard {
         }
 
         /************************辅助方法*******************************/
-        //删除当前节点
+        //从双端队列中删除当前节点
         public void deleteCurrentNode(DListNode node){
             //删除当前节点
             node.prev.next = node.next;
             node.next.prev = node.prev;
         }
-        //删除尾节点
+        //删除尾节点，并从hashMap中删除该节点
         public void deleteTailNode(){
             //删除尾节点
             DListNode delete = tail.prev;

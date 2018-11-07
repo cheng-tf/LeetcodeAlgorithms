@@ -108,20 +108,18 @@ public class LeetCode160_IntersectionOfTwoLinkedLists_JianzhiOffer_52_FindFirstC
      * 方法4:利用Set集合完成
      */
     public ListNode getIntersectionNode_3(ListNode pHead1, ListNode pHead2) {
-        if(pHead1 == null||pHead2 == null) return null;
+        if (pHead1 == null || pHead2 == null) return null;
         Set<ListNode> set = new HashSet<ListNode>();
-        while(pHead1 != null){
+        while (pHead1 != null) {
             set.add(pHead1);
             pHead1 = pHead1.next;
         }
-        while(pHead2 != null){
-           if(set.contains(pHead2))
-               return pHead2;
-           pHead2 = pHead2.next;
+        while (pHead2 != null) {
+            if (set.contains(pHead2)) return pHead2;
+            pHead2 = pHead2.next;
         }
         return null;
     }
-
 
 
     //测试
@@ -171,6 +169,7 @@ public class LeetCode160_IntersectionOfTwoLinkedLists_JianzhiOffer_52_FindFirstC
     private class ListNode {
         int val;
         ListNode next = null;
+
         ListNode(int val) {
             this.val = val;
         }

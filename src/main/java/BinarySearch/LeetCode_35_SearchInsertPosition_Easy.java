@@ -16,12 +16,11 @@ public class LeetCode_35_SearchInsertPosition_Easy {
      * 思路分析：
      * 基于二分查找的思路，在target > nums[mid]与target < nums[mid]两种情况下，
      * 作特殊判断处理。是否达到边界与左右两边的值大小关系。
-     * 对于 target > nums[mid]这种情况：
-     * 若mid==high到达边界，返回mid+1；
-     * 若target< nums[mid+1]，返回mid+1；
-     * 同理，对于target < nums[mid]这种情况：
-     * 若mid==low到达边界，返回mid;
-     * 若target>nums[mid-1]，返回mid。
+     * ①对于 target > nums[mid]这种情况：
+     * 若mid==high到达边界，返回mid+1；若target< nums[mid+1]，返回mid+1；
+     * ②同理，对于target < nums[mid]这种情况：
+     * 若mid==low到达边界，返回mid;若target>nums[mid-1]，返回mid。
+     * ③若target==nums[mid]，则返回mid。
      */
 
     public int searchInsert(int[] arr, int target) {//getInsertionIndex
@@ -32,14 +31,12 @@ public class LeetCode_35_SearchInsertPosition_Easy {
             if (target > arr[mid]) {
                 //两种情况下对应跳出：1、midIndex达到high，target大于数组中任何一个值,返回midIndex+1；
                 // 2、arr[midIndex]< target < arr[midIndex + 1]，返回midIndex+1；
-                if (mid == high || target < arr[mid + 1])
-                    return mid + 1;
+                if (mid == high || target < arr[mid + 1]) return mid + 1;
                 low = mid + 1;
             } else if (target < arr[mid]) {
                 //两种情况下对应跳出：1、midIndex达到low，target小于数组中任何一个值,返回midIndex；
                 // 2、arr[midIndex-1]< target < arr[midIndex]，返回midIndex；
-                if (mid == low || target > arr[mid - 1])
-                    return mid;
+                if (mid == low || target > arr[mid - 1]) return mid;
                 high = mid - 1;
             } else {
                 //target == arr[midIndex]；直接返回midIndex

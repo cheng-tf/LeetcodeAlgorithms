@@ -138,7 +138,7 @@ public class LeetCode_33_SearchInRotatedSortedArray {
      * 给定一个旋转数组，返回最小数字。
      * 难度：Medium
      * <p>
-     * 题目描述：
+     * 题目描述：Given a 2d grid map of
      * 把一个数组最开始的若干个元素搬到数组的末尾，我们称之为数组的旋转。
      * 输入一个非减排序的数组的一个旋转，输出旋转数组的最小元素。
      * 例如数组{3,4,5,1,2}为{1,2,3,4,5}的一个旋转，该数组的最小值为1。
@@ -153,16 +153,14 @@ public class LeetCode_33_SearchInRotatedSortedArray {
     public int minNumberInRotateArray(int[] nums) {
         if (nums == null || nums.length == 0) return 0;
         int low = 0, high = nums.length - 1;
-        if (nums[low] < nums[high]) //没有旋转的情况；注意一定没有等号，因为1,0,1,1也是旋转的情况
-            return nums[low];
-//        while (nums[low] >= nums[high]) {//有旋转
-        while (low < high) {//low < high也可以
+        if (nums[low] < nums[high]) return nums[low];//没有旋转的情况；注意一定没有等号，因为1,0,1,1也是旋转的情况
+//      while (nums[low] >= nums[high]) {//有旋转
+        while (low < high) {
             if (high - low == 1) return nums[high];//终止条件
             int mid = (low + high) >> 1;
             //重点：对这种特殊情况的处理
-            if (nums[mid] == nums[high] && nums[mid] == nums[low]) {//三者相同的时候，只能顺序查找如[1,0,1,1,1,1]
+            if (nums[mid] == nums[high] && nums[mid] == nums[low]) //三者相同的时候，只能顺序查找如[1,0,1,1,1,1]
                 return searchMinNum(nums, low, high);
-            }
             //说明：传递mid，不是mid+1或mid-1目的就是让low始终指向前一段，而high指向后一段；
             // 否则low会指向后一段，high会指向前一段
             if (nums[mid] >= nums[low]) {
@@ -171,6 +169,7 @@ public class LeetCode_33_SearchInRotatedSortedArray {
 //                if(nums[mid] <= nums[high])//可有可无
                 high = mid;//一定是mid，不要习惯性mid-1,否则错误
             }
+
         }
         return -1;
     }

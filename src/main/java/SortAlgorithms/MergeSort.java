@@ -5,7 +5,6 @@ import org.junit.Test;
 import java.util.Arrays;
 
 public class MergeSort {
-
     /********归并排序*********************************/
 
     /**
@@ -22,7 +21,7 @@ public class MergeSort {
         int mid = (low + high) >> 1;
         mergeSort2(nums, low, mid);
         mergeSort2(nums, mid + 1, high);
-        mergeTwoSubArray(nums, low, mid, high);
+        mergeTwoSubArray(nums, low, mid, high);//合并两个子数组
     }
 
     /**
@@ -63,13 +62,12 @@ public class MergeSort {
      * 合并两个排序子数组为一个排序的子数组
      * （归并思想，与合并两个有序链表是一致的）
      */
-    public void mergeTowSubArray(int[] nums, int[] copyNums, int low, int mid, int high) {
-        int i = mid, j = high, indexCopy = high;
-        while (i >= low && j >= mid + 1) {//其中之一遍历结束，则结束while
-            copyNums[indexCopy--] = nums[i] > nums[j] ? nums[i--] : nums[j--];
-        }
-        while (i >= low) copyNums[indexCopy--] = nums[i--];
-        while (j >= mid + 1) copyNums[indexCopy--] = nums[j--];
+    public void mergeTowSubArray(int[] copyNums, int[] nums, int low, int mid, int high) {
+        int i = mid, j = high, k = high;
+        while (i >= low && j >= mid + 1) //其中之一遍历结束，则结束while
+            nums[k--] = copyNums[i] > copyNums[j] ? copyNums[i--] : copyNums[j--];
+        while (i >= low) nums[k--] = copyNums[i--];
+        while (j >= mid + 1) nums[k--] = copyNums[j--];
     }
 
     /****************************测试******************************/
@@ -84,7 +82,7 @@ public class MergeSort {
         //递归法：归并排序
         int[] nums2 = {3, 5, 1, -10, 99, 89, 32, 11, 893, -10, 0, 78, 45, 34, 11, -10, 0, 23, 8};
         System.out.println("Arrays.toString(num2) = " + Arrays.toString(nums2));
-        mergeSort2(nums2, 0, nums2.length - 1);
+//        mergeSort2(nums2, 0, nums2.length - 1);
         System.out.println("Arrays.toString(num2) = " + Arrays.toString(nums2));
 
         //递归法：归并排序
@@ -93,6 +91,4 @@ public class MergeSort {
         mergeSort(nums3);
         System.out.println("Arrays.toString(num3) = " + Arrays.toString(nums3));
     }
-
-
 }

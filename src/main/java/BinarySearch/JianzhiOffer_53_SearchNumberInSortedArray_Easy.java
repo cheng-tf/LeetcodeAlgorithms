@@ -70,13 +70,9 @@ public class JianzhiOffer_53_SearchNumberInSortedArray_Easy {
         int low = 0, high = nums.length - 1;
         while (low <= high) {
             int mid = (low + high) >> 1;
-            if (nums[mid] > mid) {
-                high = mid - 1;
-            } else if (nums[mid] < mid) {
-                low = mid + 1;
-            } else {
-                return mid;
-            }
+            if (nums[mid] > mid) high = mid - 1;
+            else if (nums[mid] < mid) low = mid + 1;
+            else return mid;
         }
         return -1;
     }
