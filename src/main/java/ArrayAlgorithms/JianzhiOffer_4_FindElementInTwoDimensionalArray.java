@@ -3,8 +3,6 @@ package ArrayAlgorithms;
 import org.junit.Test;
 
 public class JianzhiOffer_4_FindElementInTwoDimensionalArray {
-
-
     /*****************剑指Offer4:在二维数组中的查找**************************************/
 
     /**
@@ -15,9 +13,9 @@ public class JianzhiOffer_4_FindElementInTwoDimensionalArray {
      * 请完成一个函数，输入这样的一个二维数组和一个整数，判断数组中是否含有该整数。
      *
      * 思路分析：
-     *       如果从(0,0)处开始搜索，可以按照向下和向右搜索，广度优先搜索，但是效率较低。
-     *       从右上角或左下角开始搜索，一次可以删除一行或一列，效率更高。
-     *        方法1. 从二维数组的右上角开始判断，每一次判断都可以删除一行或一列；
+     * 方法1：广度优先搜索。从(0,0)处开始搜索，可以按照向下和向右搜索，广度优先搜索，但是效率较低。
+     * 方法2：从右上角或左下角开始搜索，一次可以删除一行或一列，效率更高。
+     *        1. 从二维数组的右上角开始判断，每一次判断都可以删除一行或一列；
      *        2. 从二维数组的左下角开始判断，每一次判断都可以删除一行或一列。
      * 以右上角为例：
      *      A. 若相等，则返回true；
@@ -29,16 +27,12 @@ public class JianzhiOffer_4_FindElementInTwoDimensionalArray {
      * 方法1. 右上角
      */
     public boolean Find(int target, int[][] array) {
-        if (array == null || array.length == 0) return false;//保证行数不为0
-        int rows = array.length, columns = array[0].length;
-        for (int row = 0, column = columns - 1; row < rows && column >= 0; ) {
-            if (array[row][column] > target) {
-                column--;
-            } else if (array[row][column] < target) {
-                row++;
-            } else {
-                return true;
-            }
+        if (array == null || array.length == 0 || array[0].length == 0) return false;//保证行数不为0
+        int rows = array.length, cols = array[0].length;
+        for (int i = 0, j = cols - 1; i < rows && j >= 0; ) {
+            if (target > array[i][j]) i++;
+            else if (target < array[i][j]) j--;
+            else return true;
         }
         return false;
     }
@@ -46,17 +40,13 @@ public class JianzhiOffer_4_FindElementInTwoDimensionalArray {
     /**
      * 方法2. 左下角
      */
-    public boolean Find2(int target, int[][] array) {
-        if (array == null || array.length == 0) return false;//保证行数不为0
-        int rows = array.length, columns = array[0].length;
-        for (int row = rows - 1, column = 0; row >= 0 && column < columns; ) {
-            if (array[row][column] > target) {
-                row--;
-            } else if (array[row][column] < target) {
-                column++;
-            } else {
-                return true;
-            }
+    public boolean Find2(int target, int[][] arr) {
+        if (arr == null || arr.length == 0 || arr[0].length == 0) return false;//保证行数不为0
+        int rows = arr.length, cols = arr[0].length;
+        for (int i = rows - 1, j = 0; i >= 0 && j < cols; ) {
+            if (target > arr[i][j]) j++;
+            else if (target < arr[i][j]) i--;
+            else return true;
         }
         return false;
     }
@@ -79,7 +69,5 @@ public class JianzhiOffer_4_FindElementInTwoDimensionalArray {
 
         boolean result4 = Find2(99, array);
         System.out.println("result4 = " + result4);
-
     }
-
 }
