@@ -7,7 +7,7 @@ import java.util.Deque;
 
 public class KthBSTNode_BinarySearchTree {
     @Test
-    public void test(){
+    public void test() {
         TreeNode root = new TreeNode(6);
         TreeNode node1 = new TreeNode(4);
         TreeNode node2 = new TreeNode(3);
@@ -26,12 +26,11 @@ public class KthBSTNode_BinarySearchTree {
         inOrderTraversalwhile(root);
 
 
-
     }
 
 
-    TreeNode KthNode(TreeNode pRoot, int k){
-        return  KthNode( pRoot, new int[]{k});
+    TreeNode KthNode(TreeNode pRoot, int k) {
+        return KthNode(pRoot, new int[]{k});
     }
     /**
      * BinaryTree
@@ -48,46 +47,41 @@ public class KthBSTNode_BinarySearchTree {
     /**
      * 方法1：递归方式
      */
-    TreeNode KthNode(TreeNode pRoot, int[] k){
-        if(pRoot == null||k[0] < 1) return null; //递归终止条件
+    TreeNode KthNode(TreeNode pRoot, int[] k) {
+        if (pRoot == null || k[0] < 1) return null; //递归终止条件
         //首先遍历左子树,若结果不为null，则返回；否在往下执行
-        TreeNode result = KthNode(pRoot.left,k);
-        if(result != null) return result;
+        TreeNode result = KthNode(pRoot.left, k);
+        if (result != null) return result;
         //遍历中节点
-        if(k[0]-- == 1)  return pRoot;
+        if (k[0]-- == 1) return pRoot;
         //遍历右节点
-        return KthNode(pRoot.right,k);
+        return KthNode(pRoot.right, k);
     }
 
     /**
      * 方法2：非递归方式：利用栈和while循环
      */
-    TreeNode KthNode1(TreeNode pRoot, int k){
-        return  KthNodeWhile( pRoot, new int[]{k});
-    }
-
-    public TreeNode KthNodeWhile(TreeNode root,int[] k){
+    TreeNode KthNode1(TreeNode root, int k) {
         Deque<TreeNode> stack = new ArrayDeque<TreeNode>();
-        while(!(stack.isEmpty()&&root == null)){
-            if(root != null){
+        while (!stack.isEmpty() || root != null) {
+            if (root != null) {
                 stack.push(root);
                 root = root.left;
-            }else{
+            } else {
                 root = stack.pop();
-                if(k[0]-- == 1) return root;
+                if (k-- == 1) return root;
                 root = root.right;
             }
         }
         return null;
     }
 
-
     /*********复习使用***********/
     /**
      * 基本的递归的中序遍历
      */
-    public void inOrderTraversal(TreeNode root){
-        if(root == null) return;
+    public void inOrderTraversal(TreeNode root) {
+        if (root == null) return;
         inOrderTraversal(root.left);
         System.out.println("val = " + root.val);
         inOrderTraversal(root.right);
@@ -96,11 +90,12 @@ public class KthBSTNode_BinarySearchTree {
     /**
      * 二叉树结构
      */
-    private class TreeNode{
+    private class TreeNode {
         TreeNode left;
         TreeNode right;
         int val;
-        TreeNode(int val){
+
+        TreeNode(int val) {
             this.val = val;
         }
     }
@@ -108,13 +103,13 @@ public class KthBSTNode_BinarySearchTree {
     /**
      * 基本的非递归的中序遍历
      */
-    public void inOrderTraversalwhile(TreeNode root){
+    public void inOrderTraversalwhile(TreeNode root) {
         Deque<TreeNode> stack = new ArrayDeque<TreeNode>();
-        while(!(stack.isEmpty()&&root == null)){
-            if(root != null){
+        while (!stack.isEmpty() || root != null) {
+            if (root != null) {
                 stack.push(root);
                 root = root.left;
-            }else{
+            } else {
                 root = stack.pop();
                 System.out.println("val = " + root.val);
                 root = root.right;
