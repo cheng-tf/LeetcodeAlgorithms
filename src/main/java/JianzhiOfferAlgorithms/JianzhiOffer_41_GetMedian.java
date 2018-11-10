@@ -3,7 +3,6 @@ package JianzhiOfferAlgorithms;
 import org.junit.Test;
 
 import java.util.ArrayList;
-import java.util.LinkedList;
 
 public class JianzhiOffer_41_GetMedian {
     /*******************************JianzhiOffer_41_GetMedian****************/
