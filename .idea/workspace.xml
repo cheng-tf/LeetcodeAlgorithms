@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7df596c-3805-4562-8d5d-672348011059" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_41_GetMedian.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/KthBSTNode_BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/KthBSTNode_BinarySearchTree.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -105,12 +104,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4715" />
+          <entry key="java" value="4768" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4715" />
+          <entry key="JAVA" value="4768" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -143,14 +142,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/KthBSTNode_BinarySearchTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="109" column="33" selection-start-line="109" selection-start-column="33" selection-end-line="109" selection-end-column="33" />
+            <state relative-caret-position="350">
+              <caret line="32" column="49" lean-forward="true" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
               <folding>
-                <element signature="e#778#779#0" expanded="true" />
-                <element signature="e#829#830#0" expanded="true" />
+                <element signature="e#584#585#0" expanded="true" />
+                <element signature="e#635#636#0" expanded="true" />
                 <element signature="e#1701#1711#0" expanded="true" />
                 <element signature="e#2601#2602#0" expanded="true" />
                 <element signature="e#2639#2640#0" expanded="true" />
+                <element signature="e#2764#2774#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -312,7 +312,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541846684963" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541855363770" />
     <property name="extract.method.default.visibility" value="public" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../rocketmq" />
     <property name="node.js.detected.package.jscs" value="true" />
@@ -454,7 +454,7 @@
       <workItem from="1540812936670" duration="8605000" />
       <workItem from="1540827293749" duration="616000" />
       <workItem from="1541770289164" duration="1794000" />
-      <workItem from="1541816423454" duration="15926000" />
+      <workItem from="1541816423454" duration="16527000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <created>1537236600992</created>
@@ -520,7 +520,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78708000" />
+    <option name="totallyTimeSpent" value="79309000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
@@ -802,14 +802,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/BinaryTreeBasicAlgorithms/KthBSTNode_BinarySearchTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="109" column="33" selection-start-line="109" selection-start-column="33" selection-end-line="109" selection-end-column="33" />
+        <state relative-caret-position="350">
+          <caret line="32" column="49" lean-forward="true" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
           <folding>
-            <element signature="e#778#779#0" expanded="true" />
-            <element signature="e#829#830#0" expanded="true" />
+            <element signature="e#584#585#0" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
             <element signature="e#1701#1711#0" expanded="true" />
             <element signature="e#2601#2602#0" expanded="true" />
             <element signature="e#2639#2640#0" expanded="true" />
+            <element signature="e#2764#2774#0" expanded="true" />
           </folding>
         </state>
       </provider>
