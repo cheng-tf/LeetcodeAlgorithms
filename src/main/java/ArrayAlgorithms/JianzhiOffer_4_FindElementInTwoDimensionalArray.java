@@ -29,7 +29,8 @@ public class JianzhiOffer_4_FindElementInTwoDimensionalArray {
     public boolean Find(int target, int[][] array) {
         if (array == null || array.length == 0 || array[0].length == 0) return false;//保证行数不为0
         int rows = array.length, cols = array[0].length;
-        for (int i = 0, j = cols - 1; i < rows && j >= 0; ) {
+        int i = 0, j = cols - 1;
+        while (i < rows && j >= 0) {
             if (target > array[i][j]) i++;
             else if (target < array[i][j]) j--;
             else return true;
@@ -43,7 +44,9 @@ public class JianzhiOffer_4_FindElementInTwoDimensionalArray {
     public boolean Find2(int target, int[][] arr) {
         if (arr == null || arr.length == 0 || arr[0].length == 0) return false;//保证行数不为0
         int rows = arr.length, cols = arr[0].length;
-        for (int i = rows - 1, j = 0; i >= 0 && j < cols; ) {
+//        for (int i = rows - 1, j = 0; i >= 0 && j < cols; ) {
+        int i = 0, j = cols - 1;
+        while (i < rows && j >= 0) {
             if (target > arr[i][j]) j++;
             else if (target < arr[i][j]) i--;
             else return true;

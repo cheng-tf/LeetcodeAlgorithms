@@ -7,7 +7,6 @@ import java.util.ArrayList;
 
 public class JianzhiOffer_MaxValueInSlidingWindows {
     /******************剑指Offer：滑动窗口的最大值***************************************/
-
     /**
      * 给定一个数组和滑动窗口的大小，找出所有滑动窗口里数值的最大值。
      * 例如，如果输入数组{2,3,4,2,6,2,5,1}及滑动窗口的大小3，那么一共存在6个滑动窗口，
@@ -35,33 +34,54 @@ public class JianzhiOffer_MaxValueInSlidingWindows {
         for (int index = 0; index < size; index++) {
             while (!deque.isEmpty() && nums[index] >= nums[deque.peekLast()])
                 deque.removeLast();//从队列尾部逐渐清理比当前值小的元素
-            deque.addLast(index);//保存最新的索引
+            deque.addLast(index);//保存最新的索引,仅仅因为年轻
         }
+        result.add(nums[deque.peekFirst()]);//保存第一个滑动窗口的最大值
         //3. 滑动窗口逐步移动
         for (int index = size; index < nums.length; index++) {
-            result.add(nums[deque.peekFirst()]);//保存当前窗口的最大值
             while (!deque.isEmpty() && nums[index] >= nums[deque.peekLast()])
                 deque.removeLast();//从队列尾部逐渐清理比当前值小的元素
-            if (!deque.isEmpty() && index - deque.peekFirst() >= size)
+            if (!deque.isEmpty() && index - deque.peekFirst() >= size)//==即可
                 deque.removeFirst();//删除溢出的队列头部元素
-            deque.addLast(index);//保存最新的索引
+            deque.addLast(index);//保存最新的索引,仅仅因为年轻
+            result.add(nums[deque.peekFirst()]);//保存当前窗口的最大值
         }
-        result.add(nums[deque.peekFirst()]);//保存最后一个滑动窗口的最大值
         return result;
     }
 
+    /**
+     * 简化代码
+     * 将窗口初始化与窗口移动合并一个for循环
+     * 更新时间：2018-11-10 17:18
+     */
+    public ArrayList<Integer> maxInWindows2(int[] nums, int size) {
+        ArrayList<Integer> result = new ArrayList<Integer>();
+        if (nums == null || nums.length == 0 || size <= 0 || nums.length < size)
+            return result;
+        ArrayDeque<Integer> deque = new ArrayDeque<Integer>();//双端队列
+        for (int index = 0; index < nums.length; index++) {
+            while (!deque.isEmpty() && nums[index] >= nums[deque.peekLast()])
+                deque.removeLast();//从队列尾部逐渐清理比当前值小的元素
+            if (!deque.isEmpty() && index - deque.peekFirst() >= size)//==即可
+                deque.removeFirst();//删除溢出的队列头部元素
+            deque.addLast(index);//保存最新的索引,仅仅因为年轻
+            if (index >= size - 1)//判断是否达到窗口指定长度
+                result.add(nums[deque.peekFirst()]);//保存当前窗口的最大值
+        }
+        return result;
+    }
+
+    /********************测试******************************/
     @Test
     public void test() {
         int[] nums = {2, 3, 4, 2, 6, 2, 5, 1};
         int size = 3;
         ArrayList<Integer> result = maxInWindows(nums, size);
         System.out.println(result.toString());
-
     }
 
     /********************网易内推笔试：瞌睡  利用滑动窗口解决*****************************************/
     //见BiShiAlgorithms  package
-
 
     /***************************剑指Offer:队列的最大值****************************************/
     /**
@@ -71,7 +91,6 @@ public class JianzhiOffer_MaxValueInSlidingWindows {
 
     ArrayDeque<Integer> data = new ArrayDeque<Integer>();
     ArrayDeque<Integer> maxNums = new ArrayDeque<Integer>();
-    int currentIndex;
 
     public void push_back(Integer val) {
         while (!maxNums.isEmpty() && val >= maxNums.peekLast())
@@ -86,7 +105,5 @@ public class JianzhiOffer_MaxValueInSlidingWindows {
     public int max() {
         return maxNums.peekFirst();
     }
-
-
 
 }

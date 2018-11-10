@@ -101,6 +101,7 @@ public class Main {
      * @param num1
      * @param num2
      * @return
+     *
      */
     public static int gcd(int num1, int num2) {
         if (num1 < num2) {
