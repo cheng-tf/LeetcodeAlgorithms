@@ -69,9 +69,9 @@ public class JianzhiOffer_41_GetMedian {
 
     //测试
     @Test
-    public void test(){
-        int[] nums = {2,3,4,1,0,2,3,5,2,6,5,3,6};
-        for (int i = 0; i < nums.length ; i++) {
+    public void test() {
+        int[] nums = {2, 3, 4, 1, 0, 2, 3, 5, 2, 6, 5, 3, 6};
+        for (int i = 0; i < nums.length; i++) {
             Insert(nums[i]);
             System.out.println(list.toString());
             System.out.println("Median = " + GetMedian());
