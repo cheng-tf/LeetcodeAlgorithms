@@ -156,7 +156,8 @@ public class LeetCode_33_SearchInRotatedSortedArray {
         if (nums[low] < nums[high]) return nums[low];//没有旋转的情况；注意一定没有等号，因为1,0,1,1也是旋转的情况
 //      while (nums[low] >= nums[high]) {//有旋转
         while (low < high) {
-            if (high - low == 1) return nums[high];//终止条件
+            //为什么返回high? 因为之所以能进来，肯定是存在旋转区间，如2,1,2;最小的数至少从第2个开始;即只剩下两个数,肯定返回第二个数
+            if (high - low <= 1) return nums[high];//终止条件
             int mid = (low + high) >> 1;
             //重点：对这种特殊情况的处理
             if (nums[mid] == nums[high] && nums[mid] == nums[low]) //三者相同的时候，只能顺序查找如[1,0,1,1,1,1]
