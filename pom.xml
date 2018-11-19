@@ -15,7 +15,7 @@
     <properties>
         <org.apache.poi.version>3.8</org.apache.poi.version>
         <junit.version>4.10</junit.version>
-        <!-- <jedis.version>2.8.0</jedis.version> -->
+         <jedis.version>2.8.0</jedis.version>
         <resources.dir>resources</resources.dir>
     </properties>
 
