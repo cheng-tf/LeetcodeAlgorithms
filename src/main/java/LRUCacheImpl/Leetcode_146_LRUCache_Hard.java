@@ -37,7 +37,10 @@ public class Leetcode_146_LRUCache_Hard {
      * 对于put操作：若存在，则修改，并删除当前节点移动到头节点；
      * 若不存在，则直接添加到头节点。
      * <p>
-     * 容易忽略点:删除尾节点的时候忘记从hashMap中删除该节点。
+     * 容易出错的几点:
+     * ① LRUCache初始化的时候，忘记head与tail的指向:head<==>tail;
+     * ② 删除尾节点时首先从hashMap中删除，然后从链表中删除;
+     * ③ put操作的时候，创建新节点，忘记向hashMap中put操作。
      */
 
     class LRUCache {
