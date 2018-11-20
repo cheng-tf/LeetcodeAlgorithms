@@ -41,6 +41,7 @@ public class Leetcode_146_LRUCache_Hard {
      * ① LRUCache初始化的时候，忘记head与tail的指向:head<==>tail;
      * ② 删除尾节点时首先从hashMap中删除，然后从链表中删除;
      * ③ put操作的时候，创建新节点，忘记向hashMap中put操作。
+     * ④ 删除最后一个节点调用了deleteNode方法，传递的参数为tail.prev。
      */
 
     class LRUCache {
