@@ -58,10 +58,10 @@
     </dependencies>
 
     <build>
-        <!--<filters>-->
-            <!--<filter>src/main/resoucres/properties/pom.properties</filter>-->
-        <!--</filters>-->
-        <!--<finalName>LeetcodeAlgorithms</finalName>-->
+        <filters>
+            <filter>src/main/resoucres/properties/pom.properties</filter>
+        </filters>
+        <finalName>LeetcodeAlgorithms</finalName>
         <resources>
             <resource>
                 <directory>src/main/resources/properties</directory>
@@ -99,7 +99,7 @@
                         </goals>
                         <configuration>
                             <files>
-                                <file>src/main/resources/properties/pom.properties</file>
+                                <file>${project.basedir}/src/main/resources/properties/pom.properties</file>
                             </files>
                         </configuration>
                     </execution>
