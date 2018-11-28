@@ -7,16 +7,11 @@
     <groupId>Leetcode</groupId>
     <artifactId>LeetcodeAlgorithms</artifactId>
     <version>1.0-SNAPSHOT</version>
-
     <name>LeetcodeAlgorithms</name>
-    <!-- FIXME change it to the project's website -->
-    <url>http://www.example.com</url>
-
     <properties>
         <org.apache.poi.version>3.8</org.apache.poi.version>
         <junit.version>4.10</junit.version>
          <jedis.version>2.8.0</jedis.version>
-        <resources.dir>src/main/resources/properties</resources.dir>
     </properties>
 
     <dependencies>
@@ -93,13 +88,9 @@
                 <version>3.0.2</version>
             </plugin>
             <plugin>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.7.0</version>
-            </plugin>
-            <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>properties-maven-plugin</artifactId>
-                <version>1.0.0</version>
+                <version>1.0-alpha-2</version>
                 <executions>
                     <execution>
                         <phase>initialize</phase>
@@ -108,7 +99,7 @@
                         </goals>
                         <configuration>
                             <files>
-                                <file>src/main/resources/properties/pom.properties</file>
+                                <file>${project.basedir}/src/main/resources/properties/pom.properties</file>
                             </files>
                         </configuration>
                     </execution>
