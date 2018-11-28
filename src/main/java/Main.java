@@ -8,6 +8,13 @@ public class Main {
 
     public static void main(String[] args) {
 
+        List<Integer> list = new ArrayList<Integer>();
+        list.add(100);
+        list.add(200);
+        String str = String.format("您好，list大小为%s,你是%s,集合内容%s。",list.size(),"Assss",list.toString());
+        System.out.println("str = " + str);
+
+
         Long l = 1000L;
         System.out.println(l);
         System.out.println("1000".equals(l.toString()));
