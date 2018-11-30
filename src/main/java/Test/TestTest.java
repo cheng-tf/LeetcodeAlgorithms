@@ -2,6 +2,10 @@ package Test;
 
 import org.junit.Test;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 public class TestTest {
 
     public int NumberOf1(int n) {
@@ -35,6 +39,22 @@ public class TestTest {
     public void method1(){
         System.out.println(" = " );
         return ;
+    }
+
+    @Test
+    public void test2(){
+        SimpleDateFormat slf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        String str = "2018-11-11  29:00:00";
+        Date date = null;
+        try {
+            date = slf.parse(str);
+        }catch(ParseException pe){
+            System.out.println("pe = " + pe);
+            pe.printStackTrace();
+        }
+        System.out.println("date = " + date);
+        System.out.println("date.getTime() = " + date.getTime());
+
     }
 
 }
