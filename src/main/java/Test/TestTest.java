@@ -43,6 +43,11 @@ public class TestTest {
 
     @Test
     public void test2(){
+
+        String str2 = String.format("dddd%sddddd%s"+"","AAAAAAAAAA","dddd");
+        System.out.println("str = " + str2);
+
+
         SimpleDateFormat slf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         String str = "2018-11-11  29:00:00";
         Date date = null;
