@@ -24,6 +24,9 @@ public class JianzhiOffer_MaxValueInSlidingWindows {
      * 需要对头部元素是否过期进行判断：这就是为什么保存索引而不保存元素值的原因，索引差用于判断队列头部元素是否过期。若过期，则删除头部元素即可；
      * 最后无论如何都要从尾部插入当前值，只是因为年轻。
      * 最后返回结果list即可。
+     *
+     * 注意：1.边界条件判断size<=0，有次size<0，导致通过率75%，浪费了5分钟时间；
+     *
      */
     public ArrayList<Integer> maxInWindows(int[] nums, int size) {
         ArrayList<Integer> result = new ArrayList<Integer>();
