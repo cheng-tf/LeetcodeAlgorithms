@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4a18464-cb42-4a4b-9cf1-912915408a8e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/orderID/UUID.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JSON/FastJSONTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JSON/gson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JSON/jackson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JSON/user.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,37 +49,43 @@
     <session id="-974260277">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="ClassLoader" value="1" />
-          <entry key="java" value="16" />
+          <entry key="java" value="23" />
+          <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="16" />
+          <entry key="JAVA" value="23" />
           <entry key="UML" value="1" />
+          <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1445" />
+          <entry key="java" value="1759" />
           <entry key="txt" value="25" />
+          <entry key="xml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1445" />
+          <entry key="JAVA" value="1759" />
           <entry key="PLAIN_TEXT" value="25" />
+          <entry key="XML" value="4" />
         </counts>
       </usages-collector>
     </session>
@@ -94,7 +104,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/BiShiAlgorithms/Wangyi_BiShiAlgorithms_20180811.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
+            <state relative-caret-position="1550">
               <caret line="64" column="20" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
             </state>
           </provider>
@@ -104,20 +114,76 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/orderID/SnowFlakeAlgorithm.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="325">
-              <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+              <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/orderID/UUID.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JSON/FastJSONTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
               <folding>
-                <element signature="e#3639#3640#0" expanded="true" />
-                <element signature="e#3688#3689#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/orderID/UUID.java">
+        <entry file="jar://C:/Java/JDK8/src.zip!/java/util/concurrent/Semaphore.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="350">
+              <caret line="54" column="2" lean-forward="true" selection-start-line="54" selection-start-column="2" selection-end-line="54" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JSON/jackson.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="293">
+              <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="305">
+              <caret line="83" column="57" lean-forward="true" selection-start-line="83" selection-start-column="57" selection-end-line="83" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JSON/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JSON/gson.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -156,6 +222,13 @@
         <option value="$PROJECT_DIR$/src/main/java/jvm/ClassLoaderTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_MaxValueInSlidingWindows.java" />
         <option value="$PROJECT_DIR$/src/main/java/orderID/SnowFlakeAlgorithm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JSON/faskjson.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JSON/user.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JSON/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JSON/gson.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/JSON/jackson.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JSON/FastJSONTest.java" />
       </list>
     </option>
   </component>
@@ -165,7 +238,14 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1940" />
@@ -179,6 +259,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -210,13 +291,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="orderID" type="462c0819:PsiDirectoryNode" />
+              <item name="JSON" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -224,13 +304,16 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/GithubRepositories/LeetcodeAlgorithms/src/main/java/DynamicProgramming_DP/Leetcode_70_ClimbingStairs_Easy.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545145983453" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545306602335" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../poi-app/out/artifacts/poi_app_jar/poi-app.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GithubRepositories\LeetcodeAlgorithms\src\main\java\JSON" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\GithubRepositories\LeetcodeAlgorithms\src\main\java" />
     </key>
@@ -247,7 +330,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SnowFlakeAlgorithm">
+  <component name="RunManager" selected="JUnit.FastJSONTest.test">
     <configuration name="ClassLoaderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="jvm.ClassLoaderTest" />
       <module name="LeetcodeAlgorithms" />
@@ -274,6 +357,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="jackson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JSON.jackson" />
+      <module name="LeetcodeAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JSON.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FastJSONTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetcodeAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JSON.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="JSON" />
+      <option name="MAIN_CLASS_NAME" value="JSON.FastJSONTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeAlgorithms" />
       <extension name="coverage">
@@ -294,9 +406,13 @@
       <item itemvalue="JUnit.TestTest.test2" />
       <item itemvalue="Application.ClassLoaderTest" />
       <item itemvalue="Application.SnowFlakeAlgorithm" />
+      <item itemvalue="JUnit.FastJSONTest.test" />
+      <item itemvalue="Application.jackson" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FastJSONTest.test" />
+        <item itemvalue="Application.jackson" />
         <item itemvalue="Application.SnowFlakeAlgorithm" />
         <item itemvalue="Application.ClassLoaderTest" />
         <item itemvalue="JUnit.TestTest.test2" />
@@ -322,6 +438,8 @@
       <workItem from="1545010598174" duration="435000" />
       <workItem from="1545100714048" duration="304000" />
       <workItem from="1545136766436" duration="7711000" />
+      <workItem from="1545233985950" duration="817000" />
+      <workItem from="1545289124721" duration="3093000" />
     </task>
     <task id="LOCAL-00001" summary="11111">
       <created>1545101013323</created>
@@ -341,24 +459,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestTest_test2 - 2018.11.29 at 12h 12m 30s.xml">
-      <configuration name="TestTest.test2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestTest_test2 - 2018.11.29 at 12h 12m 40s.xml">
-      <configuration name="TestTest.test2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestTest_test2 - 2018.11.29 at 12h 13m 03s.xml">
-      <configuration name="TestTest.test2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestTest_test2 - 2018.11.29 at 12h 13m 34s.xml">
-      <configuration name="TestTest.test2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestTest_test2 - 2018.11.29 at 12h 13m 46s.xml">
-      <configuration name="TestTest.test2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestTest_test2 - 2018.11.29 at 12h 14m 07s.xml">
-      <configuration name="TestTest.test2" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestTest_test2 - 2018.11.29 at 12h 14m 34s.xml">
       <configuration name="TestTest.test2" configurationId="JUnit" />
     </history-entry>
@@ -371,15 +471,33 @@
     <history-entry file="TestTest_test2 - 2018.11.30 at 14h 21m 01s.xml">
       <configuration name="TestTest.test2" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="FastJSONTest_test - 2018.12.19 at 23h 52m 50s.xml">
+      <configuration name="FastJSONTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FastJSONTest_test - 2018.12.20 at 15h 02m 16s.xml">
+      <configuration name="FastJSONTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FastJSONTest_test - 2018.12.20 at 15h 04m 29s.xml">
+      <configuration name="FastJSONTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FastJSONTest_test - 2018.12.20 at 15h 06m 47s.xml">
+      <configuration name="FastJSONTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FastJSONTest_test - 2018.12.20 at 15h 07m 30s.xml">
+      <configuration name="FastJSONTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FastJSONTest_test - 2018.12.20 at 15h 09m 29s.xml">
+      <configuration name="FastJSONTest.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17859000" />
+    <option name="totallyTimeSpent" value="21769000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1621984" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.16625917" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -388,7 +506,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.43404254" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49938875" weight="0.4332211" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -396,8 +514,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50061125" side_tool="true" weight="0.4332211" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32907802" />
       <window_info anchor="bottom" id="Run with VisualVM" order="12" />
       <window_info anchor="bottom" id="Debug with VisualVM" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -410,6 +528,38 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16625917" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49938875" weight="0.4332211" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50061125" side_tool="true" weight="0.4332211" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32907802" />
+      <window_info anchor="bottom" id="Run with VisualVM" order="12" />
+      <window_info anchor="bottom" id="Debug with VisualVM" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -475,20 +625,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SortAlgorithms/MergeSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="925">
-          <caret line="39" column="41" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/JianzhiOfferAlgorithms/JianzhiOffer_MaxValueInSlidingWindows.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="30" column="66" lean-forward="true" selection-start-line="30" selection-start-column="66" selection-end-line="30" selection-end-column="66" />
-          <folding>
-            <element signature="e#1287#1296#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -503,9 +643,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="30" column="10" lean-forward="true" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -530,39 +667,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BiShiAlgorithms/Wangyi_BiShiAlgorithms_20180811.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="64" column="20" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Java/JDK8/src.zip!/java/lang/ClassLoader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="605">
           <caret line="423" column="7" selection-start-line="423" selection-start-column="7" selection-end-line="423" selection-end-column="7" />
-          <folding>
-            <element signature="e#12720#12721#0" expanded="true" />
-            <element signature="e#12790#12791#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JSON/faskjson.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/SortAlgorithms/MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="925">
+          <caret line="39" column="41" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BiShiAlgorithms/Wangyi_BiShiAlgorithms_20180811.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1550">
+          <caret line="64" column="20" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/orderID/SnowFlakeAlgorithm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
-          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-          <folding>
-            <element signature="e#3639#3640#0" expanded="true" />
-            <element signature="e#3688#3689#0" expanded="true" />
-          </folding>
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/orderID/UUID.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JSON/gson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JSON/jackson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="83" column="57" lean-forward="true" selection-start-line="83" selection-start-column="57" selection-end-line="83" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JSON/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JSON/FastJSONTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/JDK8/src.zip!/java/util/concurrent/Semaphore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="54" column="2" lean-forward="true" selection-start-line="54" selection-start-column="2" selection-end-line="54" selection-end-column="2" />
         </state>
       </provider>
     </entry>
