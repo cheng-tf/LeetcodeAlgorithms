@@ -47,6 +47,8 @@ public class KMP_Algorithm {
      * S2: 已经有了nextArr数组，下面只需要逐个比较字符即可。
      * 当遇到字符不相等的时候，就需要将匹配字符串match右移动，最坏情况下，需要匹配N次，
      * 因此时间复杂度为O(N);
+     *
+     * 目前存在的问题：构建nextArr时候，若字符不相等，为何直接往前调到cn处，并更新cn值就可以呢？
      */
     public int getFirstIndexOf(String str, String match) {
         if (str == null || match == null || str.length() < 1 || str.length() < match.length()) return -1;
