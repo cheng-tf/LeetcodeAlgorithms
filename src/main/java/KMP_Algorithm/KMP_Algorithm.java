@@ -35,6 +35,8 @@ public class KMP_Algorithm {
      * <p>
      * 仔细描述：
      * S1：构建nextArr数组:<这部分画图比较好理解>
+     *     利用向前跳的方式计算正确的nextArr[i];因为每跳到一个位置cn，
+     *     nextArr[cn]的意义就是它之前的字符串的最大匹配长度。
      * 首先初始化,nextArr[0]=-1,nextArr[1]=0; -1标志开始第一个字符的匹配；
      * index从2开始，nextArr[index]在nextArr[index-1]的基础上推算：
      * cn表示nextArr[index-1]的值，即最大匹配的子串的长度；
