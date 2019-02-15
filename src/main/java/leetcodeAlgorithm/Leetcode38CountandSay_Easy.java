@@ -8,7 +8,6 @@ public class Leetcode38CountandSay_Easy {
  * 题目描述：
  * 38. Count and Say
  * The count-and-say sequence is the sequence of integers with the first five terms as following:
- *
  *             1.     1
  *             2.     11
  *             3.     21
@@ -20,18 +19,13 @@ public class Leetcode38CountandSay_Easy {
  *     Given an integer n, generate the nth term of the count-and-say sequence.
  *
  *     Note: Each term of the sequence of integers will be represented as a string.
- *
  *             Example 1:
- *
  *     Input: 1
  *     Output: "1"
  *     Example 2:
  *
- *     Input: 4
- *     Output: "1211"
+ *     Input: 4; Output: "1211"
  */
-
-
     class Solution {
         public String countAndSay(int n) {
             if(n < 1) return "";
