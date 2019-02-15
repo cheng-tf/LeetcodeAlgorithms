@@ -19,18 +19,18 @@ public class Leetcode38CountandSay_Easy {
  *     Given an integer n, generate the nth term of the count-and-say sequence.
  *
  *     Note: Each term of the sequence of integers will be represented as a string.
- *             Example 1:
- *     Input: 1
- *     Output: "1"
- *     Example 2:
- *
- *     Input: 4; Output: "1211"
+ *     Example 1:  Input: 1   Output: "1"
+ *     Example 2:  Input: 4   Output: "1211"
+ * 题目理解：以1开始，后续都是对上一个的计数和读，1后面是11,11后面是21,
+ *         21后面是1211,1211后面是111221，后面依次类推。
+ * 思路分析：显然是一个递归算法题目，要想直接计数读出第n个，需要知道n-1是什么。
+ *         递归终止条件就是n==1。
  */
     class Solution {
         public String countAndSay(int n) {
             if(n < 1) return "";
-            if(n == 1) return "1";//递推终止条件
-            char[] chars = countAndSay(n-1).toCharArray();
+            if(n == 1) return "1";//递归终止条件
+            char[] chars = countAndSay(n-1).toCharArray();//这里是递归调用n-1
             StringBuilder sb = new StringBuilder();
             char prev = chars[0];
             int count = 1;
