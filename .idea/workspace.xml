@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4a18464-cb42-4a4b-9cf1-912915408a8e" name="Default Changelist" comment="KMP算法">
-      <change beforePath="$PROJECT_DIR$/src/main/java/DynamicProgramming_DP/JianzhiOffer_Fibonacci_JumpFloor_RectCover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DynamicProgramming_DP/JianzhiOffer_Fibonacci_JumpFloor_RectCover.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BreadthFirstSearch_DepthFS/MMM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BreadthFirstSearch_DepthFS/LeetCode_473_MatchsticksToSquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BreadthFirstSearch_DepthFS/LeetCode_473_MatchsticksToSquare.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,24 +25,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="19" />
+          <entry key="java" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="19" />
+          <entry key="JAVA" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="6" />
-          <entry key="java" value="4458" />
+          <entry key="dummy" value="15" />
+          <entry key="java" value="5083" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4458" />
-          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="JAVA" value="5083" />
+          <entry key="PLAIN_TEXT" value="15" />
         </counts>
       </usages-collector>
     </session>
@@ -110,11 +111,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/DynamicProgramming_DP/JianzhiOffer_Fibonacci_JumpFloor_RectCover.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="74" column="39" lean-forward="true" selection-start-line="74" selection-start-column="39" selection-end-line="74" selection-end-column="39" />
+            <state relative-caret-position="-132">
+              <caret line="78" column="7" lean-forward="true" selection-start-line="78" selection-start-column="7" selection-end-line="78" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/BreadthFirstSearch_DepthFS/LeetCode_473_MatchsticksToSquare.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="67" column="21" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/BreadthFirstSearch_DepthFS/MMM.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -144,6 +166,7 @@
       <find>1的个数</find>
       <find>岛屿</find>
       <find>斐波那契</find>
+      <find>火柴</find>
     </findStrings>
     <replaceStrings>
       <replace>nextArr</replace>
@@ -181,6 +204,8 @@
         <option value="$PROJECT_DIR$/src/main/java/BreadthFirstSearch_DepthFS/Leetcode_200_NumberOfIslands_Medium.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcodeAlgorithm/Leetcode38CountandSay_Easy.java" />
         <option value="$PROJECT_DIR$/src/main/java/DynamicProgramming_DP/JianzhiOffer_Fibonacci_JumpFloor_RectCover.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BreadthFirstSearch_DepthFS/MMM.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BreadthFirstSearch_DepthFS/LeetCode_473_MatchsticksToSquare.java" />
       </list>
     </option>
   </component>
@@ -197,7 +222,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1940" />
@@ -313,7 +338,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/GithubRepositories/LeetcodeAlgorithms/src/main/java/DynamicProgramming_DP/Leetcode_70_ClimbingStairs_Easy.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550228764443" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550236624163" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="D:/IntelliJ_Idea/JDProjects-18/bentley-20190125-haiwaijufuyouhua/pom.xml" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -340,7 +365,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Leetcode38CountandSay_Easy.solutionTest">
+  <component name="RunManager" selected="JUnit.MMM.test">
     <configuration name="DFS111" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeAlgorithms" />
       <extension name="coverage">
@@ -351,22 +376,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="BreadthFirstSearch_DepthFS" />
       <option name="MAIN_CLASS_NAME" value="BreadthFirstSearch_DepthFS.DFS111" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DFS111.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetcodeAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BreadthFirstSearch_DepthFS.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="BreadthFirstSearch_DepthFS" />
-      <option name="MAIN_CLASS_NAME" value="BreadthFirstSearch_DepthFS.DFS111" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -382,6 +391,22 @@
       <option name="PACKAGE_NAME" value="Others" />
       <option name="MAIN_CLASS_NAME" value="Others.IntegerSourceCode" />
       <option name="METHOD_NAME" value="test32" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeetCode_473_MatchsticksToSquare.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetcodeAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BreadthFirstSearch_DepthFS.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="BreadthFirstSearch_DepthFS" />
+      <option name="MAIN_CLASS_NAME" value="BreadthFirstSearch_DepthFS.LeetCode_473_MatchsticksToSquare" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -419,7 +444,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution1.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MMM.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeAlgorithms" />
       <extension name="coverage">
         <pattern>
@@ -428,7 +453,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="BreadthFirstSearch_DepthFS" />
-      <option name="MAIN_CLASS_NAME" value="BreadthFirstSearch_DepthFS.Solution1" />
+      <option name="MAIN_CLASS_NAME" value="BreadthFirstSearch_DepthFS.MMM" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -438,18 +463,18 @@
     <list>
       <item itemvalue="JUnit.IntegerSourceCode.test32" />
       <item itemvalue="JUnit.Leetcode_200_NumberOfIslands_Medium.test" />
-      <item itemvalue="JUnit.Solution1.test" />
-      <item itemvalue="JUnit.DFS111.test" />
       <item itemvalue="JUnit.DFS111" />
       <item itemvalue="JUnit.Leetcode38CountandSay_Easy.solutionTest" />
+      <item itemvalue="JUnit.LeetCode_473_MatchsticksToSquare.test" />
+      <item itemvalue="JUnit.MMM.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MMM.test" />
+        <item itemvalue="JUnit.LeetCode_473_MatchsticksToSquare.test" />
         <item itemvalue="JUnit.Leetcode38CountandSay_Easy.solutionTest" />
         <item itemvalue="JUnit.DFS111" />
         <item itemvalue="JUnit.Leetcode_200_NumberOfIslands_Medium.test" />
-        <item itemvalue="JUnit.DFS111.test" />
-        <item itemvalue="JUnit.Solution1.test" />
       </list>
     </recent_temporary>
   </component>
@@ -476,7 +501,7 @@
       <workItem from="1545289124721" duration="3093000" />
       <workItem from="1545738189220" duration="9580000" />
       <workItem from="1550141619709" duration="6085000" />
-      <workItem from="1550211278719" duration="13911000" />
+      <workItem from="1550211278719" duration="15932000" />
     </task>
     <task id="LOCAL-00001" summary="11111">
       <created>1545101013323</created>
@@ -524,12 +549,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Solution2_test - 2019.02.15 at 17h 17m 44s.xml">
-      <configuration name="Solution2.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Solution1_test - 2019.02.15 at 17h 42m 49s.xml">
-      <configuration name="Solution1.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DFS111_test - 2019.02.15 at 17h 56m 37s.xml">
       <configuration name="DFS111.test" configurationId="JUnit" />
     </history-entry>
@@ -554,12 +573,18 @@
     <history-entry file="Leetcode38CountandSay_Easy_solutionTest - 2019.02.15 at 18h 53m 45s.xml">
       <configuration name="Leetcode38CountandSay_Easy.solutionTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LeetCode_473_MatchsticksToSquare_test - 2019.02.15 at 21h 13m 21s.xml">
+      <configuration name="LeetCode_473_MatchsticksToSquare.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MMM_test - 2019.02.15 at 21h 13m 44s.xml">
+      <configuration name="MMM.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51345000" />
+    <option name="totallyTimeSpent" value="53366000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24307036" />
@@ -571,7 +596,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49938875" visible="true" weight="0.23018458" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49938875" visible="true" weight="0.38762215" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39955106" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -889,8 +914,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DynamicProgramming_DP/JianzhiOffer_Fibonacci_JumpFloor_RectCover.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="74" column="39" lean-forward="true" selection-start-line="74" selection-start-column="39" selection-end-line="74" selection-end-column="39" />
+        <state relative-caret-position="-132">
+          <caret line="78" column="7" lean-forward="true" selection-start-line="78" selection-start-column="7" selection-end-line="78" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BreadthFirstSearch_DepthFS/MMM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BreadthFirstSearch_DepthFS/LeetCode_473_MatchsticksToSquare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="67" column="21" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
         </state>
       </provider>
     </entry>

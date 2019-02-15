@@ -62,9 +62,10 @@ public class LeetCode_473_MatchsticksToSquare {
      *
      * 思路分析：
      * 方法1：
-     * 采用深度优先搜索DFS。
+     * 采用深度优先搜索DFS + 回溯算法。
      *          但是，直接深度搜索复杂度太高，15个火柴，则复杂度为4^15，因此必须进行优化搜索。
      * 深度优先搜索：每次捞起一根火柴，都有四种选择，然后各自的下一个也是四个选择，15根火柴，则4^15种情况。
+     * 递归深度就是nums的长度。
      * 优化搜索：
      * 优化1：火柴杆的个数必须大于等于4个，且所有火柴杆的长度总和必须大于4且是4的整数倍，否则直接返回false；
      * 优化2：对火柴杆按照长度从大到小排序,每次都是先安排长的火柴杆；
@@ -76,8 +77,8 @@ public class LeetCode_473_MatchsticksToSquare {
      *       分成三步走：
      *       第一步:找出所有和等于一边值average的索引位为1对应的值，放到集合subOne中，
      *       如[1,1,2,2,2]；和等于2的有[00011,00100,01000,10000]=[3,4,8,16]；即为集合subOne；(数组下标j对应：1<<j)
-     *       第二步：将subOne集合中的元素两两相与操作，若结果等于0，说明没有使用共同的火柴，将两者或的结果存到集合subTwo中，
-     *       表示满足两边的情况；
+     *       第二步：将subOne集合中的元素两两相与操作，若结果等于0，说明没有使用冲突的火柴，
+     *       将两两或的结果存到集合subTwo中，subTwo中的每个元素表示满足两边的情况；
      *       第三步：将subTwo集合中的元素两两相与操作，若结果等于0，说明存在四种不重叠使用火柴的情况，即返回true。
      */
 
@@ -111,7 +112,7 @@ public class LeetCode_473_MatchsticksToSquare {
             bucket[j] += nums[index];
             if (DFS(nums, index - 1, average, bucket))//深度搜索
                 return true;
-            bucket[j] -= nums[index];//还原
+            bucket[j] -= nums[index];//回溯还原
         }
         return false;
     }
