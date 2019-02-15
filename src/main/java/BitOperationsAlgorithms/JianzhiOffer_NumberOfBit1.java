@@ -57,7 +57,7 @@ public class JianzhiOffer_NumberOfBit1 {
      * 原理：n减1，会导致原为1的最低位为0，且该位左边的所有位都变成1，再与原n做与操作，就消去了为1的1位；
      * 直到n变成0为止。
      * 如1101，不为0，num++; 减1变成1100,相与之后为1100，不为0，num++;再减1为1011，相与之后为1000，不为0，num++；
-     * 再减1为0111，相与之后为0000.为0跳出循环。
+     * 再减1为0111，相与之后为0000，为0跳出循环。
      */
     public int NumberOf1_3(int n){
         int num = 0;
@@ -75,7 +75,7 @@ public class JianzhiOffer_NumberOfBit1 {
     public boolean is2Power(int n){
         if(n < 0) return false;
 //        if(n == 0) return true;
-        return ((n-1)&n)==0;//n=0,也恰好返回true
+        return ((n-1)&n) == 0;//n=0,也恰好返回true
     }
 
     @Test

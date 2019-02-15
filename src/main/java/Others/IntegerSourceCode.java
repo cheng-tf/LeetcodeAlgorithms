@@ -27,40 +27,14 @@ public class IntegerSourceCode {
      */
     @Test
 	public  void test1( ){
-        int[] nums = {-129,-128,1,127,128,129};
-        //通过new的方式创建：全是false
+        int[] nums = {1,2,127,-129,-128,128,129};
         for(int num :nums){
-            integerObjectIsTheSameNew(num);//全是false
-        }
-        //自动装箱：-128到127是返回的是一个对象，其他的通过new实现
-        for(int num:nums){
-            integerObjectIsTheSameAutoBoxing(num);//根据大小而定
+            //自动装箱：调用的是Integer.valueOf方法：valueOf源码解读一下
+            System.out.println("自动装箱:"+ num + ((Integer)num == (Integer)num));//自动装箱，对于-128--127的是同一个对象
+            System.out.println("通过new方式创建：" + num +(new Integer(num) == new Integer(num)));//通过new方式都是创建新的对象
         }
 
 	}
-
-    /**
-     * 自动装箱：调用的是Integer.valueOf方法：valueOf源码解读一下
-     */
-    private  void integerObjectIsTheSameAutoBoxing(int i) {
-        Integer a = i;
-        Integer b = i;
-        System.out.println("自动装箱："+ i +" --> "+( a == b ));//true or false?
-    }
-
-    /**
-     * 通过new Integer()创建对象
-     * @param i
-     */
-    private  void integerObjectIsTheSameNew(int i) {
-        Integer a = new Integer(i);
-        Integer b = new Integer(i);
-        System.out.println("new的方式："+ i +" --> "+( a == b ));//true or false?
-    }
-    private  void integerObjectIsTheSameNew2(int i) {
-
-    }
-
 
     /**
      * 定义一个swap函数，实现交换a和b的值
@@ -72,12 +46,39 @@ public class IntegerSourceCode {
             Integer b = 2;
             System.out.println("a = " +a+"; b = "+b);
             swap(a,b);//十分暴力，修改了Integer内部封装的Integer数组-128至127
-            System.out.println("a = " +a+"; b = "+b);
-            for(int num = 1;num<4;num++){
+            System.out.println("a = " + a +"; b = " + b);
+            for(int num = 1;num < 4;num++){
                 Integer i = num;
                 System.out.println(" num = "+num+"; Integer num = " + i.intValue());
             }
         }
+
+    @Test
+    public  void test32() {
+        Integer a = 129;
+        Integer b = 130;
+        System.out.println("a = " + a + "; b = "+b);
+        swap(a,b);
+        System.out.println("a = " + a +"; b = " + b);
+    }
+
+    public void swap2(Integer a,Integer b){
+            Integer temp = a;
+            b = a;
+            a = temp;
+    }
+
+    public void swap3(Integer a,Integer b){
+            try {
+                Field field = a.getClass().getDeclaredField("value");
+                int temp = a.intValue();
+                field.setInt(a,b.intValue());
+                field.setInt(b,temp);
+            }catch(Exception e){
+                System.out.println(e);
+            }
+
+    }
 
     /**
      * 通过反射机制实现交换两个值,只适用于-128至127的整型；
