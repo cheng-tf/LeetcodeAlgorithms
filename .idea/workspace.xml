@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c4a18464-cb42-4a4b-9cf1-912915408a8e" name="Default Changelist" comment="KMP算法">
-      <change afterPath="$PROJECT_DIR$/src/main/java/BreadthFirstSearch_DepthFS/MMM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BreadthFirstSearch_DepthFS/LeetCode_473_MatchsticksToSquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BreadthFirstSearch_DepthFS/LeetCode_473_MatchsticksToSquare.java" afterDir="false" />
-    </list>
+    <list default="true" id="c4a18464-cb42-4a4b-9cf1-912915408a8e" name="Default Changelist" comment="KMP算法" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,12 +22,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="21" />
+          <entry key="java" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="21" />
+          <entry key="JAVA" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -96,47 +93,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Others/IntegerSourceCode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="41" column="7" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
+            <state relative-caret-position="-232">
+              <caret line="60" column="18" lean-forward="true" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/BitOperationsAlgorithms/JianzhiOffer_NumberOfBit1.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leetcodeAlgorithm/Leetcode14LongestCommonPrefix.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+            <state relative-caret-position="88">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/DynamicProgramming_DP/JianzhiOffer_Fibonacci_JumpFloor_RectCover.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leetcodeAlgorithm/Leetcode26RemoveDuplicatesfromSortedArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-132">
-              <caret line="78" column="7" lean-forward="true" selection-start-line="78" selection-start-column="7" selection-end-line="78" selection-end-column="7" />
+            <state relative-caret-position="88">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/BreadthFirstSearch_DepthFS/LeetCode_473_MatchsticksToSquare.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leetcodeAlgorithm/Leetcode38CountandSay_Easy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="67" column="21" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/BreadthFirstSearch_DepthFS/MMM.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="167">
+              <caret line="27" column="2" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -222,7 +207,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1940" />
@@ -338,7 +323,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/GithubRepositories/LeetcodeAlgorithms/src/main/java/DynamicProgramming_DP/Leetcode_70_ClimbingStairs_Easy.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550236765175" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550239068498" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="D:/IntelliJ_Idea/JDProjects-18/bentley-20190125-haiwaijufuyouhua/pom.xml" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -501,7 +486,7 @@
       <workItem from="1545289124721" duration="3093000" />
       <workItem from="1545738189220" duration="9580000" />
       <workItem from="1550141619709" duration="6085000" />
-      <workItem from="1550211278719" duration="15932000" />
+      <workItem from="1550211278719" duration="16967000" />
     </task>
     <task id="LOCAL-00001" summary="11111">
       <created>1545101013323</created>
@@ -581,13 +566,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53366000" />
+    <option name="totallyTimeSpent" value="54401000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24307036" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24307036" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -596,7 +581,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49938875" visible="true" weight="0.38762215" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49938875" visible="true" weight="0.0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39955106" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -813,13 +798,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Others/IntegerSourceCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="41" column="7" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leetcodeAlgorithm/Leetcode10RegularExpressionMatching_Hard.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -891,17 +869,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leetcodeAlgorithm/Leetcode38CountandSay_Easy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="27" column="2" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/BitOperationsAlgorithms/GetMin2Power.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
           <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BreadthFirstSearch_DepthFS/MMM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -914,25 +895,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DynamicProgramming_DP/JianzhiOffer_Fibonacci_JumpFloor_RectCover.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-132">
-          <caret line="78" column="7" lean-forward="true" selection-start-line="78" selection-start-column="7" selection-end-line="78" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BreadthFirstSearch_DepthFS/MMM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="286">
+          <caret line="13" column="37" lean-forward="true" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/BreadthFirstSearch_DepthFS/LeetCode_473_MatchsticksToSquare.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="67" column="21" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
+        <state relative-caret-position="880">
+          <caret line="122" column="45" lean-forward="true" selection-start-line="122" selection-start-column="45" selection-end-line="122" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Others/IntegerSourceCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-232">
+          <caret line="60" column="18" lean-forward="true" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetcodeAlgorithm/Leetcode14LongestCommonPrefix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetcodeAlgorithm/Leetcode26RemoveDuplicatesfromSortedArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetcodeAlgorithm/Leetcode38CountandSay_Easy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="27" column="2" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
         </state>
       </provider>
     </entry>
