@@ -27,7 +27,7 @@ public class JianzhiOffer_Fibonacci_JumpFloor_RectCover {
 
     /**
      * 非递归方法
-     * 循环算法： 不断更新前两个值
+     * 循环算法：不断更新前两个值
      */
     public int Fibonacci2(int n) {
         if (n <= 0) return 0;
