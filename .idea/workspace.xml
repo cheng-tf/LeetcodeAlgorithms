@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4a18464-cb42-4a4b-9cf1-912915408a8e" name="Default Changelist" comment="KMP算法">
-      <change beforePath="$PROJECT_DIR$/src/main/java/ThreadPoolDemo/ScheduledThreadPoolDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ThreadPoolDemo/ScheduledThreadPoolDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/formatOutput/IntegerFormat.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,32 +15,32 @@
     <session id="-134873337">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.2" value="3" />
+          <entry key="project.open.time.2" value="4" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="24" />
+          <entry key="java" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="24" />
+          <entry key="JAVA" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="15" />
-          <entry key="java" value="5083" />
+          <entry key="java" value="5281" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5083" />
+          <entry key="JAVA" value="5281" />
           <entry key="PLAIN_TEXT" value="15" />
         </counts>
       </usages-collector>
@@ -92,89 +92,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/jvm/schedule/MyTimerTask.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" selection-start-line="4" selection-end-line="9" selection-end-column="1" />
-              <folding>
-                <element signature="e#209#210#0" expanded="true" />
-                <element signature="e#259#260#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/jvm/schedule/MyTimerTask2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" selection-start-line="4" selection-end-line="9" selection-end-column="1" />
-              <folding>
-                <element signature="e#134#135#0" expanded="true" />
-                <element signature="e#170#171#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/jvm/schedule/TimerDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/jvm/schedule/MyTimerTask3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-              <folding>
-                <element signature="e#135#136#0" expanded="true" />
-                <element signature="e#190#191#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Java/JDK8/src.zip!/java/util/Timer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="602" column="5" lean-forward="true" selection-start-line="602" selection-start-column="5" selection-end-line="602" selection-end-column="5" />
-              <folding>
-                <element signature="e#4151#4396#0" expanded="true" />
-                <element signature="e#4395#4396#0" expanded="true" />
-                <element signature="e#4798#4799#0" expanded="true" />
-                <element signature="e#4845#4846#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ThreadPoolDemo/ScheduledThreadPoolDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/SortAlgorithms/HeapSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="43" column="40" lean-forward="true" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="40" />
+            <state relative-caret-position="374">
+              <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -251,6 +173,7 @@
         <option value="$PROJECT_DIR$/src/main/java/jvm/schedule/MyTimerTask2.java" />
         <option value="$PROJECT_DIR$/src/main/java/jvm/schedule/MyTimerTask3.java" />
         <option value="$PROJECT_DIR$/src/main/java/ThreadPoolDemo/ScheduledThreadPoolDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/formatOutput/IntegerFormat.java" />
       </list>
     </option>
   </component>
@@ -268,10 +191,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1940" />
-    <option name="height" value="1060" />
+    <option name="x" value="1912" />
+    <option name="y" value="-65" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -281,7 +204,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -313,101 +235,22 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="BitOperationsAlgorithms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetcodeAlgorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetcodeAlgorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="BreadthFirstSearch_DepthFS" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetcodeAlgorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetcodeAlgorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="JSON" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetcodeAlgorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetcodeAlgorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jvm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetcodeAlgorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetcodeAlgorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jvm" type="462c0819:PsiDirectoryNode" />
-              <item name="schedule" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetcodeAlgorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetcodeAlgorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="KMP_Algorithm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetcodeAlgorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetcodeAlgorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcodeAlgorithm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetcodeAlgorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetcodeAlgorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="OpenCSV" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetcodeAlgorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetcodeAlgorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="orderID" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetcodeAlgorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetcodeAlgorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Others" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetcodeAlgorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetcodeAlgorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="SortAlgorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="formatOutput" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/GithubRepositories/LeetcodeAlgorithms/src/main/java/DynamicProgramming_DP/Leetcode_70_ClimbingStairs_Easy.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551105533876" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551230632286" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="D:/IntelliJ_Idea/JDProjects-18/bentley-20190125-haiwaijufuyouhua/pom.xml" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -437,7 +280,36 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TimerDemo.test">
+  <component name="RunManager" selected="JUnit.IntegerFormat.test">
+    <configuration name="ScheduledThreadPoolDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThreadPoolDemo.ScheduledThreadPoolDemo" />
+      <module name="LeetcodeAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ThreadPoolDemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntegerFormat.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetcodeAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="formatOutput.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="formatOutput" />
+      <option name="MAIN_CLASS_NAME" value="formatOutput.IntegerFormat" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="IntegerSourceCode.test32" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="LeetcodeAlgorithms" />
       <extension name="coverage">
@@ -449,38 +321,6 @@
       <option name="PACKAGE_NAME" value="Others" />
       <option name="MAIN_CLASS_NAME" value="Others.IntegerSourceCode" />
       <option name="METHOD_NAME" value="test32" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LeetCode_473_MatchsticksToSquare.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetcodeAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BreadthFirstSearch_DepthFS.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="BreadthFirstSearch_DepthFS" />
-      <option name="MAIN_CLASS_NAME" value="BreadthFirstSearch_DepthFS.LeetCode_473_MatchsticksToSquare" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Leetcode38CountandSay_Easy.solutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetcodeAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcodeAlgorithm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcodeAlgorithm" />
-      <option name="MAIN_CLASS_NAME" value="leetcodeAlgorithm.Leetcode38CountandSay_Easy" />
-      <option name="METHOD_NAME" value="solutionTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -536,19 +376,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.IntegerSourceCode.test32" />
-      <item itemvalue="JUnit.Leetcode38CountandSay_Easy.solutionTest" />
-      <item itemvalue="JUnit.LeetCode_473_MatchsticksToSquare.test" />
       <item itemvalue="JUnit.MMM.test" />
       <item itemvalue="JUnit.TimerDemo.test" />
       <item itemvalue="JUnit.MyTimerTask.test" />
+      <item itemvalue="Application.ScheduledThreadPoolDemo" />
+      <item itemvalue="JUnit.IntegerFormat.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.IntegerFormat.test" />
+        <item itemvalue="Application.ScheduledThreadPoolDemo" />
         <item itemvalue="JUnit.TimerDemo.test" />
         <item itemvalue="JUnit.MyTimerTask.test" />
         <item itemvalue="JUnit.MMM.test" />
-        <item itemvalue="JUnit.LeetCode_473_MatchsticksToSquare.test" />
-        <item itemvalue="JUnit.Leetcode38CountandSay_Easy.solutionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -577,6 +417,7 @@
       <workItem from="1550141619709" duration="6085000" />
       <workItem from="1550211278719" duration="16967000" />
       <workItem from="1550884358254" duration="14986000" />
+      <workItem from="1551182759093" duration="1852000" />
     </task>
     <task id="LOCAL-00001" summary="11111">
       <created>1545101013323</created>
@@ -624,45 +465,45 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Leetcode38CountandSay_Easy_solutionTest - 2019.02.15 at 18h 53m 45s.xml">
-      <configuration name="Leetcode38CountandSay_Easy.solutionTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LeetCode_473_MatchsticksToSquare_test - 2019.02.15 at 21h 13m 21s.xml">
-      <configuration name="LeetCode_473_MatchsticksToSquare.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MMM_test - 2019.02.15 at 21h 13m 44s.xml">
-      <configuration name="MMM.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TimerDemo_test - 2019.02.23 at 09h 17m 16s.xml">
-      <configuration name="TimerDemo.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TimerDemo_test - 2019.02.23 at 09h 18m 52s.xml">
-      <configuration name="TimerDemo.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TimerDemo_test - 2019.02.23 at 09h 20m 30s.xml">
-      <configuration name="TimerDemo.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyTimerTask_test - 2019.02.23 at 09h 25m 42s.xml">
-      <configuration name="MyTimerTask.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TimerDemo_test - 2019.02.23 at 09h 48m 53s.xml">
-      <configuration name="TimerDemo.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TimerDemo_test - 2019.02.23 at 09h 51m 02s.xml">
       <configuration name="TimerDemo.test" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TimerDemo_test - 2019.02.23 at 09h 51m 21s.xml">
       <configuration name="TimerDemo.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="IntegerFormat_test - 2019.02.27 at 08h 57m 09s.xml">
+      <configuration name="IntegerFormat.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IntegerFormat_test - 2019.02.27 at 08h 57m 32s.xml">
+      <configuration name="IntegerFormat.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IntegerFormat_test - 2019.02.27 at 08h 57m 59s.xml">
+      <configuration name="IntegerFormat.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IntegerFormat_test - 2019.02.27 at 08h 58m 25s.xml">
+      <configuration name="IntegerFormat.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IntegerFormat_test - 2019.02.27 at 08h 58m 46s.xml">
+      <configuration name="IntegerFormat.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IntegerFormat_test - 2019.02.27 at 08h 58m 58s.xml">
+      <configuration name="IntegerFormat.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IntegerFormat_test - 2019.02.27 at 09h 00m 18s.xml">
+      <configuration name="IntegerFormat.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IntegerFormat_test - 2019.02.27 at 09h 00m 33s.xml">
+      <configuration name="IntegerFormat.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69387000" />
+    <option name="totallyTimeSpent" value="71239000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <frame x="1912" y="-65" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.150978" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15245202" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -671,8 +512,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49938875" visible="true" weight="0.10549944" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39955106" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49938875" weight="0.35070574" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3984799" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -961,83 +802,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jvm/schedule/MyTimerTask.java">
+    <entry file="jar://C:/Java/JDK8/src.zip!/java/util/TimerTask.java" />
+    <entry file="jar://C:/Java/JDK8/src.zip!/java/util/Timer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ThreadPoolDemo/ScheduledThreadPoolDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" selection-start-line="4" selection-end-line="9" selection-end-column="1" />
-          <folding>
-            <element signature="e#209#210#0" expanded="true" />
-            <element signature="e#259#260#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jvm/schedule/MyTimerTask2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" selection-start-line="4" selection-end-line="9" selection-end-column="1" />
-          <folding>
-            <element signature="e#134#135#0" expanded="true" />
-            <element signature="e#170#171#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jvm/schedule/TimerDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        <state relative-caret-position="220">
+          <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/formatOutput/IntegerFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/jvm/schedule/MyTimerTask3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="154">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jvm/schedule/TimerDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
           <folding>
-            <element signature="e#135#136#0" expanded="true" />
-            <element signature="e#190#191#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Java/JDK8/src.zip!/java/util/TimerTask.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/jvm/schedule/MyTimerTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="152" column="28" lean-forward="true" selection-start-line="152" selection-start-column="28" selection-end-line="152" selection-end-column="28" />
+        <state relative-caret-position="88">
+          <caret line="4" selection-start-line="4" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jvm/schedule/MyTimerTask2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding>
+            <element signature="e#134#135#0" expanded="true" />
+            <element signature="e#189#190#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SortAlgorithms/HeapSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="43" column="40" lean-forward="true" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Java/JDK8/src.zip!/java/util/Timer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="602" column="5" lean-forward="true" selection-start-line="602" selection-start-column="5" selection-end-line="602" selection-end-column="5" />
-          <folding>
-            <element signature="e#4151#4396#0" expanded="true" />
-            <element signature="e#4395#4396#0" expanded="true" />
-            <element signature="e#4798#4799#0" expanded="true" />
-            <element signature="e#4845#4846#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ThreadPoolDemo/ScheduledThreadPoolDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="374">
+          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
         </state>
       </provider>
     </entry>
