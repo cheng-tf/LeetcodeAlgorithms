@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c4a18464-cb42-4a4b-9cf1-912915408a8e" name="Default Changelist" comment="KMP算法" />
+    <list default="true" id="c4a18464-cb42-4a4b-9cf1-912915408a8e" name="Default Changelist" comment="KMP算法">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,34 +16,35 @@
     <session id="-134873337">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.2" value="5" />
+          <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="31" />
+          <entry key="java" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="31" />
+          <entry key="JAVA" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="15" />
-          <entry key="java" value="6909" />
+          <entry key="java" value="7149" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6909" />
+          <entry key="JAVA" value="7149" />
           <entry key="PLAIN_TEXT" value="15" />
         </counts>
       </usages-collector>
@@ -92,32 +96,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/queryworkday/GetInfoFromWeb.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Test1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+            <state relative-caret-position="550">
+              <caret line="25" column="58" lean-forward="true" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="jar://D:/Maven/jd-repo-jar-down/commons-lang3-3.8.1-sources.jar!/org/apache/commons/lang3/time/DateUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="501" lean-forward="true" selection-start-line="501" selection-end-line="501" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/JDK/jdk1.8.0_181/src.zip!/java/util/Calendar.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="2797" column="25" selection-start-line="2797" selection-start-column="25" selection-end-line="2797" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -204,6 +190,8 @@
         <option value="$PROJECT_DIR$/src/main/java/formatOutput/IntegerFormat.java" />
         <option value="$PROJECT_DIR$/src/main/java/queryworkday/GetInfoFromWeb.java" />
         <option value="$PROJECT_DIR$/src/main/java/queryworkday/SimpleDateFormatUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Test1.java" />
       </list>
     </option>
   </component>
@@ -221,8 +209,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="1912" />
+    <option name="y" value="-65" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -234,6 +222,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -266,13 +255,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="queryworkday" type="462c0819:PsiDirectoryNode" />
+              <item name="KMP_Algorithm" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -280,7 +268,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/GithubRepositories/LeetcodeAlgorithms/src/main/java/DynamicProgramming_DP/Leetcode_70_ClimbingStairs_Easy.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551510071990" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552047229633" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="D:/Maven/jd-repo-jar-down/commons-lang3-3.8.1-sources.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -310,16 +298,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GetInfoFromWeb.test">
-    <configuration name="GetInfoFromWeb" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="queryworkday.GetInfoFromWeb" />
+  <component name="RunManager" selected="JUnit.Test1.test">
+    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test1" />
       <module name="LeetcodeAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="queryworkday.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -370,22 +352,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntegerFormat.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetcodeAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="formatOutput.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="formatOutput" />
-      <option name="MAIN_CLASS_NAME" value="formatOutput.IntegerFormat" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="IntegerSourceCode.test32" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="LeetcodeAlgorithms" />
       <extension name="coverage">
@@ -402,21 +368,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test1.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetcodeAlgorithms" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Test1" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="JUnit.IntegerSourceCode.test32" />
-      <item itemvalue="JUnit.IntegerFormat.test" />
-      <item itemvalue="Application.GetInfoFromWeb" />
       <item itemvalue="JUnit.GetInfoFromWeb.test" />
       <item itemvalue="JUnit.GetInfoFromWeb" />
       <item itemvalue="JUnit.GetInfoFromWeb.test3" />
+      <item itemvalue="Application.Test1" />
+      <item itemvalue="JUnit.Test1.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Test1.test" />
+        <item itemvalue="Application.Test1" />
         <item itemvalue="JUnit.GetInfoFromWeb.test" />
         <item itemvalue="JUnit.GetInfoFromWeb.test3" />
         <item itemvalue="JUnit.GetInfoFromWeb" />
-        <item itemvalue="Application.GetInfoFromWeb" />
-        <item itemvalue="JUnit.IntegerFormat.test" />
       </list>
     </recent_temporary>
   </component>
@@ -448,6 +424,7 @@
       <workItem from="1551182759093" duration="1852000" />
       <workItem from="1551262457438" duration="8283000" />
       <workItem from="1551496599997" duration="5318000" />
+      <workItem from="1552033364073" duration="2689000" />
     </task>
     <task id="LOCAL-00001" summary="11111">
       <created>1545101013323</created>
@@ -495,9 +472,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GetInfoFromWeb_test - 2019.02.28 at 17h 02m 07s.xml">
-      <configuration name="GetInfoFromWeb.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="GetInfoFromWeb_test - 2019.02.28 at 17h 02m 52s.xml">
       <configuration name="GetInfoFromWeb.test" configurationId="JUnit" />
     </history-entry>
@@ -525,15 +499,18 @@
     <history-entry file="GetInfoFromWeb_test - 2019.03.02 at 12h 42m 44s.xml">
       <configuration name="GetInfoFromWeb.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Test1_test - 2019.03.08 at 17h 00m 11s.xml">
+      <configuration name="Test1.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84840000" />
+    <option name="totallyTimeSpent" value="87529000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1912" y="-65" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15565032" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15724947" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -542,7 +519,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49938875" weight="0.2660152" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49938875" weight="0.32899022" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3984799" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -582,20 +559,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/DynamicProgramming_DP/JianzhiOffer_198_HouseRobber_Easy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="52" column="32" lean-forward="true" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DynamicProgramming_DP/JianzhiOffer_42_FindGreatestSumOfSubArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DynamicProgramming_DP/Leetcode_70_ClimbingStairs_Easy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -631,13 +594,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/KMP_Algorithm/KMP_Algorithm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -842,13 +798,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/JDK/jdk1.8.0_181/src.zip!/java/util/Calendar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="2797" column="25" selection-start-line="2797" selection-start-column="25" selection-end-line="2797" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/queryworkday/SimpleDateFormatUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
@@ -867,20 +816,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://D:/JDK/jdk1.8.0_181/src.zip!/java/util/Calendar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59136">
+          <caret line="2797" column="25" selection-start-line="2797" selection-start-column="25" selection-end-line="2797" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Maven/jd-repo-jar-down/commons-lang3-3.8.1-sources.jar!/org/apache/commons/lang3/time/DateUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="499" column="55" lean-forward="true" selection-start-line="499" selection-start-column="55" selection-end-line="499" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/queryworkday/GetInfoFromWeb.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
-          <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Maven/jd-repo-jar-down/commons-lang3-3.8.1-sources.jar!/org/apache/commons/lang3/time/DateUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/KMP_Algorithm/KMP_Algorithm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="501" lean-forward="true" selection-start-line="501" selection-end-line="501" />
+        <state relative-caret-position="50">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-638">
+          <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Test1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="25" column="58" lean-forward="true" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
