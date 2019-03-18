@@ -22,6 +22,7 @@ public class JianzhiOffer_40_GetTheKLeastNumbers {
 
     /**
      * 方法1：基于快排算法实现
+     * 先排序，然后取出最小的k个数。
      */
     public ArrayList<Integer> GetLeastNumbers_Solution(int[] nums, int k) {
         ArrayList<Integer> list = new ArrayList<Integer>();
