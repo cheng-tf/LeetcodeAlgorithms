@@ -2,7 +2,10 @@ package LinkedListAlgorithms;
 
 import org.junit.Test;
 
-import java.util.*;
+import java.util.ArrayDeque;
+import java.util.Deque;
+import java.util.HashSet;
+import java.util.Set;
 
 public class LeetCode160_IntersectionOfTwoLinkedLists_JianzhiOffer_52_FindFirstCommonNodeOfTwoLinkedList {
     /********************两个链表的第一个公共节点*****************************/
@@ -59,9 +62,11 @@ public class LeetCode160_IntersectionOfTwoLinkedLists_JianzhiOffer_52_FindFirstC
         }
         ListNode preCommonNode = null;
         while (!stack1.isEmpty() && !stack2.isEmpty()) {
-            ListNode node1 = stack1.pop();
-            ListNode node2 = stack2.pop();
-            if (node1 == node2) preCommonNode = node1;//倒着看应该获取最后一个公共节点
+            if (stack1.pop() == stack2.pop()) {
+                preCommonNode = stack1.pop();//倒着看应该获取最后一个公共节点
+            } else {
+                break;
+            }
         }
         return preCommonNode;
     }
@@ -72,34 +77,35 @@ public class LeetCode160_IntersectionOfTwoLinkedLists_JianzhiOffer_52_FindFirstC
      */
     public ListNode getIntersectionNode_2(ListNode pHead1, ListNode pHead2) {
         if (pHead1 == null || pHead2 == null) return null;
-        ListNode head1 = pHead1, head2 = pHead2;//不改变原来的引用
         //求链表长度
-        int len1 = getLengthOfLinkedList(head1);
-        int len2 = getLengthOfLinkedList(head2);
+        int len1 = getLengthOfLinkedList(pHead1);
+        int len2 = getLengthOfLinkedList(pHead2);
         int diffLen = len1 - len2;//链表长度之差
+        ListNode headLong = pHead1;
+        ListNode headShort = pHead2;
         if (len1 < len2) {//默认是链表1长于链表2
-            ListNode temp = head1;
-            head1 = head2;
-            head2 = temp;
+            headLong = pHead2;
+            headShort = pHead1;
             diffLen = -diffLen;//取相反数
         }
-        while (diffLen-- != 0) head1 = head1.next;//先走几步
-        while (head1 != head2) {//同时前进
-            head1 = head1.next;
-            head2 = head2.next;
+        while (diffLen-- != 0 && headLong != null) {
+            headLong = headLong.next;//先走几步
         }
-        return head1;
+        while (headLong != null && headShort != null && headLong != headShort) {
+            headLong = headLong.next;
+            headShort = headShort.next;
+        }
+        return headLong;
     }
 
     /**
      * 获取链表的长度
      */
     public int getLengthOfLinkedList(ListNode head) {
-        ListNode head1 = head;//不改变head引用
         int len = 0;
-        while (head1 != null) {
+        while (head != null) {
             len++;
-            head1 = head1.next;
+            head = head.next;
         }
         return len;
     }
