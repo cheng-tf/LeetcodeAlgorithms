@@ -17,6 +17,7 @@ public class JianzhiOffer_40_GetTheKLeastNumbers {
      * 方法1：利用快排对数组排序，然后输出最小的k个数至list中即可；
      * 方法2：利用partition方法，只要找到分割的mid为k或k-1即可;
      *        按理来说，这种算法应该比快排更快。
+     *
      * 方法3：利用堆排实现。
      */
 
