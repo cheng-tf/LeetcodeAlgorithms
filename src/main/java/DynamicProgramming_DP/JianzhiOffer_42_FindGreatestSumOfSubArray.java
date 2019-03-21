@@ -16,7 +16,7 @@ public class JianzhiOffer_42_FindGreatestSumOfSubArray {
      * 给一个数组，返回它的最大连续子序列的和，你会不会被他忽悠住？(子向量的长度至少是1)
      * <p>
      * 思路分析：
-     * 动态规划
+     * 动态规划DP---Dynamic Programming
      * g(n) = max(f(n));
      * 当n=0或f(n-1)<=0时，f(n)=nums[n];
      * 当n!=0且f(n-1)>0时，f(n)=nums[n]+f(n-1);

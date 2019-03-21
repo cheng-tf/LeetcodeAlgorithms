@@ -23,6 +23,7 @@ public class JianzhiOffer_40_GetTheKLeastNumbers {
 
     /**
      * 方法1：基于快排算法实现
+     * 先排序，然后取出最小的k个数。
      */
     public ArrayList<Integer> GetLeastNumbers_Solution(int[] nums, int k) {
         ArrayList<Integer> list = new ArrayList<Integer>();
@@ -62,14 +63,20 @@ public class JianzhiOffer_40_GetTheKLeastNumbers {
      */
     public ArrayList<Integer> GetLeastNumbers_Solution2(int[] nums, int k) {
         ArrayList<Integer> list = new ArrayList<Integer>();
-        if (nums == null || nums.length == 0 || k < 1 || k > nums.length) return list;
+        if (nums == null || nums.length == 0 || k < 1 || k > nums.length) {
+            return list;//nums.length==0是必须的，如[],0;
+        }
         int low = 0, high = nums.length - 1;
         int mid = partition(nums, low, high);
         while (mid != k && mid != k - 1) {//当mid=k或者k-1时都说明0->k-1这k个数是小于mid的。
-            if (mid > k) high = mid - 1;
-            else low = mid + 1;
+            if (mid > k) {
+                high = mid - 1;
+            } else {
+                low = mid + 1;
+            }
             mid = partition(nums, low, high);
         }
+        //将最小的k个数保存到list中
         while (--k >= 0) list.add(nums[k]);
         return list;
     }
