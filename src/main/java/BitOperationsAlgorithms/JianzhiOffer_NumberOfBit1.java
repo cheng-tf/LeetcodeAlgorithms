@@ -4,14 +4,24 @@ import org.junit.Test;
 
 public class JianzhiOffer_NumberOfBit1 {
 
-
     /**
-     * 题目描述
+     * 题目描述：
      * 输入一个整数，输出该数二进制表示中1的个数。其中负数用补码表示。
+     * 扩展题目1：判断一个数是不是2的幂。<二进制中有1个1即可>
+     * 扩展题目2：输入两个整数m和n，计算需要改变m的二进制表中的多少位才能得到n。
+     * 解题算法：
+     * 算法1：对传入的数进行左移或右移；
+     * 算法2：保持传入参数不变，对数字1不断进行左移；
+     * 算法3：令n与n-1相与，然后判断是否为0。(该算法复杂度最低,效率最高)
+     *
+     * 扩展题目1：n小于0返回false;n大于等于0时，只需要判断n&(n-1)是不是等于0即可
+     *          (即判断二进制中是否只含有1个1).
+     * 扩展题目2：首先将m和n异或，这样就把不同比特的比特为置为1，再找出异或结果中1的位数就可以了。
      */
 
+    /**********************算法1：对传入的参数进行左移或右移******************************/
     /**
-     * 基于正数的方法
+     * 基于正数的方法：右移
      * 传入负数时，会陷入无限循环中
      */
     public int NumberOf1_1(int n){
@@ -35,12 +45,10 @@ public class JianzhiOffer_NumberOfBit1 {
         return num;
     }
     
-    
+    /*****************算法2：保持传入参数不变，对数字1不断进行左移********************/
     /**
      * 思路分析：由于n有正负之分，正数右移，左边补0；但是负数右移，左边补1，会陷入无限循环之中。
      * 变换思路：移动flag，由1逐渐左移，需要移动32次，即可判断比特1的位数。
-     * @param n
-     * @return
      */
     public int NumberOf1_2(int n) {
         int flag = 1;
@@ -52,6 +60,7 @@ public class JianzhiOffer_NumberOfBit1 {
         return num;
     }
 
+    /**********************算法3：令n与n-1相与，然后判断是否为0。******************************/
     /**
      * 基于减1再与的方法
      * 原理：n减1，会导致原为1的最低位为0，且该位左边的所有位都变成1，再与原n做与操作，就消去了为1的1位；
@@ -68,6 +77,15 @@ public class JianzhiOffer_NumberOfBit1 {
         return num;
     }
 
+    public int NumberOf1_4(int n){
+        if(n == 0) return 0;
+        int num = 1;
+        while((n &= n-1) != 0){
+            num++;
+        }
+        return num;
+    }
+
 /**************************判断是不是2的幂****************************************/
     /**
      * 判断是不是2的幂
@@ -78,22 +96,13 @@ public class JianzhiOffer_NumberOfBit1 {
         return ((n-1)&n) == 0;//n=0,也恰好返回true
     }
 
-    @Test
-    public void test2(){
-        System.out.println("is2Power(0) = " + is2Power(0));
-        System.out.println("is2Power(1) = " + is2Power(1));
-        System.out.println("is2Power(128) = " + is2Power(128));
-        System.out.println("is2Power(127) = " + is2Power(127));
-    }
-
-
     /*****##m和n改变二进制位数##*****/
     /**
      * 输入两个整数m和n，计算需要改变m的二进制表中的多少位才能得到n。
      * 示例：1010变成1101需要改变1101的3位才可以变成1010。
      */
     public int bitNums(int m,int n){
-        int mn = m^n;
+        int mn = m^n;//异或
         int num = 0;
         while(mn != 0){
             num++;
@@ -102,15 +111,7 @@ public class JianzhiOffer_NumberOfBit1 {
         return num;
     }
 
-    @Test
-    public void test3(){
-        int n = 10,m=13;
-        int num = bitNums(m,n);
-        System.out.println(num);//4
-    }
-
-
-
+    /*******************返回大于等于当前数的2的幂*****************************/
     public static int MAXIMUM_CAPACITY = 1>>30;
     /**
      * Returns a power of two size for the given target capacity.
@@ -125,9 +126,21 @@ public class JianzhiOffer_NumberOfBit1 {
         return (n < 0) ? 1 : (n >= MAXIMUM_CAPACITY) ? MAXIMUM_CAPACITY : n + 1;
     }
 
+    /*******************************测试*****************************/
+    @Test
+    public void test2(){
+        System.out.println("is2Power(0) = " + is2Power(0));
+        System.out.println("is2Power(1) = " + is2Power(1));
+        System.out.println("is2Power(128) = " + is2Power(128));
+        System.out.println("is2Power(127) = " + is2Power(127));
+    }
 
-
-
+    @Test
+    public void test1(){
+        int n = 10,m=13;
+        int num = bitNums(m,n);
+        System.out.println(num);//4
+    }
 
     @Test
     public void test(){
