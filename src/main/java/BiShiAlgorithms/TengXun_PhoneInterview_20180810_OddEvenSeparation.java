@@ -24,12 +24,11 @@ public class TengXun_PhoneInterview_20180810_OddEvenSeparation {
      * 2. 如果遇到奇数，类似冒泡的算法不断向前交换。
      * 每遍历一个元素，得到的当前位置及之前的所有元素满足奇偶分离的要求，
      * 也就是说，在遇到奇数时，直接和前面的偶数交换即可，直到前面的元素不是偶数即可。
-     * 所以第二层循环的终止条件是j > 0&&nums[j-1]%2==0；
+     * 所以第二层循环的继续循环的条件是j > 0&&nums[j-1]%2==0；不满足条件即移动到偶数前的第一个位置。
      */
+
     /**
      * while循环实现
-     *
-     * @param array
      */
     public void reOrderArray(int[] array) {
         if (array.length == 0) return;
@@ -37,23 +36,20 @@ public class TengXun_PhoneInterview_20180810_OddEvenSeparation {
             if ((array[i] & 1) == 0) continue;
             int j = i;//新变量j
             while (--j >= 0 && (array[j] & 1) == 0) {
-                swap(array, j, j + 1);
+                swap(array, j, j + 1);//交换相邻的两个元素
             }
         }
     }
 
     /**
      * for 循环实现
-     *
-     * @param nums
      */
     public void oddEvenSort(int[] nums) {
         for (int i = 0; i < nums.length; i++) {
-            if (nums[i] % 2 == 0) continue;//偶数直接跳过
-            else {//奇数的话需要按照冒泡方法
-                for (int j = i; j > 0 && (nums[j - 1] & 1) == 0; j--) {//终止条件是关键
-                    swap(nums, j, j - 1);
-                }
+            if ((nums[i] & 1) == 0) continue;//偶数直接跳过
+            //奇数的话需要按照冒泡方法
+            for (int j = i; j > 0 && (nums[j - 1] & 1) == 0; j--) {//终止条件是关键
+                swap(nums, j, j - 1);//交换相邻的两个元素
             }
         }
     }
@@ -67,9 +63,7 @@ public class TengXun_PhoneInterview_20180810_OddEvenSeparation {
         nums[j] = temp;
     }
 
-    /**
-     * 测试
-     */
+    /*****************************测试****************************/
     @Test
     public void test() {
         int[] nums = {0, 1, 2, 34, 3, 4, 5, 6, 7, 8, 9, 11};

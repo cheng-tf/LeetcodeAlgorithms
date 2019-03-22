@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4a18464-cb42-4a4b-9cf1-912915408a8e" name="Default Changelist" comment="KMP算法">
-      <change afterPath="$PROJECT_DIR$/src/main/java/DynamicProgramming_DP/JianzhiOffer_14_FindMaximumProductOfCutRope.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BiShiAlgorithms/TengXun_PhoneInterview_20180810_OddEvenSeparation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BiShiAlgorithms/TengXun_PhoneInterview_20180810_OddEvenSeparation.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,24 +25,24 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="35" />
+          <entry key="java" value="36" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="35" />
+          <entry key="JAVA" value="36" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="15" />
-          <entry key="java" value="8350" />
+          <entry key="java" value="8466" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="8350" />
+          <entry key="JAVA" value="8466" />
           <entry key="PLAIN_TEXT" value="15" />
         </counts>
       </usages-collector>
@@ -116,17 +116,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/DynamicProgramming_DP/JianzhiOffer_42_FindGreatestSumOfSubArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="54" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="54" />
+            <state relative-caret-position="418">
+              <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/DynamicProgramming_DP/JianzhiOffer_14_FindMaximumProductOfCutRope.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/BiShiAlgorithms/TengXun_PhoneInterview_20180810_OddEvenSeparation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+            <state relative-caret-position="352">
+              <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -169,6 +169,7 @@
       <find>最小的k</find>
       <find>power</find>
       <find>JianzhiOffer_1</find>
+      <find>奇数</find>
     </findStrings>
     <replaceStrings>
       <replace>nextArr</replace>
@@ -218,6 +219,7 @@
         <option value="$PROJECT_DIR$/src/main/java/queryworkday/SimpleDateFormatUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/ArrayAlgorithms/JianzhiOffer_40_GetTheKLeastNumbers.java" />
         <option value="$PROJECT_DIR$/src/main/java/DynamicProgramming_DP/JianzhiOffer_14_FindMaximumProductOfCutRope.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BiShiAlgorithms/TengXun_PhoneInterview_20180810_OddEvenSeparation.java" />
       </list>
     </option>
   </component>
@@ -291,12 +293,13 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/GithubRepositories/LeetcodeAlgorithms/src/main/java/DynamicProgramming_DP/Leetcode_70_ClimbingStairs_Easy.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553237457656" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553238171001" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="D:/Maven/jd-repo-jar-down/commons-lang3-3.8.1-sources.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.CVS" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -321,21 +324,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.JianzhiOffer_14_FindMaximumProductOfCutRope.test">
-    <configuration name="GetInfoFromWeb" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetcodeAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="queryworkday.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="queryworkday" />
-      <option name="MAIN_CLASS_NAME" value="queryworkday.GetInfoFromWeb" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TengXun_PhoneInterview_20180810_OddEvenSeparation.test">
     <configuration name="GetInfoFromWeb.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeAlgorithms" />
       <extension name="coverage">
@@ -416,21 +405,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TengXun_PhoneInterview_20180810_OddEvenSeparation.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetcodeAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BiShiAlgorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="BiShiAlgorithms" />
+      <option name="MAIN_CLASS_NAME" value="BiShiAlgorithms.TengXun_PhoneInterview_20180810_OddEvenSeparation" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="JUnit.IntegerSourceCode.test32" />
       <item itemvalue="JUnit.GetInfoFromWeb.test" />
-      <item itemvalue="JUnit.GetInfoFromWeb" />
       <item itemvalue="JUnit.GetInfoFromWeb.test3" />
       <item itemvalue="JUnit.GetMin2Power.test" />
       <item itemvalue="JUnit.JianzhiOffer_14_FindMaximumProductOfCutRope.test" />
+      <item itemvalue="JUnit.TengXun_PhoneInterview_20180810_OddEvenSeparation.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TengXun_PhoneInterview_20180810_OddEvenSeparation.test" />
         <item itemvalue="JUnit.JianzhiOffer_14_FindMaximumProductOfCutRope.test" />
         <item itemvalue="JUnit.GetMin2Power.test" />
         <item itemvalue="JUnit.GetInfoFromWeb.test" />
         <item itemvalue="JUnit.GetInfoFromWeb.test3" />
-        <item itemvalue="JUnit.GetInfoFromWeb" />
       </list>
     </recent_temporary>
   </component>
@@ -510,9 +515,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GetInfoFromWeb_test - 2019.02.28 at 17h 05m 59s.xml">
-      <configuration name="GetInfoFromWeb.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="GetInfoFromWeb_test - 2019.02.28 at 17h 08m 04s.xml">
       <configuration name="GetInfoFromWeb.test" configurationId="JUnit" />
     </history-entry>
@@ -540,9 +542,12 @@
     <history-entry file="JianzhiOffer_14_FindMaximumProductOfCutRope_test - 2019.03.22 at 14h 48m 31s.xml">
       <configuration name="JianzhiOffer_14_FindMaximumProductOfCutRope.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TengXun_PhoneInterview_20180810_OddEvenSeparation_test - 2019.03.22 at 15h 02m 25s.xml">
+      <configuration name="TengXun_PhoneInterview_20180810_OddEvenSeparation.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90844000" />
+    <option name="totallyTimeSpent" value="91683000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-65" width="1936" height="1056" extended-state="6" />
@@ -597,7 +602,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Java/JDK8/src.zip!/java/util/concurrent/Semaphore.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/orderID/UUID.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -856,17 +860,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DynamicProgramming_DP/JianzhiOffer_42_FindGreatestSumOfSubArray.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/DynamicProgramming_DP/JianzhiOffer_14_FindMaximumProductOfCutRope.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="54" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="54" />
+        <state relative-caret-position="1386">
+          <caret line="63" column="34" lean-forward="true" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DynamicProgramming_DP/JianzhiOffer_14_FindMaximumProductOfCutRope.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/DynamicProgramming_DP/JianzhiOffer_42_FindGreatestSumOfSubArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
-          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BiShiAlgorithms/TengXun_PhoneInterview_20180810_OddEvenSeparation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
         </state>
       </provider>
     </entry>
